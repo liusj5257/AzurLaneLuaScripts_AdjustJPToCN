@@ -1754,7 +1754,7 @@ slot0.updateTasksProgress = function(slot0)
 		setActive(slot0.speedupBtn, false)
 	end
 end
-
+//科研界面和谐
 slot0.updatePainting = function(slot0)
 	slot3 = slot0.contextData.shipBluePrintVO:getShipVO():getPainting()
 

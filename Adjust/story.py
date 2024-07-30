@@ -32,7 +32,7 @@ def find_matching_files(JP_folder, CN_folder):
                     id_start = lua_code.find('id = "') + 6
                     id_end = lua_code.find('"', id_start)
                     id_value = lua_code[id_start:id_end]
-                    id_value = id_value.replace('-', '_', 1)
+                    id_value = id_value.replace('-', '_')
                     # 替换 return 语句
                     lua_code = lua_code.replace('return', f'{id_value} =', 1)
                     # 执行 Lua 代码
@@ -59,7 +59,7 @@ def importCN(files, CN_folder):
                 id_start = lua_code.find('id = "') + 6
                 id_end = lua_code.find('"', id_start)
                 id_value = lua_code[id_start:id_end]
-                id_value = id_value.replace('-', '_', 1)
+                id_value = id_value.replace('-', '_')
                 # 替换 return 语句
                 lua_code = lua_code.replace('return', f'{id_value} =', 1)
                 # 执行 Lua 代码

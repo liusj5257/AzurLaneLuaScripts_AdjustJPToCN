@@ -1,11 +1,5 @@
 
 
-## PS.7.1版本更新需要更新OBB文件:https://github.com/liusj5257/AzurLaneLuaScripts_AdjustJPToCN/releases/tag/Obb
-
-## 使用教程:https://www.bilibili.com/video/BV1kL411Y7TK/
-
-
-
 # AzurLaneLuaScripts
 
 ![](versions/CN.svg)

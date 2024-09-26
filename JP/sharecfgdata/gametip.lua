@@ -35442,7 +35442,7 @@ _G.pg.base.gametip.dorm3d_beach_role = {
 
 
 _G.pg.base.gametip.dorm3d_beach_download = {
-	tip = "$1Mのアセットをダウンロードする必要があります"
+	tip = "必要アセットダウンロード：$1M"
 }
 
 
@@ -35937,17 +35937,17 @@ _G.pg.base.gametip.dorm3d_AR_switch = {
 
 
 _G.pg.base.gametip.dorm3d_invite_confirm_original = {
-	tip = "$1<color=#39bfff>$2</color>を消費し、$4の<color=#39bfff>$3</color>配置を開放しますか？"
+	tip = "$1<color=#39bfff>$2</color>を消費し、<color=#39bfff>$3</color>の$4配置を開放しますか？"
 }
 
 
 _G.pg.base.gametip.dorm3d_invite_confirm_discount = {
-	tip = "$1<color=#39bfff>$2</color>（割引前価格$3）を消費し、$5の<color=#39bfff>$4</color>配置を開放しますか？"
+	tip = "$1<color=#39bfff>$2</color>（割引前価格$3）を消費し、<color=#39bfff>$4</color>の$5配置を開放しますか？"
 }
 
 
 _G.pg.base.gametip.dorm3d_invite_confirm_free = {
-	tip = "<color=#9f9f9f><size=34>無料</size></color>(割引前価格$1)で$3の<color=#39bfff>$2</color>配置を開放しますか？"
+	tip = "$1<color=#fc4670><size=34>無料</size></color>(割引前価格$2)で<color=#39bfff>$3</color>の$4配置を解放しますか？"
 }
 
 
@@ -35962,7 +35962,7 @@ _G.pg.base.gametip.dorm3d_purchase_confirm_discount = {
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_free = {
-	tip = "<color=#9f9f9f><size=34>無料</size></color>(割引前価格$1)で<color=#39bfff>$2</color>を購入しますか？"
+	tip = "$1<color=#fc4670><size=34>無料</size></color>(割引前価格$2)で<color=#39bfff>$3</color>を購入しますか？"
 }
 
 
@@ -36153,4 +36153,9 @@ _G.pg.base.gametip.AR_plane_summon_fail_by_near = {
 
 _G.pg.base.gametip.AR_plane_summon_success = {
 	tip = "キャラの呼び出しに成功しました"
+}
+
+
+_G.pg.base.gametip.dorm3d_day_night_switching = {
+	tip = "すでに$1になっています"
 }

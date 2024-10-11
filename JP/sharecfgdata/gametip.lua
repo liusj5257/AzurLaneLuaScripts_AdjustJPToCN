@@ -35436,7 +35436,7 @@ _G.pg.base.gametip.dorm3d_beach_role = {
 
 
 _G.pg.base.gametip.dorm3d_beach_download = {
-	tip = "必要アセットダウンロード：$1M"
+	tip = "必要アセットダウンロード：$1"
 }
 
 

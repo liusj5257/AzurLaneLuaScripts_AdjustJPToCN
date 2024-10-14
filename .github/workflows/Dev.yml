@@ -19,7 +19,7 @@ jobs:
       - name: Setup Android SDK Tools
         uses: android-actions/setup-android@v3.2.1
         with:
-          packages: 'platform-tools;build-tools;33.0.2'
+          packages: 'platform-tools platforms;android-34 build-tools;34.0.0'
       - name: Verify zipalign and apksigner installation
         run: |
           zipalign -help

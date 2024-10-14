@@ -95,9 +95,9 @@ void writeCN(vector<int> &allArray, const char *attribute) {
         while (getline(file, line)) {
           if (line.find(searchString) != string::npos) {
             foundAttribute = true;
-            while (getline(file, line) && line != "	},") {
+            while (getline(file, line) && !line.empty()) {
               size_t start = line.find("\"") + 1;
-              size_t end = line.find("\"", start);
+              size_t end = line.find_last_of("\"");
               string name = line.substr(start, end - start);
               if (!name.empty()) {
                 size_t equalSignPos = line.find(" = \"");

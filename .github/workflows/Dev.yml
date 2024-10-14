@@ -14,6 +14,7 @@ jobs:
         uses: ravinderjangra/android-ndk-toolchain-setup@0.2
         with:
           api: '19'
+          arch: 'x86'
           install-location: 'toolchains'
           force: true
       - name: Verify zipalign and apksigner installation

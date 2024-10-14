@@ -20,6 +20,13 @@ jobs:
         uses: android-actions/setup-android@v3.2.1
         with:
           packages: 'platform-tools platforms;android-34 build-tools;34.0.0'
+
+      - name: Output build-tools path and add to PATH
+        run: |
+          echo "Build-tools path: ${ANDROID_SDK_ROOT}/build-tools/34.0.0"
+          ls -la ${ANDROID_SDK_ROOT}/build-tools/34.0.0
+          echo "${ANDROID_SDK_ROOT}/build-tools/34.0.0" >> $GITHUB_PATH
+
       - name: Verify zipalign and apksigner installation
         run: |
           zipalign -help

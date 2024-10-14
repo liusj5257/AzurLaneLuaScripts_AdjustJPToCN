@@ -10,18 +10,9 @@ jobs:
     steps:
 
       - name: Setup Android NDK
-        uses: nttld/setup-ndk@v1
+        uses: nttld/setup-ndk@v1.5.0
         with:
           ndk-version: r26b
-      - shell: bash
-        run: mkdir toolchains
-      - name: specify NDK
-        uses: ravinderjangra/android-ndk-toolchain-setup@0.2
-        with:
-          api: '19'
-          arch: 'x86'
-          install-location: 'toolchains'
-          force: true
       - name: Verify zipalign and apksigner installation
         run: |
           zipalign -help

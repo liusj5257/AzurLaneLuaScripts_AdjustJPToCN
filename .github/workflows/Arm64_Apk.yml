@@ -230,6 +230,15 @@ jobs:
         run: ./patch_perseus.sh
         working-directory: azurlane-JP
 
+      - name: Install Android SDK Build Tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y android-sdk
+          yes | sdkmanager --sdk_root=${ANDROID_SDK_ROOT} "build-tools;30.0.3"
+
+      - name: Add build tools to PATH
+        run: echo "${ANDROID_SDK_ROOT}/build-tools/30.0.3" >> $GITHUB_PATH
+
       - name: Zipalign and Sign Android release
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
         run: ./zipalign_sign.sh

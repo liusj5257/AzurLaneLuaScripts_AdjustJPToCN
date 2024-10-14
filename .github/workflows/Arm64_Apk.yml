@@ -2,7 +2,7 @@
 name: Arm64_Apk
 
 on:
- # push: # push 时触发, 主要是为了测试配置有没有问题
+  push: # push 时触发, 主要是为了测试配置有没有问题
   workflow_dispatch:
 #   schedule:
 #    - cron: '*/60 * * * *'
@@ -129,27 +129,11 @@ jobs:
           fi
         working-directory: AzurLaneApk
 
-      # - name: Setup Android NDK >=23
-      #   if: steps.check_changes_1.outputs.has_changes == 'true'
-      #   # You may pin to the exact commit or the version.
-      #   # uses: anoop-b/setup-ndk@6f0ee78e62451cfec5f1698acb00b58d00a5d7b6
-      #   uses: anoop-b/setup-ndk@V1.3.0
-      #   with:
-      #     # Exact version to use
-      #     ndk-version: r25b
-      #     # Add installation directory to the PATH
-      #     add-to-path: true
-      #     # Use the local job cache on top of the runner tool cache
-      #     local-cache: true
       - name: Setup Android NDK
-        uses: nttld/setup-ndk@v1
+        uses: nttld/setup-ndk@v1.5.0
+        if: steps.check_changes_1.outputs.has_changes == 'true'
         with:
           ndk-version: r26b
-
-      - name: Verify zipalign and apksigner installation
-        run: |
-          zipalign -help
-          apksigner --help
 
       - name: Cache ccache files
         uses: actions/cache@v2
@@ -239,6 +223,15 @@ jobs:
         run: ./patch_perseus.sh
         working-directory: azurlane-JP
 
+      - name: Setup Android SDK Tools
+        uses: android-actions/setup-android@v3.2.1
+        with:
+          packages: 'platform-tools platforms;android-34 build-tools;34.0.0'
+
+      - name: Output build-tools path and add to PATH
+        run: |
+          ls -la ${ANDROID_SDK_ROOT}/build-tools/34.0.0
+          echo "${ANDROID_SDK_ROOT}/build-tools/34.0.0" >> $GITHUB_PATH
 
       - name: Zipalign and Sign Android release
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'

@@ -14,7 +14,7 @@ file(REMOVE_RECURSE "${CMAKE_CURRENT_SOURCE_DIR}/Output")
 file(REMOVE_RECURSE "${CMAKE_CURRENT_SOURCE_DIR}/../azurlaneApk/jni/Includes/adjust")
 file(MAKE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Output")
 file(MAKE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/../azurlaneApk/jni/Includes/adjust")
-
+file(MAKE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Output/bin")
 # 设置exe输出目录
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/Output/bin)
 
@@ -80,5 +80,5 @@ add_custom_target(
 add_custom_target(
   NDK_TASK
   ALL
-  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/../AzurLaneApk/jni/" ndk-build.cmd -j${N} NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj NDK_LIBS_OUT=../libs
+  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/../AzurLaneApk/jni/" ndk-build -j${N} NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj NDK_LIBS_OUT=../libs
 )

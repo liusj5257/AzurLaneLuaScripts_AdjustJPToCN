@@ -66,7 +66,6 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install lupa
-        working-directory: Adjust
       - name: Cache CMake build directory
         uses: actions/cache@v2
         with:

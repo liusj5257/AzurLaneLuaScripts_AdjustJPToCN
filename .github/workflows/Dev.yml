@@ -183,7 +183,9 @@ jobs:
 
       - name: Build APK
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
-        run: ./patch_perseus.sh
+        run: |
+          chmod +x patch_perseus.sh
+          ./patch_perseus.sh
         working-directory: AzurLaneApk
 
       - name: Setup Android SDK Tools
@@ -198,7 +200,9 @@ jobs:
 
       - name: Zipalign and Sign Android release
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
-        run: ./zipalign_sign.sh
+        run: |
+          chmod +x zipalign_sign.sh
+          ./zipalign_sign.sh
         working-directory: AzurLaneApk
 
       - name: Get current date

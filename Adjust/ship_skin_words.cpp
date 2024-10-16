@@ -1,4 +1,5 @@
 #include <unistd.h>
+
 #include <algorithm>
 #include <cstring>
 #include <fstream>
@@ -6,7 +7,6 @@
 #include <sstream>
 #include <string>
 #include <vector>
-
 
 using namespace std;
 
@@ -84,9 +84,11 @@ void writeCN(vector<int> &allArray, const char *attribute) {
   string filename = writePath + currentFileName + ".lua";
   string line;
   ifstream file(filename);
-  output_file << "#include \"../../lua/lua.h\"\n"
-              << "void ship_skin_words(lua_State *L) {\n";
-
+  string buffer;
+  string buffer_H = "";
+  string buffer_EH = "";
+  int fileCounter = 1;
+  string baseFilename = "ship_skin_words_";
   if (file.is_open()) {
     for (int i = 0; i < allArray.size(); i++) {
       bool foundAttribute = false;
@@ -108,15 +110,20 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                     remove(attribute.begin(), attribute.end(), '\t'),
                     attribute.end());
                 if (first) {
-                  output_file
-                      << "getByList(L," + to_string(allArray[i]) + ");\n";
+                  // output_file
+                  //     << "getByList(L," + to_string(allArray[i]) + ");\n";
+                  buffer += "getByList(L," + to_string(allArray[i]) + ");\n";
                   first = false;
                 }
-                output(allArray[i], attribute.c_str(), name.c_str());
+                // output(allArray[i], attribute.c_str(), name.c_str());
+                buffer += string("replaceString2(L,Str(\"") +
+                          attribute.c_str() + "\"),Str(\"" + name.c_str() +
+                          "\"));\n";
               }
             }
           }
-          if (!first) output_file << "lua_pop(L,1);\n";
+          if (!first) buffer += "lua_pop(L,1);\n";
+          // output_file << "lua_pop(L,1);\n";
           break;
         }
       }
@@ -124,24 +131,51 @@ void writeCN(vector<int> &allArray, const char *attribute) {
         file.clear();
         file.seekg(0, ios::beg);
       }
+      if (i % 100 == 0 || i == allArray.size() - 1) {
+        std::string filename =
+            outputPath + baseFilename + std::to_string(fileCounter) + ".cpp";
+        std::ofstream outFile(filename);
+        // 确保文件正常打开
+        if (outFile.is_open()) {
+          buffer_EH += "extern void ship_skin_words_" +
+                       std::to_string(fileCounter) + "(lua_State *L);\n";
+          buffer_H += "ship_skin_words_" + std::to_string(fileCounter) +
+                      "(L);\n";
+          outFile << "#include \"../common.h\"\nvoid ship_skin_words_"
+                  << fileCounter << "(lua_State *L) {\n"
+                  << buffer << "}\n"
+                  << std::endl;
+          outFile.close();
+          std::cout << "已写入文件: " << filename << std::endl;
+          buffer.clear();
+        } else {
+          std::cerr << "无法创建文件: " << filename << std::endl;
+          break;
+        }
+        fileCounter++;
+      }
+    }
+    output_file << buffer_H;
+    std::string filename = std::string(outputPath) + "ship_skin_words_E.h";
+    std::ofstream outFile(filename);
+    if (outFile.is_open()) {
+      outFile << buffer_EH << std::endl;
+      outFile.close();
+      std::cout << "已写入文件: " << filename << std::endl;
+    } else {
+      std::cerr << "无法创建文件: " << filename << std::endl;
     }
   } else {
     cout << "Unable to open file" << endl;
     // return 0;
   }
-  output_file << "}\n";
+  // output_file << "}\n";
+  output_file.close();
   file.close();
 }
 
 void output(int id, const char *attribute, string str) {
-  // static bool first = true;
-  // if (first) {
-  //   first = false;
-  //   output_file << "#include \"../../lua/lua.h\"\n"
-  //               << "void ship_skin_words(lua_State *L) {\n";
-  // }
-
   string result = string("replaceString2(L,Str(\"") + attribute + "\"),Str(\"" +
                   str + "\"));";
-  output_file << result << endl;
+  // output_file << result << endl;
 }

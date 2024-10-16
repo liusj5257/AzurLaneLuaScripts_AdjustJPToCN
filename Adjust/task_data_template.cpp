@@ -35,7 +35,7 @@ int main() {
     currentFileName =
         currentFileName.substr(0, lastDot);  // remove the file extension
   }
-  string OutputFileName = outputPath + currentFileName + ".h";
+  string OutputFileName = outputPath + currentFileName + ".cpp";
   cout << OutputFileName << endl;
   output_file.open(OutputFileName);
 
@@ -84,7 +84,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
   string filename = writePath + currentFileName + ".lua";
   string line;
   ifstream file(filename);
-  output_file << "#include \"../../lua/lua.h\"\n"
+  output_file << "#include \"../common.h\"\n"
               << "void task_data_template(lua_State *L) {\n";
 
   if (file.is_open()) {

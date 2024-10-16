@@ -35,7 +35,7 @@ int main() {
     currentFileName =
         currentFileName.substr(0, lastDot);  // remove the file extension
   }
-  string OutputFileName = outputPath + currentFileName + ".h";
+  string OutputFileName = outputPath + currentFileName + ".cpp";
   cout << OutputFileName << endl;
   output_file.open(OutputFileName);
 
@@ -125,7 +125,7 @@ void output(int id, const char *attribute, string str) {
   static bool first = true;
   if (first) {
     first = false;
-    output_file << "#include \"../../lua/lua.h\"\n"
+    output_file << "#include \"../common.h\"\n"
                 << "void aircraft_template(lua_State *L) {\n";
   }
   string result = "replaceString(L," + to_string(id) + ",Str(\"" + attribute +

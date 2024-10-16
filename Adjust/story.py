@@ -14,7 +14,7 @@ setmetatable(_G, {
 })
 ''')
 
-Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\nextern void replaceString(lua_State *L, int id, Il2CppString *attribute,\n                          Il2CppString *string);\nvoid getByList(lua_State *L, int id);\nvoid replaceString2(lua_State *L, Il2CppString *attribute,\n                    Il2CppString *string);\nvoid print(lua_State *L, int idx);\n'
+Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\n#include \"../common.h\"\n'
 
 
 def find_matching_files(JP_folder, CN_folder):
@@ -92,10 +92,13 @@ def escape_special_chars(s):
 
 def translate():
     VoidContent = ''
-    global NoTranslate
+    externVoid=''
+    NoTranslate=''
+    VoidContent=''
+    n=0
     NameHandlerContent = 'typedef void (*NameHandler)(lua_State *L);\nstd::unordered_map<std::string, NameHandler> nameHandlers = {\n'
-    for id_value, jp_table in JP.items():
-        # print(id_value, jp_table)
+    for i, (id_value, jp_table) in enumerate(JP.items()):
+
         if id_value in CN:
             cn_table = CN[id_value]
             first = 1
@@ -151,6 +154,7 @@ def translate():
                         # print("jp_seq:",jp_seq[Seqjp_index][1],'\n',"cn_seq:",cn_seq[Seqcn_index][1])
             if not first:
                 VoidContent += 'lua_pop(L, 1);\n}\n'
+                externVoid+= f'extern void {id_value}(lua_State *L);\n'
                 NameHandlerContent += f'{{"{id_value_old}", {id_value}}},\n'
         else:
             jp_table = JP[id_value]
@@ -193,10 +197,30 @@ def translate():
                         # print("jp_seq:",jp_seq[Seqjp_index][1],'\n',"jp_seq:",jp_seq[Seqjp_index][1])
             if not first:
                 NoTranslate += 'lua_pop(L, 1);\n}\n'
+                externVoid+= f'extern void {id_value}(lua_State *L);\n'
                 NameHandlerContent += f'{{"{id_value_old}", {id_value}}},\n'
-
+        # if NoTranslate:
+        #     with open(f'../Output/No_{id_value}.cpp', 'w') as file:
+        #         file.write("#include \"../common.h\"\n"+NoTranslate)
+        #         file.close
+        # if VoidContent:
+        #     with open(f'../Output/{id_value}.cpp', 'w') as file:
+        #         file.write("#include \"../common.h\"\n"+VoidContent)
+        #         file.close
+        if i% 250 == 0 :
+            n=n+1
+            if NoTranslate:
+                with open(f'../Output/Story_No_{n}.cpp', 'w') as file:
+                    file.write("#include \"../common.h\"\n"+NoTranslate)
+                    file.close
+            if VoidContent:
+                with open(f'../Output/Story_{n}.cpp', 'w') as file:
+                    file.write("#include \"../common.h\"\n"+VoidContent)
+                    file.close
+            NoTranslate=''
+            VoidContent=''
     NameHandlerContent += '};'
-    return Hcontet+NoTranslate+VoidContent+NameHandlerContent
+    return Hcontet+externVoid+NameHandlerContent
 
 
 def output(dir, cotent):

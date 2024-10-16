@@ -40,3 +40,5 @@ for filename in files:
   # 将替换后的文本保存到 ../Output/ship_skin_template.h 文件中
   with open(file_path, "w", encoding="utf-8") as file:
       file.write(text_to_replace)
+      print(filename+" done")
+      file.close()

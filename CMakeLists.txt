@@ -7,6 +7,15 @@ add_compile_options(-fstandalone-debug -v)
 include(ProcessorCount)
 ProcessorCount(N)
 
+# 判断当前系统是否为 Linux
+if(UNIX AND NOT APPLE)
+  set(PYTHON_COMMAND "python3")
+  set(NDK_COMMAND "ndk-build")
+else()
+  set(PYTHON_COMMAND "python")
+  set(NDK_COMMAND "ndk-build.cmd")
+endif()
+
 # 删除 ${CMAKE_CURRENT_SOURCE_DIR}/Output/ 下的所有文件
 file(REMOVE_RECURSE "${CMAKE_CURRENT_SOURCE_DIR}/Output")
 file(REMOVE_RECURSE "${CMAKE_CURRENT_SOURCE_DIR}/../azurlaneApk/jni/Includes/adjust")
@@ -59,13 +68,13 @@ endforeach()
 add_custom_target(
   PYTHON_TASK
   ALL
-  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/Adjust/" python3 story.py
-  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/Adjust/" python3 namecode.py
-  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/Adjust/" python3 copy.py
+  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/Adjust/" ${PYTHON_COMMAND} story.py
+  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/Adjust/" ${PYTHON_COMMAND} namecode.py
+  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/Adjust/" ${PYTHON_COMMAND} copy.py
 )
 
 add_custom_target(
   NDK_TASK
   ALL
-  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/../AzurLaneApk/jni/" ndk-build -j${N} NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj NDK_LIBS_OUT=../libs
+  COMMAND ${CMAKE_COMMAND} -E chdir "${CMAKE_CURRENT_SOURCE_DIR}/../AzurLaneApk/jni/" ${NDK_COMMAND} -j${N} NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk NDK_OUT=../obj NDK_LIBS_OUT=../libs
 )

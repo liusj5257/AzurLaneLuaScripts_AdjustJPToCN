@@ -14,7 +14,7 @@ setmetatable(_G, {
 })
 ''')
 
-Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\n#include \"../common.h\"\n'
+Hcontet = '#include <functional>\n#include <string>\n#include <unordered_map>\ntypedef struct lua_State lua_State;\n'
 
 
 def find_matching_files(JP_folder, CN_folder):
@@ -96,6 +96,8 @@ def translate():
     NoTranslate=''
     VoidContent=''
     n=0
+    jp_items = list(JP.items())
+    num_items = len(jp_items)
     NameHandlerContent = 'typedef void (*NameHandler)(lua_State *L);\nstd::unordered_map<std::string, NameHandler> nameHandlers = {\n'
     for i, (id_value, jp_table) in enumerate(JP.items()):
 
@@ -111,7 +113,7 @@ def translate():
                     if 'say' in jp_script and 'say' in cn_script:
                         if first:
                             first = 0
-                            VoidContent += f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                            VoidContent += f'void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
                         trans = escape_special_chars(cn_script.say)
                         VoidContent += f'replaceString(L, {jp_index}, Str("say"), Str("{trans}"));\n'
 
@@ -142,7 +144,7 @@ def translate():
                             elif isinstance(Seqjp_index, int):
                                 if first:
                                     first = 0
-                                    VoidContent += f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                                    VoidContent += f'void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
                                 # JP[id_value].scripts[jp_index].sequence[Seqcn_index][1]
 
                                 VoidContent += f'getByList(L,{jp_index});\n'
@@ -168,7 +170,7 @@ def translate():
                     if 'say' in jp_script and 'say' in jp_script:
                         if first:
                             first = 0
-                            NoTranslate += f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                            NoTranslate += f'void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
                         trans = escape_special_chars(jp_script.say)
                         NoTranslate += f'replaceString(L, {jp_index}, Str("say"), Str("{trans}"));\n'
                         # jp_script.say = jp_script.say
@@ -185,7 +187,7 @@ def translate():
                             elif isinstance(Seqjp_index, int):
                                 if first:
                                     first = 0
-                                    NoTranslate += f'inline void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
+                                    NoTranslate += f'void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
                                 # JP[id_value].scripts[jp_index].sequence[Seqjp_index][1]
 
                                 NoTranslate += f'getByList(L,{jp_index});\n'
@@ -207,7 +209,7 @@ def translate():
         #     with open(f'../Output/{id_value}.cpp', 'w') as file:
         #         file.write("#include \"../common.h\"\n"+VoidContent)
         #         file.close
-        if i% 250 == 0 :
+        if i% 250 == 0 or i == num_items-1:
             n=n+1
             if NoTranslate:
                 with open(f'../Output/Story_No_{n}.cpp', 'w') as file:

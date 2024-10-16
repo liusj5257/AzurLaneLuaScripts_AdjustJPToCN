@@ -118,6 +118,7 @@ jobs:
       - name: Configure CMake
         working-directory: main/build
         run: |
+          ls
           cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
           make
 

@@ -24,7 +24,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Adjust/lib)
 
 # 模式：DEBUG
 # set(CMAKE_CONFIGURATION_TYPES "Debug" CACHE STRING "" FORCE)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Adjust/Include/)
+#include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Adjust/Include/)
 
 # 设置库路径
 # file(GLOB LIB_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/Adjust/Include/*.c)
@@ -37,7 +37,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Adjust/Include/)
 # add_subdirectory(Include)
 
 # 库变量
-find_library(static_lib lib_MY ${CMAKE_SOURCE_DIR}/lib)
+#find_library(static_lib lib_MY ${CMAKE_SOURCE_DIR}/lib)
 
 # Find all main*.cpp files and store in list mains
 file(
@@ -53,11 +53,8 @@ foreach(mainfile IN LISTS mains)
   add_custom_target(
     ${mainname}_custom
     ALL
-
     # COMMAND echo "Running  ${mainname}..."
     COMMAND ${CMAKE_COMMAND} -E chdir ${EXECUTABLE_OUTPUT_PATH} ${mainname}
-
-    # COMMAND ${CMAKE_COMMAND} -E rename "${EXECUTABLE_OUTPUT_PATH}/../${mainname}.h" "${CMAKE_CURRENT_SOURCE_DIR}/../AzurLaneApk/jni/Includes/adjust/${mainname}.h"
   )
 endforeach()
 

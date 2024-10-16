@@ -30,7 +30,8 @@ jobs:
           timezoneMacos: "Asia/Singapore"
           timezoneWindows: "Singapore Standard Time"
       - uses: actions/checkout@v3
-
+        with:
+          path: main
       # - name: Checkout OldCN Branch
       #   uses: actions/checkout@v3
       #   with:
@@ -62,14 +63,14 @@ jobs:
         uses: actions/setup-python@v3.1.4
         with:
           python-version: 3.10.11
-      - name: namecode
+      - name: Install Python dependencies
         run: |
           pip install lupa
         working-directory: Adjust
       - name: Cache CMake build directory
         uses: actions/cache@v2
         with:
-          path: build
+          path: main/build
           key: ${{ runner.os }}-cmake-${{ hashFiles('**/CMakeLists.txt') }}
           restore-keys: |
             ${{ runner.os }}-cmake-
@@ -113,14 +114,15 @@ jobs:
 
       - name: Create build directory
         run: mkdir -p build
+        working-directory: main
 
 
       - name: Build project
         run: |
-          ls
           export CXX=clang++
           cmake -S . -B build
           cmake --build build
+        working-directory: main
 
 
       - name: Commit files
@@ -192,7 +194,7 @@ jobs:
       - name: Zipalign and Sign Android release
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
         run: ./zipalign_sign.sh
-        working-directory: azurlane-JP
+        working-directory: AzurLaneApk
 
       - name: Get current date
         id: date
@@ -205,7 +207,7 @@ jobs:
           name: ${{ steps.date.outputs.date }}_Arm64
           allowUpdates: true
           artifactErrorsFailBuild: true
-          artifacts: azurlane-JP/build/*.apk
+          artifacts: AzurLaneApk/build/*.apk
           draft: true
 #           commit: "latest"
           makeLatest: false

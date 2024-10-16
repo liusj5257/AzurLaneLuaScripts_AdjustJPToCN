@@ -115,13 +115,18 @@ jobs:
         run: mkdir -p build
         working-directory: main
 
-
-      - name: Build project
+      - name: Configure CMake
+        working-directory: main/build
         run: |
-          export CXX=clang++
-          cmake -S . -B build
-          cmake --build build
-        working-directory: main
+          cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+          make
+
+      # - name: Build project
+      #   run: |
+      #     export CXX=clang++
+      #     cmake -S . -B build
+      #     cmake --build build
+      #   working-directory: main
 
 
       - name: Commit files

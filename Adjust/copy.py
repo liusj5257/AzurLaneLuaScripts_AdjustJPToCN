@@ -10,6 +10,6 @@ for filename in os.listdir(source_folder):
         target_file_path = os.path.join(target_folder, filename)
         # 移动文件
         shutil.move(source_file_path, target_file_path)
-        print(f"已移动文件: {filename}")
+        print(f"已移动文件: {target_file_path}")
 
 print("所有文件已移动完成。")

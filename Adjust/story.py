@@ -116,6 +116,9 @@ def translate():
                             VoidContent += f'void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
                         trans = escape_special_chars(cn_script.say)
                         VoidContent += f'replaceString(L, {jp_index}, Str("say"), Str("{trans}"));\n'
+                        if 'actorName' in jp_script and 'actorName' in cn_script:
+                            actorName = escape_special_chars(cn_script.actorName)
+                            VoidContent += f'replaceString(L, {jp_index}, Str("actorName"), Str("{actorName}"));\n'
 
                         if 'options' in jp_script and 'options' in cn_script:
                             VoidContent += f'getByList(L,{jp_index});\nlua_getfield(L, -1, Str("options"));\n'
@@ -132,7 +135,6 @@ def translate():
                                 # VoidContent+=f'replaceString(L, {jp_option}, Str("say"), Str("{trans}"));\n'
                         # jp_script.say = cn_script.say
                         # print(jp_script.say,"\n",cn_script.say)
-                    # # 修改 sequence 字段
                     elif 'sequence' in jp_script and 'sequence' in cn_script:
                         jp_seq = jp_script.sequence
                         cn_seq = cn_script.sequence

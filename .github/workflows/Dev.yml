@@ -115,30 +115,31 @@ jobs:
         run: mkdir -p build
         working-directory: main
 
-      - name: Configure CMake
-        working-directory: main/build
-        run: |
-          ls
-          cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
-          make
-
-      # - name: Build project
+      # - name: Configure CMake
+      #   working-directory: main/build
       #   run: |
-      #     export CXX=clang++
-      #     cmake -S . -B build
-      #     cmake --build build
-      #   working-directory: main
+      #     ls
+      #     cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+      #     make
+
+      - name: Build project
+        working-directory: main
+        run: |
+          export CXX=clang++
+          cmake -S . -B build
+          cmake --build build
 
 
-      - name: Commit files
+      - name: Commit Adjust
         id: check_changes_1
         run: |
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"
           if [[ `git status --porcelain` ]]; then
             git add jni/Includes/adjust/
-            git commit -a -m "Changes *.h"
+            git commit -a -m "Changes Adjust"
             echo "::set-output name=has_changes::true"
+            git push
           else
             echo "No changes to commit"
             echo "::set-output name=has_changes::false"
@@ -151,6 +152,7 @@ jobs:
           git config  user.email "github-actions[bot]@users.noreply.github.com"
           git config  user.name "github-actions[bot]"
           if [[ `git status --porcelain` ]]; then
+            git add libs/
             git commit -a -m "Changes libs"
             git push
           else

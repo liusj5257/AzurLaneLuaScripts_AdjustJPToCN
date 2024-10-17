@@ -99,7 +99,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
         while (getline(file, line)) {
           if (line.find(searchString) != string::npos) {
             foundAttribute = true;
-            printf("Found attribute: %s\n", line.c_str());
+            // printf("Found attribute: %s\n", line.c_str());
             while (getline(file, line) && !line.empty()) {
               size_t start = line.find("\"") + 1;
               size_t end = line.find_last_of("\"");
@@ -112,7 +112,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                       remove(attribute.begin(), attribute.end(), '\t'),
                       attribute.end());
                   if (attribute == "name" || attribute == "desc") {
-                    printf("Found : %s\n", attribute.c_str());
+                    // printf("Found : %s\n", attribute.c_str());
                     if (first) {
                       buffer +=
                           "getByList(L," + to_string(allArray[i]) + ");\n";

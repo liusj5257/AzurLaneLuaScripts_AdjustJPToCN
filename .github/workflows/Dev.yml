@@ -218,7 +218,7 @@ jobs:
           name: ${{ steps.date.outputs.date }}_Arm64
           allowUpdates: true
           artifactErrorsFailBuild: true
-          artifacts: AzurLaneApk/build/*.xapk,AzurLaneApk/xapk-tool/*xapk
+          artifacts: AzurLaneApk/com.YoStarJP.AzurLane.xapk
           draft: true
 #           commit: "latest"
           makeLatest: false

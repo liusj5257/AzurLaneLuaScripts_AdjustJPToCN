@@ -17,10 +17,11 @@ else()
 endif()
 
 # 删除 ${CMAKE_CURRENT_SOURCE_DIR}/Output/ 下的所有文件
+message(STATUS "Cleaning  directory ${CMAKE_CURRENT_SOURCE_DIR}")
 file(REMOVE_RECURSE "${CMAKE_CURRENT_SOURCE_DIR}/Output")
-file(REMOVE_RECURSE "${CMAKE_CURRENT_SOURCE_DIR}/../azurlaneApk/jni/Includes/adjust")
+file(REMOVE_RECURSE "${CMAKE_CURRENT_SOURCE_DIR}/../AzurLaneApk/jni/Includes/adjust")
 file(MAKE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Output")
-file(MAKE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/../azurlaneApk/jni/Includes/adjust")
+file(MAKE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/../AzurLaneApk/jni/Includes/adjust")
 file(MAKE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/Output/bin")
 
 # 设置输出目录

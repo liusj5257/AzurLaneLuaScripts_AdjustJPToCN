@@ -1,0 +1,165 @@
+#include "../common.h"
+void ZHUXIAN040303(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("はあああ！！"));
+replaceString(L, 2, Str("say"), Str("…………！"));
+replaceString(L, 3, Str("say"), Str("手応えあり！やっぱりこの子は龍驤ちゃんと違って――ってあれ？"));
+replaceString(L, 4, Str("say"), Str("周りの量産艦も一緒に消えた？やっぱりこの子はセイレーンの仕業だったのね…"));
+replaceString(L, 5, Str("say"), Str("瑞鶴、翔鶴、大丈夫ですか？！"));
+replaceString(L, 6, Str("say"), Str("二人とも先走りすぎよ。こっちは陸奥ちゃんの面倒を見るのに大変だったんだから"));
+replaceString(L, 7, Str("say"), Str("ご、ごめん…こっちは大丈夫よ。特に損傷を受けていないから"));
+replaceString(L, 8, Str("say"), Str("比叡たちこそ大丈夫？ここに来る間に変なものを見かけてない？"));
+replaceString(L, 9, Str("say"), Str("変なもの…？"));
+replaceString(L, 10, Str("say"), Str("私たち、龍驤ちゃんとそっくりのニセモノに出くわして、今倒したところ"));
+replaceString(L, 11, Str("say"), Str("…………"));
+replaceString(L, 12, Str("say"), Str("比叡、思い当たるところがある？"));
+replaceString(L, 13, Str("say"), Str("ううん、やっぱりこの海域、「セイレーンが出没していた」って本当でしたね"));
+replaceString(L, 14, Str("say"), Str("ええ、私もちょこっと聞いたわ。いくら敵有力艦隊が現れたとはいえ、ミッドウェイの後ですぐこんな大艦隊を出撃させるなんて"));
+replaceString(L, 15, Str("say"), Str("やっぱりセイレーンを警戒しているため…そういうところかしら"));
+replaceString(L, 16, Str("say"), Str("でもこれは厄介な状況になりましたね"));
+replaceString(L, 17, Str("say"), Str("厄介な状況？どういうこと…？"));
+replaceString(L, 18, Str("say"), Str("セイレーンの「ニセモノ」にもしアズールレーン側も出会っていたとしたら、次に私たちと出会うときは問答無用で襲ってくることも…"));
+replaceString(L, 19, Str("say"), Str("そしたら情報交換も無理、ということね…今は敵とはいえ…"));
+replaceString(L, 20, Str("say"), Str("アズールレーンの動向でしたら、ついさっき私の偵察機がエンタープライズらしき艦影を見かけましたわ"));
+replaceString(L, 21, Str("say"), Str("どうする翔鶴、一回仕掛けてみる？"));
+replaceString(L, 22, Str("say"), Str("……そうするしかなさそうですね。みんな、気をつけて行動してね"));
+lua_pop(L, 1);
+}
+void W262005(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("被激活的灯塔，然而缺少了电力输送通路，仅能靠能源矩阵本身提供的能量发出微弱的光芒。"));
+lua_pop(L, 1);
+}
+void ZHUXIAN040101(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("――ソロモン海。海で駆ける一群の艦船がいた。"));
+replaceString(L, 2, Str("say"), Str("重巡洋艦、そして空母。巨大な鋼鉄の艨艟たちが威風堂々と進軍するその姿は、今にも大海戦が行われるような空気に包まれている。"));
+replaceString(L, 3, Str("say"), Str("その一隻の甲板に、フネを操る、ヒトの形をした少女たちがいた。"));
+replaceString(L, 4, Str("say"), Str("……ふぅ……"));
+replaceString(L, 5, Str("say"), Str("ふは…おっ、エンプラ姉、よく寝れた？"));
+replaceString(L, 6, Str("say"), Str("ああ、体の調子もだいぶ回復したな"));
+replaceString(L, 7, Str("say"), Str("にしても、こんなに早く駆り出されるとは思わなかったね…"));
+replaceString(L, 8, Str("say"), Str("どういうこと？"));
+replaceString(L, 9, Str("say"), Str("前の作戦からまだ2ヶ月も経ってないでしょ？基地に戻って補給した…と言っても、艦載機の修理をほぼ待たずしての連戦になるからね"));
+replaceString(L, 10, Str("say"), Str("確かにそうなるな。レッドアクシズが相手だと、セイレーン以上の損害が出る――正直、あまり戦いたくない相手だ"));
+replaceString(L, 11, Str("say"), Str("そう言いながら、エンタープライズは自分を「起こした」相手――ヨークタウンから預かったハクトウワシを見やった。"));
+replaceString(L, 12, Str("say"), Str("その子……ヨークタウン姉さんの…"));
+replaceString(L, 13, Str("say"), Str("…………"));
+replaceString(L, 14, Str("say"), Str("あはは。大丈夫大丈夫！ヨークタウン姉さんは今、後方施設に移送されてるし、ハムマンちゃんもいるから"));
+replaceString(L, 15, Str("say"), Str("――「きっとそのうち回復してまた会える」だな"));
+replaceString(L, 16, Str("say"), Str("そう！って、流石に聞き飽きたかな？"));
+replaceString(L, 17, Str("say"), Str("いや、むしろいつも気を使わせて申し訳ない。私のことならいい、わかっている"));
+replaceString(L, 18, Str("say"), Str("「ミッドウェイでレッドアクシズの空母艦隊と交戦し大破、艤装の損傷が激しく後送し、回復を図る」"));
+replaceString(L, 19, Str("say"), Str("そのまま回復するかもしれないし、もしかしたら新しい艤装に換装するかもしれないーーそうだ"));
+replaceString(L, 20, Str("say"), Str("そうそう。エンタープライズは心配しなくても大丈夫だよ"));
+replaceString(L, 21, Str("say"), Str("眠い……"));
+replaceString(L, 22, Str("say"), Str("アストリア！ヴィンセンス！あれ？シカゴたちと一緒じゃなかったっけ？"));
+replaceString(L, 23, Str("say"), Str("はは、ちょっと様子を見に来ただけ、今戻るから"));
+replaceString(L, 24, Str("say"), Str("ブリーフィングじゃなかったの？"));
+replaceString(L, 25, Str("say"), Str("あ！そうだった！ちょっと任務の再確認ね！"));
+replaceString(L, 26, Str("say"), Str("「サ島周辺海域で展開中の敵艦隊を撃破し、補給路を確保せよ」とのことだが、敵というのはレッドアクシズを想定しているな"));
+replaceString(L, 27, Str("say"), Str("そうだと思うけど、正直この航路は以前セイレーンが出現したことがあるから、もしかして…ええと、なんだっけ？"));
+replaceString(L, 28, Str("say"), Str("挟み撃ち？"));
+replaceString(L, 29, Str("say"), Str("うん！それそれ！気をつけないとね！"));
+replaceString(L, 30, Str("say"), Str("そうね！だからこっちは空母を警戒して索敵活動、シカゴたちは敵の突撃を警戒するって感じ"));
+replaceString(L, 31, Str("say"), Str("そこは把握している。…よし、作戦準備だ！"));
+replaceString(L, 32, Str("say"), Str("うん！"));
+lua_pop(L, 1);
+}
+void SANLI09(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("三笠大先輩、昨日の宴会はどうもありがとうございました。…でも大先輩が言ってたこと、私にはまだちょっとよく分からなくて……"));
+replaceString(L, 2, Str("say"), Str("なら、我と一回演習で勝負でもしてみるか？"));
+replaceString(L, 3, Str("say"), Str("三笠大先輩と…ですか？"));
+replaceString(L, 4, Str("say"), Str("うむ。切磋琢磨は重要だ。何かがひらめくかも知れぬぞ。"));
+replaceString(L, 5, Str("say"), Str("はい！全力で行かせていただきます！演習海域はちょうど空いていますから、三笠大先輩、今から行きましょう！"));
+replaceString(L, 6, Str("say"), Str("我はここでも構わぬが……まあ良い。では演習海域に出航しよう。って瑞鶴、ちょっと待てーー"));
+replaceString(L, 7, Str("say"), Str("（あの時、ダンスは苦手だと言ったのに、我の足を一回も踏まなかったな……）"));
+replaceString(L, 8, Str("say"), Str("一刻後"));
+replaceString(L, 9, Str("say"), Str("瑞鶴！セイレーンとの戦いでの勢いはどうした！"));
+replaceString(L, 10, Str("say"), Str("攻撃が全てわざとらしすぎる！どこを狙っているかひと目でわかるぞ！"));
+replaceString(L, 11, Str("say"), Str("やっぱり、大先輩には勝てない……か……"));
+replaceString(L, 12, Str("say"), Str("そんなことあるか！今のはお主の全力ではあるまい！"));
+replaceString(L, 13, Str("say"), Str("……兵装には問題ないはず、でもなぜ……大先輩相手にはやっぱり……"));
+replaceString(L, 14, Str("say"), Str("まだ気づいておらぬか。お主は我と戦う時、そしてセイレーン・エンタープライズと戦う時と比べて決定的な差があるーー"));
+replaceString(L, 15, Str("say"), Str("……？"));
+replaceString(L, 16, Str("say"), Str("我を傷つけるのを恐れるあまり、全ての攻撃前に躊躇しているのだ。"));
+replaceString(L, 17, Str("say"), Str("…戦いを単純に考えすぎる者もいるが、お主はその逆だ。戦闘に入ったら、余計なことを考えるな！"));
+replaceString(L, 18, Str("say"), Str("そう言われても……！"));
+replaceString(L, 19, Str("say"), Str("お主が気にすることもわかる。しかしだ、お主が自分の道を決めない限り、誰もがそれを決められまい。"));
+replaceString(L, 20, Str("say"), Str("我の後を追っかけるのも構わぬ。だが――「全てを賭ける」と決めているのなら、最後まで貫け！"));
+replaceString(L, 21, Str("say"), Str("私の、全て……わかりました。三笠大先輩！またいつかお手合わせお願いできませんか？"));
+replaceString(L, 22, Str("say"), Str("構わぬぞ。お主のためなら、我はその第一歩となろう。"));
+replaceString(L, 23, Str("say"), Str("…ただ、あまり長く待たせるでないぞ。その後はお主の努力が必要になるのだからな――"));
+replaceString(L, 24, Str("say"), Str("……"));
+replaceString(L, 25, Str("say"), Str("ふぅ……ここだな。"));
+replaceString(L, 26, Str("say"), Str("この旗は、一体……？"));
+replaceString(L, 27, Str("say"), Str("かつて我を勝利に導いた旗だ。"));
+replaceString(L, 28, Str("say"), Str("この旗さえあれば、お主らはきっと勝利への道を見つけ出せる。"));
+replaceString(L, 29, Str("say"), Str("威厳で敵勢を挫き、勇気で性能差を補い、信念と根性で最後の最後まで粘り勝つ。"));
+replaceString(L, 30, Str("say"), Str("かの時代でもここでも「奇跡」は起こりえぬ。だが「奇跡的な勝利」は確かにあるのだ。この旗は、我が信念とともに、お主に預けるとしよう！"));
+lua_pop(L, 1);
+}
+void ZHUANGJIA4(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+getByList(L,1);
+lua_getfield(L, -1, Str("sequence"));
+getByList(L,1);
+lua_pushnumber(L, 1);
+lua_pushstring(L, Str("『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第四話  反抗</size>"));
+lua_settable(L, -3);
+lua_pop(L,3);
+replaceString(L, 2, Str("say"), Str("あれは…再生装置の映像に登場してたロボット――AT（アーマードトルーパー）！"));
+replaceString(L, 3, Str("say"), Str("凄い…あんな機動性で量産艦をどんどん撃破している……。"));
+replaceString(L, 4, Str("say"), Str("小回りを利かせて肉薄しながら敵を倒してる…これは…「スコープドッグ」じゃなくて、湿地戦用の「マーシィドッグ」だよね！"));
+replaceString(L, 5, Str("say"), Str("陸上用の兵器ベースにエアバージを装着して浮かせるぐらいしかできないというのに――水上戦やってのけてる……このATのパイロット…只者ではない！"));
+replaceString(L, 6, Str("say"), Str("それだけじゃない…あんな激しい弾幕なのに、ほぼすり抜けている！操縦は確かにとんでもない凄腕だけど、何かが違う…！"));
+replaceString(L, 7, Str("say"), Str("そんなこと考えるのはあとよ。今は包囲から脱出することに集中しなさい！"));
+replaceString(L, 8, Str("say"), Str("そうだな。みんな、目の前の面倒な連中は無視して、全員で4時方向に攻撃を集中して攻撃の主と合流するぞ！"));
+replaceString(L, 9, Str("say"), Str("今はそうするしかないわね！"));
+replaceString(L, 10, Str("say"), Str("ぐぬぬ、この雪風様が活躍する大チャンスを奪ったとは……負けないのだ！"));
+replaceString(L, 11, Str("say"), Str("さあ！幸運艦たる雪風様がみんなの活路を開くのだ！突撃ィ！"));
+replaceString(L, 12, Str("say"), Str("雪風はこういう時だけは頼りになるにゃ～。雪風を盾にして…。"));
+replaceString(L, 13, Str("say"), Str("…ぐふっ、イタイにゃ…。なんで雪風には当たらずに明石に弾が当たるんだにゃ～。"));
+replaceString(L, 14, Str("say"), Str("これこそが幸運艦…ううん、「異能生存艦」の力…。"));
+replaceString(L, 15, Str("say"), Str("フフフ。バカな子たち…。そんなに頑張らなくても包囲を解いてあげるのに。"));
+replaceString(L, 16, Str("say"), Str("おお、包囲が薄くなってきたよ。"));
+replaceString(L, 17, Str("say"), Str("私たちを見逃す、というより…。"));
+replaceString(L, 18, Str("say"), Str("周りの敵がどんどんあの方向に集中している…？まさかそんな…。"));
+replaceString(L, 19, Str("say"), Str("「テスター」の狙いは私たちじゃなくあのATだというのか！？"));
+replaceString(L, 20, Str("say"), Str("そもそもなんでロボットが出てきているのよ！あの兵器が実在したというの？"));
+replaceString(L, 21, Str("say"), Str("ありえないにゃ！そんな兵器を作れるのはセイレーンしかいないにゃ！"));
+replaceString(L, 22, Str("say"), Str("でもATってことは誰か乗っているってことかな？"));
+replaceString(L, 23, Str("say"), Str("……。"));
+replaceString(L, 24, Str("say"), Str("しまった。追いつかれた。しょ…翔鶴姉ぇ…。"));
+replaceString(L, 25, Str("say"), Str("「爆撃機を放ったら3時方向に避けろ。こちらで攻撃隊を落とす。」"));
+replaceString(L, 26, Str("say"), Str("通信が…！？"));
+replaceString(L, 27, Str("say"), Str("なん…だと！？"));
+replaceString(L, 28, Str("say"), Str("あの大編隊をマシンガン連射だけで壊滅させた…！？"));
+replaceString(L, 29, Str("say"), Str("あの映像資料で見たように、私たちの理解できない方法で火器制御をやっているのは本当のようね。"));
+replaceString(L, 30, Str("say"), Str("早すぎて写真も撮れなかった……。"));
+replaceString(L, 31, Str("say"), Str("あ、ありがとう……。"));
+replaceString(L, 32, Str("say"), Str("「今のうちに敵の前衛を蹴散らせ。こっちの残弾数はいつまでも保たない。」"));
+replaceString(L, 33, Str("say"), Str("助力に感謝する。"));
+replaceString(L, 34, Str("say"), Str("ふん、まずはニセモノ退治ってことね。"));
+replaceString(L, 35, Str("say"), Str("うんうん。まずはあの不知火からやっつけて欲しいにゃ！"));
+replaceString(L, 36, Str("say"), Str("ふん、時雨のニセモノなんかに負ける気はしないのだ。魚雷、撃つのだ！"));
+replaceString(L, 37, Str("say"), Str("所詮ニセモノ、この雪風様と戦うには百年早いのだ！"));
+replaceString(L, 38, Str("say"), Str("やっぱり、雪風ハ沈マズ…だったにゃ。"));
+replaceString(L, 39, Str("say"), Str("これで前衛は片付けたわ。残るは後衛のみ！"));
+replaceString(L, 40, Str("say"), Str("あのATのパイロット、そして戦い方、どこかで……いや、今はあのATを援護して敵を殲滅するのが先だ！みんな、力を合わせるぞ！"));
+replaceString(L, 41, Str("say"), Str("敵の罠。死線に堕とされた彼女たち。新たな敵の出現は全ての希望を消し去ってゆく。次回「絶望」。彼の放つ一撃は重い。"));
+lua_pop(L, 1);
+}
+void W262002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("请先找到前置的灯塔！"));
+lua_pop(L, 1);
+}
+void WNN005A(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("深渊海域中有强大的塞壬守卫，其火力和耐久都远超其他塞壬单位。"));
+replaceString(L, 2, Str("say"), Str("挑战深渊塞壬守卫后，即便作战失败，其耐久也会继承到下一场战斗，可以继续用其他舰队挑战。"));
+replaceString(L, 3, Str("say"), Str("使用舰队与塞壬守卫作战，有几率发现其弱点；使用不同的舰队与之交战，有几率使其弱点加深。"));
+lua_pop(L, 1);
+}

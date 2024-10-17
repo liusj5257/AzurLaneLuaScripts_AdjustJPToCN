@@ -163,11 +163,10 @@ def translate():
             first = 1
             id_value_old = id_value.replace("_", "-")
             if 'scripts' in jp_table and 'scripts' in jp_table:
-                for jp_index, jp_index in zip(jp_table.scripts, jp_table.scripts):
+                for jp_index in jp_table.scripts:
                     # print(jp_table.scripts[jp_script])
                     jp_script = jp_table.scripts[jp_index]
-                    jp_script = jp_table.scripts[jp_index]
-                    if 'say' in jp_script and 'say' in jp_script:
+                    if 'say' in jp_script:
                         if first:
                             first = 0
                             NoTranslate += f'void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
@@ -209,7 +208,7 @@ def translate():
         #     with open(f'../Output/{id_value}.cpp', 'w') as file:
         #         file.write("#include \"../common.h\"\n"+VoidContent)
         #         file.close
-        if i% 250 == 0 or i == num_items-1:
+        if (i+1)% 250 == 0 or i == num_items-1:
             n=n+1
             if NoTranslate:
                 with open(f'../Output/Story_No_{n}.cpp', 'w') as file:

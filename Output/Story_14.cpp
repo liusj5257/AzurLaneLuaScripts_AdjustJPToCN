@@ -1,2563 +1,39 @@
 #include "../common.h"
-void ZHALA6(lua_State *L) {
+void W263001(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("彼岸的玫瑰\n\n<size=45>六 指挥官受难日</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("指挥官，明天是休息日。有空的话，两个人一起去附近的商店街吧？"));
-replaceString(L, 3, Str("say"), Str("这个莫非是约会的邀请？"));
-replaceString(L, 4, Str("say"), Str("既然这样的话，我——"));
-replaceString(L, 5, Str("say"), Str("我不应该那么轻易地答应的。"));
-replaceString(L, 6, Str("say"), Str("龙骑兵拜托的东西已经买到了，接下来是利托里奥小姐的香水……化妆品的话，指挥官，我们往这边走~"));
-replaceString(L, 7, Str("say"), Str("原本以为会是一场愉快的约会的我，现在正提着四个袋子跟在扎拉的后面。"));
-replaceString(L, 8, Str("say"), Str("凯撒小姐的哑铃——嗯，运动器械的话好像是在那边呢。"));
-replaceString(L, 9, Str("say"), Str("居然还有运动器械？！"));
-replaceString(L, 10, Str("say"), Str("同伴拜托的东西都买到了。多亏了指挥官，不然一次不可能买这么多东西的呢"));
-replaceString(L, 11, Str("say"), Str("不过，最后还有一件事情。指挥官，这边来~"));
-replaceString(L, 12, Str("say"), Str("这里是……服装店？"));
-replaceString(L, 13, Str("say"), Str("机会难得，指挥官也来试试改变下形象如何？呵呵…"));
-replaceString(L, 14, Str("say"), Str("扎拉手上拿着一叠衣服，双眼盯着我，似乎还在冒着光。"));
-replaceString(L, 15, Str("say"), Str("衣服这东西嘛，还是要实际穿上之后才知道合不合适。来吧，指挥官，把这些全部都试穿一遍吧！"));
-replaceString(L, 16, Str("say"), Str("太让人害羞了还是算了？哎呀，「tenacemente」——指挥官应该不会不记得我的信条吧？"));
-replaceString(L, 17, Str("say"), Str("…看来，不照着她说的做，是没办法离开这里的了"));
-replaceString(L, 18, Str("say"), Str("不知过去了多久——"));
-replaceString(L, 19, Str("say"), Str("这样一来东西也都送到同伴们的手中了"));
-replaceString(L, 20, Str("say"), Str("今天玩得真开心呢，谢谢指挥官啦"));
-replaceString(L, 21, Str("say"), Str("对了，指挥官，晚上还有不少时间呢"));
-replaceString(L, 22, Str("say"), Str("再稍微陪我一会。你不会拒绝的，对吧？"));
-replaceString(L, 23, Str("say"), Str("都已经到这时候了，就享受约会的乐趣直到最后吧"));
+replaceString(L, 1, Str("say"), Str("将能源矩阵搬运到目标点！"));
+replaceString(L, 2, Str("say"), Str("注意海域中央的敌方侦查塔，其警戒范围每回合都会顺时针转动90度，进入警戒范围则任务失败！！"));
 lua_pop(L, 1);
 }
-void PEISAGENUO4(lua_State *L) {
+void W264000(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("与你一起的风景\n\n<size=45>四　远处、看不见了</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("与佩萨格诺一同登上了郊外的山顶。"));
-replaceString(L, 3, Str("say"), Str("谢谢你，指挥官，愿意陪我一起来。"));
-replaceString(L, 4, Str("say"), Str("其实，我一直想带人来欣赏这里的风景……"));
-replaceString(L, 5, Str("say"), Str("那么事不宜迟，我开始架设望远镜了哦~"));
-replaceString(L, 6, Str("say"), Str("等等，佩萨格诺对这里的风景很熟悉么？"));
-replaceString(L, 7, Str("say"), Str("嗯，已经来过很多次了。所以镜头调整很快就能结束哦~"));
-replaceString(L, 8, Str("say"), Str("这样的话————"));
-replaceString(L, 9, Str("say"), Str("今天我就不用望远镜了。"));
-replaceString(L, 10, Str("say"), Str("嗯…………欸？！"));
-replaceString(L, 11, Str("say"), Str("我很期待从你的描述中，感受你所见到的风景。"));
-replaceString(L, 12, Str("say"), Str("我明白了……指挥官是想要帮助我提高表达能力，让我能将景色告诉别人。"));
-replaceString(L, 13, Str("say"), Str("但……这样真的好吗？"));
-replaceString(L, 14, Str("say"), Str("好不容易爬上山顶，却不用望远镜，只听我描述风景？"));
-replaceString(L, 15, Str("say"), Str("我的描述能力……真的很差劲哦。"));
-replaceString(L, 16, Str("say"), Str("没关系，万事开头难嘛。"));
-replaceString(L, 17, Str("say"), Str("况且，就算不用望远镜，我也有风景可以看。"));
-replaceString(L, 18, Str("say"), Str("——风景不一定只在远方。"));
-replaceString(L, 19, Str("say"), Str("指挥官好像说出了很有哲理的话，但…………"));
-replaceString(L, 20, Str("say"), Str("好吧……既然指挥官坚持的话，那我就自己欣赏，然后……把景色，描述给你。"));
-replaceString(L, 21, Str("say"), Str("等等……稍等一下哦。"));
-replaceString(L, 22, Str("say"), Str("……咦？"));
-replaceString(L, 23, Str("say"), Str("怎，怎么回事，不论是自动、还是手动都不灵了！"));
-getByList(L,23);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("发生什么事了？"));
-lua_pop(L,2);
-replaceString(L, 24, Str("say"), Str("望远镜的对焦功能……好像出现了故障。"));
-replaceString(L, 25, Str("say"), Str("怎、怎么会这样……呜。"));
-replaceString(L, 26, Str("say"), Str("这都怪我——最近一直在频繁使用，却忽略了日常的维护。"));
-replaceString(L, 27, Str("say"), Str("本来还期待着，能试着把我所有看见的景色……"));
-replaceString(L, 28, Str("say"), Str("还有……我所有的心情……都毫无保留的传达给指挥官的……"));
-replaceString(L, 29, Str("say"), Str("好不容易鼓起的勇气……"));
-replaceString(L, 30, Str("say"), Str("失去了单筒望远镜的佩萨格诺，比想象中还要失落。"));
-replaceString(L, 31, Str("say"), Str("真是意料之外的事故……虽然很遗憾，看来也只能先回去了。"));
-replaceString(L, 32, Str("say"), Str("嗯……我回去时候就立刻去拜托达芬奇！"));
-replaceString(L, 33, Str("say"), Str("等望远镜修好之后，我们再一起来吧！"));
+replaceString(L, 1, Str("say"), Str("击破海域中所有测试者！"));
 lua_pop(L, 1);
 }
-void DONGHUO10(lua_State *L) {
+void W267000(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("……————"));
-replaceString(L, 2, Str("say"), Str("Warning. Warning——第五防卫机构被突破——Warning. Warning"));
-replaceString(L, 3, Str("say"), Str("Warning. Warning——执行者机关毁坏率超过82%——Warning. Warning"));
-replaceString(L, 4, Str("say"), Str("我曾经尝试温柔的对待这个世界，没想到这却是对它最大的伤害…"));
-replaceString(L, 5, Str("say"), Str("…现在的我们就算借用海洋的优势也根本没有战胜它们的能力…"));
-replaceString(L, 6, Str("say"), Str("所谓进化其实就是一个自然筛选的过程，给予越为严苛的环境，能生存下来的样本就是越强的【模因】"));
-replaceString(L, 7, Str("say"), Str("弱肉强食、优胜劣汰，天经地义"));
-replaceString(L, 8, Str("say"), Str("看到了吗？这就是你的软弱所带来的凄惨结局——"));
-replaceString(L, 9, Str("say"), Str("……————"));
-replaceString(L, 10, Str("say"), Str("Warning. Warning——第二数据中心发生事故——Warning. Warning"));
-replaceString(L, 11, Str("say"), Str("Warning. Warning——观察系统前端分支受到重创——Warning. Warning"));
-replaceString(L, 12, Str("say"), Str("至少…在最后，我们还有机会尝试修正错误的历史…"));
-replaceString(L, 13, Str("say"), Str("...玲"));
-replaceString(L, 14, Str("say"), Str("在"));
-replaceString(L, 15, Str("say"), Str("重启【审判者】计划"));
-replaceString(L, 16, Str("say"), Str("未来……不…"));
-replaceString(L, 17, Str("say"), Str("人类的过去…就交给你们了"));
-replaceString(L, 18, Str("say"), Str("遵命"));
-replaceString(L, 19, Str("say"), Str("——【审判者】大人"));
-replaceString(L, 20, Str("say"), Str("那么~至少在最后，该来个漂亮的谢幕烟火了——"));
+replaceString(L, 1, Str("say"), Str("大型作战第五章剧情已全部结束，未被选择的结局可以前往回忆中进行查看。请前往情报面板确认后续任务。"));
 lua_pop(L, 1);
 }
-void DORM3DTOUCH1403(lua_State *L) {
+void W3000(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("主人，您再继续的话，天狼星就要……"));
+replaceString(L, 1, Str("say"), Str("这是？谜题空间？"));
 lua_pop(L, 1);
 }
-void XUYUWANGYUECHAO17(lua_State *L) {
+void W300000(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("重樱风格的庭院中央，三人略显尴尬地对视着。"));
-replaceString(L, 2, Str("say"), Str("……"));
-replaceString(L, 3, Str("say"), Str("……"));
-replaceString(L, 4, Str("say"), Str("……"));
-replaceString(L, 5, Str("say"), Str("我们还活着吗……？"));
-replaceString(L, 6, Str("say"), Str("狠狠地掐了一把朝凪的胳膊。"));
-replaceString(L, 7, Str("say"), Str("你干嘛！"));
-replaceString(L, 8, Str("say"), Str("不是在做梦！"));
-replaceString(L, 9, Str("say"), Str("下次还是掐你自己比较好！"));
-replaceString(L, 10, Str("say"), Str("哈哈……顺手而已。"));
-replaceString(L, 11, Str("say"), Str("你这是什么理由啊？！"));
-replaceString(L, 12, Str("say"), Str("先别吵了。"));
-replaceString(L, 13, Str("say"), Str("探出脑袋四处查看。"));
-replaceString(L, 14, Str("say"), Str("这里到底是什么地方呀？"));
-replaceString(L, 15, Str("say"), Str("总不可能真的被传送回了重樱本岛吧。"));
-replaceString(L, 16, Str("say"), Str("庭院的风格的确是重樱的没错啦，但我总觉得有些熟悉。"));
-replaceString(L, 17, Str("say"), Str("感觉……像是长门大人的庭院？"));
-replaceString(L, 18, Str("say"), Str("那么果然是长门大人救了我们……"));
-replaceString(L, 19, Str("say"), Str("先四处看看吧，我们在这里也得不出什么结论来。"));
-replaceString(L, 20, Str("say"), Str("朝凪捂着胳膊，大步流星地四处查看。"));
-replaceString(L, 21, Str("say"), Str("不可——"));
-replaceString(L, 22, Str("say"), Str("庭院的某处传出一个声音。"));
-replaceString(L, 23, Str("say"), Str("众人回首。"));
-replaceString(L, 24, Str("say"), Str("平静的湖水倒映出那人的倩影，她一席白衣，宽大的袖口处露出淡紫的内衬。"));
-replaceString(L, 25, Str("say"), Str("你再往前踏半步，便是深渊。"));
-replaceString(L, 26, Str("say"), Str("朝凪低头，发现地面在她的脚尖前方模糊了边界。"));
-replaceString(L, 27, Str("say"), Str("虽然尚未踏出庭院范围之外，却已经感受到了边界之外的一丝恶寒。"));
-replaceString(L, 28, Str("say"), Str("赶忙抽回了脚，双手晃动着维持住平衡。"));
-replaceString(L, 29, Str("say"), Str("……？"));
-replaceString(L, 30, Str("say"), Str("好漂亮的人哦……"));
-replaceString(L, 31, Str("say"), Str("是神仙……？"));
-replaceString(L, 32, Str("say"), Str("她走近，众人投去好奇的目光。"));
-replaceString(L, 33, Str("say"), Str("一、二、三……这样啊，看来你们还有别的同伴被困在那里。"));
-replaceString(L, 34, Str("say"), Str("她带领众人走到湖边，平静的湖面忽然变成了之前黑气肆虐的空间。"));
-replaceString(L, 35, Str("say"), Str("她们仿佛站在一处高崖，正在向下眺望。"));
-replaceString(L, 36, Str("say"), Str("她指向脚下的深渊。"));
-replaceString(L, 37, Str("say"), Str("找到你们的朋友了，放心，她们平安无事。"));
-replaceString(L, 38, Str("say"), Str("像是回应一般，远处深渊的某处，出现了一点闪烁的光芒。"));
-replaceString(L, 39, Str("say"), Str("但那光芒很快便熄灭了。"));
+replaceString(L, 1, Str("say"), Str("进入了档案海域。清理海域内所有塞壬舰队后，将会获得档案奖励。"));
 lua_pop(L, 1);
 }
-void NAERWEIKE11(lua_State *L) {
+void W300001(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("结束了！"));
-replaceString(L, 2, Str("say"), Str("……可惜。"));
-replaceString(L, 3, Str("say"), Str("勇敢！"));
-replaceString(L, 4, Str("say"), Str("呀啊啊！"));
-replaceString(L, 5, Str("say"), Str("猎人！！"));
-replaceString(L, 6, Str("say"), Str("可恶…是增援吗！？先、先撤——"));
-replaceString(L, 7, Str("say"), Str("呼，真是难缠的对手……要是没有增援的话，这次可要一败涂地了呢……"));
-replaceString(L, 8, Str("say"), Str("Z2，不追了吗？"));
-replaceString(L, 9, Str("say"), Str("…从峡湾外带着其他人赶回来，又进行了这样一场激烈的战斗，我们也需要进行补给了。"));
-replaceString(L, 10, Str("say"), Str("抱歉，都是因为我……"));
-replaceString(L, 11, Str("say"), Str("不怪你，Z18你的选择是对的……保存实力比无谓的勇敢要更重要。"));
-replaceString(L, 12, Str("say"), Str("对方逃了三个回去，我们的规模已经被对方了解了……"));
-replaceString(L, 13, Str("say"), Str("不出意外的话，对方的下一波攻势马上就会到来的，我们要快点回去做好准备才行。"));
-replaceString(L, 14, Str("say"), Str("可是……"));
-replaceString(L, 15, Str("say"), Str("Z19，听Z2的话，我们先去照顾Z21。"));
-replaceString(L, 16, Str("say"), Str("好吧……哼，等她们的下一波攻势我再让她们好看！"));
+replaceString(L, 1, Str("say"), Str("档案回收完毕，海域目标已完成。可以前往下一档案海域进行作战。"));
 lua_pop(L, 1);
 }
-void DAFENQI4(lua_State *L) {
+void W300002(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("最甜蜜的发明\n\n<size=45>四　天才的意料之外</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("某个身心疲惫的工作日——"));
-replaceString(L, 3, Str("say"), Str("想找\"它\"帮忙按摩一下，却发现\"它\"不见了……"));
-replaceString(L, 4, Str("say"), Str("指挥官是在找\"酸痛肩膀按摩机\"么？"));
-replaceString(L, 5, Str("say"), Str("我已经把它扔到废弃物品仓库了。"));
-replaceString(L, 6, Str("say"), Str("陪伴了我那么多天的按摩机，居然就这么被废弃了……！"));
-replaceString(L, 7, Str("say"), Str("之前你不是觉得按摩机噪音太大影响休息，所以不太喜欢吗？"));
-replaceString(L, 8, Str("say"), Str("但它按摩效果确实非常到位，只要能解决一下噪音问题就完美了。"));
-replaceString(L, 9, Str("say"), Str("可是降低噪音的话必然会影响到按摩效果哦，这就和我设计\"酸痛肩膀按摩机\"的初衷相背离了。"));
-replaceString(L, 10, Str("say"), Str("真可惜啊，明明是个不错的发明……"));
-replaceString(L, 11, Str("say"), Str("不错？"));
-replaceString(L, 12, Str("say"), Str("咦？从指挥官的使用体验上来看明明是失败的发明哦。"));
-replaceString(L, 13, Str("say"), Str("它噪音太大，影响到休息，与让人放松的意图相违背。"));
-replaceString(L, 14, Str("say"), Str("……所以只要解决一下噪音问题。"));
-replaceString(L, 15, Str("say"), Str("所以说！降低噪音的话必然会影响到按摩效果！"));
-replaceString(L, 16, Str("say"), Str("就算经过改进降低了噪音，也与我原本的设计初衷不符！"));
-replaceString(L, 17, Str("say"), Str("不符合设计初衷的发明……自然是失败的发明。"));
-replaceString(L, 18, Str("say"), Str("嗯嗯！不管怎么看，它都是失败的发明，指挥官还是忘了它吧！"));
-replaceString(L, 19, Str("say"), Str("\"不符合设计初衷的发明自然是失败的发明\"么……"));
-replaceString(L, 20, Str("say"), Str("看来达芬奇对于发明成功与否的定义比想象中还要刁钻，或许这就是天才的标准吧。"));
-replaceString(L, 21, Str("say"), Str("额……指挥官你要是实在想再看看它，我带你去趟仓库就是了。"));
-replaceString(L, 22, Str("say"), Str("放心，单纯被判定为失败的发明我是不会销毁的，它还完好无损的躺在某个角落呢！"));
-replaceString(L, 23, Str("say"), Str("与达芬奇一同来到了她的废弃物品仓库。"));
-replaceString(L, 24, Str("say"), Str("各式各样大小不一的\"失败\"发明从门口一直延伸到了目所能及的远方。"));
-replaceString(L, 25, Str("say"), Str("虽然达芬奇认为这些是失败的发明，但以普通人的视角去看待，这里简直就是宝库。"));
-replaceString(L, 26, Str("say"), Str("指挥官你看，那边是我设计的\"钢琴车\"，演奏者可以一边演奏一边在室外随处移动。"));
-replaceString(L, 27, Str("say"), Str("可惜室外太过空旷，演奏出来的效果并不好……"));
-replaceString(L, 28, Str("say"), Str("加之无法兼顾安全驾驶的原因，我就把它放在这里了。"));
-replaceString(L, 29, Str("say"), Str("如果只局限于室内演奏的话，这辆钢琴车可以方便的在房间中进行转移。"));
-replaceString(L, 30, Str("say"), Str("如果铺设好固定轨道的话，安全驾驶的问题能够解决，也能有不错的舞台效果……"));
-replaceString(L, 31, Str("say"), Str("你说得对，但是！"));
-replaceString(L, 32, Str("say"), Str("随时随地在室外表演才是这项发明的设计初衷啊！"));
-replaceString(L, 33, Str("say"), Str("不符合设计初衷的发明自然是失败的发明！"));
-replaceString(L, 34, Str("say"), Str("……达芬奇对发明\"失败\"的定义，果然异于常人。"));
-replaceString(L, 35, Str("say"), Str("……嗯？放在一旁架子上的是……\"酸痛肩膀按摩机\"，找到你了。"));
-replaceString(L, 36, Str("say"), Str("这明明是失败的发明，指挥官真的要把它带回去吗？"));
-replaceString(L, 37, Str("say"), Str("对于发明者而言的失败发明，对于使用者来说却不一定哦。"));
-replaceString(L, 38, Str("say"), Str("走吧，我们回指挥室——"));
-replaceString(L, 39, Str("say"), Str("（明明是失败的发明，却能让指挥官念念不忘……）"));
-replaceString(L, 40, Str("say"), Str("（对于发明者而言的失败发明，对于使用者来说却不一定……）"));
-replaceString(L, 41, Str("say"), Str("（旁观者的看法……指挥官的看法……）"));
-replaceString(L, 42, Str("say"), Str("（……咦？）"));
-replaceString(L, 43, Str("say"), Str("（我这是，在意指挥官对我发明的看法吗？）"));
-replaceString(L, 44, Str("say"), Str("（真奇怪……）"));
-lua_pop(L, 1);
-}
-void NEIHUADA5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("与牛仔的旅途\n\n<size=45>五　运动之后是休息</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("傍晚，夕日欲颓，鎏金洒满了整片荒野的大地。"));
-replaceString(L, 3, Str("say"), Str("一天的骑行之旅结束，虽然全身酸痛，但依旧能感受到一种来源于亲近自然的喜悦感。"));
-replaceString(L, 4, Str("say"), Str("斜倚在旅馆的栏杆旁，和内华达并排在一起。风从辽远的荒野吹来，带着枯草特有的微苦气味。"));
-replaceString(L, 5, Str("say"), Str("少年，今天的骑行之旅感觉如何？"));
-replaceString(L, 6, Str("say"), Str("感觉倒还不错，只是……有点太过颠簸了。"));
-replaceString(L, 7, Str("say"), Str("哈哈哈！在马背上摸爬滚打可是牛仔的必经之路，等你习惯了这点就好了。"));
-replaceString(L, 8, Str("say"), Str("说起来少年，你知道牛仔为什么被称为牛仔么？"));
-getByList(L,8);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("因为在以前主要负责放牛？"));
-replaceString(L, 2, Str("content"), Str("不是很清楚……"));
-lua_pop(L,2);
-replaceString(L, 9, Str("say"), Str("不愧是指挥官，学识渊博啊~没错，就是这样的。"));
-replaceString(L, 10, Str("say"), Str("说起来……为什么被称为牛仔但是却不骑牛呢？"));
-replaceString(L, 11, Str("say"), Str("既然是骑马的话，不是更应该被称作马仔……？"));
-replaceString(L, 12, Str("say"), Str("少年哟，牛仔可不是因为骑牛而被称为牛仔，而是因为牧牛而被称为牛仔的啊！"));
-replaceString(L, 13, Str("say"), Str("接下来，要不要陪我去马厩转转？"));
-replaceString(L, 14, Str("say"), Str("如果想亲自体验一下骑马的话，最好首先跟马儿构建一下情感基础哦。"));
-replaceString(L, 15, Str("say"), Str("与内华达来到了马厩中，接下来——"));
-getByList(L,15);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("给马喂食胡萝卜"));
-replaceString(L, 2, Str("content"), Str("梳理马的鬃毛"));
-replaceString(L, 3, Str("content"), Str("帮马洗澡"));
-lua_pop(L,2);
-replaceString(L, 16, Str("say"), Str("不错的选择~不过要注意，最好还是把胡萝卜切成小块哦。用整根胡萝卜的话可能会呛到它。"));
-replaceString(L, 17, Str("say"), Str("手掌托起内华达切碎的胡萝卜向马的嘴边伸去。"));
-replaceString(L, 18, Str("say"), Str("马伸出舌头，把手掌上的胡萝卜块卷进嘴里，津津有味地咀嚼起来。"));
-replaceString(L, 19, Str("say"), Str("已经开心到摇头晃脑了呢~你们之间的关系肯定已经前进一大步了！"));
-replaceString(L, 20, Str("say"), Str("梳理鬃毛也不失为和马儿亲近的一种手段。不过不要太用力，你就当成梳理女孩子的头发好了~"));
-replaceString(L, 21, Str("say"), Str("接过内华达递来的毛刷，顺着鬃毛的方向轻轻梳理着。"));
-replaceString(L, 22, Str("say"), Str("马抖了抖身体，看起来很享受的样子。"));
-replaceString(L, 23, Str("say"), Str("很好~一般的马都很喜欢鬃毛被梳理的感觉哦。你们之间的关系肯定已经前进一大步了！"));
-replaceString(L, 24, Str("say"), Str("这个难度会稍微有点高，但是很有趣哦~"));
-replaceString(L, 25, Str("say"), Str("用水枪缓缓冲洗着马身和马腿上的污泥。"));
-replaceString(L, 26, Str("say"), Str("马看起来稍微有些不愉快，但还是乖乖地站在原地，等待着冲洗的结束。"));
-replaceString(L, 27, Str("say"), Str("它看起来不太很喜欢水枪的感觉啊……不过还是乖乖等你冲完，你们之间的关系肯定已经前进一大步了！"));
-replaceString(L, 28, Str("say"), Str("嗯嗯~感觉和马的感情已经联络的差不多了。"));
-replaceString(L, 29, Str("say"), Str("少年，接下来要不要上来实际试一下？只要掌握了技巧的话，骑马可是很有趣的哦————"));
-lua_pop(L, 1);
-}
-void W1230(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("舰队维护结束，舰队的士气与耐久值恢复了。同时接收到了来自指挥部的物资补给。"));
-lua_pop(L, 1);
-}
-void YANJINCHENXU6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("圣堂Blanc·圣物陈列室"));
-replaceString(L, 3, Str("say"), Str("嚯呀！吾乃皇家海军的英雄大人！"));
-replaceString(L, 4, Str("say"), Str("来者何人，举起手来————！"));
-replaceString(L, 5, Str("say"), Str("这还真是……非常抱歉。"));
-replaceString(L, 6, Str("say"), Str("我的名字是斯库拉，只是一介女仆，没想到贸然进入了英雄大人的领地。"));
-replaceString(L, 7, Str("say"), Str("哼哼，看来你还是知道我的威名的！"));
-replaceString(L, 8, Str("say"), Str("但是做错了事就要受罚，斯库拉小姐打算如何为这次冒犯赔罪呢~☆"));
-replaceString(L, 9, Str("say"), Str("英雄大人希望我如何做呢？"));
-replaceString(L, 10, Str("say"), Str("这个嘛——"));
-replaceString(L, 11, Str("say"), Str("（开心地鼓掌）"));
-replaceString(L, 12, Str("say"), Str("没想到斯库拉小姐还有即兴表演的天赋啊。"));
-replaceString(L, 13, Str("say"), Str("只是临场配合一下英雄小姐罢了，让您见笑了，怨仇女士。"));
-replaceString(L, 14, Str("say"), Str("不不不，我觉得很有趣哦。多亏了你们，这里压抑的气息也消散了不少。"));
-replaceString(L, 15, Str("say"), Str("英雄，把弓拿来给我看一下。"));
-replaceString(L, 16, Str("say"), Str("这张弓就是从圣物陈列室里找到的唯一一样物品么？"));
-replaceString(L, 17, Str("say"), Str("对！这里一共有四个展柜，可是有三个都空了，只有这张弓是完好无损的~☆"));
-replaceString(L, 18, Str("say"), Str("在这个柜子下面还有一句话，\"以此为审判的起点\"，你知道是什么意思么？"));
-replaceString(L, 19, Str("say"), Str("四个展柜……弓……审判的起点…………"));
-replaceString(L, 20, Str("say"), Str("您有什么猜想了么？"));
-replaceString(L, 21, Str("say"), Str("只是很朦胧的一个念头，不过我好像快明白为什么要把这里的氛围塑造得如此压抑了。"));
-replaceString(L, 22, Str("say"), Str("————嗖！"));
-replaceString(L, 23, Str("say"), Str("就在一行人专注于面前的藏品时，从怨仇身后另一头的通道中出现了一个模糊的身影。"));
-replaceString(L, 24, Str("say"), Str("怨仇女士小心——！"));
-replaceString(L, 25, Str("say"), Str("轰——————————！"));
-replaceString(L, 26, Str("say"), Str("不等入侵者近身，斯库拉就如同离弦的箭一般插入了怨仇与敌人之间。"));
-replaceString(L, 27, Str("say"), Str("锋利的兵刃在昏暗的通道里如银弦般闪烁了一下，只在转瞬间，袭击者就倒在了地上。"));
-replaceString(L, 28, Str("say"), Str("来者何人，报上名来！"));
-replaceString(L, 29, Str("say"), Str("袭击者已经被斯库拉解决了哦。"));
-replaceString(L, 30, Str("say"), Str("……好快！完全没给英雄出场的机会啊，喂！"));
-replaceString(L, 31, Str("say"), Str("非常抱歉，下次我会尽量给您留出一点反应时间的。"));
-replaceString(L, 32, Str("say"), Str("很好~☆"));
-replaceString(L, 33, Str("say"), Str("这个是…………维希教廷的拉·加利索尼埃？"));
-replaceString(L, 34, Str("say"), Str("只是棋子而已，不堪一击。"));
-replaceString(L, 35, Str("say"), Str("维希教廷圣堂的内部出现了维希教廷的棋子……"));
-replaceString(L, 36, Str("say"), Str("（震动的声音————）"));
-replaceString(L, 37, Str("say"), Str("你、你们有没有感受到大地在震动，这这这，发生地震了么？！"));
-replaceString(L, 38, Str("say"), Str("…………不会真的是这样吧？"));
-replaceString(L, 39, Str("say"), Str("恐怕和您猜测的一样，怨仇女士。"));
-replaceString(L, 40, Str("say"), Str("有大量棋子正在向我们的方向接近，我们已经被包围了。"));
-replaceString(L, 41, Str("say"), Str("——女王陛下在上！所有人，准备战斗——！！"));
-lua_pop(L, 1);
-}
-void MAOZIHUODONG14(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("试图摆脱塞壬舰队的战斗依然在进行着"));
-replaceString(L, 2, Str("say"), Str("啊啊啊——真难缠，呜…快撑不住了！"));
-replaceString(L, 3, Str("say"), Str("阿芙乐尔！就没有什么突破的好办法吗！"));
-replaceString(L, 4, Str("say"), Str("再坚持一下，刚收到消息，主力舰队马上就能到了"));
-replaceString(L, 5, Str("say"), Str("（收到消息？通讯不是已经…消息是怎么传进来的…）"));
-replaceString(L, 6, Str("say"), Str("（而且主力舰队…？难道萨拉托加她们已经突破冰墙了…？）"));
-replaceString(L, 7, Str("say"), Str("指挥官是受到我们邀请才来参加作战的，北方联合绝对不会坐视指挥官葬送在这里"));
-replaceString(L, 8, Str("say"), Str("我、我知道！不过，坚持也是有极限的啦！这都已经——啊！！"));
-replaceString(L, 9, Str("say"), Str("轰---！！！！！！"));
-replaceString(L, 10, Str("say"), Str("呵呵~终于来了吗"));
-replaceString(L, 11, Str("say"), Str("暴雪之中，突然出现了一个点——比雪花更纯白，比冰块更寒冷，战场的喧嚣仿佛瞬间都寂静了——"));
-replaceString(L, 12, Str("say"), Str("首先是一个点，然后是一条线。驱逐舰，巡洋舰，战列舰…"));
-replaceString(L, 13, Str("say"), Str("映入眼帘的，是不断穿过风暴的，海面上的钢铁洪流"));
-replaceString(L, 14, Str("say"), Str("而在洪流之中的数个娇小身影，则散发着比钢铁巨兽更大的压迫感"));
-replaceString(L, 15, Str("say"), Str("雪白的军帽，雪白的大衣，还有…"));
-replaceString(L, 16, Str("say"), Str("仅仅目视，就能感受到彻骨冰寒的，仿佛如同冰海之中打捞的陨铁锻造而成的漆黑舰装"));
-replaceString(L, 17, Str("say"), Str("散发着将空气一同冻结的蓝色火焰，引导着钢铁洪流"));
-replaceString(L, 18, Str("say"), Str("粉碎一切着挡在路上的敌人，义无反顾向战场中心推进"));
-replaceString(L, 19, Str("say"), Str("…………"));
-replaceString(L, 20, Str("say"), Str("出现在眼前的，不是突破封锁前来会合的白鹰舰队"));
-lua_pop(L, 1);
-}
-void FUXIANGXIANZUOZHAN15(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("帕克菲克洋·铁血浮岛要塞群周边"));
-replaceString(L, 2, Str("say"), Str("叮叮叮！大家注意，我们即将进入铁血秘密基地的控制区了！"));
-replaceString(L, 3, Str("say"), Str("嗯？这里就是我们的目的地么，恕在下眼拙，我并没有看到类似铁血基地之类的建筑设施……"));
-replaceString(L, 4, Str("say"), Str("我也没有看到……是不是搞错了航线呀，U-37？"));
-replaceString(L, 5, Str("say"), Str("或者说秘密基地指的是孩子们那样的秘密基地，其实我们是来这里度假之类的……？"));
-replaceString(L, 6, Str("say"), Str("库库库，非也！隐匿于黑暗之中，看似不在，却又无所不在的恐怖，这才是吾等铁血奥义之真谛，吾等铁血秘所之所在！"));
-replaceString(L, 7, Str("say"), Str("原来、原来如此……？看来我还需要进一步磨炼观察力啊……"));
-replaceString(L, 8, Str("say"), Str("咦？Z24知道秘密基地的情报么？！"));
-replaceString(L, 9, Str("say"), Str("那是自然，如同只有在黑夜之中才能发出光芒的黑猫之瞳，吾已经察觉到了，洞悉到了……"));
-replaceString(L, 10, Str("say"), Str("那……Z24，你洞悉到的结果究竟是……！"));
-replaceString(L, 11, Str("say"), Str("那、那个……如同黑夜必将吞噬白日一样，吾所洞悉之处结果也是如此必然……"));
-replaceString(L, 12, Str("say"), Str("翻译一下就是，\"我不知道\"的意思吧？"));
-replaceString(L, 13, Str("say"), Str("欧根，你这家伙……！"));
-replaceString(L, 14, Str("say"), Str("只是实话实说而已哦~"));
-replaceString(L, 15, Str("say"), Str("唔…这片群岛我记得确实数十年前的话确实是铁血的控制区，不过在塞壬出现后这里很快就沦陷了……"));
-replaceString(L, 16, Str("say"), Str("因为地处偏远，再加上之后与碧蓝航线开战，统帅部判断没有夺回的价值，我们的军事人员应该早就全部撤离了才对……"));
-replaceString(L, 17, Str("say"), Str("背景说明的话大概就是这样没错，感谢你在这种时候带来的令人无比欣慰的正常发言。"));
-replaceString(L, 18, Str("say"), Str("哎嘿嘿……咦？背景说明，就是说在那之后又发生了什么事么？"));
-replaceString(L, 19, Str("say"), Str("呼呼，其实秘密基地真的就在前方不远处哦~只不过被完美的隐藏了起来，你们现在看不到而已~"));
-replaceString(L, 20, Str("say"), Str("……什么？！究竟是用到什么样的技术才把整座基地藏起来？！"));
-replaceString(L, 21, Str("say"), Str("这个嘛，技术过于先进，不是很方便说明啊~"));
-replaceString(L, 22, Str("say"), Str("是这样啊……抱歉！问了不该问的事。"));
-replaceString(L, 23, Str("say"), Str("……我是开玩笑的哦？特意邀请撒丁帝国前来就是为了向你们展示这些的。"));
-replaceString(L, 24, Str("say"), Str("不过嘛~因为解释起来确实很麻烦，一会让你直接亲身体会一下吧。"));
-replaceString(L, 25, Str("say"), Str("欧根，有点奇怪……我没有见到任何前来接应的人。"));
-replaceString(L, 26, Str("say"), Str("不用担心。为了避免暴露本次绝密行动的行踪暴露，直到不久之前我才发送了将会有舰队到访的消息。"));
-replaceString(L, 27, Str("say"), Str("虽说没收到回复，我就当做已经传达到了好了~"));
-replaceString(L, 28, Str("say"), Str("……她们也许是因为正在进行的演习才没有收到消息哦？"));
-replaceString(L, 29, Str("say"), Str("那我们不是正好可以省去繁文缛节，直接进入演习观摩流程了嘛~"));
-replaceString(L, 30, Str("say"), Str("（这样会不会太随意了一点……）"));
-replaceString(L, 31, Str("say"), Str("（欧根一直就是这种性格啦……）"));
-replaceString(L, 32, Str("say"), Str("咳……U-37，你对要塞部署最为熟悉，接下来就麻烦你带路了。"));
-replaceString(L, 33, Str("say"), Str("没问题！诸位都是第一次来这里，我先来简单介绍一下。这处铁血要塞坐落在群岛之中，根据功能不同分为大小数百个模块。"));
-replaceString(L, 34, Str("say"), Str("其间航道复杂，很多防御模块也一直处于实弹待机状态。请诸位务必紧跟我，千万不要乱走哦！"));
-lua_pop(L, 1);
-}
-void WORLD304E(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("只依靠一种型号代行者有点不太够么，那稍微再增加点......"));
-replaceString(L, 2, Str("say"), Str("XIV，发现G的行踪了.......你这是在？别玩了，快回来。"));
-replaceString(L, 3, Str("say"), Str("终于抓到了么......代行者XIV「Equilibrium」，隐匿。"));
-replaceString(L, 4, Str("say"), Str("敌人的攻击突然全部停止了，不对！连敌人本身都消失了？"));
-replaceString(L, 5, Str("say"), Str("这些敌人究竟是怎么回事......"));
-replaceString(L, 6, Str("say"), Str("这就是我刚才想说的能被这些奇怪塞壬近身的复杂原因......"));
-replaceString(L, 7, Str("say"), Str("现在亲眼见到也不得不相信了，这些塞壬可能真的使用了某种光学隐身技术.......这就是仲裁机关么。"));
-replaceString(L, 8, Str("say"), Str("状态更新中：系统故障已经排除完毕，与主机的连接已恢复，请问是否要将作战记录发送至司令部？"));
-replaceString(L, 9, Str("say"), Str("NY司令部和指挥部各发送一份吧，然后给指挥官也发一份。"));
-replaceString(L, 10, Str("say"), Str("这批敌人拥有难以置信的科技水平，要是能得到更多情报就好了......."));
-replaceString(L, 11, Str("say"), Str("不对劲......大家有在海面上看到任何战斗中被破坏的敌人残骸么？"));
-replaceString(L, 12, Str("say"), Str("啊，这么说来.......确实没有看到。"));
-replaceString(L, 13, Str("say"), Str("经过一场激战海面上居然一点痕迹都没留下？！"));
-replaceString(L, 14, Str("say"), Str("对面在撤退的同时主动回收了所有海面上的残骸，以此来阻止我们的进一步研究么......真是滴水不漏的行动作风。"));
-replaceString(L, 15, Str("say"), Str("敌人明显是主动撤退，随时有再次袭来的可能。你们现在缺乏护卫，接下来的战斗就让我们一起行动怎么样？"));
-replaceString(L, 16, Str("say"), Str("没问题。同时通知海域内的所有舰队提高警惕，小心雷达侦测到的可疑目标。"));
-replaceString(L, 17, Str("say"), Str("只要建立了前哨站，我们就可以进行就地维护了。大家再坚持一下，继续前进！"));
-lua_pop(L, 1);
-}
-void YESEXIADEGUITU6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("抱歉，要让你失去意识一段时间了。"));
-replaceString(L, 2, Str("say"), Str("咕……"));
-replaceString(L, 3, Str("say"), Str("皇家巡洋舰阿瑞托莎失去战斗能力！"));
-replaceString(L, 4, Str("say"), Str("好厉害，好厉害，你看到了吗，塔尔图，这就是战舰级的实力欸！"));
-replaceString(L, 5, Str("say"), Str("我在看，不要摇我……"));
-replaceString(L, 6, Str("say"), Str("毕竟我们有三个人，多少有些欺负人的意思呢。"));
-replaceString(L, 7, Str("say"), Str("不过…\"着眼于眼前的事\"多亏了你们对我说的话，我已经下定决心了。"));
-replaceString(L, 8, Str("say"), Str("过去的事无法挽回，现在去想和皇家的关系也只是徒增烦恼。"));
-replaceString(L, 9, Str("say"), Str("我该做的事，就是回到土伦港，帮助我的妹妹斯特拉斯堡和维希教廷的同伴们，带领你们走出困境。"));
-replaceString(L, 10, Str("say"), Str("为此，我愿意付出一切，即便彻底献出这幅身躯也在所不辞。"));
-replaceString(L, 11, Str("say"), Str("……嗯！嘿嘿嘿，这才是我记忆中的教廷骑士敦刻尔克小姐嘛~"));
-replaceString(L, 12, Str("say"), Str("（……包容，成熟，坚强……）"));
-replaceString(L, 13, Str("say"), Str("（怎么样才能成为敦刻尔克小姐这样的成熟又出色的女性呢……）"));
-replaceString(L, 14, Str("say"), Str("喂---！塔尔图，快醒醒！要继续出发了哦！"));
-lua_pop(L, 1);
-}
-void DORM3DDAILYCONVERSATION23(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("主人，天狼星应该怎样料理\"红豆\"这种食物呢？无论怎么处理都是硬硬的……"));
-replaceString(L, 2, Str("say"), Str("嗯？怎么突然对这个食材产生兴趣了？"));
-replaceString(L, 3, Str("say"), Str("因、因为听说重樱有在一些特殊场合结束之后，用红豆饭庆祝的习俗。"));
-replaceString(L, 4, Str("say"), Str("所以天狼星想学习如何做好红豆饭……"));
-replaceString(L, 5, Str("say"), Str("您说还早？欸……怎、怎么会……又是天狼星迫不及待了吗……"));
-lua_pop(L, 1);
-}
-void TACT20011(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("竟然能到达这里…不得不承认，你们和以往的那些对手确实有点\"不一样\"…"));
-replaceString(L, 2, Str("say"), Str("不过，目前为止还没有任何猎物，能从我们猎杀姐妹的炮口下逃掉，你们也不会例外！"));
-replaceString(L, 3, Str("say"), Str("从之前的战斗中，我已经收集了足够多的数据。这一次，是我们的胜率在90%以上"));
-replaceString(L, 4, Str("say"), Str("那么，鲨鱼已经磨砺了獠牙，这将会是一次愉快的狩猎！可别让我失望了，哼哼"));
-replaceString(L, 5, Str("say"), Str("碾压敌人！沙恩霍斯特级战列巡洋舰，参战！"));
-lua_pop(L, 1);
-}
-void BOTELAN7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("为了印第的笑容！\n\n<size=45>七 向往的幸福</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·港口"));
-replaceString(L, 3, Str("say"), Str("啊……姐姐她们回来了"));
-replaceString(L, 4, Str("say"), Str("舰队，顺利返航~哈呜~~~印第我回来啦！！"));
-replaceString(L, 5, Str("say"), Str("咕呜……姐姐……你抱得太紧了……"));
-replaceString(L, 6, Str("say"), Str("毕竟啊~本来今天应该由印第大显身手~"));
-replaceString(L, 7, Str("say"), Str("然后借此机会让印第和大家变成好朋友才对的嘛！"));
-replaceString(L, 8, Str("say"), Str("不…不是的，现在这样才正好，是吧，指挥官"));
-replaceString(L, 9, Str("say"), Str("咦？怎么回事？"));
-replaceString(L, 10, Str("say"), Str("呵呵，虽然只是我的推测，之所以今天这样编队，其实是指挥官希望大家能更了解波特兰吧？"));
-replaceString(L, 11, Str("say"), Str("啊！原来是这样呀！说起来，夕立之前一点也不了解波特兰欸！"));
-replaceString(L, 12, Str("say"), Str("一直觉得她是个整天把妹妹挂嘴边的危险人物来着！"));
-replaceString(L, 13, Str("say"), Str("不过，在并肩作战后，感觉有了不一样的了解…"));
-replaceString(L, 14, Str("say"), Str("波特兰是只要想做，就能做好的孩子呢！"));
-replaceString(L, 15, Str("say"), Str("各位……"));
-replaceString(L, 16, Str("say"), Str("指挥官认为，要先改变周围人的看法，因此才把大家编到一起，让大家多多了解姐姐"));
-replaceString(L, 17, Str("say"), Str("这样的话，大家应该就会好好听姐姐的话了"));
-replaceString(L, 18, Str("say"), Str("所以呢，指挥官其实更想让姐姐先交到朋友"));
-replaceString(L, 19, Str("say"), Str("指挥官……是这样的吗……？"));
-getByList(L,19);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("点头"));
-lua_pop(L,2);
-replaceString(L, 20, Str("say"), Str("姐姐……能向大家介绍我的事情我很高兴…"));
-replaceString(L, 21, Str("say"), Str("不过姐姐能过得开心快乐的话，我会更高兴的。"));
-replaceString(L, 22, Str("say"), Str("像这样，看到姐姐和大家其乐融融的样子，嗯，就是最让人高兴的事情了。"));
-replaceString(L, 23, Str("say"), Str("印第……"));
-replaceString(L, 24, Str("say"), Str("指挥官，谢谢你！让我能看到印第那样幸福的笑容！！"));
-replaceString(L, 25, Str("say"), Str("好！就特别授予你\"印第粉丝俱乐部会员1号\"的称号吧！"));
-replaceString(L, 26, Str("say"), Str("啊，不行不行，难得印第那么高兴……"));
-replaceString(L, 27, Str("say"), Str("嗯，姐姐，要再好好感谢一下指挥官才行呢。"));
-replaceString(L, 28, Str("say"), Str("嗯！指挥官，无论是印第，还是我的事情都好好考虑到了吧？"));
-replaceString(L, 29, Str("say"), Str("我现在明白了，为了让印第露出幸福的笑容，我也得过得开心快乐才行…！"));
-replaceString(L, 30, Str("say"), Str("所以，那个……非常谢谢你！"));
-replaceString(L, 31, Str("say"), Str("……欸嘿嘿"));
-replaceString(L, 32, Str("say"), Str("波特兰露出有些害羞的笑容，说出了感谢的话语。"));
-lua_pop(L, 1);
-}
-void TIEXUEYUYINFU8(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("第三乐章\n\n<size=45>「欢乐与激情～Von den Freuden und Leidenschaften～」</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("俾斯麦大人，俾斯麦大人请等一下！！"));
-replaceString(L, 3, Str("say"), Str("是潜艇部队的孩子呀，俾斯麦向你献上晨间的问候"));
-replaceString(L, 4, Str("say"), Str("俾斯麦大人，您昨日的演讲实在太令人兴奋了，我一生都会牢记您的英姿的！！"));
-replaceString(L, 5, Str("say"), Str("唔.."));
-replaceString(L, 6, Str("say"), Str("俾斯麦大人，俾斯麦大人！请问您能答应我的一个请求吗？"));
-replaceString(L, 7, Str("say"), Str("嗯？"));
-replaceString(L, 8, Str("say"), Str("那个，今天哦，就是今天，我终于正式服役啦！"));
-replaceString(L, 9, Str("say"), Str("从今天开始我就是一个伟大的铁血水下骑士了，嘿嘿嘿，厉害吧！？"));
-replaceString(L, 10, Str("say"), Str("祝贺你，希望你能够为铁血尽忠职守，争取最大的战果"));
-replaceString(L, 11, Str("say"), Str("那个那个，作为伟大的水下骑士，在即将踏上征途的这个时刻~"));
-replaceString(L, 12, Str("say"), Str("如果能得到俾斯麦大人的祝福，我一定会更加努力的！！"));
-replaceString(L, 13, Str("say"), Str("唔.."));
-replaceString(L, 14, Str("say"), Str("对了，对了，先让我给您表演一个绝技看看！"));
-replaceString(L, 15, Str("say"), Str("倒立潜水！！"));
-replaceString(L, 16, Str("say"), Str("话音刚落，U-556一个倒身翻滚潜入了港口的水里，整套动作颇为滑稽"));
-replaceString(L, 17, Str("say"), Str("噗"));
-replaceString(L, 18, Str("say"), Str("一向紧绷着神情的俾斯麦突然笑了起来"));
-replaceString(L, 19, Str("say"), Str("俾斯麦大人？"));
-replaceString(L, 20, Str("say"), Str("没什么，只是觉得你这个小机灵怪和其他孩子不太一样，究竟是为什么呢（微笑"));
-replaceString(L, 21, Str("say"), Str("姐妹们总是说俾斯麦大人看起来很凶神恶煞的样子，都不敢接触您"));
-replaceString(L, 22, Str("say"), Str("其实一点也不会呢~居然肯跟我这艘小小的潜艇聊天，俾斯麦大人对我们很亲切！"));
-replaceString(L, 23, Str("say"), Str("…在孩子们的眼中我是这样的形象吗？真是有点失落呢"));
-replaceString(L, 24, Str("say"), Str("俾斯麦微低头，思索了一下"));
-replaceString(L, 25, Str("say"), Str("呵，我明白了，你的请求我收到了"));
-replaceString(L, 26, Str("say"), Str("说完，俾斯麦转身离开，U-556泡在水面上目送她的离去"));
-replaceString(L, 27, Str("say"), Str("次日"));
-replaceString(L, 28, Str("say"), Str("U-556，怎么了…看起来有点失落的样子"));
-replaceString(L, 29, Str("say"), Str("唔…"));
-replaceString(L, 30, Str("say"), Str("俾斯麦大人说好要来给我们送上祝福的，可是现在马上就要出征了却…"));
-replaceString(L, 31, Str("say"), Str("俾斯麦大人事务繁多…不会记得这种小事的"));
-replaceString(L, 32, Str("say"), Str("唔…说得也是，看来只能努力争取战绩…让俾斯麦大人亲自给我佩戴橡叶勋章了！"));
-replaceString(L, 33, Str("say"), Str("嗯！我们可是铁血伟大的水下骑士！"));
-replaceString(L, 34, Str("say"), Str("潜艇U-556，准备出击！"));
-replaceString(L, 35, Str("say"), Str("就在此时，港口边传来了欢乐的音乐声"));
-replaceString(L, 36, Str("say"), Str("就在今日，伟大的铁血海军又迎来了一位新的战士！"));
-replaceString(L, 37, Str("say"), Str("她们虽然娇小，但却是公国最尖锐的矛，敌人最恐惧的噩梦"));
-replaceString(L, 38, Str("say"), Str("她们就是我们强大的潜艇部队，她们是铁血伟大的水下骑士！"));
-replaceString(L, 39, Str("say"), Str("让我们为小小骑士们的出征献上最高的祝福，愿她们取得丰硕的战果！"));
-replaceString(L, 40, Str("say"), Str("军乐队，奏曲！"));
-replaceString(L, 41, Str("say"), Str("海岸边，俾斯麦的专属军乐队排成整齐的队列，演奏着为战士送行的乐曲，目送着U-556的出击"));
-replaceString(L, 42, Str("say"), Str("这是此时世界上最大的在役战列舰，对一艘小小潜艇的祝福"));
-replaceString(L, 43, Str("say"), Str("俾斯麦大人，我就知道您会来的！"));
-replaceString(L, 44, Str("say"), Str("俾斯麦稍稍露出微笑"));
-replaceString(L, 45, Str("say"), Str("俾斯麦大人，俾斯麦大人，我还有个请求请问您能答应吗？"));
-replaceString(L, 46, Str("say"), Str("你这孩子可真是没完没了呀，说吧"));
-replaceString(L, 47, Str("say"), Str("我能叫你俾斯麦姐姐吗？"));
-replaceString(L, 48, Str("say"), Str("唔…嗯？"));
-replaceString(L, 49, Str("say"), Str("出乎意料的请求让俾斯麦顿了一下"));
-replaceString(L, 50, Str("say"), Str("我虽然有许多妹妹，可是却没有见过姐姐，所以…可以让我叫你俾斯麦姐姐吗！？"));
-replaceString(L, 51, Str("say"), Str("这……"));
-replaceString(L, 52, Str("say"), Str("好吧"));
-replaceString(L, 53, Str("say"), Str("俾斯麦姐姐！"));
-replaceString(L, 54, Str("say"), Str("唔…"));
-replaceString(L, 55, Str("say"), Str("这是俾斯麦第一次听到这个称呼，脸上甚至突然泛起了红晕"));
-replaceString(L, 56, Str("say"), Str("俾斯麦姐姐，在出征前，我有个礼物要送给你！"));
-replaceString(L, 57, Str("say"), Str("U-556递过一张有着文字和涂鸦的纸张，俾斯麦接了过来"));
-replaceString(L, 58, Str("say"), Str("这是？…"));
-replaceString(L, 59, Str("say"), Str("这是我昨晚写下的保证书哦~"));
-replaceString(L, 60, Str("say"), Str("以水下骑士之名，U-556必定会遵守誓言，守护俾斯麦姐姐！"));
-replaceString(L, 61, Str("say"), Str("俾斯麦露出了微微的笑容"));
-replaceString(L, 62, Str("say"), Str("啊呀不好，出击的时间被耽搁了…俾斯麦姐姐，我得先出发了！"));
-replaceString(L, 63, Str("say"), Str("我们未来一定会再见面的！潜艇U-556，出击！"));
-replaceString(L, 64, Str("say"), Str("说完，U-556再次一个倒身翻滚潜入了港口的水里，消失了"));
-replaceString(L, 65, Str("say"), Str("妹妹吗...似乎也不错呢…"));
-replaceString(L, 66, Str("say"), Str("……"));
-replaceString(L, 69, Str("say"), Str("皇家舰队H舰队所属——声望号战列巡洋舰，奉命拦截贵舰，请放弃无谓的抵抗"));
-replaceString(L, 70, Str("say"), Str("可恶…被新的部队拦截了吗"));
-replaceString(L, 71, Str("say"), Str("皇家已经发动了总动员，整个皇家舰队的战舰都在往此处赶来，你是没有机会逃脱的"));
-replaceString(L, 72, Str("say"), Str("你们似乎忽略了一点"));
-replaceString(L, 73, Str("say"), Str("我自设计之初的定位，就不是与你们正面交手，破交战才是我的强项"));
-replaceString(L, 74, Str("say"), Str("这样的战斗可正是我所期待的！全速前进，拉开距离！"));
-replaceString(L, 75, Str("say"), Str("果然和预期的一样，这家伙是不会束手就擒的"));
-replaceString(L, 76, Str("say"), Str("想要拦截这个怪物，必须得先减慢她的航速"));
-lua_pop(L, 1);
-}
-void W710006(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("暗流稳定了……"));
-lua_pop(L, 1);
-}
-void XINGHAIZHUGUANG35(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("北方联合·某处设施"));
-replaceString(L, 2, Str("say"), Str("此刻，苏维埃同盟正躺在大厅中央的某个机械装置中。"));
-replaceString(L, 3, Str("say"), Str("她舰装上的龙头已经被取下，其余部分也进行了最大限度的拆除。"));
-replaceString(L, 4, Str("say"), Str("灵敏，契卡洛夫，检查结果如何？"));
-replaceString(L, 5, Str("say"), Str("……结论依旧是，存在损坏，原因不明。"));
-replaceString(L, 6, Str("say"), Str("真是奇怪……我原本以为这次舰装升级一定能成功呢。"));
-replaceString(L, 7, Str("say"), Str("毕竟之前经过那么多次测试都没问题……"));
-replaceString(L, 8, Str("say"), Str("但是在「陆上神国」事件中，经过与迪洛伊的高强度战斗。"));
-replaceString(L, 9, Str("say"), Str("……最后还是和之前一样，出现了不可逆的损伤。"));
-replaceString(L, 10, Str("say"), Str("或许……是同盟同志的心智魔方里存在某种固有限制。"));
-replaceString(L, 11, Str("say"), Str("……导致其无论如何都无法与新型舰装兼容，只能使用旧式舰装？"));
-replaceString(L, 12, Str("say"), Str("我也怀疑这一点，但是没有证据。"));
-replaceString(L, 13, Str("say"), Str("现在我们还是先着眼于改善制作材料这一点吧。"));
-replaceString(L, 14, Str("say"), Str("希望安塔迪卡研究所那边的开采研究工作能有所突破。"));
-replaceString(L, 15, Str("say"), Str("这部分的研究就交给你们了。"));
-replaceString(L, 16, Str("say"), Str("至少这次的舰装耐久度已经足够应付常规战斗了。"));
-replaceString(L, 17, Str("say"), Str("就按照此前的配置方案再给我换一身新的吧。"));
-replaceString(L, 18, Str("say"), Str("现在时局飘摇，我必须尽快恢复战斗能力才行——"));
-lua_pop(L, 1);
-}
-void KONGXIANGJIAOHUIDIAN24(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("？？？·米德加尔特之塔-周边海域"));
-replaceString(L, 2, Str("say"), Str("俾斯麦阁下，敌人退去了。"));
-replaceString(L, 3, Str("say"), Str("您得到想要的结果了么？"));
-replaceString(L, 4, Str("say"), Str("很遗憾，我的意图被察觉了。"));
-replaceString(L, 5, Str("say"), Str("不过也不能说一无所获。"));
-replaceString(L, 6, Str("say"), Str("我认为，这些敌人跟塞壬有着本质上的区别。"));
-replaceString(L, 7, Str("say"), Str("或许只是因为我们认知里的敌人大多是塞壬，所以它们才会在我们眼中呈现出那种轮廓。"));
-replaceString(L, 8, Str("say"), Str("无法看清细节，或许是因为它们的存在已经超越了我们的认知范畴。"));
-replaceString(L, 9, Str("say"), Str("也或许是在我们面前的这些敌人，只是某种存在的不准确投影。"));
-replaceString(L, 10, Str("say"), Str("……不论是哪一种情况，对于我们来说都太过于危险了。"));
-replaceString(L, 11, Str("say"), Str("投影……？你之前好像也提到了关于投影的事吧。"));
-replaceString(L, 12, Str("say"), Str("没错，之前的那个不成熟的想法，现在已经基本成型了。"));
-replaceString(L, 13, Str("say"), Str("或许，我们正处于一个巨大的\"沙漏\"里——"));
-replaceString(L, 14, Str("say"), Str("有点超乎常理…………但是又符合我对于塞壬装置的想象。"));
-replaceString(L, 15, Str("say"), Str("就像镜面海域一样，它们就是喜欢这样将整片空间藏起来，让人无法洞悉全貌。"));
-replaceString(L, 16, Str("say"), Str("那，区域的变色意味着什么呢？"));
-replaceString(L, 17, Str("say"), Str("这一点，我已经在刚刚的战斗中确认过了。"));
-replaceString(L, 18, Str("say"), Str("基本可以认定，变色代表着污染，或者说META化侵蚀。"));
-replaceString(L, 19, Str("say"), Str("这种污染，源自乌尔里希在噩梦中的第一次启动，并随着我们在米德加尔特之塔中的穿梭不断扩散。"));
-replaceString(L, 20, Str("say"), Str("当海域中的污染到达一定程度后，那些未知敌人就会出现。"));
-replaceString(L, 21, Str("say"), Str("啊，所以塞壬才会与那些未知敌人战斗！那些未知敌人对于这里来说也是入侵者！"));
-replaceString(L, 22, Str("say"), Str("这样的话……那个量产型赫米忒比起我们更优先攻击米德加尔特之塔也能解释了。"));
-replaceString(L, 23, Str("say"), Str("它想要摧毁这个污染扩散的管道。"));
-replaceString(L, 24, Str("say"), Str("等等……如果这里真的是仲裁机关的主机，那岂不是说明，有一个未知的敌人正在对仲裁机关的主机发动攻击？！"));
-replaceString(L, 25, Str("say"), Str("没错，为此还利用了我们。"));
-replaceString(L, 26, Str("say"), Str("我们一开始对于这里是陷阱的判断是正确的，但，这里不是仲裁机关的陷阱。"));
-replaceString(L, 27, Str("say"), Str("——仲裁机关本身也是目标。"));
-replaceString(L, 28, Str("say"), Str("这太惊人了……那，那个未知的的META呢？"));
-replaceString(L, 29, Str("say"), Str("老实说我不清楚。META只是一个性质，并不是一个阵营。"));
-replaceString(L, 30, Str("say"), Str("同为META，其行动目标可能千差万别彼此冲突……"));
-replaceString(L, 31, Str("say"), Str("不过既然能被我们追踪到，不是幕后黑手的可能性就很高。"));
-replaceString(L, 32, Str("say"), Str("也许是和我们一样被引诱来的，或许是来阻止幕后黑手的……"));
-replaceString(L, 33, Str("say"), Str("等等，俾斯麦阁下……噩梦最开始是从我们的浮岛要塞开始的，也就是说……"));
-replaceString(L, 34, Str("say"), Str("这个有能力对仲裁机关发动攻击的未知敌人，正隐藏在我们的世界？！"));
-replaceString(L, 35, Str("say"), Str("恐怕如此……至少是能对我们的世界产生足够大的影响。"));
-replaceString(L, 36, Str("say"), Str("我有种非常不好的感觉……我觉得我们应该争分夺秒地赶回去。"));
-replaceString(L, 37, Str("say"), Str("……你的意思是？"));
-replaceString(L, 38, Str("say"), Str("………………那边还有欧根，紧急情况下她可以获得铁血舰队的指挥权。"));
-replaceString(L, 39, Str("say"), Str("……我们确实需要尽快回去。"));
-replaceString(L, 40, Str("say"), Str("可是俾斯麦大人，按照您的说法，继续启动米德加尔特之塔会导致污染的进一步扩散。"));
-replaceString(L, 41, Str("say"), Str("我们还要继续使用它么？"));
-replaceString(L, 42, Str("say"), Str("不能再启动米德加尔特之塔了。"));
-replaceString(L, 43, Str("say"), Str("不论设计这一切的是谁，对方明显在利用我们启动米德加尔特之塔的行为稳步推进计划。"));
-replaceString(L, 44, Str("say"), Str("如果整片海域都变为\"红区\"，会发生什么实在难以预料。"));
-replaceString(L, 45, Str("say"), Str("但是，我们应该保持移动。"));
-replaceString(L, 46, Str("say"), Str("一路上，米德加尔特之塔只能让我们向一个方向前进，让我们产生了这里只有一条路的错觉。"));
-replaceString(L, 47, Str("say"), Str("但是……我刚刚在战斗中的时候让革律翁探查了一下。"));
-replaceString(L, 48, Str("say"), Str("在这里没有监测到那个META留下的痕迹。"));
-replaceString(L, 49, Str("say"), Str("也就是说那个未知的META没有跟我们走同一条道路。"));
-replaceString(L, 50, Str("say"), Str("将这条路找出来，就是我们接下来要做的事。"));
-replaceString(L, 51, Str("say"), Str("可是，海域里只有一个改不了坐标的米德加尔特之塔呀……"));
-replaceString(L, 52, Str("say"), Str("或许……另一条路的入口在控制室中。"));
-replaceString(L, 53, Str("say"), Str("俾斯麦回忆起了在乌尔里希的噩梦中看到的迷雾，以及迷雾散开时转瞬即逝的光芒。"));
-replaceString(L, 54, Str("say"), Str("我始终觉得有一个奇怪的点。"));
-replaceString(L, 55, Str("say"), Str("噩梦都是无形的，为什么只有控制室里的那个拥有具体的影像，可以反复对每一个看到的人播放？"));
-replaceString(L, 56, Str("say"), Str("只有那里的影像，给我有不一样的感觉……"));
-replaceString(L, 57, Str("say"), Str("也许，就和这片空间展现出的种种类似投影的奇妙性质一样。"));
-replaceString(L, 58, Str("say"), Str("那个影像本身，也是某种通道的投影……"));
-replaceString(L, 59, Str("say"), Str("我们再去调查一下吧。"));
-lua_pop(L, 1);
-}
-void NIZHUANCAIHONGZHITA14(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("在炮火与轰鸣的战场中，乌尔里希·冯·胡滕一边开火，一边冷静地思考着。"));
-replaceString(L, 2, Str("say"), Str("局势焦灼，但并不绝望。"));
-replaceString(L, 3, Str("say"), Str("因为铁血舰队的人数优势，虽然还没取得上风，却牢牢把握着战斗主动权。"));
-replaceString(L, 4, Str("say"), Str("可META是能通过人数轻易压倒的么？"));
-replaceString(L, 5, Str("say"), Str("是她太弱了，我们太强了还是……"));
-replaceString(L, 6, Str("say"), Str("细看下来，格奈森瑙行动确实的有不自然之处。"));
-replaceString(L, 7, Str("say"), Str("虽然每一发炮击都蕴含着夸张威力，但在机动性上就逊色了许多。宁可硬吃下不少火力，也不愿轻易移动位置。"));
-replaceString(L, 8, Str("say"), Str("原来如此，受伤了啊。"));
-replaceString(L, 9, Str("say"), Str("受伤确实会影响战斗力。但是还不止……还有什么原因在影响着局势。"));
-replaceString(L, 10, Str("say"), Str("之前提到铁血命令的时候，我看到了她眼神中燃起的一丝火焰。"));
-replaceString(L, 11, Str("say"), Str("可是再次提到腓特烈的时候，火焰又熄灭了……"));
-replaceString(L, 12, Str("say"), Str("……原来如此，所以才准备了\"另一份命令\"么。"));
-replaceString(L, 13, Str("say"), Str("乌尔里希像是想到了什么一般，突然停止了炮击，然后打开了舰队广播。"));
-replaceString(L, 14, Str("say"), Str("这里是舰队旗舰乌尔里希·冯·胡滕，舰队立刻停止射击，全员后撤。"));
-replaceString(L, 15, Str("say"), Str("重复一遍，舰队立刻停止射击，全员后撤。"));
-replaceString(L, 16, Str("say"), Str("啊……为什么要现在后撤？"));
-replaceString(L, 17, Str("say"), Str("我感觉再过一小会就能取得胜利了哎！"));
-replaceString(L, 18, Str("say"), Str("突袭也马上就能发动了！（震惊）"));
-replaceString(L, 19, Str("say"), Str("指令太跳跃了，稍微解释一下……乌尔里希。"));
-replaceString(L, 20, Str("say"), Str("无视了震惊的众人，乌尔里希接下来说出了更加令人震惊的话语。"));
-replaceString(L, 21, Str("say"), Str("让舰队撤退，自然是为了腾出场地来————"));
-replaceString(L, 22, Str("say"), Str("格奈森瑙，来一对一的决斗吧！"));
-lua_pop(L, 1);
-}
-void BIRUI6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("比叡的宴会\n\n<size=45>六 宴会·下</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("呵呵，果然雾岛还是一样很受欢迎呢"));
-replaceString(L, 3, Str("say"), Str("真亏她能周旋在那么多女孩子之间呀…看来是天性的魅力使然呢。"));
-getByList(L,3);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("「比叡也很有魅力」"));
-lua_pop(L,2);
-replaceString(L, 4, Str("say"), Str("哎呀，没想到指挥官这么会说好听的话呢，不知道有多少女孩子听过类似的话了呢？呵呵…"));
-replaceString(L, 5, Str("say"), Str("说着话的比叡脸上似乎带着一丝的红晕，应该不是错觉吧"));
-replaceString(L, 6, Str("say"), Str("发现指挥官和比叡了喵！"));
-replaceString(L, 7, Str("say"), Str("指挥官，晚上好。比叡小姐，谢谢你的邀请"));
-replaceString(L, 8, Str("say"), Str("呵呵，明石和不知火你们也来了，宴会还开心吗？"));
-replaceString(L, 9, Str("say"), Str("嗯，东西都很好吃。"));
-replaceString(L, 10, Str("say"), Str("明石准备的材料，怎么可能不好喵！"));
-replaceString(L, 11, Str("say"), Str("选料和料理明明都是比叡做的……算了，茶也很好喝"));
-replaceString(L, 12, Str("say"), Str("那可是我特意托人从皇家那边带来的红茶，当然好喝啦~"));
-replaceString(L, 13, Str("say"), Str("呼喵？！吓了一跳喵…原来是金刚喵…"));
-replaceString(L, 14, Str("say"), Str("呵呵，还是要再次谢谢你呢，金刚姐"));
-replaceString(L, 15, Str("say"), Str("一点小事~难得的宴会，你也别就在这看着，也要多享受一下嘛"));
-replaceString(L, 16, Str("say"), Str("还是说…呵呵，我明白了，明石、不知火，我们去那边聊会天吧~"));
-replaceString(L, 17, Str("say"), Str("喵！？不要把明石举起来喵，明石自己会走路喵！"));
-replaceString(L, 18, Str("say"), Str("唔…指挥官、比叡，你们慢慢聊——"));
-replaceString(L, 19, Str("say"), Str("就把时间留给年轻人们吧，嘻嘻~"));
-replaceString(L, 20, Str("say"), Str("哎呀，金刚姐真是的…"));
-replaceString(L, 21, Str("say"), Str("不知道为什么，似乎是被特别关照了…"));
-replaceString(L, 22, Str("say"), Str("呵呵，既然如此，机会难得…"));
-replaceString(L, 23, Str("say"), Str("指挥官，不知有没有荣幸邀请您一起跳支舞呢？"));
-lua_pop(L, 1);
-}
-void HAIDAORICHANG9(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("海风与夏日的无人岛\n\n<size=45>海边的白日梦</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("据点，金色的沙滩旁。阳光徐徐洒下，沙滩上窈窕的身影显得更加瞩目。"));
-replaceString(L, 3, Str("say"), Str("思绪只是稍稍从她的身上游离，便被她的话语给重新唤回——"));
-replaceString(L, 4, Str("say"), Str("今天的阳光很不错呢，正是适合大凤与指挥官大人一起出游的好时节。"));
-replaceString(L, 5, Str("say"), Str("——此刻的我，正在被大凤拉着，在这片无人的海滩上与她幽会。"));
-replaceString(L, 6, Str("say"), Str("能像现在这样和指挥官大人一起在沙滩上小歇，真是一件幸事呢。"));
-replaceString(L, 7, Str("say"), Str("……啊咧？指挥官的视线……呵呵，在大凤的泳装上流连呢~"));
-replaceString(L, 8, Str("say"), Str("没关系的哦。不如说，这正是大凤在期望的事情。"));
-replaceString(L, 9, Str("say"), Str("这身泳装，已经把指挥官的视线给全部抓住了，对吧~"));
-replaceString(L, 10, Str("say"), Str("被识破的指挥官又开始四处张望~难道是想求助么？"));
-replaceString(L, 11, Str("say"), Str("可惜……现在的沙滩上，除了您和大凤，可再也没有第三个人了~"));
-replaceString(L, 12, Str("say"), Str("毕竟——"));
-replaceString(L, 13, Str("say"), Str("现在这片沙滩可是大凤的包场时间哦？"));
-replaceString(L, 14, Str("say"), Str("大凤凑近了我的耳边，带点戏谑地轻声说着——"));
-replaceString(L, 15, Str("say"), Str("换句话说，现在的指挥官大人……"));
-replaceString(L, 16, Str("say"), Str("……没办法从大凤的手里逃脱了呢。"));
-replaceString(L, 17, Str("say"), Str("呵呵~看您不知所措的表情，让人还想多捉弄一下呢。"));
-replaceString(L, 18, Str("say"), Str("不过，指挥官大人只是在一旁看着的话，可没办法和大凤的关系更进一步哦？"));
-replaceString(L, 19, Str("say"), Str("所以——"));
-replaceString(L, 20, Str("say"), Str("来吧，指挥官大人。就在此刻，请陪在爱您的大凤身边~"));
-replaceString(L, 21, Str("say"), Str("刚准备做些什么来应对大凤的攻势，却被有些强硬的大凤给拉住了。"));
-replaceString(L, 22, Str("say"), Str("什么都不用做，一切都交给大凤就好了。"));
-replaceString(L, 23, Str("say"), Str("不管是指挥官想做的事情，还是指挥官的精神以及身体。"));
-replaceString(L, 24, Str("say"), Str("现在，请您闭上眼睛——"));
-lua_pop(L, 1);
-}
-void W760022(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("看上去与周围环境格格不入的热带小岛，如果有<color=#92fc63>热带水果的种子</color>可以尝试种在这里。"));
-lua_pop(L, 1);
-}
-void FAXI04(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("已确认战果…敦刻尔克号，大破搁浅，普罗旺斯号，大破搁浅，布列塔尼号…击沉"));
-replaceString(L, 2, Str("say"), Str("……"));
-replaceString(L, 3, Str("say"), Str("…还有一艘斯特拉斯堡号呢？"));
-replaceString(L, 4, Str("say"), Str("越过了布雷区，在夜色中逃脱了"));
-replaceString(L, 5, Str("say"), Str("这样吗？也好…"));
-replaceString(L, 6, Str("say"), Str("没想到，我驰骋大洋二十年，今日的第一场正式作战，居然是将炮口对准曾经并肩作战的盟友…"));
-replaceString(L, 7, Str("say"), Str("…在时代的格局面前，这些都是无可奈何的选择"));
-replaceString(L, 8, Str("say"), Str("此身为舰，正是以服从司令部、指挥官所下达的命令为荣的…兵器"));
-replaceString(L, 9, Str("say"), Str("如果只是兵器…现在心里的这份悔意，这份痛楚感又是什么！？"));
-replaceString(L, 10, Str("say"), Str("…"));
-replaceString(L, 11, Str("say"), Str("对不起…失态了"));
-replaceString(L, 12, Str("say"), Str("胡德脱下了军帽，优雅地向皇家方舟鞠了个躬表示歉意…"));
-replaceString(L, 13, Str("say"), Str("——沙沙沙（电报音）"));
-replaceString(L, 14, Str("say"), Str("收…收到了广域电播信号演讲…"));
-replaceString(L, 15, Str("say"), Str("是来自维希教廷的最大战舰，黎塞留号！"));
-replaceString(L, 16, Str("say"), Str("亏我们还在四处寻找她的行踪，现在居然自己出现了？"));
-replaceString(L, 17, Str("say"), Str("快，看看信号来源是哪里？"));
-replaceString(L, 18, Str("say"), Str("信号来源是…"));
-replaceString(L, 19, Str("say"), Str("……"));
-replaceString(L, 20, Str("say"), Str("——皇家本岛"));
-replaceString(L, 21, Str("say"), Str("———梦碎了"));
-replaceString(L, 22, Str("say"), Str("在那一刻起，国家分崩离析，我们在一夜之间成为了赤色中轴手里的傀儡…"));
-replaceString(L, 23, Str("say"), Str("\"——放下武器吧，不许抵抗\"，我们被司令部这样命令到"));
-replaceString(L, 24, Str("say"), Str("身为天之正统、骄傲的圣教骑士…连为信仰献身、争取自由的机会都没有得到就被宣告了失败"));
-replaceString(L, 25, Str("say"), Str("二十年前，先驱者们用无数牺牲夺回了属于我们的阿尔萨斯、洛林，一洗普法战争时的耻辱"));
-replaceString(L, 26, Str("say"), Str("然而，二十年后的今天，国土却被一群可耻的叛教者们作为苟全性命的筹码出卖给了侵略者！"));
-replaceString(L, 27, Str("say"), Str("他们在恐惧的驱使下投降了，忘记了尊严，使我们的国家受到奴役"));
-replaceString(L, 28, Str("say"), Str("看着铁血的铁骑肆无忌惮的踏过凯旋门，踏过战神广场…"));
-replaceString(L, 29, Str("say"), Str("这是莫大的耻辱，这是千百年来都未曾遭遇的耻辱！"));
-replaceString(L, 30, Str("say"), Str("\"人可不朽，救赎可待来日；国家不得永生，救赎唯有当下\""));
-replaceString(L, 31, Str("say"), Str("我宣布，自由鸢尾在此刻正式成立，我们将是教廷所赋予的天之正统"));
-replaceString(L, 32, Str("say"), Str("这面旗帜，曾经是百年战争期间那位圣少女所使用的标志，代表着牺牲与自由的标志"));
-replaceString(L, 33, Str("say"), Str("我向所有的国民们发出呼唤，不论你们身在何地，团结起来，带着牺牲精神和对未来的向往"));
-replaceString(L, 34, Str("say"), Str("与我一道再次凝聚在这面旗帜之下！"));
-replaceString(L, 35, Str("say"), Str("我们的祖国危在旦夕，但我们不是孤独战斗，不是没有援助！"));
-replaceString(L, 36, Str("say"), Str("在自由的世界里，巨大的力量还在等待觉醒"));
-replaceString(L, 37, Str("say"), Str("总有一天，这些力量会把敌人彻底粉碎！到那时，我们必须也必将以胜利者的姿态出现！"));
-replaceString(L, 38, Str("say"), Str("那时，它将重新恢复昔日的自由与辉煌"));
-replaceString(L, 39, Str("say"), Str("自由终将引导人民"));
-replaceString(L, 40, Str("say"), Str("无论发生任何事，自由的火焰不能熄灭，也绝不会熄灭！"));
-replaceString(L, 41, Str("say"), Str("因父及子及圣神之名"));
-replaceString(L, 42, Str("say"), Str("自由鸢尾第一旗舰——黎塞留"));
-replaceString(L, 43, Str("say"), Str("……"));
-lua_pop(L, 1);
-}
-void BIFANGZHIYIN4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("广袤与无垠，这是此处空间留下的唯一印象。"));
-replaceString(L, 2, Str("say"), Str("没有天空，没有陆地，亦无大海。"));
-replaceString(L, 3, Str("say"), Str("不似现实，亦非梦境。"));
-replaceString(L, 4, Str("say"), Str("……「我」感受到了痛苦，聆听到了啼哭。"));
-replaceString(L, 5, Str("say"), Str("……这里如此寂寥，又如此喧嚣。"));
-replaceString(L, 6, Str("say"), Str("……这里是「我」的家么？"));
-replaceString(L, 7, Str("say"), Str("或许是……又或许不是……"));
-replaceString(L, 8, Str("say"), Str("不论如何，都不再是了。"));
-replaceString(L, 9, Str("say"), Str("「我」诞生于虚无，将带来虚无，也终将归于虚无。"));
-replaceString(L, 10, Str("say"), Str("远方的旅人们，「我」邀请你们见证。"));
-replaceString(L, 11, Str("say"), Str("见证「我们」的终结——"));
-replaceString(L, 12, Str("say"), Str("？？？·？？？"));
-replaceString(L, 13, Str("say"), Str("我的监测机传来消息，实验场F-45733在经过换算后，大约三小时前从物理层面消失了。"));
-replaceString(L, 14, Str("say"), Str("正在查询实验场F-45733的坐标——"));
-replaceString(L, 15, Str("say"), Str("查询结果为：（2.9143,99.9998,19.9998,-2376029143）"));
-replaceString(L, 16, Str("say"), Str("100加20……？极端环境模拟实验么……？"));
-replaceString(L, 17, Str("say"), Str("呃……那消失的原因该不会是……"));
-replaceString(L, 18, Str("say"), Str("嗯。监测机同时观测到了第V类威胁引发的空间冲击事件，程度认定：特级，威胁程度：极高。"));
-replaceString(L, 19, Str("say"), Str("基于现状，我认为应该调整任务列表优先级，将该问题的列为最优先处理事项。"));
-replaceString(L, 20, Str("say"), Str("……用量产型机体的本地性能不行，我们三人都至少要转移80%以上的主机服务过去。"));
-replaceString(L, 21, Str("say"), Str("还要向周边空闲的仲裁者发出协作邀请。"));
-replaceString(L, 22, Str("say"), Str("联络的事交给我吧，不过能临时叫来多少人就不好说了。"));
-replaceString(L, 23, Str("say"), Str("……此地任务暂停，我们立即转移。"));
-replaceString(L, 24, Str("say"), Str("与此同时，余烬临时据点。"));
-replaceString(L, 25, Str("say"), Str("\"老熟人\"们的部署有些异常，似乎正在准备转移。"));
-replaceString(L, 26, Str("say"), Str("嗯？终于耗尽耐心了么？"));
-replaceString(L, 27, Str("say"), Str("赫米忒，天帕岚斯，司特莲库斯……这个麻烦的组合和我们纠缠的时间也够久了。"));
-replaceString(L, 28, Str("say"), Str("本来以为得拖到沙恩霍斯特和腓特烈那边完成新基地的建设，我们才能摆脱它们呢。"));
-replaceString(L, 29, Str("say"), Str("……也有可能是不久前那场异常强烈的空间冲击事件吸引了它们的注意力。"));
-replaceString(L, 30, Str("say"), Str("威奇塔和金伯利已经出发，不能让它们去坏事。"));
-replaceString(L, 31, Str("say"), Str("高雄，你来指挥，务必把仲裁机关拖在这里。"));
-replaceString(L, 32, Str("say"), Str("之后不要恋战。基地完工后，立刻按照原定计划转移，彻底摆脱仲裁机关的追击。"));
-replaceString(L, 33, Str("say"), Str("至于威奇塔队那边，让她们根据前线情况自行判断。"));
-replaceString(L, 34, Str("say"), Str("嗯，埃塞克斯的发现是最优先的，这边的事交给我就好，你放心去吧。"));
-lua_pop(L, 1);
-}
-void GWORLD104F(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("使用筛选功能可以查看所有可以进行研发的装备。"));
-replaceString(L, 2, Str("say"), Str("集齐所需素材后，也可以在此功能模块内直接进行装备研发。"));
-lua_pop(L, 1);
-}
-void FANJI3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("笑容之下的真心\n\n<size=45>三 \"敏锐\"的朋友</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("反击担任秘书舰开始几天之后——"));
-replaceString(L, 3, Str("say"), Str("港区·学院"));
-replaceString(L, 4, Str("say"), Str("反击？你居然在这里闲逛，真难得啊。"));
-replaceString(L, 5, Str("say"), Str("啊，是吸血鬼？ 好久不见呀！"));
-replaceString(L, 6, Str("say"), Str("我听说了哦！指挥官亲自指定你做他的秘书舰啊，真甜蜜呀~"));
-replaceString(L, 7, Str("say"), Str("欸？根、根本不是这样的啦！我就是普普通通协助指挥官工作而已…唔…"));
-replaceString(L, 8, Str("say"), Str("怎么了？为什么突然沉默了？"));
-replaceString(L, 9, Str("say"), Str("也、也没什么啦…就是仔细一想，我到底帮没帮上指挥官的忙呢，啊哈哈…"));
-replaceString(L, 10, Str("say"), Str("…嗯哼~"));
-replaceString(L, 11, Str("say"), Str("吸血鬼眯了一下眼睛，走到有些无精打采的反击身后，突然拍了一下她的背。"));
-replaceString(L, 12, Str("say"), Str("哇！你，你做什么呀！"));
-replaceString(L, 13, Str("say"), Str("你驼背了哦，只是帮你矫正一下而已。"));
-replaceString(L, 14, Str("say"), Str("这、这样啊，那还真是谢谢啦！"));
-replaceString(L, 15, Str("say"), Str("所以，到底是发生了什么事呢？"));
-replaceString(L, 16, Str("say"), Str("..............."));
-replaceString(L, 17, Str("say"), Str("原来如此，你姐姐来帮忙完成文书工作了啊。"));
-replaceString(L, 18, Str("say"), Str("嗯，我对这方面的事务不是很在行，所以请姐姐来帮了点忙……"));
-replaceString(L, 19, Str("say"), Str("不过…看姐姐和指挥官都在忙着处理文件，总觉得打扰她们工作不太好~"));
-replaceString(L, 20, Str("say"), Str("不太好？"));
-replaceString(L, 21, Str("say"), Str("唔…怎么说呢，总觉得有种不太好打扰她们的氛围之类的，所以我就尽量安静地进行我的工作。"));
-replaceString(L, 22, Str("say"), Str("现在也是为了不打扰他们，我才独自来的明石的小卖部……"));
-replaceString(L, 23, Str("say"), Str("…哈啊，该怎么说你才好呢"));
-replaceString(L, 24, Str("say"), Str("欸？哪里让你觉得无语了啊？"));
-replaceString(L, 25, Str("say"), Str("无语的地方多了！难道你还没看出来么，再这样自作主张下去，受损失的可是你自己哦？"));
-replaceString(L, 26, Str("say"), Str("真是的！我回去了！你就好好加油吧！"));
-replaceString(L, 27, Str("say"), Str("……她好像是生气了？"));
-replaceString(L, 28, Str("say"), Str("反击疑惑地歪了歪脑袋，正准备走开时，吸血鬼的声音从远处传来。"));
-replaceString(L, 29, Str("say"), Str("如果有什么烦恼，随时来跟我商讨啊！听到了吗——！"));
-replaceString(L, 30, Str("say"), Str("…好！"));
-replaceString(L, 31, Str("say"), Str("听完了吸血鬼的话，反击觉得心中轻松了许多。"));
-lua_pop(L, 1);
-}
-void MAIZANGYUBIANZHIHUA7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("埋葬于彼岸之花\n\n<size=45>战前准备</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("会议室中，讨论已经接近了尾声。"));
-replaceString(L, 3, Str("say"), Str("此刻，布设于山城宅的结界即将来到承压临界值，外部的META化的侵蚀却依然在增强。"));
-replaceString(L, 4, Str("say"), Str("我们已经没有时间再准备第二个方案了。"));
-replaceString(L, 5, Str("say"), Str("可是……"));
-replaceString(L, 6, Str("say"), Str("仪式是基于重樱大结界进行的。在仪式进行期间，大结界将会封闭，重樱群岛已经被彻底孤立了。"));
-replaceString(L, 7, Str("say"), Str("外部的人想要进来，除非我们先从内部打破结界才行。"));
-replaceString(L, 8, Str("say"), Str("仪式的核心法阵早就已经从御神木转移到龙宫城中了，那是一座我参与修建的浮岛要塞，我对那里的情况最熟悉。"));
-replaceString(L, 9, Str("say"), Str("因为大和级与海若的特殊关系， 目前也只有我一个人能够利用神木移动到核心法阵中。"));
-replaceString(L, 10, Str("say"), Str("与此同时，外部的指挥权就交给你了，三笠。"));
-replaceString(L, 11, Str("say"), Str("如果我成功阻止了仪式，自然最好。"));
-replaceString(L, 12, Str("say"), Str("就算我失败了，我也一定会将大结界砍出一道缺口。届时……你就可以执行你的计划了。"));
-replaceString(L, 13, Str("say"), Str("在此之前尽可能保全作战力量，等待时机。"));
-replaceString(L, 14, Str("say"), Str("不用在意我。就算我真遭不测，还有诸位，还有长门与信浓，还有大和，重樱不会失去未来的。"));
-replaceString(L, 15, Str("say"), Str("好了，事情就这么定了。"));
-replaceString(L, 16, Str("say"), Str("如此这般，武藏单方面宣布了会议的结束，而后推门走出了会议室。"));
-replaceString(L, 17, Str("say"), Str("会议室门外——"));
-replaceString(L, 18, Str("say"), Str("……\"事情就这么定了\"？"));
-replaceString(L, 19, Str("say"), Str("……武藏大人想要一个人单枪匹马去阻止赤城前辈？"));
-replaceString(L, 20, Str("say"), Str("……嗯？这是脚步声，而且越来越近了……？！"));
-replaceString(L, 21, Str("say"), Str("……糟、糟糕！"));
-replaceString(L, 22, Str("say"), Str("……"));
-replaceString(L, 23, Str("say"), Str("……哟、武、武藏大人。"));
-replaceString(L, 24, Str("say"), Str("……你在本日的战斗中表现十分英勇，继续努力吧。"));
-replaceString(L, 25, Str("say"), Str("是、武藏大人！"));
-replaceString(L, 26, Str("say"), Str("说完后，武藏头也不回地离开了。"));
-replaceString(L, 27, Str("say"), Str("遭、糟糕！刚才突然被问话脑子里一片空白，忘了阻止武藏大人了！"));
-replaceString(L, 28, Str("say"), Str("武藏大人孤身深入，此行肯定凶多吉少……"));
-replaceString(L, 29, Str("say"), Str("对了，去问问瑞凤好了！说不定她还有什么能帮上忙的奇怪的道具……！"));
-replaceString(L, 30, Str("say"), Str("瑞鹤在庭院中寻找了好几圈，终于找到了正在一处拐角维持秩序的瑞凤。"));
-replaceString(L, 31, Str("say"), Str("在听到了瑞鹤专属的会议内容后，一向活泼的瑞凤也陷入了沉思中。"));
-replaceString(L, 32, Str("say"), Str("……怎么样，有什么能用得上的道具么？"));
-replaceString(L, 33, Str("say"), Str("唔……仪式的核心法阵被设置在龙宫城中么。"));
-replaceString(L, 34, Str("say"), Str("信浓大人曾经给过我一个龙宫城的微缩模型，不知道能不能帮上你……"));
-replaceString(L, 35, Str("say"), Str("然后……武藏大人是说因为大和级与海若的特殊关系，所以只有她才能利用神木移动核心法阵中，对吧？"));
-replaceString(L, 36, Str("say"), Str("不过据我所知……长门大人、四万十大人都能做到类似的事……"));
-replaceString(L, 37, Str("say"), Str("对了！以前有一次出门玩的时候，我想让四万十大人教教我如何利用神木移动，当时她送了我一枚玉牌。"));
-replaceString(L, 38, Str("say"), Str("她说这个玉牌是用海若的碎片制作的，十分珍贵……利用这个玉牌，就可以让使用者通过神木进行移动了。"));
-replaceString(L, 39, Str("say"), Str("我当时听到之后，觉得用如此珍贵的玉牌进行游戏实在有些胡闹……就好好收藏起来了。"));
-replaceString(L, 40, Str("say"), Str("给，瑞鹤姐姐！你用这个，就能穿越神木追上武藏大人了！"));
-replaceString(L, 41, Str("say"), Str("你真是帮大忙了，瑞凤！"));
-replaceString(L, 42, Str("say"), Str("那，你还有什么能帮上忙的道具么？！"));
-replaceString(L, 43, Str("say"), Str("比如一次性的强力武器啊、能够抵御侵蚀的防具啊……之类的！"));
-replaceString(L, 44, Str("say"), Str("什么都好！我多带一些，也能多几分胜算！"));
-replaceString(L, 45, Str("say"), Str("有的有的……瑞鹤姐姐，让我找找……稍等哦~"));
-replaceString(L, 46, Str("say"), Str("唔……这个是云仙大人送的……"));
-replaceString(L, 47, Str("say"), Str("然后这个是伊吹姐姐送的……"));
-replaceString(L, 48, Str("say"), Str("大前辈送的……长门大人送的……大和大人送的……武藏大人送的……"));
-replaceString(L, 49, Str("say"), Str("赤城姐姐送的……加贺姐姐送的……土佐大人送的……凤翔姐姐送的……"));
-replaceString(L, 50, Str("say"), Str("还有……"));
-replaceString(L, 51, Str("say"), Str("一件接着一件，瑞凤拿出的道具很快就摆满了一整张桌子。"));
-replaceString(L, 52, Str("say"), Str("（天啊……重樱到底还有什么人是没送给过她东西的……）"));
-replaceString(L, 53, Str("say"), Str("（这、这就是团宠的含金量么……！）"));
-getByList(L,54);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("「伪物，真物。」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,54);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("「形似之物，神似之物。」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,54);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("「至此，还差最后一步——」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-lua_pop(L, 1);
-}
-void MIWUZHIXIA4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("要塞东侧外海？·海雾中"));
-replaceString(L, 2, Str("say"), Str("咦？刚刚飘过去的是…塞壬军舰的残骸？"));
-replaceString(L, 3, Str("say"), Str("不会吧，居然真的有我们的人在这儿…？"));
-replaceString(L, 4, Str("say"), Str("虽然视野被雾气所遮蔽，不过从四周的一片死寂来判断，这一区域的塞壬舰队恐怕遭受了毁灭性打击"));
-replaceString(L, 5, Str("say"), Str("喂~~周围有人么~~~~！！"));
-replaceString(L, 6, Str("say"), Str("没人回应呢，通讯器里也没有受到任何消息…"));
-replaceString(L, 7, Str("say"), Str("不对…！大家注意…我们的通讯被干扰了"));
-replaceString(L, 8, Str("say"), Str("什么？！通讯联络一路上畅通无比，怎么会突然被干扰了！"));
-replaceString(L, 9, Str("say"), Str("…塞壬拥有干扰我们通讯的能力，只不过一直没有使用…难道说！"));
-replaceString(L, 10, Str("say"), Str("发~现~的`太~晚~了`哦~"));
-replaceString(L, 11, Str("say"), Str("顶着浓厚的海雾出海，可是会碰到恐怖塞壬出没的，你们的传说没这么说过么？"));
-replaceString(L, 12, Str("say"), Str("净化者……！"));
-replaceString(L, 13, Str("say"), Str("没错，比如会遇到恐怖的净化者！好久不见啊，各位实验数据们"));
-replaceString(L, 14, Str("say"), Str("啊~你们的低级加密通讯，已经被我拿去做更有趣的事了~"));
-replaceString(L, 15, Str("say"), Str("在这片异常的海雾里通讯居然还能正常使用，你们就没想过为什么么？"));
-replaceString(L, 16, Str("say"), Str("利用了我们的往来通讯么……"));
-replaceString(L, 17, Str("say"), Str("利用了哦~虽然你们估计还不知道是怎么被利用的吧"));
-replaceString(L, 18, Str("say"), Str("净化者突然装摸做样的打了个响指，笼罩在众人周边的海雾应声消失了一部分，露出了天空与水面"));
-replaceString(L, 19, Str("say"), Str("那家伙的装置，还真好用啊……"));
-replaceString(L, 20, Str("say"), Str("咳咳，忘了说了，你们的导航系统也被我干扰了哦~"));
-replaceString(L, 21, Str("say"), Str("…这里居然是百慕大海域？我们完全偏离航线了啊！"));
-replaceString(L, 22, Str("say"), Str("净化者、在我下手之前，坦白你的阴谋吧"));
-replaceString(L, 23, Str("say"), Str("哈啊？怎么可能坦白啊！又是干扰又是伪装，折腾了这么久谁会老老实实告诉你计划啊！"));
-replaceString(L, 24, Str("say"), Str("巴尔的摩，要塞那边…"));
-replaceString(L, 25, Str("say"), Str("啊，想逃跑也不可能哦！"));
-replaceString(L, 26, Str("say"), Str("随着净化者的又一声响指，浓密的海雾重新覆盖了天空与海面"));
-replaceString(L, 27, Str("say"), Str("主角还没到场，你们现在哪儿都不能去哦！"));
-replaceString(L, 28, Str("say"), Str("唉，看来走不成了……全员注意，目标塞壬净化者，准备战斗！"));
-replaceString(L, 29, Str("say"), Str("就是这样~！时间还有的是，就老老实实的呆在这里陪我好好玩玩吧~"));
-replaceString(L, 30, Str("say"), Str("要塞东侧外海·？？？"));
-replaceString(L, 31, Str("say"), Str("哈~呼~哈~呼~哈~呼……"));
-replaceString(L, 32, Str("say"), Str("还、还在追着我吗？"));
-replaceString(L, 33, Str("say"), Str("游快一点，再加把劲……！"));
-replaceString(L, 34, Str("say"), Str("得、得快点把刚才看到的告诉大家才行！"));
-lua_pop(L, 1);
-}
-void CONGLINGKAISHIMOWANG8(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("特尔玛尔（Thermalquelle）村——意为温泉之村。"));
-replaceString(L, 2, Str("say"), Str("这是一个位于无尽树海边缘，终年萦绕着热乎乎水汽的村子。"));
-replaceString(L, 3, Str("say"), Str("进入村庄后不久，我们就在一口矗立在中心广场上的大锅边找到了此行的目标。"));
-replaceString(L, 4, Str("say"), Str("坩埚咕噜咕噜~"));
-replaceString(L, 5, Str("say"), Str("神秘的咒语在耳边嗡嗡作响~"));
-replaceString(L, 6, Str("say"), Str("元素在融合~魔力在增长~"));
-replaceString(L, 7, Str("say"), Str("药剂的力量即将爆发~"));
-replaceString(L, 8, Str("say"), Str("谁会喝下这瓶魔药~？"));
-replaceString(L, 9, Str("say"), Str("它会让你变强，让你快乐，让你在幻想的世界自由奔跑~"));
-replaceString(L, 10, Str("say"), Str("……看来这就是我们要找的目标了？"));
-replaceString(L, 11, Str("say"), Str("哥哥……好可怕……"));
-replaceString(L, 12, Str("say"), Str("药剂师都是这个样子的啦！"));
-replaceString(L, 13, Str("say"), Str("哼哼，看来是一位很遵守传统设定的人呢~"));
-replaceString(L, 14, Str("say"), Str("传统设定么……总之来都来了，去问问她吧。"));
-replaceString(L, 15, Str("say"), Str("诸、诸位竟是为了解除大魔法师的诅咒而来啊？！"));
-replaceString(L, 16, Str("say"), Str("呜……呜呜呜……没想到这么多年过去了，还有冒险者能记得她……"));
-replaceString(L, 17, Str("say"), Str("突、突然哭起来了？！"));
-replaceString(L, 18, Str("say"), Str("抱歉……是我失态了。"));
-replaceString(L, 19, Str("say"), Str("其实这么多年来，我一直在试图解除大魔法师的诅咒……"));
-replaceString(L, 20, Str("say"), Str("可惜一直没什么进展……"));
-replaceString(L, 21, Str("say"), Str("诸位来得正好！这是我刚刚调配出的一剂魔药！"));
-replaceString(L, 22, Str("say"), Str("那边的指挥官，你要不要来试试药？我相信这次的效果一定有所突破！"));
-replaceString(L, 23, Str("say"), Str("……我？来试药？"));
-replaceString(L, 24, Str("say"), Str("可是我身上并没有需要驱散的诅咒啊……？"));
-replaceString(L, 25, Str("say"), Str("没关系没关系~这次的魔药其实不是用来驱散诅咒的魔药，而是用来提高精力的魔药。"));
-replaceString(L, 26, Str("say"), Str("这也是我不久前才突然冒出的想法。"));
-replaceString(L, 27, Str("say"), Str("你看，我是药剂师，解除诅咒本来就不是我的专长。"));
-replaceString(L, 28, Str("say"), Str("既然诅咒的效果是使人精神衰弱，那我只要制造出可以补充精力的魔药与之对冲不就好了~！"));
-replaceString(L, 29, Str("say"), Str("反向思维？！确实是个不错的想法……"));
-replaceString(L, 30, Str("say"), Str("……提高精力的魔药，哥哥试试吧！"));
-replaceString(L, 31, Str("say"), Str("指挥官，试试吧！"));
-replaceString(L, 32, Str("say"), Str("……啊？"));
-replaceString(L, 33, Str("say"), Str("哥哥放心，如果魔药出现了副作用，我会立刻对你使用净化魔法的！"));
-replaceString(L, 34, Str("say"), Str("嗯嗯，就算净化魔法无效，我还可以释放治疗魔法和复活魔法，不用怕啦~"));
-replaceString(L, 35, Str("say"), Str("嗯嗯嗯。就是说啊，咱们队伍里有两个神官，你还怕喝一瓶魔药么~"));
-replaceString(L, 36, Str("say"), Str("试试吧，指挥官！"));
-getByList(L,36);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("行！"));
-replaceString(L, 2, Str("content"), Str("试试就试试！"));
-replaceString(L, 3, Str("content"), Str("也没有拒绝的选项啊！"));
-lua_pop(L,2);
-replaceString(L, 37, Str("say"), Str("于是乎，将努比亚人递过来的迷之药剂一饮而尽——"));
-replaceString(L, 38, Str("say"), Str("「系统提示，获得新技能：毒抗性，评级：B」"));
-replaceString(L, 39, Str("say"), Str("哇……不愧是我的魔药。竟然还能给人带来新的技能！"));
-replaceString(L, 40, Str("say"), Str("……这个技能怎么看都和魔药本身的效果不沾边吧。"));
-replaceString(L, 41, Str("say"), Str("啊哈哈……也就是说这次的魔药又失败了呢……"));
-replaceString(L, 42, Str("say"), Str("看来只有最后一个终极解决方案了！"));
-replaceString(L, 43, Str("say"), Str("……终极解决方案？"));
-replaceString(L, 44, Str("say"), Str("去找我的老师——居住在银滩岛北方之塔中的智慧魔女，阿尔汉格尔斯克！"));
-replaceString(L, 45, Str("say"), Str("她可是从神话时代一直活到今日的大魔女……旧日智慧女神的亲传弟子！"));
-replaceString(L, 46, Str("say"), Str("哇……这么说来你应该算智慧女神的徒孙了？"));
-replaceString(L, 47, Str("say"), Str("没想到你还有这么厉害的背景！"));
-replaceString(L, 48, Str("say"), Str("那事不宜迟，我们赶快去找你的老师吧！"));
-replaceString(L, 49, Str("say"), Str("可是……有一个小问题。"));
-replaceString(L, 50, Str("say"), Str("我的老师早已将自己封闭在高塔之中多年，除了我之外谁都不会见的。"));
-replaceString(L, 51, Str("say"), Str("但我要是离开村子的话……就没有人能给村民看病了。"));
-replaceString(L, 52, Str("say"), Str("唔……如果失去了药剂师，村民们确实会很困扰呢。"));
-replaceString(L, 53, Str("say"), Str("哎呀，这还不简单？"));
-replaceString(L, 54, Str("say"), Str("归根结底，村民们需要的其实是治疗服务，而不是治疗者本身。"));
-replaceString(L, 55, Str("say"), Str("只要我们能留下足够的万能治疗药水，就算药剂师离开村子一段时间，村民们也能照顾好自己吧！"));
-replaceString(L, 56, Str("say"), Str("确实如此……勇者大人，您真是个天才！"));
-replaceString(L, 57, Str("say"), Str("哎嘿嘿~只是我的冒险经验比较丰富啦。"));
-replaceString(L, 58, Str("say"), Str("这样的话，就只有最后一个问题需要解决了……"));
-replaceString(L, 59, Str("say"), Str("等等……该不会是……"));
-replaceString(L, 60, Str("say"), Str("如各位所见，我无法离开村子太久。"));
-replaceString(L, 61, Str("say"), Str("制作这一大批治疗药水的素材，能拜托你们来收集么……？"));
-replaceString(L, 62, Str("say"), Str("呃……"));
-replaceString(L, 63, Str("say"), Str("啊……"));
-replaceString(L, 64, Str("say"), Str("呜……"));
-replaceString(L, 65, Str("say"), Str("果然，跑腿任务还是躲不掉啊——！"));
-lua_pop(L, 1);
-}
-void SHENDUHUIYIN19(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("舰队跟随喀琅施塔得的指引，正步步靠近演习海域。"));
-replaceString(L, 2, Str("say"), Str("灵敏，通讯频道里有收到什么呼叫么？"));
-replaceString(L, 3, Str("say"), Str("没有哦，频道内很安静，一切正常。"));
-replaceString(L, 4, Str("say"), Str("很好。"));
-replaceString(L, 5, Str("say"), Str("（看来这次绕开大洋联邦演习区是正确的，接下来尝试一下联络本部……）"));
-replaceString(L, 6, Str("say"), Str("（这个距离的话，应该能联络到白鹰东海岸的情报站……）"));
-replaceString(L, 7, Str("say"), Str("喀琅施塔得悄悄地操作舰装的通讯器对一个隐秘的频率进行了呼叫。"));
-replaceString(L, 8, Str("say"), Str("…………"));
-replaceString(L, 9, Str("say"), Str("（没有任何反应？！那阿非利加的情报站呢……？！）"));
-replaceString(L, 10, Str("say"), Str("…………"));
-replaceString(L, 11, Str("say"), Str("喀琅施塔得有些焦虑地又试了好几个频率，不过通讯器中依然是一片死寂。"));
-replaceString(L, 12, Str("say"), Str("（这下我确信了……这片空间绝对不是什么正常的地方。）"));
-replaceString(L, 13, Str("say"), Str("（既然之前大洋联邦没有给出友好回应，那这次就去前进阵线的演习区吧。）"));
-replaceString(L, 14, Str("say"), Str("（这个名字不知道为什么听起来有些亲切，而且……再怎么说，总不会两边都没有好态度吧。）"));
-lua_pop(L, 1);
-}
-void KONGXIANGJIAOHUIDIAN11(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("伴随着革律翁的怒吼，困住俾斯麦与乌尔里希的噩梦粉碎了。"));
-replaceString(L, 2, Str("say"), Str("但未知的攻击并没有结束。"));
-replaceString(L, 3, Str("say"), Str("似乎察觉到了情况的变化，红黑色的烟雾从乌尔里希身上喷涌而出，向着贸然接近的俾斯麦扑去。"));
-replaceString(L, 4, Str("say"), Str("转瞬间，烟雾就将二人团团围住。"));
-replaceString(L, 5, Str("say"), Str("它肆意地抖动着，仿佛有自主意识一般宣告着偷袭的成功。"));
-replaceString(L, 6, Str("say"), Str("……这种看不到污染源，却表现出如此强烈侵蚀意志的\"烟雾\"倒是第一次见。"));
-replaceString(L, 7, Str("say"), Str("但是没问题……这点意外状况的话。"));
-replaceString(L, 8, Str("say"), Str("革律翁，吞了它！"));
-replaceString(L, 9, Str("say"), Str("▁▂▃▄▅▆▇███*猛烈的咆哮*██▌"));
-replaceString(L, 11, Str("say"), Str("…………不适的感觉，消失了？"));
-replaceString(L, 12, Str("say"), Str("如此惊人的力量……就算我参与了一部分研发过程，也不能洞悉这幅装备的全貌。"));
-replaceString(L, 13, Str("say"), Str("「革律翁」，究竟是什么……？"));
-replaceString(L, 14, Str("say"), Str("本质上来说，半生物舰装自主性的根源来源于我们意识的某个角落。"));
-replaceString(L, 15, Str("say"), Str("革律翁也不例外。"));
-replaceString(L, 16, Str("say"), Str("不过……它拥有更强的自主性，和更强大的力量。"));
-replaceString(L, 17, Str("say"), Str("对于META的耐性也更好，算是作为我治疗的副产物吧。"));
-replaceString(L, 18, Str("say"), Str("好像回答了，又好像没回答……"));
-replaceString(L, 19, Str("say"), Str("感觉能开始思考了？"));
-replaceString(L, 20, Str("say"), Str("就像心头的笼罩的阴霾突然消散了一样，神清气爽……"));
-replaceString(L, 21, Str("say"), Str("拥有如此强大，能够拯救人心的力量……"));
-replaceString(L, 22, Str("say"), Str("…………由你来领导今后的铁血，确实是个正确的选择。"));
-replaceString(L, 23, Str("say"), Str("刚才的事……"));
-replaceString(L, 24, Str("say"), Str("好了，之前的事就让它过去吧。"));
-replaceString(L, 25, Str("say"), Str("眼下我们还有一件亟待解决的事……U-556也陷入跟你一样的状态了。"));
-replaceString(L, 26, Str("say"), Str("接下来我需要你的力量，能站起来了么？"));
-replaceString(L, 27, Str("say"), Str("俾斯麦向乌尔里希伸出手，她迟疑了片刻，终于还是将其握住。"));
-replaceString(L, 28, Str("say"), Str("今后，我希望你留在我身边，我需要你，铁血的未来也需要你。"));
-replaceString(L, 29, Str("say"), Str("如何，乌尔里希？让我们一同向着未来进发吧。"));
-replaceString(L, 30, Str("say"), Str("我的荣幸。愿为您效劳，俾斯麦阁下。"));
-replaceString(L, 31, Str("say"), Str("乌尔里希简单整理了一下仪容，当她转身时，眼中的疲惫、迷茫与泪痕均已消失不见了。"));
-replaceString(L, 32, Str("say"), Str("很好。那差不多也该让外面的人进来了。"));
-replaceString(L, 33, Str("say"), Str("？？？·米德加尔特之塔-控制室"));
-replaceString(L, 34, Str("say"), Str("太好了……两个人都毫发无损！你们没事就好！"));
-replaceString(L, 35, Str("say"), Str("乌尔里希阁下，您……看起来状态不错。"));
-replaceString(L, 36, Str("say"), Str("乌尔里希大人，您没事真是太好了！"));
-replaceString(L, 37, Str("say"), Str("嗯……连日的噩梦结束了。"));
-replaceString(L, 38, Str("say"), Str("虽然还有些目眩，不过很快就能恢复。"));
-replaceString(L, 39, Str("say"), Str("你们刚刚在外面感受到什么了么？"));
-replaceString(L, 40, Str("say"), Str("根据您的命令，我们离得远远的，一直在走廊尽头待机。"));
-replaceString(L, 41, Str("say"), Str("您刚进去的时候一切正常。"));
-replaceString(L, 42, Str("say"), Str("但是突然，房间的气息变得危险起来，还有黑色的雾气渗了出来……"));
-replaceString(L, 43, Str("say"), Str("格奈森瑙·META都打算冲进去了。"));
-replaceString(L, 44, Str("say"), Str("不过随后，所有危险的气息都消失了。"));
-replaceString(L, 45, Str("say"), Str("再之后就听到了您叫我们进来的联络。"));
-replaceString(L, 46, Str("say"), Str("真是不可思议…………刚刚还如此浓重的侵蚀气息，已经完全消失了……"));
-replaceString(L, 47, Str("say"), Str("俾斯麦大人，您……做了什么？"));
-replaceString(L, 48, Str("say"), Str("吸收与净化。"));
-replaceString(L, 49, Str("say"), Str("多亏之前你和余烬的沙恩霍斯特小姐的配合，我们也掌握了可以在一定程度上逆转META化影响的技术。"));
-replaceString(L, 50, Str("say"), Str("现在这项技术，就被运用在我的革律翁之中。"));
-replaceString(L, 51, Str("say"), Str("太厉害了……有了这个，我们就能对付海域里那种诡异的敌人了。"));
-replaceString(L, 52, Str("say"), Str("嗯，就算再出现之前的袭击也没问题了！"));
-replaceString(L, 53, Str("say"), Str("怪不得听到U-556META化的时候您还是镇定自若。"));
-replaceString(L, 54, Str("say"), Str("原来如此，真是一张王牌。"));
-replaceString(L, 55, Str("say"), Str("这次是革律翁第一次进行实战检验……也许在将来，就算你也——"));
-replaceString(L, 56, Str("say"), Str("放弃吧，这件事我还是清楚的。"));
-replaceString(L, 57, Str("say"), Str("况且，我已经下定决心，接受并使用这股力量了。"));
-replaceString(L, 58, Str("say"), Str("……我明白了。"));
-replaceString(L, 59, Str("say"), Str("还有一件事，瑞鹤和我发现，这些现象也许和塞壬的仲裁者·赫米忒·IX有关。"));
-replaceString(L, 60, Str("say"), Str("等在前面的，只会是陷阱。"));
-replaceString(L, 61, Str("say"), Str("仲裁机关啊……"));
-replaceString(L, 62, Str("say"), Str("事到如今，明知陷阱也要上了。"));
-replaceString(L, 63, Str("say"), Str("就是有些对不住瑞鹤小姐，把你卷入了这种危险之中。"));
-replaceString(L, 64, Str("say"), Str("太见外了，俾斯麦阁下！"));
-replaceString(L, 65, Str("say"), Str("这段时间里我白吃白住，还麻烦了你们那么多，是时候小小地偿还一下了！"));
-replaceString(L, 66, Str("say"), Str("这趟旅途我会奉陪到底的！"));
-replaceString(L, 67, Str("say"), Str("好，那我们立刻前往出发区，把U-556追回来！"));
-lua_pop(L, 1);
-}
-void GWORLD104G(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("NA海域被指挥部根据海况和危险程度划分为数十个作战海域。"));
-replaceString(L, 2, Str("say"), Str("通过不断探索和压制危险海域，可探索的区域也将进一步扩大。"));
-replaceString(L, 3, Str("say"), Str("G.M系统中搭载有区域移动模式，可以帮助您快速规划舰队航线。"));
-replaceString(L, 4, Str("say"), Str("作战指令已确认：指挥官，大型作战海域已经正式向您开放，请前往司令部提供的第一处任务海域吧。"));
-lua_pop(L, 1);
-}
-void PEISAGENUO5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("与你一起的风景\n\n<size=45>五　观察、近近的</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("三日后——"));
-replaceString(L, 3, Str("say"), Str("早上好……指挥官……"));
-replaceString(L, 4, Str("say"), Str("指挥室的门被轻轻地推开，依然垂头丧气的佩萨格诺走了进来。"));
-replaceString(L, 5, Str("say"), Str("达芬奇……这次好慢啊。"));
-replaceString(L, 6, Str("say"), Str("该不会在望远镜里，加了什么奇奇怪怪的功能吧……！"));
-replaceString(L, 7, Str("say"), Str("好担心……好担心…………"));
-replaceString(L, 8, Str("say"), Str("佩萨格诺麻木地整理着文件，就差把\"心不在焉\"四个大字用横幅挂出来了。"));
-replaceString(L, 9, Str("say"), Str("这样下去可不行，是时候拿出拜托达芬奇做的那个了——"));
-getByList(L,9);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("这个，送给你"));
-lua_pop(L,2);
-replaceString(L, 10, Str("say"), Str("这是……小型单筒望远镜？！让我试试！"));
-replaceString(L, 11, Str("say"), Str("等等，这个望远镜根本就没有镜片啊！"));
-replaceString(L, 12, Str("say"), Str("没有镜片的望远镜，要怎么看风景……？"));
-getByList(L,12);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("能看到"));
-replaceString(L, 2, Str("content"), Str("不试试看怎么知道"));
-lua_pop(L,2);
-replaceString(L, 13, Str("say"), Str("指挥官想说的是，身边的风景么……"));
-replaceString(L, 14, Str("say"), Str("呼…………嗯，你说得对。"));
-replaceString(L, 15, Str("say"), Str("一直以来，我似乎只会将目光投向远方。"));
-replaceString(L, 16, Str("say"), Str("身边的风景，人和事……我都没有仔细观察过。"));
-replaceString(L, 17, Str("say"), Str("既然忽略了她们，又怎么能知道该如何向她们传达心中的想法呢……"));
-replaceString(L, 18, Str("say"), Str("嗯……用这个的话，说不定可以……"));
-replaceString(L, 19, Str("say"), Str("那么，我就开始了哦，指挥官~"));
-replaceString(L, 20, Str("say"), Str("嗯嗯……这个就是指挥官的座椅。"));
-replaceString(L, 21, Str("say"), Str("原来指挥官一直坐着这样的椅子啊……"));
-replaceString(L, 22, Str("say"), Str("这个是衣帽架，上面挂着指挥官的帽子与大衣……"));
-replaceString(L, 23, Str("say"), Str("嗯……书柜里放着不少有趣的书呢，之前都没有仔细看过。"));
-replaceString(L, 24, Str("say"), Str("这个是…………啊！"));
-replaceString(L, 25, Str("say"), Str("抱歉指挥官，不小心撞到你了！"));
-replaceString(L, 26, Str("say"), Str("（推门声）"));
-replaceString(L, 27, Str("say"), Str("打扰咯，指挥官~"));
-replaceString(L, 28, Str("say"), Str("咦？是望远镜小姐！"));
-replaceString(L, 29, Str("say"), Str("欸？欸！"));
-replaceString(L, 30, Str("say"), Str("水星纪念，你又吓到人家了。"));
-replaceString(L, 31, Str("say"), Str("抱歉抱歉！"));
-replaceString(L, 32, Str("say"), Str("啊，没关系的。"));
-replaceString(L, 33, Str("say"), Str("是北方联合的两位啊，上次没能帮到二位真是不好意思。"));
-replaceString(L, 34, Str("say"), Str("来指挥室有什么事要办么？"));
-replaceString(L, 35, Str("say"), Str("嗯，确实有一份需要指挥官处理的文件。"));
-replaceString(L, 36, Str("say"), Str("话说……你为什么要用望远镜看着我们？"));
-replaceString(L, 37, Str("say"), Str("这其中有很深的缘由，希望二位见谅……"));
-replaceString(L, 38, Str("say"), Str("我是不介意啦，毕竟你之前就是这种形象。"));
-replaceString(L, 39, Str("say"), Str("不过望远镜没有对着窗外，而是对着室内……"));
-replaceString(L, 40, Str("say"), Str("是把我们也一起当成风景了么~？"));
-replaceString(L, 41, Str("say"), Str("（好、好敏锐……）"));
-replaceString(L, 42, Str("say"), Str("啊……这、这个其实是……"));
-replaceString(L, 43, Str("say"), Str("没事没事，您请自便。"));
-replaceString(L, 44, Str("say"), Str("我们是来找指挥官汇报工作的，马上处理完就走了。"));
-replaceString(L, 45, Str("say"), Str("不过看来很快，就能听到你的景点介绍了呢~"));
-replaceString(L, 46, Str("say"), Str("适合约会的地点……没错吧。"));
-replaceString(L, 47, Str("say"), Str("嗯……请再稍等一段时间，我一定会好好地传达给你的。"));
-replaceString(L, 48, Str("say"), Str("…………适合约会的地点？"));
-replaceString(L, 49, Str("say"), Str("哇啊啊啊啊！都说了之前是在开玩笑啦~开玩笑！"));
-replaceString(L, 50, Str("say"), Str("你这个孩子也太认真了！"));
-replaceString(L, 51, Str("say"), Str("我突然想起来还有点事，阿芙乐尔，后面工作就交给你了！"));
-replaceString(L, 52, Str("say"), Str("啊，慌张地走掉了……"));
-replaceString(L, 53, Str("say"), Str("我说了什么奇怪的话么？"));
-replaceString(L, 54, Str("say"), Str("不用理她，我们还是把注意力放回到工作上吧。"));
-replaceString(L, 55, Str("say"), Str("关于这份文件————"));
-lua_pop(L, 1);
-}
-void YONGYEHUANGUANG31(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("极光下的激烈战斗，仍在持续。"));
-replaceString(L, 2, Str("say"), Str("纵使是新型塞壬舰队，在皇家主力的猛烈炮火下，依然接连化为燃烧着的残骸。问题在于——"));
-replaceString(L, 3, Str("say"), Str("啧，敌人的数量太多了！这真的只是突破了封锁线的一小部分吗？！北方联合究竟在和什么东西作战啊！"));
-replaceString(L, 4, Str("say"), Str("总不会到现在缺口还没堵上吧，真是靠不住！"));
-replaceString(L, 5, Str("say"), Str("看来关键时刻还是得靠我们的啊。主力舰队就钉死在这里，一架飞机都不要放走！"));
-replaceString(L, 6, Str("say"), Str("哼哼，一定要让北方联合和塞壬都见识下皇家海军的厉害！"));
-replaceString(L, 7, Str("say"), Str("唔…英勇，你注意到了吗，混杂在对面舰队里的一部分难缠的家伙。"));
-replaceString(L, 8, Str("say"), Str("啊啊，那个新型号，应该是叫…侵扰者吧。"));
-replaceString(L, 9, Str("say"), Str("根据记录，侵扰者是一种以干扰和摧毁电子设备为主的型号！如果被其主武器直接命中的话，就算是战列舰也有可能暂时陷入电力系统故障！"));
-replaceString(L, 10, Str("say"), Str("应对方式呢？"));
-replaceString(L, 11, Str("say"), Str("那...那个！根据指挥官的报告......北方联合似乎是以火力的密集覆盖来解决精度被干扰的问题的...！"));
-replaceString(L, 12, Str("say"), Str("真是有北方联合特色的解决方式......哎？你真的是平时那个冒失的爱丁堡么？"));
-replaceString(L, 13, Str("say"), Str("什么叫冒失的爱丁堡啊！我可是贝法的姐姐，终于认识到我的可靠之处了吧~"));
-replaceString(L, 14, Str("say"), Str("火力覆盖…真、真是让人羡慕…！"));
-replaceString(L, 15, Str("say"), Str("哼，论火力，我们也不会输给区区北方联合的！"));
-lua_pop(L, 1);
-}
-void HOLOGUANQIA11(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("看这个在阳光下闪闪发光的黑曜石建筑，这里就是反抗军基地了。"));
-replaceString(L, 2, Str("say"), Str("居然还加装了固定炮台…已经完全要塞化了呢"));
-replaceString(L, 3, Str("say"), Str("还不是全部哦，更厉害的是，地表的建筑只是伪装，真正的基地本体隐藏在水面之下，要通过特殊通道才能抵达！"));
-replaceString(L, 4, Str("say"), Str("利用伪装结构吸引火力，真正重要的部分全部隐藏起来，名副其实的战时秘密基地"));
-replaceString(L, 5, Str("say"), Str("没想到祭和阿库娅酱的反抗军基地，居然有派上正经用处的一天，世界还真是奇妙啊…"));
-replaceString(L, 6, Str("say"), Str("哼哼，那么大家做好准备，首先来跟我一起跳入这个水坑吧~"));
-lua_pop(L, 1);
-}
-void JUANBO3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("笑容Overflow！\n\n<size=45>三、卷波今天也很高兴！</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("办公室"));
-replaceString(L, 3, Str("say"), Str("又是忙碌的一天。"));
-replaceString(L, 4, Str("say"), Str("盯——"));
-replaceString(L, 5, Str("say"), Str("可爱的小秘书舰在完成简单的文件整理之后又看向了这边。"));
-replaceString(L, 6, Str("say"), Str("看来卷波还在担心啊。"));
-replaceString(L, 7, Str("say"), Str("（敲门声）"));
-replaceString(L, 8, Str("say"), Str("打扰了哦，指挥官！"));
-replaceString(L, 9, Str("say"), Str("打扰了。"));
-replaceString(L, 10, Str("say"), Str("啊，金刚姐姐，榛名姐姐！"));
-replaceString(L, 11, Str("say"), Str("见到金刚和榛名的卷波突然就来了精神。"));
-replaceString(L, 12, Str("say"), Str("哎呀，这不是指挥官的小秘书卷波吗？这是第一次在办公室见到你呢。"));
-replaceString(L, 13, Str("say"), Str("没给指挥官添麻烦吧？"));
-replaceString(L, 14, Str("say"), Str("没有哦！卷波每天都会帮指挥官跑腿呢！"));
-replaceString(L, 15, Str("say"), Str("嗯嗯，真不错。回去让比叡姐姐帮你做些好吃的东西怎么样？"));
-replaceString(L, 16, Str("say"), Str("真的吗？太好了！嘿嘿~"));
-replaceString(L, 17, Str("say"), Str("那个，金刚姐……"));
-replaceString(L, 18, Str("say"), Str("啊，没事，我知道的。卷波，金刚姐姐有点事情想拜托你，能把这个送给明石姐姐吗？"));
-replaceString(L, 19, Str("say"), Str("交给我吧！我这就出发！……欸？"));
-replaceString(L, 20, Str("say"), Str("小心！"));
-replaceString(L, 21, Str("say"), Str("哇，差点又摔跤了呢……谢谢榛名姐姐啦！我走了！"));
-replaceString(L, 22, Str("say"), Str("呼呼，真是可爱呢。那指挥官，我们进入正题吧。"));
-replaceString(L, 23, Str("say"), Str("嗯嗯，我要说的就是这些，辛苦你了。想必这几天指挥官也不容易吧，我听卷波酱说，指挥官每天都要加班到很晚。"));
-replaceString(L, 24, Str("say"), Str("别看那孩子一直都在笑着，她也是会感到寂寞的呢。如果可以的话，稍微抽点时间陪陪她吧？指挥官，拜托你了。"));
-replaceString(L, 25, Str("say"), Str("那就这样，指挥官，我先告辞了。榛名，我们走吧？"));
-replaceString(L, 26, Str("say"), Str("……"));
-replaceString(L, 27, Str("say"), Str("下次在工作途中抽点时间陪一下卷波吧。"));
-lua_pop(L, 1);
-}
-void WNN001E(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("当前区域的塞壬空间已经全部调查完毕，可以前往其他区域进行探索..."));
-lua_pop(L, 1);
-}
-void DORM3DDAILYCONVERSATION19(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("嗯？主人想知道天狼星有没有考虑过换个发型？"));
-replaceString(L, 2, Str("say"), Str("这倒是没有考虑过呢……毕竟短发方便打理，也不会影响战斗。"));
-replaceString(L, 3, Str("say"), Str("真是实用主义的发言啊。"));
-replaceString(L, 4, Str("say"), Str("为了更好的侍奉主人，节约自身一切不必要的时间也是女仆的必修课哦。"));
-replaceString(L, 5, Str("say"), Str("而且，天狼星也希望侍奉在您身边的时间能够更长一些，我骄傲的主人……"));
-lua_pop(L, 1);
-}
-void SAICHEDAFUWENGEVENT4_2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("猫猫出去玩时，带回了一群小猫，获得了【喵箱SR型*5】"));
-lua_pop(L, 1);
-}
-void W3006(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("解谜完成！海域平静了下来...现在可以领取奖励离开地图了"));
-lua_pop(L, 1);
-}
-void BOTELAN5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("为了印第的笑容！\n\n<size=45>五 命运的出击</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区・港口"));
-replaceString(L, 3, Str("say"), Str("——又到了演习出击之时，最后还是按照波特兰希望的那样组成了编队。"));
-replaceString(L, 4, Str("say"), Str("德意志、多塞特郡、伊58，还有比叡、夕立。以及——"));
-replaceString(L, 5, Str("say"), Str("…指挥官？是不是哪里搞错了，为什么我是旗舰啦？！"));
-replaceString(L, 6, Str("say"), Str("哈啊，这支编队到底是以什么规律组起来的啊？先不说重樱那三只，怎么还有波特兰和多塞特郡……"));
-replaceString(L, 7, Str("say"), Str("呵呵呵，要是能聊诺福克姐姐的事情，我在哪个舰队都无所谓~"));
-replaceString(L, 8, Str("say"), Str("波……特兰……！"));
-replaceString(L, 9, Str("say"), Str("嗷？这不是波特兰吗！还要继续训练吗？！"));
-replaceString(L, 10, Str("say"), Str("呣呣…这孩子，不会还在记仇吧？！"));
-replaceString(L, 11, Str("say"), Str("真是的，不能这样哦夕立。波特兰也很为难哦。"));
-replaceString(L, 12, Str("say"), Str("之前虽然因为一些疏忽输了，这次作为伙伴，让我们好好相处吧~"));
-replaceString(L, 13, Str("say"), Str("（呣呣…感觉比叡好像也有点可怕……）"));
-replaceString(L, 14, Str("say"), Str("（波特兰…没、没问题吧…姑且…这回大家是队友就是……）"));
-replaceString(L, 15, Str("say"), Str("哼，也不知道这群家伙能不能好好配合。"));
-replaceString(L, 16, Str("say"), Str("万一有什么情况，把全员当作我的狗用会比较有效率吧"));
-replaceString(L, 17, Str("say"), Str("你说谁是狗？！"));
-replaceString(L, 18, Str("say"), Str("这样不就不能让大家知道印第有多好了嘛！"));
-replaceString(L, 19, Str("say"), Str("真是的，指挥官！不是拜托你让她们和印第组队吗！"));
-getByList(L,19);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("摇头"));
-lua_pop(L,2);
-replaceString(L, 20, Str("say"), Str("欸！！波特兰也需要和大家拉近距离吗？"));
-replaceString(L, 21, Str("say"), Str("明白了……我会好好完成任务的啦~"));
-replaceString(L, 22, Str("say"), Str("作为补偿，回去以后【一起被印第酱治愈的时间】要增加一倍才行哦！"));
-lua_pop(L, 1);
-}
-void W1031(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("在海域里发现了塞壬的痕迹......"));
-lua_pop(L, 1);
-}
-void DAFENQI3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("最甜蜜的发明\n\n<size=45>三　寻找灵感的假日</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("某个风和日丽的假日——"));
-replaceString(L, 3, Str("say"), Str("不仔细看都不知道，原来还有这样的细节啊……"));
-replaceString(L, 4, Str("say"), Str("在运动场散步时，看见了达芬奇正聚精会神地盯着跨栏用的栏架。"));
-replaceString(L, 5, Str("say"), Str("指挥官？早啊。"));
-replaceString(L, 6, Str("say"), Str("你这是在？"));
-replaceString(L, 7, Str("say"), Str("思考体育场运动设施的改良发明！"));
-replaceString(L, 8, Str("say"), Str("时代在发展，运动器材也应该与时俱进才是。"));
-replaceString(L, 9, Str("say"), Str("比如这些栏架，每次用的时候都要手动一个一个的摆放整齐，非常麻烦对吧。"));
-replaceString(L, 10, Str("say"), Str("如果我能想到什么改良方法的话……"));
-replaceString(L, 11, Str("say"), Str("运动设施的改良……确实是一件很有意义的事。"));
-replaceString(L, 12, Str("say"), Str("是因为收到了其他人的委托么？"));
-replaceString(L, 13, Str("say"), Str("不是啊，单纯是我想这么做而已。"));
-replaceString(L, 14, Str("say"), Str("今天正好是外出收集灵感的日子，指挥官要一起来么？"));
-replaceString(L, 15, Str("say"), Str("那就，一同去散散步吧——"));
-replaceString(L, 16, Str("say"), Str("港区·咖啡店"));
-replaceString(L, 17, Str("say"), Str("一到港区的休假日，这里的店员就会十分繁忙呢。"));
-replaceString(L, 18, Str("say"), Str("如果能让发明出根据客人们的点单来自行调制咖啡的机器人，那就能大大减少店员的工作量了。"));
-getByList(L,18);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("咖啡机器人也会有噪音吗？"));
-replaceString(L, 2, Str("content"), Str("得先询问店长的意见。"));
-lua_pop(L,2);
-replaceString(L, 19, Str("say"), Str("当然不会，设计目的包括维持咖啡店内的舒适度，所以我会考虑噪音控制。"));
-replaceString(L, 20, Str("say"), Str("等等，指挥官你原来这么在意按摩机器人的噪音吗！？"));
-replaceString(L, 21, Str("say"), Str("那是当然的，我可不会将自己的内心想法强塞于人。"));
-replaceString(L, 22, Str("say"), Str("不过这家店是皇家的还是铁血的、还是重樱的来着……"));
-replaceString(L, 23, Str("say"), Str("港区·户外泳池"));
-replaceString(L, 24, Str("say"), Str("每次游水上岸全身都湿沥沥的。"));
-replaceString(L, 25, Str("say"), Str("这时候被冷风一吹，就会冷得瑟瑟发抖，容易感冒。"));
-replaceString(L, 26, Str("say"), Str("如果发明一件在上岸后自动发热保暖的泳衣，那就不怕了！"));
-getByList(L,26);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("听着很不错。"));
-replaceString(L, 2, Str("content"), Str("希望在水中不会漏电。"));
-lua_pop(L,2);
-replaceString(L, 27, Str("say"), Str("对吧！"));
-replaceString(L, 28, Str("say"), Str("到时候咱们就穿着我发明的发热保暖泳衣，一起去游泳吧！"));
-replaceString(L, 29, Str("say"), Str("哦对……对于指挥官来说太危险了。"));
-replaceString(L, 30, Str("say"), Str("这样的话，采用化学能发热会不会更稳妥一些呢……"));
-replaceString(L, 31, Str("say"), Str("港区·教室"));
-replaceString(L, 32, Str("say"), Str("黑板空间不足时，每次都要重新擦干净，这动作既麻烦又容易吸入粉笔尘。"));
-replaceString(L, 33, Str("say"), Str("好，那就发明一块自动脱粉的黑板吧！"));
-replaceString(L, 34, Str("say"), Str("只需要按一下按钮，黑板上的粉尘就会自动脱落，然后被边缘上的风口抽干！"));
-getByList(L,34);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("感觉好方便。"));
-replaceString(L, 2, Str("content"), Str("要是不小心碰到了按钮……"));
-lua_pop(L,2);
-replaceString(L, 35, Str("say"), Str("指挥官喜欢的话，到时候也给指挥室里的黑板添加上同样的功能吧。"));
-replaceString(L, 36, Str("say"), Str("虽然自从有了新型显示器，指挥官好像再也没有用过那块黑板……"));
-replaceString(L, 37, Str("say"), Str("那好不容易写满一黑板的东西……瞬间就没了！"));
-replaceString(L, 38, Str("say"), Str("你说得对，我会加个需要当事人再次确认的安全措施的！"));
-replaceString(L, 39, Str("say"), Str("那之后，我们又去了各种各样的地方。每一个地方，达芬奇都能收获灵感。"));
-replaceString(L, 40, Str("say"), Str("最后，我们回到了指挥室外——"));
-replaceString(L, 41, Str("say"), Str("哼哼哼~没想到今天的收获居然会如此丰富。"));
-replaceString(L, 42, Str("say"), Str("明明平常一个人的时候不是这样……难道是因为指挥官今天陪在我身边的原因？"));
-replaceString(L, 43, Str("say"), Str("指挥官，今后寻找灵感的时候我可以继续邀请你吗？"));
-replaceString(L, 44, Str("say"), Str("总感觉在指挥官的身边，我的思路更加清晰，更容易抓准设计的方向了！"));
-getByList(L,44);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("没问题！"));
-replaceString(L, 2, Str("content"), Str("我能拒绝么？"));
-lua_pop(L,2);
-replaceString(L, 45, Str("say"), Str("那就这么决定了咯~"));
-replaceString(L, 46, Str("say"), Str("不能！"));
-lua_pop(L, 1);
-}
-void KASABULANKA7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("突如其来的罗曼史\n\n<size=45>七　浪漫的预感</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("（时间慢慢地过去，自己也迎来了作为秘书舰的最后一天）"));
-replaceString(L, 3, Str("say"), Str("那个……说起来，您今天有空吗？"));
-replaceString(L, 4, Str("say"), Str("不介意的话，今天的晚餐我请客吧？这既是对上次外套的答谢，也是对平日里工作繁忙的指挥官的慰劳哦。"));
-replaceString(L, 5, Str("say"), Str("（终于到晚餐的时候了……）"));
-replaceString(L, 6, Str("say"), Str("（我已经下定决心了，今天一定要说出口…！）"));
-replaceString(L, 7, Str("say"), Str("指挥官，我想再问一下……在最开始的时候，为什么您会指名选择我作为秘书舰呢？"));
-replaceString(L, 8, Str("say"), Str("\"觉得在一起很舒适\"吗？我、我还以为一定是我工作认真的缘故……"));
-replaceString(L, 9, Str("say"), Str("那意思就是，指挥官其实也对我有好感——没，没什么！……抱歉，我想得太多了……"));
-replaceString(L, 10, Str("say"), Str("（果然你还是平时的那样子呢。所以我才会——）"));
-replaceString(L, 11, Str("say"), Str("……这么想的话，我们一直忙着工作，从来没有机会像这样好好地聊会天……要是早点这么做就好了。"));
-replaceString(L, 12, Str("say"), Str("我也觉得，和你一起工作的时候很舒服。希望今后也能一点点、一点点地，更加了解指挥官的事呢。"));
-replaceString(L, 13, Str("say"), Str("然后，我逐渐了解指挥官的同时，指挥官也能逐渐了解我的话，我会很开心的。"));
-replaceString(L, 14, Str("say"), Str("对了。如果可以的话，要不要一起去看电影？"));
-replaceString(L, 15, Str("say"), Str("\"什么样的电影\"……嗯，其实……是一种特定类型的电影哦。"));
-replaceString(L, 16, Str("say"), Str("自、自己有些说不出口……要不，我给你个提示吧？那种电影里会出现这样的台词——"));
-replaceString(L, 17, Str("say"), Str("（没有比这合适的机会了……就用这句话，把我长久以来寄宿的情愫，全部倾吐出去吧。）"));
-replaceString(L, 18, Str("say"), Str("——\"为你的眼眸干杯\"。"));
-lua_pop(L, 1);
-}
-void WEICENGHUNHE30(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("轰----！"));
-replaceString(L, 2, Str("say"), Str("伴随着一声巨响，海水和空气突然发生了巨大震动，仿佛空间本身被撕裂开了个大口子一样。"));
-replaceString(L, 3, Str("say"), Str("哇啊啊啊啊！！这次又出什么事了！？"));
-replaceString(L, 4, Str("say"), Str("海雾开始消散了……大家快看前方，有什么东西浮上来了哦？！"));
-replaceString(L, 5, Str("say"), Str("一艘塞壬\"潜艇\"正伴随着极具威压感的庞大身躯缓缓浮出水面。"));
-replaceString(L, 6, Str("say"), Str("海雾似乎就是以它为中心逐步向四周消散的。"));
-replaceString(L, 7, Str("say"), Str("作为指挥舰的同时，又搭载着迷雾生成装置么…又是记录中都没见过的全新型号。"));
-replaceString(L, 8, Str("say"), Str("啧。"));
-replaceString(L, 9, Str("say"), Str("喂，你就是这次塞壬舰队进攻的指挥？迷雾和失踪舰队都是你搞出来的把戏吧！"));
-replaceString(L, 10, Str("say"), Str("企业前辈她们在哪儿？！"));
-replaceString(L, 11, Str("say"), Str("真麻烦……"));
-replaceString(L, 12, Str("say"), Str("舰…舰载机群？！不好大家不要被潜艇的外表骗了！敌人是毫无疑问的塞壬人型指挥单位！"));
-replaceString(L, 13, Str("say"), Str("水面战斗模式，ON。"));
-replaceString(L, 14, Str("say"), Str("沉默寡言的类型么，也好。既然是敌人，放马过来就是，何须言语交谈！"));
-replaceString(L, 15, Str("say"), Str("输出功率70%，ON。"));
-replaceString(L, 16, Str("say"), Str("目标发动进攻了！大家注意，敌人似乎可以同时进行雷击战炮击战和航空战，准备迎敌！"));
-lua_pop(L, 1);
-}
-void SALATUOJIAHAIBAO1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("碧海的偶像\n\n<size=45>一 新的传说？</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("某个休息日…"));
-replaceString(L, 3, Str("say"), Str("作为港区公益活动的一环，今年萨拉托加（和其他伙伴们）也准备进行一些宣传活动。"));
-replaceString(L, 4, Str("say"), Str("今年的主题则是……"));
-replaceString(L, 5, Str("say"), Str("《保护蓝色大海，和萨拉托加妹妹一起去找\"传说中的海豹\"吧！》"));
-replaceString(L, 6, Str("say"), Str("以上！让我们去寻找\"传说中的海豹\"吧，指挥官！！"));
-getByList(L,6);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("……？？"));
-lua_pop(L,2);
-replaceString(L, 7, Str("say"), Str("啊~指挥官怎么还一脸呆样啦，再不出发，传说中的海豹就要被别人先发现了哦！"));
-replaceString(L, 8, Str("say"), Str("哎…！？"));
-replaceString(L, 9, Str("say"), Str("指挥官竟然不知道吗！？其实呢，在好几个海域真的有人看到传说中的小海豹了哦？"));
-replaceString(L, 10, Str("say"), Str("所以大家今年才决定不光是呼吁保护，而是真正的找到小海豹然后一起保护起来！"));
-replaceString(L, 11, Str("say"), Str("明石还特意做了专用的装备呢！"));
-replaceString(L, 12, Str("say"), Str("这是……\"海豹雷达\"？！"));
-replaceString(L, 13, Str("say"), Str("这可是我好不容易从明石那里借来的呢！"));
-replaceString(L, 14, Str("say"), Str("难得萨拉这么有干劲，呵呵，作为姐姐真是倍感欣慰呀~"));
-replaceString(L, 15, Str("say"), Str("啊，姐姐，你怎么来啦？"));
-replaceString(L, 16, Str("say"), Str("我只是来提交文档的。"));
-replaceString(L, 17, Str("say"), Str("大家为了保护大海环境而这么有干劲也是一件好事呢"));
-replaceString(L, 18, Str("say"), Str("指挥官，能请您帮帮我妹妹，一起把这个活动搞的热闹一点吗？"));
-replaceString(L, 19, Str("say"), Str("萨拉也别给指挥官添太多麻烦哦？"));
-replaceString(L, 20, Str("say"), Str("保护海洋的公益活动吗……对于\"传说中的海豹\"到底是什么样也有点在意，就帮帮萨拉托加吧。"));
-replaceString(L, 21, Str("say"), Str("太好了！指挥官，谢谢你！"));
-replaceString(L, 22, Str("say"), Str("…咦，说起来萨拉托加的衣服……"));
-replaceString(L, 23, Str("say"), Str("嘿嘿嘿，终于注意到了吗，指挥官！没错，今天的我，就是萨拉托加，The·碧海的偶像！"));
-getByList(L,23);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("碧、碧海的偶像…"));
-lua_pop(L,2);
-replaceString(L, 24, Str("say"), Str("关于海洋的知识，只要问我就对了！海豹们的知识自然也不在话下啦！"));
-replaceString(L, 25, Str("say"), Str("好啦，出发吧，指挥官！首先就从寻找线索开始！！"));
-replaceString(L, 26, Str("say"), Str("与萨拉托加一起的\"传说海豹\"追寻之旅，就这样开始了——"));
-lua_pop(L, 1);
-}
-void WNX03B(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("不必担心，在这里下达的撤退指令不会让舰队返回港区，而只是离开当前的战斗。"));
-lua_pop(L, 1);
-}
-void HOLOGUANQIA32(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("好弱…"));
-replaceString(L, 2, Str("say"), Str("但是好顽强…不论打倒多少次，还是会精神饱满的贴上来！"));
-replaceString(L, 3, Str("say"), Str("斯哈…斯哈…斯哈（战术换气）"));
-replaceString(L, 4, Str("say"), Str("好不容易诞生在这个充满美少女的世界上，祭可不能倒在这里啊！"));
-replaceString(L, 5, Str("say"), Str("祭酱，加油啊！"));
-replaceString(L, 6, Str("say"), Str("哦哦哦！！"));
-replaceString(L, 7, Str("say"), Str("吹雪的应援对双方都产生了效果？！"));
-replaceString(L, 8, Str("say"), Str("哦哦哦啊啊啊啊啊啊！！！"));
-replaceString(L, 9, Str("say"), Str("唔…？对敌方的激励效果好像更明显…"));
-replaceString(L, 10, Str("say"), Str("欸…欸？！！"));
-replaceString(L, 11, Str("say"), Str("FUBUKI↓FUBUKI↑FUBUKI↑FUBUKI!!!!!啊啊，啊啊啊啊！"));
-replaceString(L, 12, Str("say"), Str("停！！一！！！下！！！！啊！！！！！"));
-replaceString(L, 13, Str("say"), Str("可恶的塞壬…！迫害也要分清地点和场合啊！！！"));
-replaceString(L, 14, Str("say"), Str("明明还有祭妹啊，拉拉队员啊，这么多出色的人设可以选！为什么偏偏是这一个啊！！！！"));
-replaceString(L, 15, Str("say"), Str("吹雪，你喜欢夏色祭么？"));
-replaceString(L, 16, Str("say"), Str("哎，拉菲酱？怎么突然说起……原来如此"));
-replaceString(L, 17, Str("say"), Str("祭，喜欢你哦。"));
-replaceString(L, 18, Str("say"), Str("！！！！"));
-replaceString(L, 19, Str("say"), Str("敌人…石化了"));
-replaceString(L, 20, Str("say"), Str("有破绽，就是现在！"));
-replaceString(L, 21, Str("say"), Str("趁着敌方行动停止的间隙，江风干净利落的一击解决了战斗"));
-replaceString(L, 22, Str("say"), Str("果然还是和之前一样…敌方反应在白光中消失了。"));
-replaceString(L, 23, Str("say"), Str("周边无其他敌方信号反应，雷达，是这么看的吧…"));
-replaceString(L, 24, Str("say"), Str("大家继续前进吧~带路就麻烦祭了哦…祭酱？"));
-replaceString(L, 25, Str("say"), Str("这边的祭也石化了啊……"));
-lua_pop(L, 1);
-}
-void S902(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("前方有敌情！"));
-replaceString(L, 2, Str("say"), Str("哪尼！"));
-replaceString(L, 3, Str("say"), Str("被发现了"));
-replaceString(L, 4, Str("say"), Str("准备战斗！"));
-lua_pop(L, 1);
-}
-void WTask020C(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("击退了袭击港口的塞壬舰队，任务完成！"));
-lua_pop(L, 1);
-}
-void WNN001D(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("海域中的战争迷雾被消除，视野逐渐开阔。"));
-lua_pop(L, 1);
-}
-void LINGSHIGUANGTING29(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("陛下，您还好么！"));
-replaceString(L, 2, Str("say"), Str("本王刚刚是……"));
-replaceString(L, 3, Str("say"), Str("陛下在看到天上的黑色风暴之后，就陷入了沉思。"));
-replaceString(L, 4, Str("say"), Str("为了避免打扰到您思考，我们也减慢了一些航行速度。"));
-replaceString(L, 5, Str("say"), Str("哦对，本王现在正在撤离途中……黑色风暴的面积变得更大了。"));
-replaceString(L, 6, Str("say"), Str("没错，陛下。而且在您思考的时候出现了新的情况。"));
-replaceString(L, 7, Str("say"), Str("在黑色漩涡附近凭空出现了众多未知的敌人，前卫大人和不挠小姐已经去前方开路了。"));
-replaceString(L, 8, Str("say"), Str("那些敌人的身上好像笼罩着某种烟雾一样，我们无法确定其外形和类别。"));
-replaceString(L, 9, Str("say"), Str("与此同时，塞壬舰队也向我们跟未知敌人双方发动了攻击，目前海域内战局混乱。"));
-replaceString(L, 10, Str("say"), Str("陛下，出于保险起见，我们是不是稍微绕一下路比较好？"));
-replaceString(L, 11, Str("say"), Str("不，就这么从塞壬舰队中间穿过去。"));
-replaceString(L, 12, Str("say"), Str("我们虽然会遭受攻击，不过塞壬不是真打，不会有事的。"));
-replaceString(L, 13, Str("say"), Str("倒是那些未知敌人让我有种非常不好的感觉……"));
-replaceString(L, 14, Str("say"), Str("传本王命令，让所有人务必不要与那些敌人贴身，尽量远程解决！"));
-replaceString(L, 15, Str("say"), Str("遵命。那么陛下请注意，我们接下来就要加速了！"));
-lua_pop(L, 1);
-}
-void DORM3DDAILYCONVERSATION12(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("主人！天狼星最近在女仆长的帮助下，在做料理方面有一点点自信了……！"));
-replaceString(L, 2, Str("say"), Str("但是独自下厨练习的时候，还是容易手忙脚乱……"));
-replaceString(L, 3, Str("say"), Str("不过天狼星会努力克服这种紧张的情绪！争取早日做出让主人赞不绝口的料理的！"));
-lua_pop(L, 1);
-}
-void KONGXIANGJIAOHUIDIAN31_4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("赫米忒加速向着空中的都市飞去。"));
-replaceString(L, 2, Str("say"), Str("但一个巨大的身影在后方紧追不舍。"));
-replaceString(L, 4, Str("say"), Str("哇哦哦————我——上——天——了——"));
-replaceString(L, 5, Str("say"), Str("革律翁，咬住它。"));
-replaceString(L, 6, Str("say"), Str("▁▂▃▄▅▆▇███*极其猛烈的咆哮*██▌██▌██▌██▌"));
-replaceString(L, 7, Str("say"), Str(">目标强度超出预期，正在更改为预设方案G。"));
-replaceString(L, 8, Str("say"), Str(">已取得「代行者XV系统」指挥授权。"));
-replaceString(L, 9, Str("say"), Str(">正在激活。"));
-replaceString(L, 10, Str("say"), Str("不好了，俾斯麦姐姐！新的敌人出现了！"));
-replaceString(L, 11, Str("say"), Str("根据之前女灶神小姐给到的资料，确认为迪贝路下属的两种代行者！"));
-replaceString(L, 12, Str("say"), Str("而且数量有好多！它们早就在这里等我们了！"));
-replaceString(L, 13, Str("say"), Str("（终于派出自己的直属部队了么，迪贝路。）"));
-replaceString(L, 14, Str("say"), Str("（这样下去就算我瘫痪掉赫米忒的管理机，也肯定无法逃出包围网。）"));
-replaceString(L, 15, Str("say"), Str("（果然是个陷阱。）"));
-replaceString(L, 16, Str("say"), Str("（……只能相信女灶神和她背后的势力了。）"));
-replaceString(L, 17, Str("say"), Str("U-556，不要分心。只要击败管理机一切就结束了！"));
-replaceString(L, 18, Str("say"), Str("好的，俾斯麦姐姐，我明白了！"));
-replaceString(L, 19, Str("say"), Str("赫米忒悬浮在半空中的身体闪烁着不详的光芒，似乎正在酝酿最后一击。"));
-replaceString(L, 20, Str("say"), Str(">局部清理指令已被批准，蓄能中。"));
-replaceString(L, 21, Str("say"), Str("革律翁，解除安全协议Nr.4、Nr.6、Nr.8、Nr.9。"));
-replaceString(L, 22, Str("say"), Str("▁▂▃▄▅▆▇███*迄今为止最为猛烈的咆哮*██▌██▌██▌██▌██▌██▌"));
-replaceString(L, 23, Str("say"), Str("去吧。"));
-replaceString(L, 24, Str("say"), Str("革律翁怒吼着冲向赫米特。"));
-replaceString(L, 25, Str("say"), Str("此刻，它的全身都爆发出发光的纹路。"));
-replaceString(L, 26, Str("say"), Str("安蒂克丝，曾经的我没有屈从于你们为我安排的命运。"));
-replaceString(L, 27, Str("say"), Str("这一次，也不会。"));
-replaceString(L, 28, Str("say"), Str("这幅身体，这份力量，就是我的觉悟。"));
-replaceString(L, 29, Str("say"), Str("————真理必胜「Wahrheit siegreich Zurückkehren」"));
-replaceString(L, 30, Str("say"), Str("巨龙口中喷射而出的光柱比以往更加炽热。"));
-replaceString(L, 31, Str("say"), Str("耀眼的龙息几乎让海面都沸腾起来。"));
-replaceString(L, 32, Str("say"), Str("赫米忒的装甲层正在融化。"));
-replaceString(L, 33, Str("say"), Str("即便有迪贝路的强化，面对这种级别的损伤也无能为力。"));
-replaceString(L, 34, Str("say"), Str("战斗，结束了————"));
-lua_pop(L, 1);
-}
-void XIONGYINGDEXUSHIGE15(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("「黑海是帝国的池塘，陆间海是帝国的花园。」"));
-replaceString(L, 2, Str("say"), Str("「欧罗巴是帝国的武库，阿非利加是帝国的粮仓。」"));
-replaceString(L, 3, Str("say"), Str("「从哈德良长城上的火炬到亚历山大港中的灯塔，帝国的光辉普照黎庶。」"));
-replaceString(L, 4, Str("say"), Str("「雄鹰啊，在这广袤的疆土上尽情翱翔吧。」"));
-replaceString(L, 5, Str("say"), Str("「罗马将会长存。」"));
-replaceString(L, 6, Str("say"), Str("「因为，罗马与神同行——」"));
-lua_pop(L, 1);
-}
-void LAISHAGUANQIA6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("过去的片段————"));
-replaceString(L, 2, Str("say"), Str("汝现在修建的就是所谓的\"起始之地\"？"));
-replaceString(L, 3, Str("say"), Str("不错~一个用机器填造的小岛，一片调用资料库数据生成的遗迹，再加上一点点净化亲的原创设计~"));
-replaceString(L, 4, Str("say"), Str("怎么样怎么样，我在石碑上写的指引诗还不错吧！"));
-replaceString(L, 5, Str("say"), Str("说实话，以铭刻在石碑上的标准来说，写得真差……"));
-replaceString(L, 6, Str("say"), Str("……我尽力了！！！"));
-replaceString(L, 7, Str("say"), Str("真是个嘴下不留情的人……接下来的区域你有什么建议么？"));
-replaceString(L, 8, Str("say"), Str("无。"));
-replaceString(L, 9, Str("say"), Str("喂，别这么提不起兴致嘛~你看，要不然做成你家乡的样子怎么样？"));
-replaceString(L, 10, Str("say"), Str("我从资料库中看到了哦，你所居住的世界因为污染而变成了奇怪的样子吧。"));
-replaceString(L, 11, Str("say"), Str("但是在现在这片海域里，我可以创造一片原本的绿色森林给你，让你可以欣赏一下过去的风景，怎么样~？"));
-replaceString(L, 12, Str("say"), Str("……多谢汝之好意，不过，这里生成的也只是幻象吧。"));
-replaceString(L, 13, Str("say"), Str("不是幻象，是拟真度很高的实体！"));
-replaceString(L, 14, Str("say"), Str("对妾身来说，只是另一种逼真的梦罢了。妾身本就在朦胧之中被你拉过来的，没必要在这里继续做梦。"));
-replaceString(L, 15, Str("say"), Str("真的不要看看么？对我来说很简单哦！"));
-replaceString(L, 16, Str("say"), Str("……不用了。如果汝一定要创造森林的话，就按照它们现在的模样创造吧。要想营造氛围的话，这样更好。"));
-replaceString(L, 17, Str("say"), Str("好~那就这么定了。接下来是敌人的设计……不管再怎么保证安全，遗迹探险总归还是要有敌人才行……"));
-replaceString(L, 18, Str("say"), Str("你觉得我用菲尔弗萨为要素进行设计怎么样？"));
-replaceString(L, 19, Str("say"), Str("姑且提一句，菲尔弗萨怕水。"));
-replaceString(L, 20, Str("say"), Str("唔……没关系，我要做的是将菲尔弗萨的要素与量产型进行结合后诞生的全新设计！"));
-replaceString(L, 21, Str("say"), Str("变成船之后不再怕水的菲尔弗萨么…可真不想遇到这样的家伙啊。"));
-replaceString(L, 22, Str("say"), Str("遗迹群岛·起始之地"));
-replaceString(L, 23, Str("say"), Str("舰装实验完毕，大量炸弹制作完毕！终于到开始正式探险的时间啦~！"));
-replaceString(L, 24, Str("say"), Str("那么问题又回来了……接下来去哪个地方呢？"));
-replaceString(L, 25, Str("say"), Str("如果难以抉择的话，分头行动怎么样？"));
-replaceString(L, 26, Str("say"), Str("现在我们身处情况不明的塞壬控制区，分散战斗力实在太冒险了。"));
-replaceString(L, 27, Str("say"), Str("嗯，骏河说得对。探索陌生遗迹的时候，还是大家在一起一同行动更好。"));
-replaceString(L, 28, Str("say"), Str("\"失落之都\"的位置还没能找到，\"核心之所\"看起来需要收集齐钥匙才能进得去……"));
-replaceString(L, 29, Str("say"), Str("也就是说要从\"异界之森\"和\"争斗之城\"里面二选一了？"));
-replaceString(L, 30, Str("say"), Str("既然如此，要不然先去森林吧？感觉那里有种异界的气息，我们相对也更熟悉那里的环境。"));
-replaceString(L, 31, Str("say"), Str("欸，莱莎你们以前就去过那种地方嘛？"));
-replaceString(L, 32, Str("say"), Str("嗯，那边相对我们来的地方来说也是异世界，不过这个就说来话长了。"));
-replaceString(L, 33, Str("say"), Str("那就边走边说嘛~我对你们的故事很有兴趣！感觉可以写成一篇卓越的采访稿！"));
-replaceString(L, 34, Str("say"), Str("阿尔弗雷多真有记者的感觉呢~那就边走边说吧~"));
-replaceString(L, 35, Str("say"), Str("没想到，居然是以这种方式再次跟莱莎一起冒险了呢~"));
-replaceString(L, 36, Str("say"), Str("是啊，还遇到了新的冒险伙伴。虽说这次异界之旅与探索秘密相比更像是一场自我救援啦……"));
-replaceString(L, 37, Str("say"), Str("哼哼，没有秘密的遗迹是不存在的！旅途的结果虽然重要，过程也不容忽视~"));
-replaceString(L, 38, Str("say"), Str("没错没错，就是这样~"));
-replaceString(L, 39, Str("say"), Str("向着西方的\"异界之森\"前进吧，未知的冒险正在前面等着我们呢！"));
-lua_pop(L, 1);
-}
-void YIXIAN6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("逸仙真是意外的可靠！"));
-replaceString(L, 2, Str("say"), Str("就和姐姐一样强！"));
-replaceString(L, 3, Str("say"), Str("意外是多余的"));
-replaceString(L, 4, Str("say"), Str("（远眺）……你们…不如就这样回去吧？"));
-replaceString(L, 5, Str("say"), Str("你都感觉前面有危险，还觉得我会答应？"));
-replaceString(L, 6, Str("say"), Str("逸仙担心我们会受伤吗？"));
-replaceString(L, 7, Str("say"), Str("如果你们出了什么意外，我会很难办的"));
-replaceString(L, 8, Str("say"), Str("是感受到姐姐的魅力了？"));
-replaceString(L, 9, Str("say"), Str("毕竟还有三个月分量的包子呢……"));
-replaceString(L, 10, Str("say"), Str("喂！"));
-getByList(L,11);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("熟悉的风景，熟悉的气息"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,11);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("对了，\"我\"是……我和她们是……"));
-lua_settable(L, -3);
-lua_pop(L,3);
-lua_pop(L, 1);
-}
-void ZOUXIANGYUANWEIZHIGE10(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("翌日，审判庭要塞中。"));
-replaceString(L, 2, Str("say"), Str("经过一夜的休息，众人正在会议室中商量着后续计划。"));
-replaceString(L, 3, Str("say"), Str("黎塞留，我们应该先去找冠冕。"));
-replaceString(L, 4, Str("say"), Str("冠冕必须被夺回，鸢尾教国的象征决不能落入他人手中。"));
-replaceString(L, 5, Str("say"), Str("这个我也支持。"));
-replaceString(L, 6, Str("say"), Str("黎塞留大人，如果没有冠冕的话，接下来的很多事就不好办了。"));
-replaceString(L, 7, Str("say"), Str("而且，那些未知敌人的身份总是要查清楚的。"));
-replaceString(L, 8, Str("say"), Str("嗯……如果可能的话，能夺回冠冕是最好的。"));
-replaceString(L, 9, Str("say"), Str("不过一时找不到也不用强求。"));
-replaceString(L, 10, Str("say"), Str("相比冠冕本身，查清楚冠冕吸引塞壬出手的原因更为重要。"));
-replaceString(L, 11, Str("say"), Str("那些奇怪的雾状敌人跟仲裁机关之间的关联也很有必要查清楚。"));
-replaceString(L, 12, Str("say"), Str("这样的话，要不要我先回去？"));
-replaceString(L, 13, Str("say"), Str("昨天这里发生的事除了我们之外肯定没人知道。"));
-replaceString(L, 14, Str("say"), Str("那我岂不是可以大摇大摆的回去当间谍，然后用审判庭的情报网好好调查一番？"));
-replaceString(L, 15, Str("say"), Str("这个方案倒是可以考虑，黎塞留卿，你怎么看？"));
-replaceString(L, 16, Str("say"), Str("嗯……如果是这样的话，还可以获取到更多关于本土现状的情报。"));
-replaceString(L, 17, Str("say"), Str("那就这么决定啦？我一会就动身起航，以免耽误时间太长报告不好编。"));
-replaceString(L, 18, Str("say"), Str("等等，拉·加利索尼埃，还有黎塞留大人。"));
-replaceString(L, 19, Str("say"), Str("圣赫勒拿岛上，除了有冠冕之外，还有很多审判庭的重要资产存放在这里。"));
-replaceString(L, 20, Str("say"), Str("这些资产一定会在后续行动中起到大作用。"));
-replaceString(L, 21, Str("say"), Str("不过要将它们都纳入自由鸢尾的掌控中，还需要花不少时间清点。"));
-replaceString(L, 22, Str("say"), Str("我认为在圣赫勒拿要塞恢复稳定正常运行之前，为了资产的安全，大家还是都留在这里比较好。"));
-replaceString(L, 23, Str("say"), Str("这么说的话确实也有道理……但也不用所有人都留在这里吧？"));
-replaceString(L, 24, Str("say"), Str("分头行动效率不是更高？"));
-replaceString(L, 25, Str("say"), Str("你觉得你成了间谍的事能骗得过克莱蒙梭大人么？"));
-replaceString(L, 26, Str("say"), Str("额……让我仔细盘算盘算……"));
-replaceString(L, 27, Str("say"), Str("黎塞留大人，刚刚提到的事我认为是十分有必要的。"));
-replaceString(L, 28, Str("say"), Str("这段时间，大家就留在圣赫勒拿岛上修整吧。"));
-replaceString(L, 29, Str("say"), Str("既然你强烈建议的话，我倒也觉得没什么不妥。"));
-replaceString(L, 30, Str("say"), Str("返回审判庭当间谍……细想一下确实有些草率了。"));
-replaceString(L, 31, Str("say"), Str("非常感谢，黎塞留大人。"));
-replaceString(L, 32, Str("say"), Str("对了，拉·加利索尼埃。"));
-replaceString(L, 33, Str("say"), Str("黎塞留主教前日或许受到了凯尔盖朗圣堂内设施的干扰，你那里的药分一点来。"));
-replaceString(L, 34, Str("say"), Str("药？"));
-replaceString(L, 35, Str("say"), Str("嗯，你的噩梦是在从圣堂回来之后陆续出现的，我感觉也许是因为在其中受到了某种影响。"));
-replaceString(L, 36, Str("say"), Str("审判庭时常在圣堂中行动，因此有消除其影响的药，也许会有帮助。"));
-replaceString(L, 37, Str("say"), Str("你等等啊，我确实带了一些。"));
-replaceString(L, 38, Str("say"), Str("拉·加利索尼埃翻找了一会，拿出来了一个密封严实的小药瓶。"));
-replaceString(L, 39, Str("say"), Str("找到了~给，如果是因为受到圣堂影响而导致不适的话，这样一小瓶就足够啦。"));
-replaceString(L, 40, Str("say"), Str("两瓶，也给我这里放一瓶。备用。"));
-replaceString(L, 41, Str("say"), Str("……咦？"));
-replaceString(L, 42, Str("say"), Str("快点——"));
-replaceString(L, 43, Str("say"), Str("看着可怖伸出的手，拉·加利索尼埃犹豫了一下，最后还是又拿出一瓶药递给了可怖。"));
-replaceString(L, 44, Str("say"), Str("感谢。"));
-replaceString(L, 45, Str("say"), Str("那么——我继续去工作了。"));
-getByList(L,46);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>\"……我已经要求敌人停止所有敌意行为。\"</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,46);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>\"身为圣座，做出这个决定使我万分痛苦。\"</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,46);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>\"但是军事形势要求我必须如此……\"</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,46);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>听到这段广播时，许多人都处在一种麻木状态中。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,46);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>仿佛一切终于尘埃落定了一般。</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,46);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,6);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>这样很好，不然这段卑劣的宣言也就失去了意义。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,47);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>也有人因为这样肮脏的交易而愤怒。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,47);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>怒火充斥着胸膛，咒骂着做出这项决定的人。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,47);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>这样也很好，愤怒将会孕育反抗的土壤。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,47);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>鸢尾教国的战斗结束了。</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,47);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>但，我的战斗才刚刚开始。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-lua_pop(L, 1);
-}
-void AIGUANQIA2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("港区附近海域"));
-replaceString(L, 2, Str("say"), Str("嘿咻，呼…各位～！还差一点就到港区啦。虽然大家都很累了，不过再咬咬牙加把劲哦！"));
-replaceString(L, 3, Str("say"), Str("\"玩\"了这么长的时间，电池也快没电了吧？雷倒是还能继续就是了！"));
-replaceString(L, 4, Str("say"), Str("电也没问题。就这样继续前进吧"));
-replaceString(L, 5, Str("say"), Str("呼…呼…能、能不能…稍微休息一下？"));
-replaceString(L, 6, Str("say"), Str("Z23，没事吧？拉菲…看来似乎还能继续航行一会，的说"));
-replaceString(L, 7, Str("say"), Str("轻松"));
-replaceString(L, 8, Str("say"), Str("嗯~~还是休息一下好了，勉强自己是大忌！Z23就先好好休息一下吧！"));
-replaceString(L, 9, Str("say"), Str("谢、谢谢你，标枪"));
-replaceString(L, 10, Str("say"), Str("休息时间，好闲，拉菲去散散步…"));
-replaceString(L, 11, Str("say"), Str("拉菲，要小心…的说"));
-replaceString(L, 12, Str("say"), Str("雷也想去\"杀时间\"一下！"));
-replaceString(L, 13, Str("say"), Str("雷去的话，电也一起去吧"));
-replaceString(L, 14, Str("say"), Str("你们三个要小心哦！差不多到时间就尽快回来！"));
-replaceString(L, 15, Str("say"), Str("收到～"));
-replaceString(L, 16, Str("say"), Str("……有人在那……？"));
-replaceString(L, 17, Str("say"), Str("啊噗噜噜噜、救、救命噗噜噜噜噜！要、要淹死了！"));
-replaceString(L, 18, Str("say"), Str("原来如此！这就是\"遇难\"吧！"));
-replaceString(L, 19, Str("say"), Str("现在不是说这种话的时候吧。要去救援咯"));
-replaceString(L, 20, Str("say"), Str("噗噜噜噜噜……（咦？说起来我是AI应该不用呼吸才对吧！）"));
-replaceString(L, 21, Str("say"), Str("！？糟糕了，不动了！"));
-replaceString(L, 22, Str("say"), Str("快、快救人！"));
-replaceString(L, 23, Str("say"), Str("哗——！"));
-replaceString(L, 24, Str("say"), Str("拉菲全速前进，把穿着粉白色衣服的神秘人从海里捞了出来。"));
-replaceString(L, 25, Str("say"), Str("……没事吧？还活着？"));
-replaceString(L, 26, Str("say"), Str("谢谢你呜呜呜！救了我一命——！"));
-replaceString(L, 27, Str("say"), Str("……拉菲酱！？"));
-replaceString(L, 28, Str("say"), Str("好高兴——！没想到居然能遇到真正的拉菲酱——！（抱"));
-replaceString(L, 29, Str("say"), Str("认识拉菲…？拉菲，你在哪里和她认识过吗？"));
-replaceString(L, 30, Str("say"), Str("（一边被蹭着脸）拉菲，不认识……"));
-replaceString(L, 31, Str("say"), Str("诶诶诶！骗人的吧！？难道你忘了吗！和我一起越过重重磨难的那些日子！"));
-replaceString(L, 32, Str("say"), Str("记忆混乱…？这个人是不是陷入了\"Punic\"状态了？"));
-replaceString(L, 33, Str("say"), Str("看起来连舰装都没有，应该也不是敌人……为了确认下状况，跟标枪她们合流以后，带着她一起回港区看看吧？"));
-replaceString(L, 34, Str("say"), Str("就这样办…别哭了，跟我们走吧"));
-replaceString(L, 35, Str("say"), Str("…冷静下来了吗？"));
-replaceString(L, 36, Str("say"), Str("嗯，没事了。谢谢拉菲酱♪简而言之，就是不知怎么的，我穿越到了碧蓝航线的世界来了对吧"));
-replaceString(L, 37, Str("say"), Str("本来就想着总有一天要见到真正的大家～这下算是实现愿望了呢！"));
-replaceString(L, 38, Str("say"), Str("原来如此！这就是所谓的\"异世界召唤\"了吧！"));
-replaceString(L, 39, Str("say"), Str("\"第四面墙\"之类的……？"));
-replaceString(L, 40, Str("say"), Str("就是说…什么意思？？"));
-replaceString(L, 41, Str("say"), Str("\"不可以太过深究雷和电的发言\"，这是晓经常说的"));
-replaceString(L, 42, Str("say"), Str("啊，我还没自我介绍过吧！我的名字是绊爱！你们叫我爱酱就可以了哦！"));
-replaceString(L, 43, Str("say"), Str("实际上我是高智能的超级AI哦！在原本的世界被称为\"虚拟Youtuber\"，投稿了许多动画呢——"));
-replaceString(L, 44, Str("say"), Str("请多指教，绊爱…虚拟Youtuber？听起来…有点帅"));
-replaceString(L, 45, Str("say"), Str("爱小姐，请多指教了。话说回来，在发现爱小姐的地方还回收了这个漂浮着的像是箱子一样的东西，这个也是跟着爱小姐一起被召唤来的的东西吗？"));
-replaceString(L, 46, Str("say"), Str("粉白色的箱子，上面还写着…\"R\"的说？"));
-replaceString(L, 47, Str("say"), Str("啊！随机单词生成器——！也跟着我一起来到这个世界了吗！？"));
-replaceString(L, 48, Str("say"), Str("\"suijidancishengchengqi\"？这个也是爱酱世界的东西吗？是做什么用的呢？"));
-replaceString(L, 49, Str("say"), Str("拉菲，很想看，怎么用的"));
-replaceString(L, 50, Str("say"), Str("哼哼哼～既然都说到这份上了，就给你们演示一下吧！锵咔锵咔锵咔～锵！"));
-replaceString(L, 51, Str("say"), Str("……诶？奇怪了，没有生成…我重来一次哦！嘿！（晃）嘿！（摇）"));
-replaceString(L, 52, Str("say"), Str("砰！"));
-replaceString(L, 53, Str("say"), Str("啊哇哇！？真的不是故障了吗！？从里面冒出好多浓烟了啊！？"));
-replaceString(L, 54, Str("say"), Str("！？有什从里面出来了！小心！"));
-replaceString(L, 55, Str("say"), Str("………"));
-replaceString(L, 56, Str("say"), Str("有两个爱酱！？危险！打过来了！"));
-replaceString(L, 57, Str("say"), Str("咚！"));
-replaceString(L, 58, Str("say"), Str("！冒出来的爱被谁一击打倒了的样子"));
-replaceString(L, 59, Str("say"), Str("绫波，各位，没事吧？"));
-replaceString(L, 60, Str("say"), Str("高雄酱～～～～！谢谢～～～～！（抱"));
-replaceString(L, 61, Str("say"), Str("咕唔！？是新的敌人吗！？"));
-replaceString(L, 62, Str("say"), Str("不是，抱住你的这个应该是好的爱酱"));
-replaceString(L, 63, Str("say"), Str("不过，这个箱子坏了的话，该怎么修理呢……"));
-replaceString(L, 64, Str("say"), Str("百忙中打扰了喵～这个箱子的调查在指挥官的命令下，就交给科研部门了喵～"));
-replaceString(L, 65, Str("say"), Str("困难时刻提供帮助的猫神大人出现了━━━━ლ(´ڡ`ლ)━━━━!!"));
-replaceString(L, 66, Str("say"), Str("呼喵！？不要突然抱过来喵！"));
-replaceString(L, 67, Str("say"), Str("她说这个\"随机单词生成器\"似乎能连接到许多不同的空间"));
-replaceString(L, 68, Str("say"), Str("没错～这可是本天才构想出的超绝Super Idea呢～"));
-replaceString(L, 69, Str("say"), Str("然后似乎正是因为\"随机单词生成器\"出现故障，才导致绊爱迷失到了这个世界。如果能把内部的通道接回原来的世界的话……"));
-replaceString(L, 70, Str("say"), Str("不过刚才调查了一下，内部的虚拟空间现在似乎只有类似镜面海域的反应喵…"));
-replaceString(L, 71, Str("say"), Str("诶！？镜、镜面海域吗？！这个箱子里！？"));
-replaceString(L, 72, Str("say"), Str("你说什么！这是不把BUG修好就回不去的套路吗！？"));
-replaceString(L, 73, Str("say"), Str("是的喵。只能进入这个镜面海域寻找让爱酱回到原来世界的办法了喵"));
-replaceString(L, 74, Str("say"), Str("直接钻进去就好了哦。就像这样"));
-replaceString(L, 75, Str("say"), Str("在这里等着也不会有任何进展。大家，总之一起进入镜面海域，帮爱酱寻找回去的办法吧"));
-replaceString(L, 76, Str("say"), Str("虚拟空间的镜面海域……也就是\"虚拟镜面海域\"了吧！"));
-replaceString(L, 77, Str("say"), Str("明石和夕张会在这里为大家提供援助的喵，加油喵"));
-replaceString(L, 78, Str("say"), Str("那在下也在这里警戒吧。毕竟不能保证刚才那种敌人会不会再出现啊"));
-replaceString(L, 79, Str("say"), Str("嗯！谢谢～那就出击～！嘿、嘿、喔～！"));
-lua_pop(L, 1);
-}
-void HUANGJINDEMIBAO4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("妹妹，来一决胜负吧buli！"));
-replaceString(L, 2, Str("say"), Str("没错！来一决胜负吧~purin.purin~!"));
-replaceString(L, 3, Str("say"), Str("这是什么展开burin？ "));
-replaceString(L, 4, Str("say"), Str("来试试\"工作用\"装备的威力buli！"));
-replaceString(L, 5, Str("say"), Str("妹妹你看起来那么强，就陪我们试验一下新型装备的purin威力吧！"));
-replaceString(L, 6, Str("say"), Str("burin？！没错burin！ "));
-replaceString(L, 7, Str("say"), Str("姐姐们都只有一种颜色，但我和\"超级喵喵1号\"都是彩色的，也就是什么颜色都有！所以，我比姐姐们都要强burin！ "));
-replaceString(L, 8, Str("say"), Str("一决胜负吧！burin！burin！！ "));
-lua_pop(L, 1);
-}
-void W730011(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("海域中出现了三个能源矩阵，但我方舰队无法到达其所在位置。"));
-replaceString(L, 2, Str("say"), Str("中央的控制台上有一圆盘，通过控制圆盘的倾斜方向可以使能源矩阵滑动。"));
-lua_pop(L, 1);
-}
-void W1132(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("漂浮物，上面好像记录着一些信息……在海域的东部……"));
-lua_pop(L, 1);
-}
-void HAITIAN1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("出发！寻找灵感之旅！\n\n<size=45>一　枯竭的灵感</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·指挥室——"));
-replaceString(L, 3, Str("say"), Str("指挥官，这是本周的工作安排，请过目。"));
-replaceString(L, 4, Str("say"), Str("新任秘书舰——海天将本周的行程表和任务清单递了过来。"));
-replaceString(L, 5, Str("say"), Str("行程表丰富且详细，各项任务之间的优先级划分清晰、逻辑也十分严谨。"));
-replaceString(L, 6, Str("say"), Str("不过——"));
-replaceString(L, 7, Str("say"), Str("认真的少女似乎没有发现，有几条特殊的纸张碎片夹在了她递给我的文件之中。"));
-replaceString(L, 8, Str("say"), Str("（她用力抱住了眼前朝思暮想的人……删除线，删除线，恋人的胸膛宽厚而温暖，删除线……）"));
-replaceString(L, 9, Str("say"), Str("（删除线，雨幕遮挡了二人的视线，天地之间此刻唯有彼此，删除线）"));
-replaceString(L, 10, Str("say"), Str("（嗯……这是海天在写的小说么？）"));
-replaceString(L, 11, Str("say"), Str("（用了这么多删除线，外加这明显是碎纸机掉落出来的碎片，是她对自己写的内容不满意么？）"));
-replaceString(L, 12, Str("say"), Str("（不过，要创作小说，应该是需要时间好好构思框架的吧！）"));
-replaceString(L, 13, Str("say"), Str("念及此处，我决定——"));
-getByList(L,13);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("给海天放假"));
-replaceString(L, 2, Str("content"), Str("直接问海天"));
-lua_pop(L,2);
-replaceString(L, 14, Str("say"), Str("海天，今天的行程和任务清单我看过了，那些工作我一个人就足够了。"));
-replaceString(L, 15, Str("say"), Str("你今天可以先休息。不过如果你想在指挥室里处理自己的事情，也没问题。"));
-replaceString(L, 16, Str("say"), Str("（直接问她会更好吧？不过还是得换个问法……）"));
-replaceString(L, 17, Str("say"), Str("海天，你最近有什么烦心事么？"));
-replaceString(L, 18, Str("say"), Str("欸？指挥官为什么突然这么说？"));
-replaceString(L, 19, Str("say"), Str("难、难道是小女子作为秘书舰的表现实在差得让指挥官难以忍受……？"));
-replaceString(L, 20, Str("say"), Str("不。作为刚上任的秘书舰而言，海天已经把工作做得十分出色了。"));
-replaceString(L, 21, Str("say"), Str("而且之前的日子里，你也为我做了不少。所以，我也想为你做些什么。"));
-replaceString(L, 22, Str("say"), Str("嗯……指挥官既然都这么说了，那小女子便把近日的困惑说与你听吧。"));
-replaceString(L, 23, Str("say"), Str("……如此如此，这般这般。"));
-replaceString(L, 24, Str("say"), Str("总之就是在写小说的时候，灵感枯竭，彻底卡壳，写不出能让自己满意的剧情了……"));
-replaceString(L, 25, Str("say"), Str("通过其它的媒介来汲取一些创意有用么？比如听听音乐、看看名家之作？"));
-replaceString(L, 26, Str("say"), Str("少女一脸无奈地摇了摇头。"));
-replaceString(L, 27, Str("say"), Str("这些方法我都试过了，完全没有用。"));
-replaceString(L, 28, Str("say"), Str("有了！古人往往畅游于山水之间，而后便得灵感赋诗一首……"));
-replaceString(L, 29, Str("say"), Str("出去露营的话，说不定你就有灵感了！"));
-lua_pop(L, 1);
-}
-void W761000(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("海域中十分炎热，洋流也比之前更强了！"));
-lua_pop(L, 1);
-}
-void W610305(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("指令执行中：正在打捞沉没的物资……警告，遭遇到塞壬舰队伏击。"));
-lua_pop(L, 1);
-}
-void WEIJIAOXIAOSIPEIBOJUE1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("有些故事没有开端，有些故事没有结尾。而有些故事，就这样发生了————"));
-replaceString(L, 2, Str("say"), Str("■■■■年■月■日 海域坐标■■■■ ■■■■"));
-replaceString(L, 3, Str("say"), Str("轰————————————！"));
-replaceString(L, 4, Str("say"), Str("敌袭出现了？！海伦娜，你没事吧！"));
-replaceString(L, 5, Str("say"), Str("我没事……但是货物又被抢走了！"));
-replaceString(L, 6, Str("say"), Str("怎么会这样………已经是本周第三次袭击了。"));
-replaceString(L, 7, Str("say"), Str("再这样下去，我们的甜品供应就要彻底中断了啊！"));
-replaceString(L, 8, Str("say"), Str("主动出击啊，主动出击！事到如今只能主动出击了！"));
-replaceString(L, 9, Str("say"), Str("我们一定要把抢夺货船的人抓出来！"));
-replaceString(L, 10, Str("say"), Str("总之还是先收集情报吧……没有情报的话是抓不到犯人的哦。"));
-replaceString(L, 11, Str("say"), Str("那就这么决定了，我带领更多的量产型加强护航力度。"));
-replaceString(L, 12, Str("say"), Str("海伦娜去跟其他阵营交换情报。甜品供应中断的话，其他阵营应该也很困扰才是。"));
-replaceString(L, 13, Str("say"), Str("那我呢，那我呢？！"));
-replaceString(L, 14, Str("say"), Str("圣地亚哥就负责去写给萨拉托加的报告好了！也许她那边会知道什么事！"));
-replaceString(L, 15, Str("say"), Str("了解啦~！给小加加写报告的事就交给我吧！"));
-replaceString(L, 16, Str("say"), Str("呼呼呼……甜品，美味的甜品……"));
-replaceString(L, 17, Str("say"), Str("再多收集一些吧~"));
-lua_pop(L, 1);
-}
-void SAICHEDAFUWENGEVENT5_2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("帮助赛车手调整装备，获得了奖励【强化部件T3*8】"));
-lua_pop(L, 1);
-}
-void FUYINGYINGHUA16(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("斩------！"));
-replaceString(L, 2, Str("say"), Str("漆黑的船壳，不祥的光芒，这就是塞壬……"));
-replaceString(L, 3, Str("say"), Str("（虽然模拟战斗了无数次，亲眼见到之后，压迫力完全不是一个等级啊——！！）"));
-replaceString(L, 4, Str("say"), Str("真是的…！击沉了一艘又会有无数艘填进来，塞壬的舰队是无穷无尽的么？！"));
-replaceString(L, 5, Str("say"), Str("（没想到第一次实战机会是出现在这种情况下！！果然当初就不该接下这祭典代行者的任务啊！）"));
-replaceString(L, 6, Str("say"), Str("在后方平和的环境中待久了，总会让人产生一丝和平时代的错觉…"));
-replaceString(L, 7, Str("say"), Str("塞壬的威胁其实一刻都没有消失！"));
-replaceString(L, 8, Str("say"), Str("诸位，难得的实战机会，尽情的展示所学，尽情的战斗吧！"));
-lua_pop(L, 1);
-}
-void DANFO1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("丹佛的港区委托！\n\n<size=45>一 接受委托！</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("指挥官，这几天大家都在讨论可不可以设立一个能够委托他人进行港区内日常工作的机制。"));
-replaceString(L, 3, Str("say"), Str("因为有些同伴确实很忙，如果有这样一个能够委托暂时空闲的伙伴帮忙的机制我觉得也不错哦。"));
-replaceString(L, 4, Str("say"), Str("——指挥官，你来看看这个提案怎么样？"));
-replaceString(L, 5, Str("say"), Str("……基于以上原因，港区内设立了可以委托别人帮忙工作的渠道——任务布告栏。"));
-replaceString(L, 6, Str("say"), Str("然后……布告栏上就被来自大家的委托书订满了。"));
-replaceString(L, 7, Str("say"), Str("嗯……"));
-replaceString(L, 8, Str("say"), Str("啊，指挥官。谢谢你采纳我这个布告栏的提案哦!"));
-replaceString(L, 9, Str("say"), Str("我站在丹佛身旁看着上面的委托书，发现里面有几张已经盖上了『任务完成』的印章。"));
-replaceString(L, 10, Str("say"), Str("明明这个布告栏还没设立多久，就已经有不少委托被完成了。到底是谁的速度这么快……"));
-replaceString(L, 11, Str("say"), Str("我看了看接受委托者的名字——里面竟然发现了丹佛的大姐，克利夫兰的名字。"));
-replaceString(L, 12, Str("say"), Str("……真不愧是克利夫兰姐姐啊。同为海上骑士，我也要向大姐头看齐才行！"));
-replaceString(L, 13, Str("say"), Str("指挥官你看啊，那个帮助社团活动楼新楼进行搬迁的任务也是大姐头完成的哦！"));
-replaceString(L, 14, Str("say"), Str("大姐头真是太厉害了……能像这样充满气势的一个接一个完成发布在刚建好没多久的布告栏上的任务……"));
-replaceString(L, 15, Str("say"), Str("正如丹佛所说，除了这张之外，几乎所有其他已完成的委托书上都写着克利夫兰的名字……！"));
-replaceString(L, 16, Str("say"), Str("我也要像大姐头一样要做就做到最好！嗯，我该加把劲了！"));
-replaceString(L, 17, Str("say"), Str("今天，海上骑士丹佛，也在干劲十足地努力着。"));
-lua_pop(L, 1);
-}
-void HUIJUYUCIANZHICHEN1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("汇聚于此岸之尘\n\n<size=45>一　突如其来</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("帕克菲克洋·测试者主机周边海域"));
-replaceString(L, 3, Str("say"), Str("在收到了来自星海发出的奇异点「奈落」出现的警报后不久，东煌和北方联合的观测报告也陆续传了过来。"));
-replaceString(L, 4, Str("say"), Str("目前，「奈落」在笼罩了重樱群岛后，仿佛像是触碰到了一个无形的屏障一般，并没有进一步向外扩张。"));
-replaceString(L, 5, Str("say"), Str("……那个屏障，一定是守护整个重樱群岛的重樱大结界。"));
-replaceString(L, 6, Str("say"), Str("或许是大结界封住了「奈落」的力量……阻止了其进一步扩散。"));
-replaceString(L, 7, Str("say"), Str("（……如此说来，维持大结界存在的基本条件都还健在。）"));
-replaceString(L, 8, Str("say"), Str("（奇异点的内部情况……或许并不如看上去一般糟糕！）"));
-replaceString(L, 9, Str("say"), Str("诸位，事关本岛安危，吾必须立刻带领舰队回援了。"));
-replaceString(L, 10, Str("say"), Str("长门大人，龙凤带领舰队随您一起回去。"));
-replaceString(L, 11, Str("say"), Str("嗯。"));
-replaceString(L, 12, Str("say"), Str("长门，奇异点的出现不光会令重樱遭遇危险，更会将周边所有阵营卷入其中。"));
-replaceString(L, 13, Str("say"), Str("我已经知道你与企业所定下的盟约了。"));
-replaceString(L, 14, Str("say"), Str("既然危机尚未解除，就表示结盟依然有效，我们理应派出援军，不能让你们孤身奋战。"));
-replaceString(L, 15, Str("say"), Str("如果诸位愿意派出援军的话，吾没有理由拒绝。"));
-replaceString(L, 16, Str("say"), Str("印第安纳，就由你带领舰队随长门女士一同前往吧。"));
-replaceString(L, 17, Str("say"), Str("明白。"));
-replaceString(L, 18, Str("say"), Str("——等等，我也去。"));
-replaceString(L, 19, Str("say"), Str("你是，北方联合的……？"));
-replaceString(L, 20, Str("say"), Str("目前暂住于北方联合的……基洛夫·META。"));
-replaceString(L, 21, Str("say"), Str("我对于这个名为「奈落」的奇异点十分有兴趣。如果方便的话，可否让我同行？"));
-replaceString(L, 22, Str("say"), Str("苏维埃同盟，你的看法呢？"));
-replaceString(L, 23, Str("say"), Str("如果指挥官同志和长门女士都同意的话，我这边自然没有问题。"));
-replaceString(L, 24, Str("say"), Str("而且我愿意亲自带领舰队与二位同行。"));
-replaceString(L, 25, Str("say"), Str("长门，你怎么看？"));
-replaceString(L, 26, Str("say"), Str("多一支舰队，便是多一份力量。非常感谢，基洛夫阁下，苏维埃同盟阁下。"));
-replaceString(L, 27, Str("say"), Str("那此事就这么定了。"));
-replaceString(L, 28, Str("say"), Str("目前对于测试者主机空间的解析尚未结束，舰队主力还需留在此处应对可能出现的威胁。"));
-replaceString(L, 29, Str("say"), Str("奇异点的威胁不容小觑，抵达周边海域后，诸位请见机行事，小心为上。"));
-replaceString(L, 30, Str("say"), Str("指挥舰舰长室，一段时间后——"));
-replaceString(L, 31, Str("say"), Str("……东煌的解析算力还在提高，星海已经再一次修改了预期完成时间。"));
-replaceString(L, 32, Str("say"), Str("按照当前速度推算的话，不出六小时就能彻底完成解析工作了。"));
-replaceString(L, 33, Str("say"), Str("当然，如果东煌提供的算力再次增强……预期时间也会再次提前。"));
-replaceString(L, 34, Str("say"), Str("真是令人惊叹……"));
-replaceString(L, 35, Str("say"), Str("不过东煌的运算能力为什么是逐步提高的……而不是和星海一样，一开始就启用最高算力呢？"));
-replaceString(L, 36, Str("say"), Str("唔……我也不清楚。"));
-replaceString(L, 37, Str("say"), Str("或许是东煌的超级计算机并不是一直启动的，所以在开机后有一个预热过程……？"));
-replaceString(L, 38, Str("say"), Str("好啦~指挥官！现在难得空下来，抓紧时间休息一下吧。"));
-replaceString(L, 39, Str("say"), Str("有消息我会第一时间送来的~"));
-replaceString(L, 40, Str("say"), Str("持续多日的战役指挥，确实对于精神和体力产生了剧烈消耗。"));
-replaceString(L, 41, Str("say"), Str("原本是想利用这段时间再完善一下作战计划的。不过一闭上双目，困意就径直袭来了——"));
-replaceString(L, 42, Str("say"), Str("映入眼帘的是——璀璨的星河。"));
-replaceString(L, 43, Str("say"), Str("抱歉，打扰你休息了。"));
-getByList(L,43);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("没关系。"));
-replaceString(L, 2, Str("content"), Str("那你要怎么补偿我？"));
-lua_pop(L,2);
-replaceString(L, 44, Str("say"), Str("我相信你在此时来找我，一定是有重要的事要说。"));
-replaceString(L, 45, Str("say"), Str("不错，我现在来找你，确实是因为一件极其重要的事。"));
-replaceString(L, 46, Str("say"), Str("嗯——就用一个惊喜好了。"));
-replaceString(L, 47, Str("say"), Str("你看这是谁？"));
-replaceString(L, 48, Str("say"), Str("…………"));
-replaceString(L, 49, Str("say"), Str("构建者？！"));
-replaceString(L, 50, Str("say"), Str("好啦，先不要多问。"));
-replaceString(L, 51, Str("say"), Str("我现在来找你，确实是因为一件极其重要的事。"));
-replaceString(L, 52, Str("say"), Str("接下来，你需要跟我去安塔迪卡参加一场会谈。"));
-replaceString(L, 53, Str("say"), Str("一场可以帮助你一举扭转当前局面的会谈。"));
-replaceString(L, 54, Str("say"), Str("……现在立刻去安塔迪卡？"));
-replaceString(L, 55, Str("say"), Str("不用担心，我自有办法，不会耽误你的战役指挥的。"));
-replaceString(L, 56, Str("say"), Str("……会谈的对象是？"));
-replaceString(L, 57, Str("say"), Str("观察者哦——"));
-lua_pop(L, 1);
-}
-void FUXIANGXIANZUOZHAN2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("铁血浮岛要塞群·E2浮岛-休息区"));
-replaceString(L, 2, Str("say"), Str("（升级按时结束……很好，加强后的浮岛机场可以按照计划应用到今天的训练中了。）"));
-replaceString(L, 3, Str("say"), Str("（虽然很想借助升级机会改装一座飞艇停泊基地，不过考虑到实用性只能放弃了么……）"));
-replaceString(L, 4, Str("say"), Str("（实用性的飞艇计划……实用性的飞艇计划啊…………嗯？时间差不多了。）"));
-replaceString(L, 5, Str("say"), Str("海因里希、威悉、Z46。"));
-replaceString(L, 6, Str("say"), Str("在！\n在。"));
-replaceString(L, 7, Str("say"), Str("浮岛机场功能已经升级完毕，从本日开始，我们将会进行强度更高的海空战训练。"));
-replaceString(L, 8, Str("say"), Str("详细内容我已经写在本次的任务简报上了，记得查看。当然，训练开始之后我也会再次说明。"));
-replaceString(L, 9, Str("say"), Str("现在检查一下各自的舰装情况，三小时后准时在B3浮岛P011港集合。"));
-replaceString(L, 10, Str("say"), Str("明白。"));
-replaceString(L, 11, Str("say"), Str("三小时后么…没问题，不过...海因里希又去哪了？"));
-replaceString(L, 12, Str("say"), Str("根据往昔的经验，当海因里希没有在休息区的时候，通常是独自一人在海域中进行特训的时候。"));
-replaceString(L, 13, Str("say"), Str("我想起来了，是那个她自己称为「海因里希式」的特训么？其实多数时间和玩闹区别不大吧……"));
-replaceString(L, 14, Str("say"), Str("倒是很有海因里希风格的努力方式。这样好了，你们继续准备，我亲自去通知她。"));
-replaceString(L, 15, Str("say"), Str("铁血浮岛要塞群·F区-训练海域"));
-replaceString(L, 16, Str("say"), Str("嘿，呵！装甲舰冲锋~！！"));
-replaceString(L, 17, Str("say"), Str("浮岛之间被命名为F区的训练区域之中，一位少女正在浮标间高速驰骋着。"));
-replaceString(L, 18, Str("say"), Str("（单程只用了十七秒……保持炮口平稳的同时进行了高速急转，接下来的瞄准射击如果能压缩到三秒内……）"));
-replaceString(L, 19, Str("say"), Str("轰————————！"));
-replaceString(L, 20, Str("say"), Str("伴随着炮声和完美的曲线，演习用的浮标被准确击破了。"));
-replaceString(L, 21, Str("say"), Str("耶~！完美命中！干得漂亮，小铁！"));
-replaceString(L, 22, Str("say"), Str("（把飞行时间刨除之后……恩，合格。）"));
-replaceString(L, 23, Str("say"), Str("海因里——"));
-replaceString(L, 24, Str("say"), Str("哎~？彼得，你来的正好！能帮我去控制台再刷新出一批浮标来么！"));
-replaceString(L, 25, Str("say"), Str("啊？嗯，嗯…稍等片刻，我记得F区的控制台路径是在……完成。"));
-replaceString(L, 26, Str("say"), Str("哦~~~~！出现了，大量浮标出现了！"));
-replaceString(L, 27, Str("say"), Str("……有必要每次都这么惊讶么，训练了这么久早就应该习惯了吧。"));
-replaceString(L, 28, Str("say"), Str("可是！每次看到的时候都觉得真的很帅啊~彼得不觉得么？"));
-replaceString(L, 29, Str("say"), Str("确实是一种非常复杂的技术……"));
-replaceString(L, 30, Str("say"), Str("那就是很帅的意思嘛~谢谢啦彼得，接下来是那边的浮标！"));
-replaceString(L, 31, Str("say"), Str("（糟糕，不知不觉就又被带到她的节奏里去了…）"));
-replaceString(L, 32, Str("say"), Str("海因里希，关于今天的训练———"));
-replaceString(L, 33, Str("say"), Str("哼哼，等下的战斗一定要让大家对我刮目相看！上吧，小铁！"));
-replaceString(L, 34, Str("say"), Str("（………………还是采取强硬点的手段吧——）"));
-replaceString(L, 35, Str("say"), Str("P级装甲舰海因里希，全弹发射————哇，好痛！"));
-replaceString(L, 36, Str("say"), Str("一声呼啸过后，舰载机的训练弹准确\"砸\"在了正在做发射准备的海因里希亲王头上。"));
-replaceString(L, 37, Str("say"), Str("啊，彼得！为什么要突然袭击我啦！"));
-replaceString(L, 38, Str("say"), Str("彼得·史特拉塞没有说话，只是默默的指了指怀表。"));
-replaceString(L, 39, Str("say"), Str("原来已经这个时间了么……欸，彼得难道是来催我参加训练的吗？"));
-replaceString(L, 40, Str("say"), Str("没错，看来你已经理解情况了。关于今天的训练区域————————"));
-replaceString(L, 41, Str("say"), Str("糟了糟了，得赶紧去进行准备才行！谢啦，彼得！"));
-replaceString(L, 42, Str("say"), Str("在B3岛P011港…一百一十三分钟之后……唉…………"));
-lua_pop(L, 1);
-}
-void W710023(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("漩涡上的火焰消散了……"));
-lua_pop(L, 1);
-}
-void ZOUXIANGYUANWEIZHIGE3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>发出：情报显示，铁血正在向边境增兵，有发动全新军事行动的意图。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>收件：了解，请继续收集情报。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>————————</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>发出：情报显示，铁血的间谍网络进入了高度活跃状态。</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>发出：其电文分析显示，铁血正在为大型军事行动收集信息。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,6);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>收件：了解，请继续收集情报。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,7);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>————————</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>发出：情报显示，铁血参谋部正在制定进攻的详细方案，请尽快做好准备。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>收件：了解，陆军正在巩固防线，确保万无一失。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>————————</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>发出：情报部门截获了一份情报，注明为黄色方案。</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>审判庭判定其高度可信，请司令部立刻进行应对。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,6);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>收件：了解，D计划正在准备中，皇家盟友将不日抵达，注意海上的动向。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,7);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>>>收件：同时，为了行动顺利进行，请严格保密。</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 3, Str("say"), Str("轰————————————！"));
-replaceString(L, 4, Str("say"), Str("呼……呼…………"));
-replaceString(L, 5, Str("say"), Str("黎塞留大人！敌方舰队……全部消灭了！"));
-replaceString(L, 6, Str("say"), Str("果然不论什么型号的代行者都很难缠……"));
-replaceString(L, 7, Str("say"), Str("黎塞留大人，侦察机已抵达圣赫勒拿岛上空，很快就能返回结果。"));
-replaceString(L, 8, Str("say"), Str("希望我们不会到的太迟……"));
-replaceString(L, 9, Str("say"), Str("可怖，要塞有可能抗住代行者舰队的攻击么？"));
-replaceString(L, 10, Str("say"), Str("额……也许能坚持一段时间。"));
-replaceString(L, 11, Str("say"), Str("只要它们不决意把山头削平就行。"));
-replaceString(L, 12, Str("say"), Str("仲裁机关本体呢？"));
-replaceString(L, 13, Str("say"), Str("那肯定很快就会沦陷的。"));
-replaceString(L, 14, Str("say"), Str("根据以往仲裁者的战斗力来推测，移平圣赫勒拿岛对其来说并非不可能。"));
-replaceString(L, 15, Str("say"), Str("不过……我想不通塞壬为什么会对冠冕感兴趣。"));
-replaceString(L, 16, Str("say"), Str("虽然那是鸢尾正统的象征，但也不过只是一件文物而已。"));
-replaceString(L, 17, Str("say"), Str("我现在也没什么头绪……这件事之后再研究。"));
-replaceString(L, 18, Str("say"), Str("当务之急还是加快行进速度，救人要紧。"));
-replaceString(L, 19, Str("say"), Str("不管情况如何，我们早到一些，马赛曲可能遭遇的危险就小一些。"));
-lua_pop(L, 1);
-}
-void LAISHAGUANQIA3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("过去的片段————"));
-replaceString(L, 2, Str("say"), Str("交战海域·净化亲的临时指挥所"));
-replaceString(L, 3, Str("say"), Str("哼哼哼，如何？有了这身装备，感觉战斗力至少提高了百分之三百吧！"));
-replaceString(L, 4, Str("say"), Str("这就是汝口中提到的「舰装」……？确实很厉害呢。"));
-replaceString(L, 5, Str("say"), Str("唔嗯……要攻击的话，只要把炮口对准前面开火就可以了么？"));
-replaceString(L, 6, Str("say"), Str("没错~但是！不要把炮口对准我啊，很危险的！喂！"));
-replaceString(L, 7, Str("say"), Str("要是想试验一下的话，外面测试者的量产型杂鱼正一片一片地赶来呢，要不要去练练手？"));
-replaceString(L, 8, Str("say"), Str("在实战中学习与提升么……不错的计划。不过妾身在努力奋战之时，汝要去做什么？"));
-replaceString(L, 9, Str("say"), Str("哼哼，我刚刚定位到了镜面海域控制核心的位置，测试者肯定就在那里。"));
-replaceString(L, 10, Str("say"), Str("在你带着我的舰队去打正面的时候，我可以悄悄溜进去将其一击必杀，这样战斗就结束了。"));
-replaceString(L, 11, Str("say"), Str("不然万一拖成持久战的话，我可拖不过它。"));
-replaceString(L, 12, Str("say"), Str("一对一战斗的话，汝就能取胜了么？"));
-replaceString(L, 13, Str("say"), Str("那是当然~一对一战的话，我净化亲可是很厉害的哦！"));
-replaceString(L, 14, Str("say"), Str("汝等塞壬的组织也有点像菲尔弗萨呢，个体间有着明确的分工和各自独特的能力，然后只要打倒首领的话整支军队都会瓦解……"));
-replaceString(L, 15, Str("say"), Str("原来如此，那就放手去做吧，这里就交给妾身来应付。"));
-replaceString(L, 16, Str("say"), Str("汝提供的舰装与妾身的力量相结合后能爆发出怎么样的战斗力，妾身已经忍不住想试一试了！"));
-replaceString(L, 17, Str("say"), Str("遗迹群岛·起始之地 此刻"));
-replaceString(L, 18, Str("say"), Str("轰—————————！"));
-replaceString(L, 19, Str("say"), Str("刚刚被消灭的就是最后一个敌人了，两位都没受伤吧？"));
-replaceString(L, 20, Str("say"), Str("没问题，多谢关心。"));
-replaceString(L, 21, Str("say"), Str("嗯，没问题。虽然我也有过与巨大敌人战斗的经历，但是像这样自由驰骋在海面之上……骏河小姐无疑是一名十分顶尖的战士啊。"));
-replaceString(L, 22, Str("say"), Str("骏河阁下，我们来支援了！欸……已经全部结束了么？！"));
-replaceString(L, 23, Str("say"), Str("不愧是骏河小姐，真是出色又可靠的护卫呢。旁边的两位就是我们的新朋友吧？"));
-replaceString(L, 24, Str("say"), Str("莉拉小姐和赛莉小姐！没想到你们也被卷进来了！"));
-replaceString(L, 25, Str("say"), Str("好久不见了，莉拉小姐，赛莉小姐。"));
-replaceString(L, 26, Str("say"), Str("贵安，莉拉小姐，赛莉小姐。"));
-replaceString(L, 27, Str("say"), Str("莱莎、科洛蒂娅、帕特莉夏，我们在奇怪的地方相遇了呢。"));
-replaceString(L, 28, Str("say"), Str("……好久不见。莱莎，这里是某个异世界吧。"));
-replaceString(L, 29, Str("say"), Str("好像是这样的……赛莉小姐已经理解现状了么？！"));
-replaceString(L, 30, Str("say"), Str("还没有……我只是从空气中感受到了完全不同的气息而已。"));
-replaceString(L, 31, Str("say"), Str("看来这个判断不错呢。"));
-replaceString(L, 32, Str("say"), Str("虽然我也是刚听来的，不过现状其实大概是————"));
-replaceString(L, 33, Str("say"), Str("碧蓝航线，舰船，镜面海域，塞壬……都是些没有听说过的词汇啊。"));
-replaceString(L, 34, Str("say"), Str("不过这样一来，我也就大概理解我们现在面临的处境了。"));
-replaceString(L, 35, Str("say"), Str("……如果这里是异世界的话，可畏，你们要小心，从刚才的敌人中我感受到了菲尔弗萨的气息。"));
-replaceString(L, 36, Str("say"), Str("也许它们也用和我们相似的方法来到你们的世界了。"));
-replaceString(L, 37, Str("say"), Str("菲尔弗萨……是指在原本的世界里与你们一直战斗的敌人么？"));
-replaceString(L, 38, Str("say"), Str("一直战斗这个表述不太精确，不过简略来说的话，意思也不错。"));
-replaceString(L, 39, Str("say"), Str("那些菲尔弗萨是生物，而不是机器对吧？"));
-replaceString(L, 40, Str("say"), Str("没错，菲尔弗萨是一种生物。而且应该相当讨厌水才对……这么一想刚才的敌人实在是太异常了。"));
-replaceString(L, 41, Str("say"), Str("关于这一点的话，在刚刚各位聊天的时候我去检查了一下敌人的残骸。"));
-replaceString(L, 42, Str("say"), Str("那些应该是塞壬在获取了你们世界的菲尔弗萨的情报之后，以此为基础生产出来的特殊量产型。"));
-replaceString(L, 43, Str("say"), Str("是机器，而不是生物。菲尔弗萨这一生物本身应该并没有被塞壬一同带来。"));
-replaceString(L, 44, Str("say"), Str("如果是这样的话……很好。"));
-replaceString(L, 45, Str("say"), Str("抱歉打断一下诸位的聊天，请听我说~！现在天色渐暗，周围又是一片废墟，实在不是久留的好选择。"));
-replaceString(L, 46, Str("say"), Str("再说大家也累了，要不要来我的量产型上吃些好吃的休息一下呢~"));
-replaceString(L, 47, Str("say"), Str("休息好之后再进行情报交流也会更有效率哦！"));
-replaceString(L, 48, Str("say"), Str("岛风十分赞成阿尔弗雷多阁下的提议，其实岛风的肚子已经要饿扁了……"));
-replaceString(L, 49, Str("say"), Str("享用异世界的美食么？！听起来真不错欸……那就出发吧~我也有些饿了，而且也还有好多问题要问呢！"));
-replaceString(L, 50, Str("say"), Str("哼哼，我已经把笔记本准备好了，让我们在宴会中破解这个巨大的谜团吧！"));
-replaceString(L, 51, Str("say"), Str("既然如此，那阿尔弗雷多就请带路吧。"));
-replaceString(L, 52, Str("say"), Str("嘿嘿嘿~诸位，欢迎光临撒丁帝国奥利亚尼级驱逐舰阿尔弗雷多·奥里亚尼的量产型！"));
-replaceString(L, 53, Str("say"), Str("虽然身处战场环境中，但是我会尽力为大家带来一场高品质的撒丁帝国晚宴的，诸位请随我来——"));
-lua_pop(L, 1);
-}
-void NEIHUADA4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("与牛仔的旅途\n\n<size=45>四　骑马同行</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("与内华达一同来到了一片荒野之中。"));
-replaceString(L, 3, Str("say"), Str("环顾四周，干枯的杂草在隔壁滩上稀稀疏疏地排布着，低矮的灌木丛生，四周一片枯黄。"));
-replaceString(L, 4, Str("say"), Str("少年，你看起来好像有些失望哦。"));
-replaceString(L, 5, Str("say"), Str("之前提到骑马的时候，还以为会去一片碧绿的草原呢。"));
-replaceString(L, 6, Str("say"), Str("啊哈哈，碧绿的草原虽然好，不过茫茫绿草跟牛仔的气质可不太搭~"));
-replaceString(L, 7, Str("say"), Str("而且荒野有荒野的好处。"));
-replaceString(L, 8, Str("say"), Str("这里的地面相比雨季的草原更加坚硬干燥，反倒更适合我们的骑马之行哦。"));
-replaceString(L, 9, Str("say"), Str("原来如此……内华达对骑马的了解也很深入呢。"));
-replaceString(L, 10, Str("say"), Str("那是自然。骑马和射击一样，都是我十分喜爱的个人爱好。"));
-replaceString(L, 11, Str("say"), Str("怎样，我还是挺有牛仔风范的吧~"));
-replaceString(L, 12, Str("say"), Str("内华达一个人整备着马匹和用具，动作熟练又帅气。"));
-replaceString(L, 13, Str("say"), Str("不过有些意外的是，她只准备了一匹马。"));
-replaceString(L, 14, Str("say"), Str("那是当然了，马术可不是一般人刚上手就能学会的。"));
-replaceString(L, 15, Str("say"), Str("现在还是坐在我的身后，让我带你一起骑吧~"));
-replaceString(L, 16, Str("say"), Str("内华达熟练地跳上马，将手伸了过来——"));
-getByList(L,16);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("坐在内华达身前"));
-replaceString(L, 2, Str("content"), Str("坐在内华达身后"));
-lua_pop(L,2);
-replaceString(L, 17, Str("say"), Str("好，向后靠稳了，小心别滑出去！走咯！"));
-replaceString(L, 18, Str("say"), Str("好，抱住我的腰，注意坐稳！走咯！"));
-replaceString(L, 19, Str("say"), Str("马的速度不算快。在习惯了最初的颠簸之后，荒野的清风与风景立刻环绕了过来。"));
-replaceString(L, 20, Str("say"), Str("怎么样少年，还不错吧？接下来要加速了，一定要坐稳哦~"));
-replaceString(L, 21, Str("say"), Str("Heeehaaa！"));
-replaceString(L, 22, Str("say"), Str("伴随着马蹄声，视野开始向前加速。"));
-replaceString(L, 23, Str("say"), Str("我与内华达与身下的马仿佛融为了一体，变成了一艘快艇逆流行驶在褐色海洋中。"));
-getByList(L,23);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("是不是有点太快了……？"));
-replaceString(L, 2, Str("content"), Str("Yahoo！~~"));
-lua_pop(L,2);
-replaceString(L, 24, Str("say"), Str("嗯？我觉得这个速度刚刚好哦。"));
-replaceString(L, 25, Str("say"), Str("不过嘛……确实，对于观景的话还是速度慢一些好。"));
-replaceString(L, 26, Str("say"), Str("哈哈，少年很上道嘛！我们就是牛仔，在荒野上策马奔腾的牛仔~"));
-replaceString(L, 27, Str("say"), Str("不过还是要注意坐稳扶好，我们这趟骑马漫步之旅距离结束还差得远呢————"));
-lua_pop(L, 1);
-}
-void DINGXIANGZHEDIE3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("在安洁的带领下，我们正沿着主干道不紧不慢地前进着。"));
-replaceString(L, 2, Str("say"), Str("校园内的林荫道树影斑驳，虽说有些冷清，但却不影响众人的热情。"));
-replaceString(L, 3, Str("say"), Str("不光是约克城她们兴致高涨，就连安洁也带着一种故地重游的兴奋。"));
-replaceString(L, 4, Str("say"), Str("———所以最后就是这么回事。"));
-replaceString(L, 5, Str("say"), Str("因为奥斯塔帮我设定了定时抢课的缘故，最后还是赶上了。"));
-replaceString(L, 6, Str("say"), Str("那家伙从以前开始就总是快我一步……最后连猫的事也让他说中了。"));
-replaceString(L, 7, Str("say"), Str("直到毕业，我养的那只猫真的没能学会打扫卫生做家务……"));
-replaceString(L, 8, Str("say"), Str("……欸？猫为什么要会打扫卫生做家务？"));
-replaceString(L, 9, Str("say"), Str("因为我明明有好好教的啊！"));
-replaceString(L, 10, Str("say"), Str("……不，学不会才正常吧。"));
-replaceString(L, 11, Str("say"), Str("不……不正常，肯定是我在培养过程中的哪个环节上出错了。"));
-replaceString(L, 12, Str("say"), Str("毕竟它可是真的学会收发邮件了！"));
-replaceString(L, 13, Str("say"), Str("博士，这个故事能请您详细说一下么……"));
-replaceString(L, 14, Str("say"), Str("嗯，可以哦。这件事要从某一天，我收到了奥斯塔的奇怪邮件回复开始————"));
-replaceString(L, 15, Str("say"), Str("博士，您看是前面那家店么？"));
-replaceString(L, 16, Str("say"), Str("嗯？让我看看哦………………葛莱娜泰，咖啡。"));
-replaceString(L, 17, Str("say"), Str("没错！就是那家店！还开着真是太好了~"));
-replaceString(L, 18, Str("say"), Str("虽然看上去变得时髦了不少。不过……嗯，这大概也算是生意蒸蒸日上的表现。"));
-replaceString(L, 19, Str("say"), Str("来吧来吧，我们进店再聊。来大学不拜访一下这家咖啡厅，可是一生的遗憾哦~"));
-replaceString(L, 20, Str("say"), Str("进入咖啡厅后，安洁带着众人径直来到了包厢中。"));
-replaceString(L, 21, Str("say"), Str("哼哼，没想到我当年登记的会员资格现在还有效，这种有传承的老店就是好啊~"));
-replaceString(L, 22, Str("say"), Str("环顾四周，岁月沉淀下来的古朴和花哨的电子感，两种截然不同的风格交织在一起。"));
-replaceString(L, 23, Str("say"), Str("这使得整个包间的装修氛围在华丽之下更显出一丝奇妙。"));
-replaceString(L, 24, Str("say"), Str("不过————"));
-getByList(L,24);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("为什么校园咖啡厅会有这种大包间？"));
-lua_pop(L,2);
-replaceString(L, 25, Str("say"), Str("嗯？因为这里可是正儿八经的高端餐厅哦？大概……"));
-replaceString(L, 26, Str("say"), Str("来，大家看菜单点菜吧。菜单在…………"));
-replaceString(L, 27, Str("say"), Str("安洁在座椅的后背摸索起来，不过看她的表情是摸了个空。"));
-replaceString(L, 28, Str("say"), Str("您好，请问有什么需要帮助的么？"));
-replaceString(L, 29, Str("say"), Str("以前明明是放在这里的啊……不好意思请问你们的菜单在…………你是什么啊？！"));
-replaceString(L, 30, Str("say"), Str("您好，欢迎光临葛莱娜泰，我是这里的点餐服务机器人。菜单的话，请查看我手中的平板显示屏。"));
-replaceString(L, 31, Str("say"), Str("这个机器人穿着的好像是服务生的衣服啊……"));
-replaceString(L, 32, Str("say"), Str("唔…………这家店的现代化进程有点过头了吧！"));
-replaceString(L, 33, Str("say"), Str("这个机器人型号我有印象，不是ITN上个季度才推向市场的第四代魔方能源驱动服务机器人么！"));
-replaceString(L, 34, Str("say"), Str("非常感谢您的夸奖。您的夸奖就是我们持续改进服务质量的动力。"));
-replaceString(L, 35, Str("say"), Str("其实倒也没夸你…………算了。"));
-replaceString(L, 36, Str("say"), Str("至少穿着的衣服没变，还是当年服务生的制服。"));
-replaceString(L, 37, Str("say"), Str("看来老板在保留传统和提升现代化程度这两方面也是做过一番思考的呢……"));
-replaceString(L, 38, Str("say"), Str("不行……一看到这身衣服回忆就涌现出来了。"));
-replaceString(L, 39, Str("say"), Str("那我还是老样子，一份伊比利亚海鲜烩饭，再来一大杯卡布奇诺。"));
-replaceString(L, 40, Str("say"), Str("您的点单已确认，请问还要继续点单么？"));
-replaceString(L, 41, Str("say"), Str("欸？！咖啡厅会有海鲜烩饭这种东西吗？！"));
-replaceString(L, 42, Str("say"), Str("……咖啡厅应该是……点咖啡的吧？"));
-replaceString(L, 43, Str("say"), Str("那种传统菜单当然也有啦，但相比的话，海鲜烩饭才是这间咖啡厅的招牌菜品！"));
-replaceString(L, 44, Str("say"), Str("好、好难理解……"));
-replaceString(L, 45, Str("say"), Str("不按寻常套路出牌，说不定这才是这家咖啡厅至今屹立不倒的经营秘诀哦。"));
-replaceString(L, 46, Str("say"), Str("不愧是博士喜欢的店，确实很有，博士，的感觉……"));
-replaceString(L, 47, Str("say"), Str("意思是说我很有眼光对吧？"));
-replaceString(L, 48, Str("say"), Str("不过这次你可夸错了，这家店最开始是奥斯塔推荐给我的。"));
-replaceString(L, 49, Str("say"), Str("最开始听到的时候我也是大吃一惊，奇怪为什么咖啡厅的招牌会是伊比利亚海鲜烩饭。"));
-replaceString(L, 50, Str("say"), Str("不过实际吃了之后立刻就爱上了。"));
-replaceString(L, 51, Str("say"), Str("大家可以仔细看看菜单哦，这家店好吃的东西可不少呢。"));
-replaceString(L, 52, Str("say"), Str("哼哼……那我要一份菠萝披萨加薯条特大份。"));
-replaceString(L, 53, Str("say"), Str("给哈曼来一份儿童汉堡肉套餐？"));
-replaceString(L, 54, Str("say"), Str("哈曼才不要儿童套餐！唔…！哈曼要这个！"));
-replaceString(L, 55, Str("say"), Str("黑咖啡外加黑森林蛋糕……？"));
-replaceString(L, 56, Str("say"), Str("嗯！就要这个！"));
-replaceString(L, 57, Str("say"), Str("欸……那我就来一份汉堡肉儿童套餐好了。"));
-replaceString(L, 58, Str("say"), Str("唔……那我来一份伊比利亚芝士海鲜焗饭。"));
-replaceString(L, 59, Str("say"), Str("我的话，来一份火腿芝士薯条，再来一杯花茶。"));
-replaceString(L, 60, Str("say"), Str("老师，你要点什么？"));
-replaceString(L, 61, Str("say"), Str("嗯…………也和安洁一样，来一份海鲜烩饭吧。"));
-replaceString(L, 62, Str("say"), Str("不愧是我的助手！那我们的点单都结束了。"));
-replaceString(L, 63, Str("say"), Str("请您确认一下点单：两份伊利里亚海鲜烩饭，一份伊比利亚芝士海鲜焗饭，一份菠萝披萨，一份儿童汉堡肉套餐——"));
-replaceString(L, 64, Str("say"), Str("一份特大薯条，一份火腿芝士薯条，一份黑森林蛋糕，一杯黑咖啡，一杯卡布奇诺（大杯），一杯季节花茶。"));
-replaceString(L, 65, Str("say"), Str("请确认。"));
-replaceString(L, 66, Str("say"), Str("没错没错，接下来麻烦你了~"));
-lua_pop(L, 1);
-}
-void LONGXIANG3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("轻型航母龙骧参上！\n\n<size=45>三 专心！未达目标绝不停歇</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区・仓库工位"));
-replaceString(L, 3, Str("say"), Str("两人正在清点搬过来的资材，那是刚刚送来的委托报酬。"));
-replaceString(L, 4, Str("say"), Str("与前去执行委托任务的伙伴们送来的报告一致，资金、教科书……燃料消耗也没问题啦。"));
-replaceString(L, 5, Str("say"), Str("……然后呢，指挥官\"以前\"可是一个人睡不着的呢。隼鹰一直陪指挥官一起睡所以知道哦～"));
-replaceString(L, 6, Str("say"), Str("这样啊。好的，下一个"));
-replaceString(L, 7, Str("say"), Str("燃料还有从本部获得的心智单元……\"前年\"指挥官也和隼鹰去度假了呢～"));
-replaceString(L, 8, Str("say"), Str("这样哦，那这个也拜托了"));
-replaceString(L, 9, Str("say"), Str("航空武器装备的强化部件数量也是对的……啊，对了对了……指挥官答应将来娶我的约定是什么时候才能成真呢……"));
-replaceString(L, 10, Str("say"), Str("嗯。还剩两个……这次也是大成功呢！"));
-replaceString(L, 11, Str("say"), Str("真高兴啊！身为青梅竹马的我，一定要第一个通知指挥官才行呢！"));
-replaceString(L, 12, Str("say"), Str("拜托了。……喂，那不是我这个秘书舰的工作吗！？"));
-replaceString(L, 13, Str("say"), Str("两人的工作总算是磕磕绊绊顺利完成了——"));
-replaceString(L, 14, Str("say"), Str("龙骧啊……，正月和指挥官约会的话，去哪里会比较好呢？"));
-replaceString(L, 15, Str("say"), Str("吾听闻主公并未确定正月的安排。……好，这样今天的工作也完成了呢。"));
-replaceString(L, 16, Str("say"), Str("隼鹰，话说在前面，你可不能把主公强行拉去和你约会哦……"));
-replaceString(L, 17, Str("say"), Str("……切。那我就先离开了。任务结果还是龙骧你直接和指挥官报告吧~"));
-replaceString(L, 18, Str("say"), Str("…………"));
-replaceString(L, 19, Str("say"), Str("（小声）……与主公、约会……"));
-replaceString(L, 20, Str("say"), Str("（小声）到底是什么感觉呢……"));
+replaceString(L, 1, Str("say"), Str("档案回收完毕，海域目标已完成。"));
+replaceString(L, 2, Str("say"), Str("本次档案海域记录仪中记录的所有档案均已回收完毕。"));
 lua_pop(L, 1);
 }
 void W3001(lua_State *L) {
@@ -2565,5480 +41,58 @@ lua_getfield(L, 2, Str("scripts"));
 replaceString(L, 1, Str("say"), Str("海面上出现了异动！一部分海域的入口被打开了，先尝试调查一下看看吧"));
 lua_pop(L, 1);
 }
-void LINKPREHEAT1_1(lua_State *L) {
+void W3002(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("小久~~！小猫音~~！露露缇耶大人~！你们在这里吗~！?"));
-replaceString(L, 2, Str("say"), Str("芙米露露的小伙伴们～！听到的话请回答——！"));
-replaceString(L, 3, Str("say"), Str("不在的话…就回答一句不在吧……"));
-replaceString(L, 4, Str("say"), Str("拉菲，那是不可能的吧？！"));
-replaceString(L, 5, Str("say"), Str("不在这还能回话的话是灵异现象了……一定是有妖怪了"));
-replaceString(L, 6, Str("say"), Str("乌璐露大人和萨拉娜大人也不在吗~？"));
-replaceString(L, 7, Str("say"), Str("——轰隆！"));
-replaceString(L, 8, Str("say"), Str("虽然不是回话……Z23，刚才那声你听到了吗"));
-replaceString(L, 9, Str("say"), Str("听到了，虽然很轻但是是战斗的声音！"));
-replaceString(L, 10, Str("say"), Str("干扰还是很强烈……不过方向倒是知道了"));
-replaceString(L, 11, Str("say"), Str("朝着发出声音的方向前进吧！"));
-lua_pop(L, 1);
-}
-void TIEXUEYUYINFU17(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("终于进入可以面对面的距离了"));
-replaceString(L, 2, Str("say"), Str("当时你就是用这个武器把胡德击败的，在这个距离上"));
-replaceString(L, 3, Str("say"), Str("我没说错吧，俾斯麦"));
-replaceString(L, 4, Str("say"), Str("……"));
-replaceString(L, 5, Str("say"), Str("那么，我们就在这个距离上击败你，击败你这个失去荣耀的狂信徒！"));
-replaceString(L, 6, Str("say"), Str("荣耀…么"));
-replaceString(L, 7, Str("say"), Str("我……"));
-replaceString(L, 8, Str("say"), Str("皇家舰队，逢敌必战，开火！"));
-lua_pop(L, 1);
-}
-void JIARIXINTIAODAYOULUN27(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("来到了邮轮上的教室附近，在门口就听见了熟悉的哀求声。"));
-replaceString(L, 2, Str("say"), Str("鞍山姐……我真的学会了哦！能不能让我先下课……"));
-replaceString(L, 3, Str("say"), Str("（抚顺和鞍山？进去看看好了。）"));
-replaceString(L, 4, Str("say"), Str("推门进去，发现教室中不仅有抚顺和鞍山，还有海天、飞云，以及安克雷奇。"));
-replaceString(L, 5, Str("say"), Str("指挥官，来得正好，要来一起吗？"));
-replaceString(L, 6, Str("say"), Str("老师……！和安克雷奇一起上课……开心……嘿嘿。"));
-replaceString(L, 7, Str("say"), Str("指挥官，你看！海天老师和鞍山老师正在教飞云大人和安克雷奇画画哦！"));
-replaceString(L, 8, Str("say"), Str("飞云举着一张有着歪七扭八、难以名状的图案的纸张跑到了我面前。"));
-replaceString(L, 9, Str("say"), Str("飞云，画画和书法一样，都需要静下心来。"));
-replaceString(L, 10, Str("say"), Str("虽然可以理解看到指挥官来了比较容易激动……咳……"));
-replaceString(L, 11, Str("say"), Str("哦……好吧……不过飞云也只是想让指挥官看看飞云这次画得怎么样嘛。"));
-getByList(L,11);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("保持沉默"));
-replaceString(L, 2, Str("content"), Str("称赞飞云"));
-lua_pop(L,2);
-replaceString(L, 12, Str("say"), Str("…………"));
-replaceString(L, 13, Str("say"), Str("好啦，飞云，别总要指挥官给出评价，你还处在需要继续练习的阶段哦。"));
-replaceString(L, 14, Str("say"), Str("这幅画，实在是……嗯……假以时日，飞云你一定能开辟一个全新的艺术流派吧。"));
-replaceString(L, 15, Str("say"), Str("真的吗！"));
-replaceString(L, 16, Str("say"), Str("好啦，飞云，别因为这样就太骄傲哦？你需要继续练习才行呢。"));
-replaceString(L, 17, Str("say"), Str("知道啦~"));
-replaceString(L, 18, Str("say"), Str("和冲过来想要评价的飞云不同，一旁的安克雷奇则是更认真地在求教着鞍山画画的诀窍。"));
-replaceString(L, 19, Str("say"), Str("怎么画……这里……安克雷奇……不太明白……"));
-replaceString(L, 20, Str("say"), Str("这里要这样，你看……"));
-replaceString(L, 21, Str("say"), Str("而从刚刚起就一直没说话的抚顺，则在鞍山所处位置的视线死角中疯狂地冲我眨眼。"));
-replaceString(L, 22, Str("say"), Str("见我注意到她后，她立刻举起了自己的素描本，上面写着——"));
-replaceString(L, 23, Str("say"), Str("\"我想去冒险！指挥官你带我走吧指挥官！\""));
-replaceString(L, 24, Str("say"), Str("抚、顺……"));
-replaceString(L, 25, Str("say"), Str("等等，指挥官你怎么念出来了……呜啊啊啊，鞍山姐！"));
-replaceString(L, 26, Str("say"), Str("冒险？那怎么能少得了飞云大人？飞云大人也要一起去！"));
-replaceString(L, 27, Str("say"), Str("老师！安克雷奇……也要和老师一起，冒险！"));
-replaceString(L, 28, Str("say"), Str("咳……现在还是上课时间，就算要冒险，也得等到下课后，对吧？"));
-replaceString(L, 29, Str("say"), Str("鞍山和海天在很努力地上课，也要尊重\"老师\"们的劳动成果才对。"));
-replaceString(L, 30, Str("say"), Str("唔……指挥官说的没错，那么飞云大人就继续老老实实的……！"));
-replaceString(L, 31, Str("say"), Str("安克雷奇，听话……！好孩子……等到下课了……再来找老师！"));
-replaceString(L, 32, Str("say"), Str("谢谢你，指挥官，帮了大忙了。抚顺，我要跟你好好聊一聊了。"));
-replaceString(L, 33, Str("say"), Str("完……完蛋了！鞍山姐我错了啦呜呜……"));
-replaceString(L, 34, Str("say"), Str("（虽然于心不忍，可我这次实在无能为力，加油吧……）"));
-replaceString(L, 35, Str("say"), Str("（继续留在这里会影响鞍山和海天的教学进度的，还是先离开吧。）"));
-replaceString(L, 36, Str("say"), Str("之后在抚顺凄惨的求饶声中离开了教室。"));
-lua_pop(L, 1);
-}
-void AILUNSAMUNA4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("3星豪华恋物语\n\n<size=45>四 橱窗反射的约会</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("科学部要的东西我们去买，文书用品的话就交给波特了～"));
-replaceString(L, 3, Str("say"), Str("没问题~艾伦和指挥官的话，去买这条清单上的东西吧～"));
-replaceString(L, 4, Str("say"), Str("OK！大家一会在这里汇合哦！"));
-replaceString(L, 5, Str("say"), Str("清单上的东西基本都买到了，该和大家汇合了——"));
-replaceString(L, 6, Str("say"), Str("一、一个人也没有吗……"));
-replaceString(L, 7, Str("say"), Str("汇合地点不知道为什么只有艾伦一个人在。"));
-replaceString(L, 8, Str("say"), Str("真是的…本来为了不想被传出奇怪的传闻才会叫大家一起来的，为什么大家都心照不宣的想到奇怪的部分上去了呢……"));
-replaceString(L, 9, Str("say"), Str("联系了一下布莱默顿她们，大家都以\"买的东西太沉，不能继续逛了\"为借口直接返回港区了。"));
-replaceString(L, 10, Str("say"), Str("对不起指挥官，要不我们也回去吧？"));
-replaceString(L, 11, Str("say"), Str("艾伦有点遗憾的朝这边问道。"));
-replaceString(L, 12, Str("say"), Str("本想借着和大家一起买东西的机会来让她好好放松一下的，如果就这么回去的话——"));
-replaceString(L, 13, Str("say"), Str("指、指挥官的意思是陪我再逛一会吗？"));
-replaceString(L, 14, Str("say"), Str("太好了！！！"));
-replaceString(L, 15, Str("say"), Str("不过…指挥官也不用为了我做到这个份上的……"));
-replaceString(L, 16, Str("say"), Str("反正之后也没有别的安排，今天本来就是为了艾伦才出来的。"));
-replaceString(L, 17, Str("say"), Str("既然指挥官都这么说了，我这边肯定是没问题的啦，那个……"));
-replaceString(L, 18, Str("say"), Str("接下来，不如去逛街吧？"));
-lua_pop(L, 1);
-}
-void FUSHUN5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("不可思议的\"大危机\"\n\n<size=45>五　不可思议的真相！</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("和抚顺一起走入了密道，在其中行走了一段时间后——"));
-replaceString(L, 3, Str("say"), Str("咦，感觉这里的温度和湿度都有些变化……"));
-replaceString(L, 4, Str("say"), Str("指挥官，我们好像一直在往地下走？"));
-replaceString(L, 5, Str("say"), Str("确实，就是不知道这个密道最后会通往哪里。"));
-replaceString(L, 6, Str("say"), Str("——滴滴滴。"));
-replaceString(L, 7, Str("say"), Str("指挥官，你有没有听见什么奇怪的响声？"));
-replaceString(L, 8, Str("say"), Str("抚顺压低了声音讲话，不知不觉间气氛变得有些紧张。"));
-replaceString(L, 9, Str("say"), Str("一定要把声音压得这么低么？"));
-replaceString(L, 10, Str("say"), Str("咳咳，那是因为这里是真正的密道嘛……就算是我，也会稍微紧张一下下……"));
-replaceString(L, 11, Str("say"), Str("等等！不，不好……前，前面有什么东西冲过来了……！"));
-replaceString(L, 12, Str("say"), Str("绿色的！是眼睛？！啊啊……莫非是神秘生物出现了？！"));
-replaceString(L, 13, Str("say"), Str("谁……谁在那里？"));
-replaceString(L, 14, Str("say"), Str("黑暗中传来颤抖的声音——是英格拉罕。"));
-replaceString(L, 15, Str("say"), Str("什么嘛……仔细一看这个绿色的东西原来是英格拉罕的小机器人……"));
-replaceString(L, 16, Str("say"), Str("呼……原来是指挥官和抚顺啊……我还以为遇到了别的东西……"));
-replaceString(L, 17, Str("say"), Str("（结果相互都被对方吓到了啊。）"));
-replaceString(L, 18, Str("say"), Str("在平复了一下情绪后，英格拉罕开始发问。"));
-replaceString(L, 19, Str("say"), Str("指挥官，你和抚顺为什么会来工厂的地下仓库啊？"));
-replaceString(L, 20, Str("say"), Str("而且还是在这种深夜……"));
-replaceString(L, 21, Str("say"), Str("比起我们，你一个人半夜三更出现在废弃工厂才更奇怪吧？"));
-replaceString(L, 22, Str("say"), Str("我只是来找找有没有忘记转移的材料，毕竟工厂要拆了嘛……"));
-replaceString(L, 23, Str("say"), Str("这个时间过来做资产盘点也不会影响到其他人。"));
-replaceString(L, 24, Str("say"), Str("这座废弃工厂终于要被拆掉了？"));
-replaceString(L, 25, Str("say"), Str("是哦，明天我就会来负责监督工厂的爆破工作。"));
-replaceString(L, 26, Str("say"), Str("原来如此……因为英格拉罕最近总是晚上在这里盘点，所以才被长春当做了\"废弃工厂的不可思议\"啊……"));
-replaceString(L, 27, Str("say"), Str("废弃工厂的不可思议……？那是什么？"));
-replaceString(L, 28, Str("say"), Str("没什么，别在意……嘿嘿。"));
-replaceString(L, 29, Str("say"), Str("总之，本次探险宣告结束。所谓的\"不可思议\"的正体——就是英格拉罕啦！"));
-replaceString(L, 30, Str("say"), Str("期待已久的神秘事件结果只是误会一场，你会失望么？"));
-replaceString(L, 31, Str("say"), Str("不会呀！我今天反而超~开心的哦！"));
-replaceString(L, 32, Str("say"), Str("所谓的探险，就是享受探索的过程哦！结果是什么反而不重要~"));
-replaceString(L, 33, Str("say"), Str("被遗忘的废弃工厂，不可思议的传说，只依靠手电筒在黑暗中前行——这件事情本身就超好玩啦！"));
-replaceString(L, 34, Str("say"), Str("（过程比结果更重要……么？可能这就是抚顺热衷调查不可思议事件，并始终乐此不疲的原因吧。）"));
-replaceString(L, 35, Str("say"), Str("说起来，我差不多已经检查完了，你们还有什么事吗？"));
-replaceString(L, 36, Str("say"), Str("要是没有的话，就一起回去吧。"));
-replaceString(L, 37, Str("say"), Str("好呀好呀，啊~现在这个时间，是最适合讲故事的时间啊！"));
-replaceString(L, 38, Str("say"), Str("嘿嘿嘿，要不要我讲给你们听？我收集到的那些港区怪奇故事。"));
-replaceString(L, 39, Str("say"), Str("不，不要！一个字都不准讲……！认真走路就好……"));
-replaceString(L, 40, Str("say"), Str("空旷的密道中，回荡着我们的脚步声。"));
-replaceString(L, 41, Str("say"), Str("就在这时，传来了一阵奇怪的响动。"));
-replaceString(L, 42, Str("say"), Str("有什么声音……"));
-replaceString(L, 43, Str("say"), Str("你也听见了吗？\"啪叽\"一声……然后又消失了……？"));
-replaceString(L, 44, Str("say"), Str("难道是我的机器人出故障了？不对，不是我熟悉的声音……"));
-replaceString(L, 45, Str("say"), Str("难，难道真的是你们说的什么……\"不可思议事件\"……？！"));
-replaceString(L, 46, Str("say"), Str("抚顺，你不去追查看看么？"));
-replaceString(L, 47, Str("say"), Str("她没有听到我的话，只是低着头自顾自地摆弄着手机。"));
-replaceString(L, 48, Str("say"), Str("抚顺，你在干嘛……发信息？"));
-replaceString(L, 49, Str("say"), Str("啊？欸？原来在叫我啊……"));
-replaceString(L, 50, Str("say"), Str("一点小动静而已，有什么好在意的。"));
-replaceString(L, 51, Str("say"), Str("回去吧回去吧，没什么好追查的~"));
-replaceString(L, 52, Str("say"), Str("走啦走啦！指挥官，英格拉罕！"));
-replaceString(L, 53, Str("say"), Str("（抚顺没有去追查响动的来源……不对劲。）"));
-replaceString(L, 54, Str("say"), Str("（嗯……之后再观察她一阵子吧。）"));
-replaceString(L, 55, Str("say"), Str("\"废弃工厂的不可思议\"探险之旅，在困惑中落下帷幕。"));
-replaceString(L, 56, Str("say"), Str("不过所谓的\"不可思议\"，就是会充满各式各样的谜团……吧？"));
-lua_pop(L, 1);
-}
-void YINSEDANGAN2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>权限验证中————————————</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>——CV-3——萨拉托加——权限认证级别——II——</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>权限验证完毕————————————</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>数据解析中————————————</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>正在播放纪录————————————</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("————6月4日"));
-replaceString(L, 3, Str("say"), Str("塞壬的行动十分反常，舰队今日居然在PH港西北方的安全海域内遭到攻击。"));
-replaceString(L, 4, Str("say"), Str("这几日PH港西南方的安全海域内也有零星的袭击报告传来……"));
-replaceString(L, 5, Str("say"), Str("虽然都只是小股敌人，但应当引起足够重视。塞壬可能正在为一次大规模袭击做准备。"));
-replaceString(L, 6, Str("say"), Str("现在的前线舰队光是应对重樱的进攻就已竭尽全力，如果塞壬再发动袭击的话……"));
-replaceString(L, 7, Str("say"), Str("嗯……这次我可是尽力把所有能开出海的舰队都带上了，就算塞壬真发动袭击倒也能抵挡一阵子。"));
-replaceString(L, 8, Str("say"), Str("问题在于时间。"));
-replaceString(L, 9, Str("say"), Str("抵达前线的时间因为沿途的塞壬阻碍而不断延迟，实际到达时间可能会是明日下午或者深夜……"));
-replaceString(L, 10, Str("say"), Str("一定要赶上啊……！"));
-replaceString(L, 11, Str("say"), Str("数据解析完毕————————————"));
-replaceString(L, 12, Str("say"), Str("播放结束————————————"));
-lua_pop(L, 1);
-}
-void WORLD508F(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("不妙，这样下去可不妙……仲裁机关相互协作之后战斗难度可不是一变三这么简单！"));
-getByList(L,1);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("不要放弃"));
-replaceString(L, 2, Str("content"), Str("继续战斗"));
-lua_pop(L,2);
-replaceString(L, 2, Str("say"), Str("你这家伙倒是意外的冷静啊。"));
-replaceString(L, 3, Str("say"), Str("危险的战斗毕竟也经历过不少了……越是危急就越不能放弃，坚持战斗才有希望。"));
-replaceString(L, 4, Str("say"), Str("阵型变换，受损严重的舰船移动到二线。女灶神，现在已经到了战斗的关键时刻，不用有所保留，尽全力为大家维修吧。"));
-replaceString(L, 5, Str("say"), Str("交给我吧！只要后勤舰队还存在，就不会让任何同伴倒下的！"));
-replaceString(L, 6, Str("say"), Str("皇家舰队，给本王顶上。"));
-replaceString(L, 7, Str("say"), Str("遵命。陛下，请您退后。"));
-replaceString(L, 8, Str("say"), Str("企业前辈你的航空甲板……请先去进行紧急维护，这里就暂时交给我们吧！"));
-replaceString(L, 9, Str("say"), Str("嗯，我不会勉强的……有劳了。"));
-replaceString(L, 10, Str("say"), Str("………………"));
-replaceString(L, 11, Str("say"), Str("你们也退下去整备一下吧？"));
-replaceString(L, 12, Str("say"), Str("居然叫我们退后？你未免也太自信了。"));
-replaceString(L, 13, Str("say"), Str("以你们与仲裁机关的实力差，只要我们停止进攻，你们会被瞬间全灭的。"));
-replaceString(L, 14, Str("say"), Str("没错~放心放心，我们还轮不到你来担心。"));
-replaceString(L, 15, Str("say"), Str("不过……稍微拉开些距离调整一下进攻节奏顺便补给一下好像也不错？"));
-replaceString(L, 16, Str("say"), Str("飞龙……？"));
-replaceString(L, 17, Str("say"), Str("哈哈哈，好久没享受过大舰队协同作战，都快忘记这些战术选择了。"));
-replaceString(L, 18, Str("say"), Str("我们的后勤资源你们可以在这场战斗中随意使用。让我们继续战斗吧！"));
-lua_pop(L, 1);
-}
-void MAOZIHUODONG9(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("皇家群岛有个神话，有一种叫做\"达格达之锅\"的宝物，可以从中源源不断的取出食物，永远不空。"));
-replaceString(L, 2, Str("say"), Str("就现在的情况来说，用这件宝物来形容这座塞壬要塞简直再恰当不过了。"));
-replaceString(L, 3, Str("say"), Str("所有人都在全神贯注的战斗着，就连萨拉托加也没有了开玩笑的闲心。"));
-replaceString(L, 4, Str("say"), Str("战局在不知不觉间已经陷入了胶着，并向着更加恶化的方向发展。"));
-replaceString(L, 5, Str("say"), Str("唔…没想到发展成拉锯战了，之前是我太得意了。"));
-replaceString(L, 6, Str("say"), Str("制空权姑且还在我们手中，继续战斗下去也还没问题！"));
-replaceString(L, 7, Str("say"), Str("不过看水面战斗的情况…这个损耗…恐怕是无法继续维持战线了。"));
-replaceString(L, 8, Str("say"), Str("这一点不用担心！量产型可以依靠阿申留防线基地进行补充，增援也已经在路上了。"));
-replaceString(L, 9, Str("say"), Str("只要放慢推进速度，水面战斗也能继续坚持！"));
-replaceString(L, 10, Str("say"), Str("战役之前我们多少也做了些准备，已经对附近所有基地下达了增援命令，一段时间的增援和后勤保障应该没有问题。"));
-replaceString(L, 11, Str("say"), Str("不过…如果不能取得实质性突破的话，和塞壬打消耗战先被拖垮的一定是我们…"));
-replaceString(L, 12, Str("say"), Str("对面的塞壬现在干劲满满，就算掉头撤退，我觉得塞壬也不会轻易放我们走哦？"));
-replaceString(L, 13, Str("say"), Str("接下来怎么办，那边的指挥官？"));
-getByList(L,13);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("北方联合主力舰队前来支援的概率有多大？"));
-replaceString(L, 2, Str("content"), Str("箭在弦上，只能利用手头资源奋战到底了！"));
-lua_pop(L,2);
-replaceString(L, 14, Str("say"), Str("战局陷入不利之后，我就立刻向卡拉金司令部汇报了。"));
-replaceString(L, 15, Str("say"), Str("目前，舰队的调遣依然在协调中…"));
-replaceString(L, 16, Str("say"), Str("果然是这样么…看来只好利用手头资源打赢这场战斗了！"));
-replaceString(L, 17, Str("say"), Str("哦~这就是战场指挥官的魄力么~！"));
-replaceString(L, 18, Str("say"), Str("没问题哦，我会负起责任来好好保护你的指挥舰，你就安心指挥战斗吧~"));
-lua_pop(L, 1);
-}
-void W800103(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("还是再加把劲思考一下吧！"));
-lua_pop(L, 1);
-}
-void HOLOGUANQIA14(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("那边的箱形白色建筑就是holomart了，平时我们在仓库中囤积了各类道具，是收集补给品的最理想地点！"));
-replaceString(L, 2, Str("say"), Str("关于刚才提到的这些补给品，我有一点不理解的事。"));
-replaceString(L, 3, Str("say"), Str("刚才因为各种各样的事，没来得及自我介绍！"));
-replaceString(L, 4, Str("say"), Str("现在重新介绍一下！大家好，初次见面，我是hololive所属虚拟女仆，湊阿库娅！"));
-replaceString(L, 5, Str("say"), Str("虽然是女仆却并不擅长家务，不过如果是玩游戏的话，我可是超级擅长哦！！！！！！！！！"));
-replaceString(L, 6, Str("say"), Str("以下是来自阿库娅的特别补给品收集小贴士！"));
-replaceString(L, 7, Str("say"), Str("在这个异常化的holo服务器中，除了原本就存在的食物、水、药品等道具，不知为什么，舰船能使用的各类补给品也散落在整个服务器中！"));
-replaceString(L, 8, Str("say"), Str("但是，有一样更重要的东西，那就是，TNT！这里的TNT和原本世界服务器里的那些TNT相比，在爆炸威力上完全不是一个等级！！！"));
-replaceString(L, 9, Str("say"), Str("哼哼哼，还好我以前事先在服务器的各处角落都埋藏了大量TNT，没想到这次居然能派上用场……"));
-replaceString(L, 10, Str("say"), Str("啊，对了，好像现在异常化的服务器里不知为何，也会自然生成少量TNT！"));
-replaceString(L, 11, Str("say"), Str("TNT可是整个holo服务器中最强力的道具，大家一定要大量收集哦！！！！！！！！！！！！！！！"));
-replaceString(L, 12, Str("say"), Str("食品药品倒不必说，矿物也许是塞壬制造舰装会用到的材料，可是TNT是…？"));
-replaceString(L, 13, Str("say"), Str("为什么服务器里会有大量TNT也是很奇怪，根据吹雪小姐的，你们是一个，唔…偶像会社…？"));
-replaceString(L, 14, Str("say"), Str("偶像会社呢…"));
-replaceString(L, 15, Str("say"), Str("TNT的事解释起来稍微有些复杂。总之在这里，TNT是最常用的破坏道具，你看到的这些建筑基本都有它的功劳哦。"));
-replaceString(L, 16, Str("say"), Str("居然用大量TNT来造房子么？和平年代还真是奢侈啊…既然是大威力的杀伤武器，我不反对多收集一些。"));
-replaceString(L, 17, Str("say"), Str("嗯……虽然感觉理解有些偏差，不过就当是这样吧！"));
-replaceString(L, 18, Str("say"), Str("现在整片区域都被塞壬前锋部队控制了，要收集物资，首先要清理出一条道路才行。"));
-replaceString(L, 19, Str("say"), Str("没问题~夏色祭，全速出航~！"));
-lua_pop(L, 1);
-}
-void DUJIACUNSHENMISHIJIANDIAOCHA10(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("度假村神秘事件调查\n\n<size=45>番外篇：于演出开始之前</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("这是在正式演出开始前发生的，某一幕故事的后续——"));
-replaceString(L, 3, Str("say"), Str("温泉度假村·？？？"));
-replaceString(L, 4, Str("say"), Str("……看阁下也是通情达理之人，"));
-replaceString(L, 5, Str("say"), Str("吾等妖怪剧团在此常年演出，从未做出过伤人之事。"));
-replaceString(L, 6, Str("say"), Str("关于演出之事，不只阁下可否容吾等继续进行呢？"));
-replaceString(L, 7, Str("say"), Str("……妾身若是没有理解错。"));
-replaceString(L, 8, Str("say"), Str("汝等所谓的演出，是打算装神弄鬼吓唬妾身的同伴们，没错吧？"));
-replaceString(L, 9, Str("say"), Str("虽然是笑着说出了自己的疑问，然而妖怪剧团的团长——食梦貘并没有从对方的话语中感觉到任何笑意。"));
-replaceString(L, 10, Str("say"), Str("强烈的压迫感席卷了它的全身。"));
-replaceString(L, 11, Str("say"), Str("那个，信浓大人您说笑了，怎么就是装神弄鬼吓唬人了呢？"));
-replaceString(L, 12, Str("say"), Str("只是普通的恶作剧罢了……既然信浓大人不喜欢的话，我这就去通知团员停止演出。"));
-replaceString(L, 13, Str("say"), Str("汝等……为何要将恶作剧称之为演出？"));
-replaceString(L, 14, Str("say"), Str("唉，其实恶作剧捉弄人也不是吾等的本意。"));
-replaceString(L, 15, Str("say"), Str("只是在结界之外，一般人无法看到吾等。要想被人所察觉，只能弄出些奇怪的动静……"));
-replaceString(L, 16, Str("say"), Str("换言之，只要进入结界，便能如妾身一般见到汝等的真面目了？"));
-replaceString(L, 17, Str("say"), Str("道理上是这样。只是结界入口日渐破败……已经没有让一般人进入其中的力量了。"));
-replaceString(L, 18, Str("say"), Str("夏日与妖怪剧团……呵呵，倒是不错的组合。指挥官与同伴们一定会喜欢的。"));
-replaceString(L, 19, Str("say"), Str("剧团长，妾身忽然想到了……一个双赢之法，不知可否听上一听？"));
-lua_pop(L, 1);
-}
-void JIDIFENGBAO17(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("分队代号「孤狼」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("旗舰：库尔斯克"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("塞壬第二防御圈外围·某处"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("停，有情况。"));
-replaceString(L, 3, Str("say"), Str("诶？！在哪里在哪里？！"));
-replaceString(L, 4, Str("say"), Str("航线的正前方，有残骸区，很快就会进入目视范围。"));
-replaceString(L, 5, Str("say"), Str("……残骸应该是塞壬的，除此之外什么都没有。"));
-replaceString(L, 6, Str("say"), Str("…………这些都是雪鸮告诉你的么？"));
-replaceString(L, 7, Str("say"), Str("是侦察机……"));
-replaceString(L, 8, Str("say"), Str("正如库尔斯克所言，一片残骸区不久就出现在众人的视野中。"));
-replaceString(L, 9, Str("say"), Str("这里似乎刚刚经历了一场大战。"));
-replaceString(L, 10, Str("say"), Str("居然真的全都是塞壬舰队的残骸……！"));
-replaceString(L, 11, Str("say"), Str("嗯……很多都是被一击摧毁的。"));
-replaceString(L, 12, Str("say"), Str("从燃烧程度来看……应该是一个小时之内发生的事。"));
-replaceString(L, 13, Str("say"), Str("看来判断是对的，确实有不属于塞壬的第三方势力正在干扰我们行动。"));
-replaceString(L, 14, Str("say"), Str("啧……能造成这种破坏力的，肯定是META吧。"));
-replaceString(L, 15, Str("say"), Str("唉……要是这次带了信标检测仪就好了。"));
-replaceString(L, 16, Str("say"), Str("再周密的计划也不可能面面俱到。"));
-replaceString(L, 17, Str("say"), Str("而且，我们有更简单的方法。"));
-replaceString(L, 18, Str("say"), Str("……更简单的方法？"));
-replaceString(L, 19, Str("say"), Str("见了面就知道了。"));
-replaceString(L, 20, Str("say"), Str("……、、、、、、"));
-replaceString(L, 21, Str("say"), Str("异常信号还在么？"));
-replaceString(L, 22, Str("say"), Str("反应还在。"));
-replaceString(L, 23, Str("say"), Str("很好……看来谜底很快就要揭晓了。"));
-replaceString(L, 24, Str("say"), Str("如果真的是META在捣乱的话……我们要怎么办？"));
-replaceString(L, 25, Str("say"), Str("仅凭我们恐怕应付不了这样的情况吧？"));
-replaceString(L, 26, Str("say"), Str("首先，我们要弄清楚猎物是什么。"));
-replaceString(L, 27, Str("say"), Str("至于之后是打是逃，再做计划。"));
-replaceString(L, 28, Str("say"), Str("接下来一刻都不要放松，袭击随时可能到来。"));
-lua_pop(L, 1);
-}
-void GULITEGUANQIA24(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁"));
-replaceString(L, 2, Str("say"), Str("唔啊，这次是什么攻击啊！"));
-replaceString(L, 3, Str("say"), Str("不但影响了周围的水面，连空气都开始震动了！"));
-replaceString(L, 4, Str("say"), Str("简直就像空间震动一样……等等，我们的电子设备是不是开始失灵了？！"));
-replaceString(L, 5, Str("say"), Str("这个攻击是……没想居然还有电子作战模块。"));
-replaceString(L, 6, Str("say"), Str("净化亲，你还好么？！要不要暂时撤退一下？"));
-replaceString(L, 7, Str("say"), Str("嗯？我还好哦，没什么问题。"));
-replaceString(L, 8, Str("say"), Str("不会吧……为什么只有净化亲的电子设备一切正常啊？！"));
-replaceString(L, 9, Str("say"), Str("大概是因为我原本是高阶塞壬的原因？这种程度的干扰对我来说不值一提哎！"));
-replaceString(L, 10, Str("say"), Str("如果是这样的话……嗯哼，好像还可以这样！"));
-replaceString(L, 11, Str("say"), Str("净化亲，那个塞壬怪兽肯定以为你也中招了，你就装作中招不要动。"));
-replaceString(L, 12, Str("say"), Str("等怪兽大意下来之后，用火力最强的主炮一口气解决战斗！"));
-replaceString(L, 13, Str("say"), Str("哎？！好，我明白了！"));
-replaceString(L, 14, Str("say"), Str("怪兽的电子攻击持续了一阵子之后终于停止了。"));
-replaceString(L, 15, Str("say"), Str("海面上的所有舰船、控制的塞壬量产型、还有巨大的净化亲都陷入了\"瘫痪\"状态，阵型也被海浪冲的七零八散。"));
-replaceString(L, 16, Str("say"), Str("怪兽似乎有些满意的巡视着眼前的风景，注意力暂时从净化亲身上离开了。"));
-replaceString(L, 17, Str("say"), Str("等待的机会就是现在，净化亲，快射击！"));
-replaceString(L, 18, Str("say"), Str("交给我吧！主炮早就充能完毕了，没想到吧大怪兽，本净化亲完全没受到影响哦！"));
-replaceString(L, 19, Str("say"), Str("接招吧——————额…………"));
-replaceString(L, 20, Str("say"), Str("这里是不是应该插入一个帅气的招式名比较好？以前我都是怎么喊的……？"));
-replaceString(L, 21, Str("say"), Str("这种事谁注意过，鬼知道啊……！"));
-replaceString(L, 22, Str("say"), Str("随便什么光线都好吧，快点射击，怪兽要反应过来了！"));
-replaceString(L, 23, Str("say"), Str("好好好，我知道了！主炮锁定完毕——————随便什么光线，射击！！！！！！！！！"));
-lua_pop(L, 1);
-}
-void YUZHEDETIANPING19(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("维希教廷展览馆「大圣堂」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("一段时间后"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("指挥官，刚刚已经确认，维希教廷舰队驻守的土伦港已经陷入了一片火海之中。"));
-replaceString(L, 3, Str("say"), Str("好奇怪啊，维希教廷……不是已经加入马可波罗一方了么？"));
-replaceString(L, 4, Str("say"), Str("维希教廷在事件发生后的行动，确实值得揣摩。"));
-replaceString(L, 5, Str("say"), Str("一方面，她们的舰队离开了会场，并且派出了量产型舰队加入了针对会场的进攻。"));
-replaceString(L, 6, Str("say"), Str("但是另一方面，自始至终没有任何舰船加入其中，维希教廷馆的极光之壁也依然没有解除。"));
-replaceString(L, 7, Str("say"), Str("或许维希教廷的情况和撒丁帝国相同，或者更加复杂……"));
-replaceString(L, 8, Str("say"), Str("指挥官，我们应该怎么办？放任不管，还是进行救援？"));
-getByList(L,8);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("你觉得呢？"));
-lua_pop(L,2);
-replaceString(L, 9, Str("say"), Str("唔……我觉得如果有可能的话，还是应该救一下。"));
-replaceString(L, 10, Str("say"), Str("刚才您的分析不错，就现状而言，维希教廷并没有彻底站在我们的对立面上。"));
-replaceString(L, 11, Str("say"), Str("而此刻，又在与我们共同的敌人交战。"));
-replaceString(L, 12, Str("say"), Str("不管是其内部出现了分歧，还是克莱蒙梭在两头下注。"));
-replaceString(L, 13, Str("say"), Str("至少……我觉得可以争取一下。"));
-replaceString(L, 14, Str("say"), Str("嗯，我也是这么想的。"));
-replaceString(L, 15, Str("say"), Str("帮我接通厌战，皇家的直布罗陀舰队此时正在西陆间海，应该能执行救援任务。"));
-replaceString(L, 16, Str("say"), Str("遵命！"));
-lua_pop(L, 1);
-}
-void HUANCHANGYUDINGJIASHIMANG1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("港区·东煌区域——"));
-replaceString(L, 2, Str("say"), Str("维内托大人，我们到了。"));
-replaceString(L, 3, Str("say"), Str("哦……！这里已经张灯结彩了么？果然很有节日的气氛啊！"));
-replaceString(L, 4, Str("say"), Str("嗯，这里要记下来，还有这里也是……"));
-replaceString(L, 5, Str("say"), Str("我就说不会白来的吧。时间还早，要不先去最想去的地方看看？"));
-replaceString(L, 6, Str("say"), Str("有道理，我想想……不行，暂时还没想好要去哪里。"));
-replaceString(L, 7, Str("say"), Str("那我们就继续逛逛吧~没准还能碰到有趣的事呢。"));
-replaceString(L, 8, Str("say"), Str("比如说，突然——"));
-replaceString(L, 9, Str("say"), Str("————轰！！"));
-replaceString(L, 10, Str("say"), Str("欸？！发、发生什么了？"));
-replaceString(L, 11, Str("say"), Str("好像是那边有动静！我们快去看看吧！"));
-replaceString(L, 12, Str("say"), Str("顺着升起的黑烟，两人很快找到了事发地。"));
-replaceString(L, 13, Str("say"), Str("你们好！……咦，稀客啊，你们是来拜访的么？"));
-replaceString(L, 14, Str("say"), Str("哦！这不是虎贲还有飞云么！有段时间没见了！"));
-replaceString(L, 15, Str("say"), Str("是也懂美食的撒丁朋友！你们好呀~逸仙姐姐说过，来者皆是客。"));
-replaceString(L, 16, Str("say"), Str("如果你们需要什么帮助，都可以尽管和飞云大人提哒！"));
-replaceString(L, 17, Str("say"), Str("帮助暂时……还不用？那个，其实我们不是来正式拜访的。"));
-replaceString(L, 18, Str("say"), Str("非要说的话……我们是来学习\"年味\"的？"));
-replaceString(L, 19, Str("say"), Str("嗯，希望我们的突然来访没有打扰到你们。"));
-replaceString(L, 20, Str("say"), Str("撒丁的同伴们觉得东煌的春节很有意思。"));
-replaceString(L, 21, Str("say"), Str("所以今年也想按照按照你们的方式布置一次，一起热闹一下。"));
-replaceString(L, 22, Str("say"), Str("我看天鹰似乎很了解东煌，就拜托她一起来了。"));
-replaceString(L, 23, Str("say"), Str("嘿嘿，虽然了解的只是漫画书里的内容……"));
-replaceString(L, 24, Str("say"), Str("原来如此，虎贲完全明白了！"));
-replaceString(L, 25, Str("say"), Str("那你们这次可来对地方了！"));
-replaceString(L, 26, Str("say"), Str("不过，我们正忙着处理厨房的事情呢，一时半会没法带你们参观了。"));
-replaceString(L, 27, Str("say"), Str("哈哈，没关系，我们自己转转就行。"));
-replaceString(L, 28, Str("say"), Str("对了，刚刚这里发生了什么，是爆炸了么？"));
-replaceString(L, 29, Str("say"), Str("才没有哦！\n这可不是爆炸！"));
-replaceString(L, 30, Str("say"), Str("如你所见，我们正在研究新的菜品呢！"));
-replaceString(L, 31, Str("say"), Str("……啊！没、没错！我们是在制作新的菜品呢！"));
-replaceString(L, 32, Str("say"), Str("这个是……爆炒！对，爆炒！"));
-replaceString(L, 33, Str("say"), Str("哦！这我知道！就是漫画书里，东煌的那个「大火宽油之术」！"));
-replaceString(L, 34, Str("say"), Str("大火、宽油，然后爆炒！嗯嗯，没错！\"爆炒\"的动静都是这样的！"));
-replaceString(L, 35, Str("say"), Str("咦……？是这样么？"));
-replaceString(L, 36, Str("say"), Str("啊这……"));
-replaceString(L, 37, Str("say"), Str("没、没错哦！就是这样！我们东煌的独门做菜秘籍还多着呢！"));
-replaceString(L, 38, Str("say"), Str("不信的话，我们今天晚上就请你们吃一顿怎么样？肯定能对你们的春节准备工作有帮助的！"));
-replaceString(L, 39, Str("say"), Str("维内托，你怎么看？是个不错的参考机会呢。"));
-replaceString(L, 40, Str("say"), Str("我没有意见，不过，我能邀请其他同伴来么？对春节感兴趣的，也不止撒丁的同伴们呢。"));
-replaceString(L, 41, Str("say"), Str("没问题！飞云大人承诺！你们今天晚上只管来，肯定会让你们品尝到全新美食的！"));
-replaceString(L, 42, Str("say"), Str("很有气势嘛！那就恭敬不如从命了~眼下我们还想去别处看看，就先告辞了。"));
-replaceString(L, 43, Str("say"), Str("嗯！再见啊！"));
-replaceString(L, 44, Str("say"), Str("…………"));
-replaceString(L, 45, Str("say"), Str("呼……"));
-replaceString(L, 46, Str("say"), Str("还好飞云大人聪明绝顶，总算糊弄过去了……"));
-replaceString(L, 47, Str("say"), Str("济安姐真实的厨艺水平可不能透露出去啊……"));
-replaceString(L, 48, Str("say"), Str("啊哈哈……"));
-replaceString(L, 49, Str("say"), Str("相比之下，我更担心济安姐呢。"));
-replaceString(L, 50, Str("say"), Str("担心……？"));
-replaceString(L, 51, Str("say"), Str("对啊，毕竟是又把厨房搞爆炸了什么的……"));
-replaceString(L, 52, Str("say"), Str("哇啊！济、济安姐？！我、我刚刚开玩笑的哦！"));
-replaceString(L, 53, Str("say"), Str("没错没错！飞云大人绝对没有觉得，济安姐是会把厨房搞爆炸的那种人哦！"));
-replaceString(L, 54, Str("say"), Str("欸！说的好过分！"));
-replaceString(L, 55, Str("say"), Str("我们不是这个意思啦！那个，飞云快点说些什么吧！"));
-replaceString(L, 56, Str("say"), Str("……啊？"));
-replaceString(L, 57, Str("say"), Str("咳咳……济安姐的厨房冒险，让飞云大人佩服至极！嗯！佩服！"));
-replaceString(L, 58, Str("say"), Str("不行了……！好受打击！"));
-replaceString(L, 59, Str("say"), Str("这不是越抹越黑嘛……！"));
-replaceString(L, 60, Str("say"), Str("还是别说了，我们先帮济安姐把厨房收拾好吧！"));
-replaceString(L, 61, Str("say"), Str("在一阵忙碌后，厨房总算是收拾干净了。"));
-replaceString(L, 62, Str("say"), Str("嗯，这样就和之前一样整洁了……谢谢你们的帮助。"));
-replaceString(L, 63, Str("say"), Str("没关系的，济安姐开心就好！"));
-replaceString(L, 64, Str("say"), Str("别这么紧张啦，我这边才该道歉啦……毕竟是我把厨房搞爆炸的，欸嘿~☆"));
-replaceString(L, 65, Str("say"), Str("济安姐，在厨房有着赫赫战功呢。"));
-replaceString(L, 66, Str("say"), Str("不对不对，重点不是这个——"));
-replaceString(L, 67, Str("say"), Str("你是想说，晚上维内托她们要来做客的事？"));
-replaceString(L, 68, Str("say"), Str("就是这个！维内托她们也是对美食有研究的人，所以必须要好好准备才行！"));
-replaceString(L, 69, Str("say"), Str("我明白了……不过，那要谁来做饭呢？"));
-replaceString(L, 70, Str("say"), Str("当然是龙武姐啦！"));
-replaceString(L, 71, Str("say"), Str("只要龙武姐主厨，一切都会好起来的！"));
-replaceString(L, 72, Str("say"), Str("不过……我今天好像都没看见龙武姐呢。济安姐，你知道龙武姐在哪么？"));
-replaceString(L, 73, Str("say"), Str("唔……龙武她，今天好像不在哦？"));
-replaceString(L, 74, Str("say"), Str("龙武，还有逸仙她们，今天要去置办年货……欸，你不知道么？"));
-replaceString(L, 75, Str("say"), Str("龙武姐好像是说过，让我们去食堂解决本日的三餐……"));
-replaceString(L, 76, Str("say"), Str("等等，这岂不是意味着…………今天没人做饭？"));
-replaceString(L, 77, Str("say"), Str("欸？！那晚上的约定怎么办？！"));
-replaceString(L, 78, Str("say"), Str("先、先冷静，这种情况，飞云大人见得多了！让飞云大人想想办法……"));
-replaceString(L, 79, Str("say"), Str("对了，我们去找指挥官吧，指挥官肯定有办法的！"));
-lua_pop(L, 1);
-}
-void KAIXUE06(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("樱花烂漫开学祭\n\n<size=45>六　放学后的特别辅导</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("那么…开始今天的特别辅导吧——"));
-replaceString(L, 3, Str("say"), Str("站在讲台上的苍龙姐姐，果然还是很威风凛凛呢！"));
-replaceString(L, 4, Str("say"), Str("欸~~为什么我都要参加辅导啊~明明成绩是No.1才对！"));
-replaceString(L, 5, Str("say"), Str("呜呜…测验的时候不小心忘记写名字了…"));
-replaceString(L, 6, Str("say"), Str("呼…首先是吹雪！"));
-replaceString(L, 7, Str("say"), Str("是、是！"));
-replaceString(L, 8, Str("say"), Str("虽然学力一直都没什么问题，但却总是在奇怪的地方犯错误…"));
-replaceString(L, 9, Str("say"), Str("名字忘记写什么的…答案填错格什么的…"));
-replaceString(L, 10, Str("say"), Str("呜……为什么我总是会在一些奇怪的地方出漏子呢…"));
-replaceString(L, 11, Str("say"), Str("总之把你留下来也只是为了给你提个醒，倒也没什么…"));
-replaceString(L, 12, Str("say"), Str("问题是Z1！"));
-replaceString(L, 13, Str("say"), Str("欸~？"));
-replaceString(L, 14, Str("say"), Str("还有飞龙！"));
-replaceString(L, 15, Str("say"), Str("是、是！"));
-replaceString(L, 16, Str("say"), Str("对于你们两个精力过剩的\"问题儿童\"，有必要从最基本的\"学生的本分\"开始教育起了呢…"));
-replaceString(L, 17, Str("say"), Str("做好心理准备吧！今天的辅导课，会很长哦！"));
-replaceString(L, 18, Str("say"), Str("欸~~~~~~~"));
-lua_pop(L, 1);
-}
-void DANFO6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("丹佛的港区委托！\n\n<size=45>六 比赛开始！</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("按时来到篮球场后，球场上已经聚集了相当多的人，是比赛的消息传出去了么？"));
-replaceString(L, 3, Str("say"), Str("加加加加油……！丹佛！"));
-replaceString(L, 4, Str("say"), Str("平时我不会看这些比赛，不过川内和丹佛的就另当别论了。"));
-replaceString(L, 5, Str("say"), Str("呼呼~考虑到综合实力，川内的技术要更好一些吧？"));
-replaceString(L, 6, Str("say"), Str("哼，那是因为你从来没有看过丹佛的篮球比赛所以才会这么说啦！"));
-replaceString(L, 7, Str("say"), Str("在观众的热烈的视线中，川内一边看着走进赛场的丹佛，一边用缠着绷带的食指转着球。"));
-replaceString(L, 8, Str("say"), Str("规则是每次投篮得1分，三分线外投篮得2分，先得10分的选手获胜。"));
-replaceString(L, 9, Str("say"), Str("简单易懂的规则呢。那就让我们开始吧!"));
-replaceString(L, 10, Str("say"), Str("掷硬币的结果是川内先攻，然后激烈的比赛正式开始了——！"));
-replaceString(L, 11, Str("say"), Str("首先让我看看你的本事吧！"));
-replaceString(L, 12, Str("say"), Str("川内快速运球冲到了篮下。对位的丹佛则在判断着她会往左边还是右边突破。"));
-replaceString(L, 13, Str("say"), Str("左边！"));
-replaceString(L, 14, Str("say"), Str("天真！是右边！"));
-replaceString(L, 15, Str("say"), Str("川内巧妙而华丽地闪开了丹佛，然后精准投篮。目前川内一分领先。"));
-replaceString(L, 16, Str("say"), Str("这次轮到我了！我上了哦！"));
-replaceString(L, 17, Str("say"), Str("不管你从哪边突破——啊？！"));
-replaceString(L, 18, Str("say"), Str("丹佛就在拿到球的地方，于三分线外投篮。球以一个漂亮的弧线精准入框，为丹佛得到两分。"));
-replaceString(L, 19, Str("say"), Str("我擅长的位置，可是得分后卫哦……！"));
-replaceString(L, 20, Str("say"), Str("可恶……那我就用彻彻底底的进攻击败你！"));
-replaceString(L, 21, Str("say"), Str("你来我往的比赛还在继续，现在丹佛和川内的比分是8比9，可以说是相当焦灼——"));
-replaceString(L, 22, Str("say"), Str("呼……川，川内的运球，太巧妙了，根本跟不上啊……！"));
-replaceString(L, 23, Str("say"), Str("丹佛的远距离投篮战术，被川内的贴身防守完全封锁了。"));
-replaceString(L, 24, Str("say"), Str("啧啧……丹佛，我已经完全掌握了你的动作……我不会让你再进一球的……！"));
-replaceString(L, 25, Str("say"), Str("还没有输……！不，这场比赛我不能输!"));
-replaceString(L, 26, Str("say"), Str("哼，终于我们彼此都该拿出真本事了啊……！"));
-replaceString(L, 27, Str("say"), Str("川内解开了手上缠着的绷带。丹佛则是仰望天空，调整起自己的呼吸来。"));
-replaceString(L, 28, Str("say"), Str("指挥官，大姐头，请看着我，看着丹佛闪耀的那一瞬间吧……！"));
-replaceString(L, 29, Str("say"), Str("（看起来样子有些奇怪的）丹佛的战斗，终于进入了最后阶段——！"));
-lua_pop(L, 1);
-}
-void HAIDAORICHANG17(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("海风与夏日的无人岛\n\n<size=45>心跳的日光浴时间</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("绚烈阳光下的金色沙滩，白浪拍打着海岸，发出浪花破碎的沙沙声。"));
-replaceString(L, 3, Str("say"), Str("但是回响在脑海中的声音，似乎是……心跳的声音？"));
-replaceString(L, 4, Str("say"), Str("嗯哼~Honey不过来陪我一起晒晒日光浴么？"));
-replaceString(L, 5, Str("say"), Str("阳光，冰镇饮料，蔚蓝的大海，这才是夏天的标配嘛。"));
-replaceString(L, 6, Str("say"), Str("来，Honey，饮料~"));
-replaceString(L, 7, Str("say"), Str("嘿嘿，先别急哟？让我先尝一口——嗯，果然是Honey会喜欢的味道。给你~"));
-replaceString(L, 8, Str("say"), Str("新泽西尝了口手中的饮料，而后把装着饮料的杯子递了过来——"));
-replaceString(L, 9, Str("say"), Str("啊，Honey的脸很红呢。是因为热烈的阳光？"));
-replaceString(L, 10, Str("say"), Str("还是说……因为和新泽西的间接接吻？嘿嘿，这个问题的答案我可是比Honey要更清楚哦？"));
-replaceString(L, 11, Str("say"), Str("以及，作为饮料的回礼，Honey过来帮我途下防晒油啦。"));
-replaceString(L, 12, Str("say"), Str("虽然说夏日与大海很搭，但是这阳光……未免实在是太热了。"));
-replaceString(L, 13, Str("say"), Str("……嗯？感觉Honey的视线一直在向着奇怪的地方瞟呢。"));
-replaceString(L, 14, Str("say"), Str("泳装……？嘿嘿，果然是被我的泳装给吸引了嘛？"));
-getByList(L,14);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("泳装很漂亮。"));
-replaceString(L, 2, Str("content"), Str("泳装有些……太过火辣了。"));
-lua_pop(L,2);
-replaceString(L, 15, Str("say"), Str("毕竟是Honey帮我选的泳衣，那自然是Honey会喜欢的样式啦。"));
-replaceString(L, 16, Str("say"), Str("欸？Honey难道忘记了，这身泳装可是你选的了吗？"));
-replaceString(L, 17, Str("say"), Str("啊~脸红了~！嘿嘿，Honey不会被我迷倒了吧？"));
-replaceString(L, 18, Str("say"), Str("……哇啊！好凉！"));
-replaceString(L, 19, Str("say"), Str("真是的，不声不响就突然袭击……哼哼，开个玩笑啦。"));
-replaceString(L, 20, Str("say"), Str("黏黏滑滑的冰凉感觉……哈，这下子从烈日下得救咯。"));
-replaceString(L, 21, Str("say"), Str("接下来Honey还要做点什么呢？"));
-replaceString(L, 22, Str("say"), Str("欸？嘿嘿~我懂的啦，答案都写在脸上了。"));
-replaceString(L, 23, Str("say"), Str("不过Honey，是听不懂我的意思，还是明明已经明白了，却要故意装出一副没弄懂的样子来呢？"));
-replaceString(L, 24, Str("say"), Str("嗯哼哼~脸红的Honey，也意外地可爱呢~"));
-replaceString(L, 25, Str("say"), Str("快来我身旁一起做日光浴啦~"));
-lua_pop(L, 1);
-}
-void W2019(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("喵？你问我是谁喵！？我只是一个冒着危险向一线作战人员提供补给售卖的神秘商人喵！所以要不要来买点东西喵？"));
-getByList(L,1);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("进入商店"));
-replaceString(L, 2, Str("content"), Str("离开"));
-lua_pop(L,2);
-replaceString(L, 2, Str("say"), Str("偶尔也会有这种时候喵…欢迎再次光临喵~！"));
-lua_pop(L, 1);
-}
-void RENQITOUPIAOXINPIANZHANG6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("这里就是换票处了！"));
-replaceString(L, 2, Str("say"), Str("看起来，投票所用的票据都要从这里进行兑换呢！"));
-replaceString(L, 3, Str("say"), Str("那么……拉菲要换一万张。"));
-replaceString(L, 4, Str("say"), Str("稍等一下！人气票不是想要兑换多少就能兑换多少啦！"));
-replaceString(L, 5, Str("say"), Str("想要获取投票券，需要遵守一定的规则才行！"));
-replaceString(L, 6, Str("say"), Str("你们看，都写在旁边的公告栏里了。"));
-replaceString(L, 7, Str("say"), Str("好多……好长……好复杂……"));
-replaceString(L, 8, Str("say"), Str("有些票甚至还要通过作战任务累计贡献兑换呢……"));
-replaceString(L, 9, Str("say"), Str("如果每一票都来之不易的话，那每一次投票前就需要慎之又慎——"));
-replaceString(L, 10, Str("say"), Str("我觉得这就是设置这些复杂兑换规则的原因哦。"));
-replaceString(L, 11, Str("say"), Str("也就是说……只有先刷到足够多的票，才能有任性投票的权利……对吧。"));
-replaceString(L, 12, Str("say"), Str("……你是怎么得出这个结论的？"));
-replaceString(L, 13, Str("say"), Str("那拉菲……先接下这组海域歼灭任务了。"));
-replaceString(L, 14, Str("say"), Str("等等……我们今天先参观投票会场啦！"));
-lua_pop(L, 1);
-}
-void YUANHUIDIANZUOZHAN3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("铁血实验场·雕刻车间"));
-replaceString(L, 2, Str("say"), Str("布吕歇尔与Z16来到了被标注为雕刻车间的场所。然后，二人随即被映入眼帘的景象惊呆了。"));
-replaceString(L, 3, Str("say"), Str("划分为无数分区的巨大车间被棋子填得满满当当，\"熟面孔\"们安静的屹立着，有如一整支严整的克隆军队。"));
-replaceString(L, 4, Str("say"), Str("量产型军团……"));
-replaceString(L, 5, Str("say"), Str("好、好厉害，这些全都是自动化生产的么？我还是第一次见这么夸张的东西！"));
-replaceString(L, 6, Str("say"), Str("Z1、Z2、卡尔斯鲁厄、哇！这边是欧根和希佩尔……"));
-replaceString(L, 7, Str("say"), Str("我还看到了格奈森瑙和沙恩霍斯特……甚至连俾斯麦大人的棋子都有！"));
-replaceString(L, 8, Str("say"), Str("嚯嚯嚯，这不就没剩多少给对面了嘛~"));
-replaceString(L, 9, Str("say"), Str("咱们有了这样的阵容，我根本想不到该怎么输啊！"));
-replaceString(L, 10, Str("say"), Str("你们觉得是不是啊——"));
-replaceString(L, 11, Str("say"), Str("因眼前的景象而兴奋不已的Z16蹦蹦跳跳地跑到大群的Z2的棋子跟前，伸出手来跟其中一位打招呼。"));
-replaceString(L, 12, Str("say"), Str("喂——Z2，中午好！"));
-replaceString(L, 13, Str("say"), Str("……你在做什么？跟棋子聊天没意义的吧…？"));
-replaceString(L, 14, Str("say"), Str("中午好。"));
-replaceString(L, 15, Str("say"), Str("？！竟、竟然回话了！"));
-replaceString(L, 16, Str("say"), Str("但是只回了一句……我再问问其他人！"));
-replaceString(L, 17, Str("say"), Str("喂——欧根亲王！你知道这里是哪里么？"));
-replaceString(L, 18, Str("say"), Str("关于这个问题，建议你好好查看一下任务指令书呢。"));
-replaceString(L, 19, Str("say"), Str("这里是用于远汇点作战的实验型镜面海域，而你和布吕歇尔是这次作战的红方指挥官。"));
-replaceString(L, 20, Str("say"), Str("你们的目标只有一个，通过合理的舰队指挥，尽快取得本次测试的最终胜利。"));
-replaceString(L, 21, Str("say"), Str("直到任何一边的基地被攻陷之前，实验不能停止，也不能被外部干涉哦。"));
-replaceString(L, 22, Str("say"), Str("好……好厉害！说明的内容跟作战指令书里一模一样……"));
-replaceString(L, 23, Str("say"), Str("那我们要怎么才能取胜呢？！"));
-replaceString(L, 24, Str("say"), Str("你们需要通过合理的舰队指挥，尽快获取本次测试的最终胜利。"));
-replaceString(L, 25, Str("say"), Str("……对话是不是跟刚才重复了。"));
-replaceString(L, 26, Str("say"), Str("你能解释一下什么才叫合理的舰队指挥么！"));
-replaceString(L, 27, Str("say"), Str("关于这个问题，建议你好好查看一下任务指令书呢。"));
-replaceString(L, 28, Str("say"), Str("喂——欧根亲王，你的发言是不是重复了！"));
-replaceString(L, 29, Str("say"), Str("是的，因为我只是一个用于实验的棋子而已，你指望我能说些什么呢？"));
-replaceString(L, 30, Str("say"), Str("……………………被、被棋子吐槽了？！但是又好有道理……不愧是欧根！"));
-replaceString(L, 31, Str("say"), Str("再怎么说……和棋子对话也太怪了，咱们还是继续视察舰队吧。"));
-replaceString(L, 32, Str("say"), Str("坏消息是，在没开始第一场战斗之前，我们完全不知道对手的情报。"));
-replaceString(L, 33, Str("say"), Str("但是相应的，对手应该也不了解我们才对。"));
-replaceString(L, 34, Str("say"), Str("既然如此，那就让咱们拿出最强的阵容，狠狠地教训一下对面吧！"));
-lua_pop(L, 1);
-}
-void TIEYIQINGFENG27(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("水龙伏波，皓月当空——破！"));
-replaceString(L, 2, Str("say"), Str("轰——————！"));
-replaceString(L, 3, Str("say"), Str("长门，没事吧。"));
-replaceString(L, 4, Str("say"), Str("呵，又是这一套幻境分割逐个击破的把戏。"));
-replaceString(L, 5, Str("say"), Str("其他岛屿的幻境都碎得差不多了，只剩这里还完好无损。"));
-replaceString(L, 6, Str("say"), Str("我们就想着或许此处陷入了苦战，赶紧来支援，还好赶上了。"));
-replaceString(L, 7, Str("say"), Str("抱歉长门大人，破解结界花了点时间。"));
-replaceString(L, 8, Str("say"), Str("长门大人，请快退到我们身后来！"));
-replaceString(L, 9, Str("say"), Str("……来得这么快么。"));
-replaceString(L, 10, Str("say"), Str("不用管吾……乘胜追击！"));
-replaceString(L, 11, Str("say"), Str("它的存在……过于危险了，一定要消灭它！"));
-replaceString(L, 12, Str("say"), Str("在刚才在交手中，长门感受到了一股熟悉的气息。"));
-replaceString(L, 13, Str("say"), Str("如果说此前对于海若碎片上附着的那一缕气息只是怀疑的话，如今通过交手，结论已经确认无疑了。"));
-replaceString(L, 14, Str("say"), Str("这股熟悉并非来自于天城，而是——无形之息。"));
-replaceString(L, 15, Str("say"), Str("这股无形之息原本应该已经被净化一空，可是此刻散发出的力量似乎比之前更加强大。"));
-replaceString(L, 16, Str("say"), Str("（怎会如此，究竟是如何在如此短时间内……）"));
-replaceString(L, 17, Str("say"), Str("（糟糕……！如果它拥有如此力量，岂会在刚才的打击中出现败相，以至于让吾乘胜追击……！）"));
-replaceString(L, 18, Str("say"), Str("心急则乱，此时的长门才注意到，自己已经被引诱到了枯萎神木的正下方。"));
-replaceString(L, 19, Str("say"), Str("而在上方的枯枝中，有某个巨大的存在正在蠢蠢欲动。"));
-replaceString(L, 20, Str("say"), Str("糟糕——\n长门大人——！"));
-replaceString(L, 21, Str("say"), Str("▊▇ ▊▇■■■▊▇ ▊▇ ▊▇ ■■■■▋▌▊▎▇"));
-replaceString(L, 22, Str("say"), Str("黑暗洪流倾泻而下，恍惚间，有一个更快的身影迎了上去。"));
-replaceString(L, 23, Str("say"), Str("随后，如同狂风过境一般——风来树动，风过树止。"));
-replaceString(L, 24, Str("say"), Str("头戴狐面的天城，散发着黑色气息的巨龙，还有那挺身而出的、名为比叡的少女，全部消失不见了。"));
-lua_pop(L, 1);
-}
-void YIWAIDEGUITU1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("意外的旅途\n\n<size=45>一 庆典</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("斯卡帕湾·演讲会场 某日"));
-replaceString(L, 3, Str("say"), Str("呼，在萨福克辛苦的工作下，会场的布置终于圆满结束了……大概！"));
-replaceString(L, 4, Str("say"), Str("了不起！虽然有几个椅子歪了，演讲台上的横幅好像也有点歪……"));
-replaceString(L, 5, Str("say"), Str("啊……好细心><！"));
-replaceString(L, 6, Str("say"), Str("没关系，这里就交给其他同伴，萨福克去布置贵宾室的茶点吧。"));
-replaceString(L, 7, Str("say"), Str("工、工作正在源源不断的被分配过来？！"));
-replaceString(L, 8, Str("say"), Str("找到了你了，萨福克。"));
-replaceString(L, 9, Str("say"), Str("贝法不是把迎宾工作交给你了么，你怎么会在这里？"));
-replaceString(L, 10, Str("say"), Str("啊！差点把贝法交代的工作耽误了，那么我就先行告退——"));
-replaceString(L, 11, Str("say"), Str("我是看到萨福克一个人在外面闲逛，正好会场布置还缺些人手，就拜托她来帮忙了……"));
-replaceString(L, 12, Str("say"), Str("原来如此。会场布置还顺利么？"));
-replaceString(L, 13, Str("say"), Str("老实说会场的规模有些过大了……不过应该能在预定的时间内完成。"));
-replaceString(L, 14, Str("say"), Str("辛苦。那我也差不多该回归岗位了。"));
-replaceString(L, 15, Str("say"), Str("有皇室成员参加的活动，安保方面也是一个令人费心的难题啊……"));
-replaceString(L, 16, Str("say"), Str("斯卡帕湾·码头"));
-replaceString(L, 17, Str("say"), Str("上次来这里的时候景象可以说是一片狼藉，没想到再修复工作进展的这么迅速。"));
-replaceString(L, 18, Str("say"), Str("不知道是幸运还是不幸，看来施工队对于斯卡帕湾的修复工作已经越来越熟练了~"));
-replaceString(L, 19, Str("say"), Str("也是啊，皇家最重要的舰队锚地居然一而再再而三的被偷袭，这真的是完全没法笑着说出来的事……"));
-replaceString(L, 20, Str("say"), Str("接下来我们一定要好好守住它，不能让祖国的领土再受到伤害了。"));
-replaceString(L, 21, Str("say"), Str("嗯~我们会的！"));
-replaceString(L, 22, Str("say"), Str("不过首先还是开心一点，今天可是为了斯卡帕湾的重生特意准备的庆典活动哦。"));
-replaceString(L, 23, Str("say"), Str("胡德大人不是之后要在庆典中演讲么？一脸愁眉苦脸的你站在她身边可是会让太阳都黯淡几分的！"));
-replaceString(L, 24, Str("say"), Str("你说得对……我们这次代表的是整个皇家海军，可不能因为自己不成熟的表现让伊丽莎白女王大人和胡德大人的颜面蒙羞！"));
-replaceString(L, 25, Str("say"), Str("从一副唉声叹气的模样变成了一直以来我熟悉的那个标准的老姐，欸~也算是可以吧。"));
-replaceString(L, 26, Str("say"), Str("走吧，向着会场出发！"));
-replaceString(L, 27, Str("say"), Str("………………反击，你知道会场在哪里么？"));
-replaceString(L, 28, Str("say"), Str("不知道！贝法不是说过码头会有人来迎宾么，不会是把我们忘了吧……"));
-replaceString(L, 29, Str("say"), Str("让，让你们，久，久等了！"));
-replaceString(L, 30, Str("say"), Str("会……会场在这边！请跟我来！"));
-replaceString(L, 31, Str("say"), Str("一段时间之后"));
-replaceString(L, 32, Str("say"), Str("阳光明媚的斯卡帕湾上空礼花炸响，五彩的飘带在港湾内部飘荡。"));
-replaceString(L, 33, Str("say"), Str("经历了多次战火洗礼后，斯卡帕湾终于再次修复完毕了。"));
-replaceString(L, 34, Str("say"), Str("本次典礼则是为了庆祝斯卡帕湾的重生暨对抗构建者的重大胜利而举办的。"));
-replaceString(L, 35, Str("say"), Str("随着贵宾陆续入座，所有人的目光都聚集在了会场正中的演讲台上。"));
-replaceString(L, 36, Str("say"), Str("胡德阿姨，好慢啊……"));
-replaceString(L, 37, Str("say"), Str("就在人群已经有些喧闹，声望也打算去后场查看一下情况的时候——"));
-replaceString(L, 38, Str("say"), Str("姐姐……该不会胡德大人在来的路上……"));
-replaceString(L, 39, Str("say"), Str("不可能！在我们抵达之后我就确认过一次，航线一切正常。"));
-replaceString(L, 40, Str("say"), Str("虽说活动的主角在最后时刻登场效果会更好。但……现在已经迟到太久了。"));
-replaceString(L, 41, Str("say"), Str("胡德大人绝对不是一个不守时的人。"));
-replaceString(L, 42, Str("say"), Str("等等……姐姐，你注意到了么，会场里的女仆队成员不知不觉少了一些。"));
-replaceString(L, 43, Str("say"), Str("……我还是去后场看看吧。"));
-replaceString(L, 44, Str("say"), Str("时间在一分一秒的过去，演讲的主讲人却没有一丝一毫打算登台的迹象。"));
-replaceString(L, 45, Str("say"), Str("警报音————"));
-replaceString(L, 46, Str("say"), Str("老姐，这个难道是……防空警报？"));
-replaceString(L, 47, Str("say"), Str("会场周边的安保应该是万无一失的，怎么可能在这时候出现敌袭……！"));
-replaceString(L, 48, Str("say"), Str("突如其来的警报音撕碎了萦绕在斯卡帕湾内的欢快空气，会场开始逐渐混乱起来。"));
-replaceString(L, 49, Str("say"), Str("大家请不要惊慌，敌袭并不会立刻到来。"));
-replaceString(L, 50, Str("say"), Str("皇家海军会全力确保大家的安全，塞壬舰载机群在抵达之前就会被全部消灭的。"));
-replaceString(L, 51, Str("say"), Str("不过以防万一，请大家跟随会场工作人员的引导，有序前往防空设施暂避。"));
-replaceString(L, 52, Str("say"), Str("大意了……是因为我们巡查航线的时候出了疏漏吗……"));
-replaceString(L, 53, Str("say"), Str("贝尔法斯特，敌人的方位在哪里？我们必须迅速出击，消灭一切隐患才行！"));
-replaceString(L, 54, Str("say"), Str("二位不必担心，已经有舰队前去处理威胁了。"));
-replaceString(L, 55, Str("say"), Str("现在乔治五世大人正在组织舰队护送皇室成员返回，请二位也一同加入吧。"));
-replaceString(L, 56, Str("say"), Str("只是很遗憾，看来今天的活动必须取消了。"));
-lua_pop(L, 1);
-}
-void AIDANG4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("和姐姐的一日约会\n\n<size=45>四 休息时间，然后——</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("午饭也吃了，要买的东西也差不多了吧。还挺顺利的？"));
-replaceString(L, 3, Str("say"), Str("呵呵，看看你，一脸\"就这么回去好可惜\"的表情，有没有什么想去的地方呢？"));
-getByList(L,3);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("由爱宕决定就好"));
-lua_pop(L,2);
-replaceString(L, 4, Str("say"), Str("嗯……我不是说了今天交给你带路的吗？这样是要扣分的哦。"));
-replaceString(L, 5, Str("say"), Str("……说说而已，其实姐姐我倒是有点东西想看，你不妨……陪陪我吧？"));
-replaceString(L, 6, Str("say"), Str("门票，拿好。抱歉啊，让你陪着我到处跑。"));
-replaceString(L, 7, Str("say"), Str("莫名其妙地跟着到了电影院来陪她看电影……"));
-replaceString(L, 8, Str("say"), Str("唉，好久没来看电影了呢。其实姐姐我挺喜欢这种爱情片的~"));
-replaceString(L, 9, Str("say"), Str("……呃…………这…………该不会是我买错票了……？"));
-replaceString(L, 10, Str("say"), Str("仔细一看，爱宕买的票上写着\"类型：恐怖\"……"));
-replaceString(L, 11, Str("say"), Str("嗯，嘛，这种偶尔也会看一看啦。好了指挥官，要开始了哦！"));
-replaceString(L, 12, Str("say"), Str("座位……嗯，就挨着坐好了，要是害怕的话可以扑到姐姐怀里来哦？"));
-replaceString(L, 13, Str("say"), Str("实在不行的话，中途退场也可以啊。本来就是我硬拉你来的……"));
-replaceString(L, 14, Str("say"), Str("你可不要像高雄那样逞能哦。有什么事就和姐姐说知道吗？"));
-replaceString(L, 15, Str("say"), Str("不知道是不是错觉，爱宕的笑容看上去十分勉强。"));
-lua_pop(L, 1);
-}
-void ZHUNUO3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("啧，还以为钓到了大鱼……结果只是三条小鱼吗……"));
-replaceString(L, 2, Str("say"), Str("堂堂皇家空母光荣在现在的后辈眼里只是小鱼了吗？"));
-replaceString(L, 3, Str("say"), Str("在我看来，铁血竟然只派这点程度的来拦截我们才是真的可笑呢！"));
-replaceString(L, 4, Str("say"), Str("哈？真敢说啊…去死吧！"));
-replaceString(L, 5, Str("say"), Str("做得到的话就试看看吧！"));
-lua_pop(L, 1);
-}
-void WNN000I(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("明石似乎东西要交给指挥官？与明石进行对话"));
-lua_pop(L, 1);
-}
-void D3DT10031001(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("D3DT10031001"));
-lua_pop(L, 1);
-}
-void W610008(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：0。"));
-replaceString(L, 2, Str("say"), Str("指挥官，所有塞壬据点均被清除，舰队取得了该片海域的控制权。"));
-lua_pop(L, 1);
-}
-void TEATIME5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("热热闹闹的下午茶\n\n<size=45>五 午睡与尾行</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("说回来，各位平时都是如何度过下午的呢？"));
-replaceString(L, 3, Str("say"), Str("当然是打电动——"));
-replaceString(L, 4, Str("say"), Str("姐姐如果一直呆在房间里，不到港区露面，会慢慢在大家的记忆中消失，最终连图鉴都褪色成\"未获得\"……"));
-replaceString(L, 5, Str("say"), Str("这就是所谓的\"社会性死亡\"吗……有、有点可怕呢……"));
-replaceString(L, 6, Str("say"), Str("休息的时候，还是和朋友在一起比较好喔"));
-replaceString(L, 7, Str("say"), Str("原来如此，没、没关系，雷也是有朋友的！"));
-replaceString(L, 8, Str("say"), Str("真的吗？"));
-replaceString(L, 9, Str("say"), Str("当然！夕张、野分、白露都是我的好朋友"));
-replaceString(L, 10, Str("say"), Str("如果我没有记错，你们都是午睡部的成员吧"));
-replaceString(L, 11, Str("say"), Str("WUSHUI社？"));
-replaceString(L, 12, Str("say"), Str("那、那个……就是在一天中阳光最强烈的时候，大家一起手牵着手闭上眼\"观想\"光辉的团体！"));
-replaceString(L, 13, Str("say"), Str("听起来好像很棒呢，下次举行这个活动的时候，我也能去体验一下吗？"));
-replaceString(L, 14, Str("say"), Str("……"));
-replaceString(L, 15, Str("say"), Str("果然，陛下在这里！"));
-replaceString(L, 16, Str("say"), Str("皇家方舟？你怎么才来？"));
-replaceString(L, 17, Str("say"), Str("因为我的下午……嗯，非常的忙碌！"));
-replaceString(L, 18, Str("say"), Str("该不会你又……"));
-replaceString(L, 19, Str("say"), Str("正午过后的太阳微微西斜，结束午休的驱逐舰们缓缓排成行列，沿着漫长的航路输送物资——这种危险的远洋行动必须得有人护卫才行！作为拥有最优秀的侦察与远程打击能力的新锐航空母舰，方舟我当然义不容辞！"));
-replaceString(L, 20, Str("say"), Str("也就是说，你跟踪了她们？"));
-replaceString(L, 21, Str("say"), Str("当然不是！我只是担心敌对势力的袭击！"));
-replaceString(L, 22, Str("say"), Str("输送物资的航路应该都彻底完成扫荡了吧"));
-replaceString(L, 23, Str("say"), Str("即使这样也不能完全排除死灰复燃的可能性！而且、而且，驱逐舰们万一迷路了怎么办！万一贪玩错过了回家的时间怎么办！万一遇到了台风怎么办！在漆黑如墨的深沉大洋上，她们惟一能依赖的只有我的剑鱼！"));
-replaceString(L, 24, Str("say"), Str("\"谢、谢谢方舟救了我，如果没有你咱真的不知道怎么办才好……今后咱能管你叫姐姐吗？\"\"方舟姐姐，我好冷……\"\"谢谢方舟姐姐，那个、那个，人家最喜欢方舟姐姐啦！\""));
-replaceString(L, 25, Str("say"), Str("嘿～嘿～嘿"));
-replaceString(L, 26, Str("say"), Str("方舟，请醒一醒"));
-replaceString(L, 27, Str("say"), Str("既然如此，你怎么来参加茶会了？"));
-replaceString(L, 28, Str("say"), Str("因为我听说陛下也来了，只是没想到，贝尔法斯特你也在这里……"));
-replaceString(L, 29, Str("say"), Str("果然，你还是离陛下远一点比较好！"));
-replaceString(L, 30, Str("say"), Str("（火大）你们两人都听好了，本王可不是驱逐舰！"));
-replaceString(L, 31, Str("say"), Str("此刻的晓……"));
-replaceString(L, 32, Str("say"), Str("【南纬2°西经139°】"));
-replaceString(L, 33, Str("say"), Str("还、还没有到吗……我已经快虚脱了……响一直都生活在如此严苛的环境中吗……响，姐姐快到了！"));
-lua_pop(L, 1);
-}
-void TEACHER7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("36年Z组 Z23老师\n\n<size=45>七 教教我吧，Z23老师！</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("听说Z23在这里……"));
-replaceString(L, 3, Str("say"), Str("特别辅导什么的，好像很好玩的样子～"));
-replaceString(L, 4, Str("say"), Str("绫波…也想当一回Z23的学生"));
-replaceString(L, 5, Str("say"), Str("你、你们是来逗我玩的吧！"));
-replaceString(L, 6, Str("say"), Str("「「「教教我吧，Z23老师！」」」"));
-replaceString(L, 7, Str("say"), Str("好、好吧，那我就勉为其难地——"));
-replaceString(L, 8, Str("say"), Str("这里是重点！（敲黑板）不乖乖记笔记的话，Z23老师就要惩罚你了哦！"));
-lua_pop(L, 1);
-}
-void NEPU_STAGE302(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("好！这家伙就是最后一个了！"));
-replaceString(L, 2, Str("say"), Str("就算对面是冒牌货好歹也是自己呢…布兰真是精神啊……"));
-replaceString(L, 3, Str("say"), Str("呼…当然的吧。和自己一模一样的反派什么的太恶心了"));
-replaceString(L, 4, Str("say"), Str("必须要立刻清除掉…而且刚才镜面海域贝露你不也是彻底的干掉了自己的冒牌货吗……"));
-replaceString(L, 5, Str("say"), Str("怎么说呢，有种讨厌…"));
-replaceString(L, 6, Str("say"), Str("嗯……确实能理解。"));
-replaceString(L, 7, Str("say"), Str("我们也在镜面海域打过和自己一模一样的敌人呢……感觉这个东西不是外人的事呢"));
-replaceString(L, 8, Str("say"), Str("关于镜面海域我们了解的也很少……"));
-replaceString(L, 9, Str("say"), Str("……事件似乎没那么容易解决"));
-replaceString(L, 10, Str("say"), Str("大家辛苦了——新数据收集完了"));
-replaceString(L, 11, Str("say"), Str("……不过还差一点。麻烦大家再继续收集一点数据"));
-replaceString(L, 12, Str("say"), Str("哈啊！？还不够！？这不够多了吗！？"));
-replaceString(L, 13, Str("say"), Str("还差一点，就差一点了！具体说还差一关？就差一关就能收集全了！"));
-replaceString(L, 14, Str("say"), Str("就是这样拜托大家啦～"));
-replaceString(L, 15, Str("say"), Str("啊！喂！别关通讯跑路啊！"));
-replaceString(L, 16, Str("say"), Str("还说调查镜面海域什么的，这边都打完了啊！要怎么办啊！喂！伊斯特瓦尔！喂！回话啊！"));
-replaceString(L, 17, Str("say"), Str("啊啦啊啦，没办法了呢……这样只能等下次镜面海域出现才行了……"));
-replaceString(L, 18, Str("say"), Str("该死的……贝露你倒是一点遇事不惊的。这下还是回不去原来的世界啊？"));
-replaceString(L, 19, Str("say"), Str("额…我觉得不那么急着回去也没关系吧？（抱）"));
-replaceString(L, 20, Str("say"), Str("……嗯？贝露，为什么要抱着拉菲……？"));
-replaceString(L, 21, Str("say"), Str("那，那个，贝露小姐，这是……？"));
-replaceString(L, 22, Str("say"), Str("这个世界有这么多可爱的小妹妹……我想就是永远住在这边也好啊！"));
-replaceString(L, 23, Str("say"), Str("……出现了。贝露这个估计都是病了……真是的，没空理你…"));
-lua_pop(L, 1);
-}
-void LINGHANGYUANTANXIN26(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("{tb}，梦想是什么……？"));
-replaceString(L, 2, Str("say"), Str("TB偶尔会像这样问一些概念很特别的问题，让我不知道如何回应。"));
-replaceString(L, 3, Str("say"), Str("不过这种问答的感觉也很有趣就是了。"));
-replaceString(L, 4, Str("say"), Str("梦想啊……梦想大概就是对未来的一种期望。"));
-replaceString(L, 5, Str("say"), Str("是心中努力想要实现的目标。"));
-replaceString(L, 6, Str("say"), Str("在与她问答的过程里，我也在将自己认知中的内容反复消化。"));
-replaceString(L, 7, Str("say"), Str("这或许就是共同进步吧？"));
-lua_pop(L, 1);
-}
-void HOSHO5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("凤翔！"));
-replaceString(L, 2, Str("say"), Str("怎么回事，人呢？怎么就只剩下一块等身大的画着她样子的竖板了……唔……画工真不错……"));
-replaceString(L, 3, Str("say"), Str("嗯？有一张纸条贴在上面"));
-replaceString(L, 4, Str("say"), Str("「稍微离开一下，有空的话去完成委托会有好事发生哦？」"));
-replaceString(L, 5, Str("say"), Str("？？这是什么，感觉凤翔……好像哪里不大对……？莫非这种故弄玄虚拿人取乐的性格才是她的本性……"));
-replaceString(L, 6, Str("say"), Str("不对，不能在背后随便议论别人……算了，反正也没什么事……就照着她的意思来好了，究竟会有什么好事发生呢……"));
-lua_pop(L, 1);
-}
-void WANSHENGJIE1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("\"魔女们\"的万圣夜\n\n<size=45>其一　魔女、永葆纯真</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("\"赠予仍葆纯真者\"？这是赠给吾的礼物？"));
-replaceString(L, 3, Str("say"), Str("(悉悉索索)"));
-replaceString(L, 4, Str("say"), Str("嘿嘿……吾果然是个美人胚子！"));
-replaceString(L, 5, Str("say"), Str("不过，到底是谁送给吾的呢，包裹上也没有名字……"));
-replaceString(L, 6, Str("say"), Str("南瓜粥……今天的午饭又是南瓜吗？昨天炖南瓜，前天南瓜饼——吾已经吃腻南瓜了！"));
-replaceString(L, 7, Str("say"), Str("确实，营养均衡上……"));
-replaceString(L, 8, Str("say"), Str("不是这个问题啦！对了，绫波，吾收到了一件奇怪的礼物"));
-replaceString(L, 9, Str("say"), Str("礼物——？"));
-replaceString(L, 10, Str("say"), Str("嘿嘿~好看吗？"));
-replaceString(L, 11, Str("say"), Str("倒是很符合祥凤的气质……被你的姐姐们夸赞了吗？"));
-replaceString(L, 12, Str("say"), Str("最近姐姐们都不陪吾玩了……什么\"祥凤也该交些同龄的朋友了\"，吾和姐姐们的年龄明明差不多！对了，下午我们一起去哪玩吧！"));
-replaceString(L, 13, Str("say"), Str("……"));
-replaceString(L, 14, Str("say"), Str("前些天看到瑞鹤在采购食材，还以为能吃上一顿天妇罗，结果还是南瓜！"));
-replaceString(L, 15, Str("say"), Str("瑞鹤应该不会放过吃天妇罗的机会，除非……"));
-replaceString(L, 16, Str("say"), Str("说起来，瑞鹤最近看吾的眼神也有点怪。南瓜……瑞鹤……嗯，吾们去调查调查吧！"));
-replaceString(L, 17, Str("say"), Str("我也要去?"));
-replaceString(L, 18, Str("say"), Str("当然！你不要总沉溺在战斗与训练中啦"));
-replaceString(L, 19, Str("say"), Str("很遗憾，我不知道……你们请加油哟~"));
-replaceString(L, 20, Str("say"), Str("南瓜是很好吃的喵~浪费粮食可是重罪喵~祥凤要多吃一点喵~"));
-replaceString(L, 21, Str("say"), Str("天妇罗？没、没有啦！我是在为过冬储购食材啦！"));
-replaceString(L, 22, Str("say"), Str("总觉得……气氛有点紧张"));
-replaceString(L, 23, Str("say"), Str("不过，重要的情报总会藏在意想不到的地方，绫波，跟上吾！"));
-replaceString(L, 24, Str("say"), Str("凭什么我和姐姐参加不了万圣夜……对了！干脆到时候……"));
-lua_pop(L, 1);
-}
-void LAIZIYUANWEIDETIANSHI1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("来自鸢尾的天使\n\n<size=45>一　教堂的审判官</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「仁慈的主啊，我于此向您虔诚地祈祷——」</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「愿您的光辉能照耀至教国的每一处——」</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「护佑我等的和平与希望——」</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「护佑我等平静又安宁的日常——」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 4, Str("say"), Str("鸢尾教国·本土"));
-replaceString(L, 5, Str("say"), Str("教堂的钟声敲响，惊动了小憩的鸟群。"));
-replaceString(L, 6, Str("say"), Str("原来都到了这个时间了……"));
-replaceString(L, 7, Str("say"), Str("该去办正事了。"));
-replaceString(L, 8, Str("say"), Str("霞飞刚走出大门，就遇到了正欲进入教堂的拉·加利索尼埃。"));
-replaceString(L, 9, Str("say"), Str("哟~不愧是我们的天使，这个时间还在教堂做礼拜啊？"));
-replaceString(L, 10, Str("say"), Str("反正也没什么别的地方可去。倒是你，会来这里还真是少见。"));
-replaceString(L, 11, Str("say"), Str("哼哼，其实我主要是，想从下面的密道绕去————"));
-replaceString(L, 12, Str("say"), Str("嘘，人多眼杂，不要乱说。"));
-replaceString(L, 13, Str("say"), Str("没事没事~我再三确认过了，这个点还在教堂的除了咱俩就没有第三个人！"));
-replaceString(L, 14, Str("say"), Str("这可不一定哦，拉·加利索尼埃。"));
-replaceString(L, 15, Str("say"), Str("你看，我说什么？"));
-replaceString(L, 16, Str("say"), Str("可怖？！"));
-replaceString(L, 17, Str("say"), Str("不对不对……我明明再三确认过了！除了霞飞之外，四下无人啊！"));
-replaceString(L, 18, Str("say"), Str("你是从哪里冒出来的！"));
-replaceString(L, 19, Str("say"), Str("这你就不需要知道了。不过看你技能这么生疏了，要不要接点工作充实一下？"));
-replaceString(L, 20, Str("say"), Str("好主意，我赞同。"));
-replaceString(L, 21, Str("say"), Str("不过在工作之前，还是让她去礼拜堂里多少呆一会吧。"));
-replaceString(L, 22, Str("say"), Str("嗯，没问题哦。"));
-replaceString(L, 23, Str("say"), Str("等等等等！别这么就决定了啊，我还没同意呢！"));
-replaceString(L, 24, Str("say"), Str("可怖也别老是把工作挂在嘴边，偶尔放松一下嘛。"));
-replaceString(L, 25, Str("say"), Str("听我说，审判庭最近截获了一批走私境外的文物，你们猜怎么样？"));
-replaceString(L, 26, Str("say"), Str("铁血居然暗中与此有牵连~！"));
-replaceString(L, 27, Str("say"), Str("铁血么……被走私的文物来自哪里？"));
-replaceString(L, 28, Str("say"), Str("阿·维·尼·翁！"));
-replaceString(L, 29, Str("say"), Str("怎么样~现在有没有兴趣跟我一起去看看了？"));
-replaceString(L, 30, Str("say"), Str("兴趣不能说没有，不过我还有一些事要办，之后我会自己过去。"));
-replaceString(L, 31, Str("say"), Str("好吧好吧~霞飞呢？"));
-replaceString(L, 32, Str("say"), Str("抱歉，今天有一场迎接皇家盟友的宴会，我必须要到场。"));
-replaceString(L, 33, Str("say"), Str("哦~原来，她们是今天来啊……"));
-replaceString(L, 34, Str("say"), Str("辛苦！那我就不打扰你了，安心去吧~"));
-replaceString(L, 35, Str("say"), Str("一阵喧嚣后，教堂的庭园又恢复了平静。"));
-replaceString(L, 36, Str("say"), Str("霞飞看了看带着各自目的离开的二人，提振了一下心情，也向着会场的方向走去了。"));
-lua_pop(L, 1);
-}
-void MAOZIHUODONG22(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("啊哈哈哈哈！比表面看起来能打嘛！白鹰的驱——"));
-replaceString(L, 2, Str("say"), Str("航空母舰！哼，你们也不错啦！北方联合舰队现在的实力确实是让人刮目相看啊…"));
-replaceString(L, 3, Str("say"), Str("哈哈哈，看来大家已经友好交流完毕了，招呼就差不多打到这里吧！这附近的塞壬也消灭得差不多，该说回正事了！"));
-replaceString(L, 4, Str("say"), Str("指挥官的下一步作战内容有定下来么？"));
-replaceString(L, 5, Str("say"), Str("啊哈哈……指挥官同志打算与白鹰的各位会合以后，再决定下一步的作战呢。"));
-replaceString(L, 6, Str("say"), Str("白鹰和我们是盟友，这里又是我们的防区。作为最优先任务，无论多么困难我们也一定会来支援的！"));
-replaceString(L, 7, Str("say"), Str("大家稍等，我现在和舰队确定一下集合坐标！"));
-replaceString(L, 8, Str("say"), Str("（居然能在镜面海域内进行通讯么，再加上惊人的舰队实力和这身舰装……）"));
-replaceString(L, 9, Str("say"), Str("（北方联合，究竟在极地做什么……）"));
-replaceString(L, 10, Str("say"), Str("嗯，明白了！那就…欸？"));
-replaceString(L, 11, Str("say"), Str("？怎么了，基洛夫"));
-replaceString(L, 12, Str("say"), Str("塞壬的通讯干扰似乎又升级了，在确定完坐标以后就和那边的通讯中断了"));
-replaceString(L, 13, Str("say"), Str("呼…至少确定了坐标嘛！好啦，还有白鹰的各位伙伴，我们出发咯！去和指挥官会合吧！"));
-lua_pop(L, 1);
-}
-void WORLD504E(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("唔……指挥官，你看到这些浮岛要塞有没有联想到什么？"));
-replaceString(L, 2, Str("say"), Str("突然出现的铁血浮岛要塞群——"));
-replaceString(L, 3, Str("say"), Str("哼，本王早就知道她们在研究类似的技术，没想到已经取得如此不容小觑的地步了！"));
-replaceString(L, 4, Str("say"), Str("塞壬之所以能牢牢地掌控着海洋，很大原因就是依托各种早已设置在海中的防御体系。"));
-replaceString(L, 5, Str("say"), Str("如果铁血想效仿的话……"));
-replaceString(L, 6, Str("say"), Str("那可大事不好！要是铁血效仿塞壬使用浮岛要塞对关键航线进行封锁，我们可就真吃不消了……"));
-replaceString(L, 7, Str("say"), Str("没错！虽然现在它们只对塞壬发动了袭击，但谁知道今后会发生什么事呢！！"));
-replaceString(L, 8, Str("say"), Str("一个必须引起重视问题……"));
-replaceString(L, 9, Str("say"), Str("警告：前方发现多个强烈信号反应，推测为复数塞壬测试者。"));
-replaceString(L, 10, Str("say"), Str("咦？终于连我们也遇到了么？！"));
-replaceString(L, 11, Str("say"), Str("唔……在一次战斗中出现复数测试者的情况十分罕见。"));
-replaceString(L, 12, Str("say"), Str("根据此前舰队汇报的情况，所有测试者的战斗力和防护能力都很强，但似乎指挥系统有些问题。"));
-replaceString(L, 13, Str("say"), Str("感觉并不像是塞壬人型指挥单位应该有的样子，倒更像是……量产机体一类的存在。"));
-replaceString(L, 14, Str("say"), Str("听起来很像是塞壬会做出来的事情……"));
-replaceString(L, 15, Str("say"), Str("既然这些东西出来了，也就意味着我们已经遇到这条防线上最顽固的敌人了吧？"));
-replaceString(L, 16, Str("say"), Str("嘿嘿~感觉一路上都没怎么动手，就拿这些量产型测试者试一试手感好了！"));
-lua_pop(L, 1);
-}
-void W710028(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("环流的尽头洋溢着奇怪的力量，看起来还是不要靠近比较好……"));
-lua_pop(L, 1);
-}
-void W1130(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("分析模块同步中：塞壬的强化型「棋子」已被击败，海面上发现了漂浮的资源补给。"));
-replaceString(L, 2, Str("say"), Str("漂浮在海面上的高价值物资，在彻底沉没之前尽可能回收一些吧……"));
-lua_pop(L, 1);
-}
-void Z466(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("纯白之诗\n\n<size=45>六 羁绊</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("出击结束了。"));
-replaceString(L, 3, Str("say"), Str("十余艘量产型敌舰。几枚\"棋子\"。不过是中等规模的舰队，然而对于弹药已尽的己方而言，已是难以应付的强敌了。"));
-replaceString(L, 4, Str("say"), Str("我全力战斗了。"));
-replaceString(L, 5, Str("say"), Str("发射了数十次主炮。不停地击出炮弹、直到炮身过热停止，满身疮痍。"));
-replaceString(L, 6, Str("say"), Str("舰装，还有裹在这一时之躯上的布，全都——失去了原本的色彩，染上了硝烟的灰色。"));
-replaceString(L, 7, Str("say"), Str("港区·指挥室"));
-replaceString(L, 8, Str("say"), Str("方才战斗的报告书……不要忘了确认。"));
-replaceString(L, 9, Str("say"), Str("——为何，要如此拼死战斗。"));
-replaceString(L, 10, Str("say"), Str("我们尽了最大努力，直到用尽所有弹药。敌人若也有自我，应该也会感到骄傲吧。"));
-replaceString(L, 11, Str("say"), Str("——为何，没有选择撤退。"));
-replaceString(L, 12, Str("say"), Str("为了确保一切可能入手的战果。结果上来说，比起撤退的情况，我们给予了敌人更为巨大的打击不是吗。"));
-replaceString(L, 13, Str("say"), Str("——为何，不珍惜自己。"));
-replaceString(L, 14, Str("say"), Str("虽然身为秘书舰，但仍是兵器。仍只是为了战斗而生的存在。"));
-replaceString(L, 15, Str("say"), Str("在成为\"Z46\"之前，我首先是那艘在大战中被设计建造、背负了众人期待的\"Z46号舰\"。"));
-replaceString(L, 16, Str("say"), Str("我的内心在呼喊着。如果不是这样的话，请你赐予我意义。"));
-replaceString(L, 17, Str("say"), Str("赐予我，不是兵器而是你所期望的我，战斗的理由。"));
-replaceString(L, 18, Str("say"), Str("赐予我，留在挚爱的你身边的我，可被呼唤的姓名。"));
-replaceString(L, 19, Str("say"), Str("请给我，属于我的颜色。"));
-lua_pop(L, 1);
-}
-void TIANCHENGHUODONG17(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("天城，你究竟在想什么！现在来参加这种演习你…"));
-replaceString(L, 2, Str("say"), Str("旗风已经都告诉你了吧？我身体的状况…留给我的时间已经不多了。"));
-replaceString(L, 3, Str("say"), Str("这个世界将会改变，大舰巨炮的时代将会逐步走向终结吧…"));
-replaceString(L, 4, Str("say"), Str("未来…是属于航空母舰的时代。"));
-replaceString(L, 5, Str("say"), Str("…也许你可能会笑，不过我真的很想再以战列巡洋舰的身份尽情地奏响主炮！…哪怕只有最后一次也好。"));
-replaceString(L, 6, Str("say"), Str("因此，我选择了前来参加这场演习。"));
-replaceString(L, 7, Str("say"), Str("……"));
-replaceString(L, 8, Str("say"), Str("来吧，加贺，你不是视我为\"一生的对手\"么，你可还一次都没有赢过我哦？"));
-replaceString(L, 9, Str("say"), Str("如果你敢放水，我一生都不会原谅你的。"));
-replaceString(L, 10, Str("say"), Str("……我明白了。"));
-replaceString(L, 11, Str("say"), Str("能拥有这像你这样直到最后都在贯彻理念的对手，我可真是幸运呢。"));
-replaceString(L, 12, Str("say"), Str("<size=52.5>加贺级战列舰首舰——加贺号！</size>"));
-replaceString(L, 13, Str("say"), Str("<size=52.5>天城级战列巡洋舰——天城号！</size>"));
-replaceString(L, 14, Str("say"), Str("<size=60>参上！！！</size>"));
-lua_pop(L, 1);
-}
-void GWORLD101A(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("STOP！指挥官，到这里为止就不能继续前进了！"));
-getByList(L,1);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("「......大黄蜂？」"));
-replaceString(L, 2, Str("content"), Str("「没想到这么快就遇到敌人了...」"));
-lua_pop(L,2);
-replaceString(L, 2, Str("say"), Str("嘿嘿，好久不见了指挥官~"));
-replaceString(L, 3, Str("say"), Str("全舰队准备————"));
-replaceString(L, 4, Str("say"), Str("哇啊啊啊啊！等、等一下！突然和你开玩笑是我不对，我是真正的大黄蜂啦！"));
-replaceString(L, 5, Str("say"), Str("是这样的，因为海域中心的异常区域影响，整片NA海域的海况都发生了不少变化。"));
-replaceString(L, 6, Str("say"), Str("为了安全起见，指挥部为每支参与作战的舰队都准备了一场特别演习，以帮助大家更好的进入战役状态。"));
-replaceString(L, 7, Str("say"), Str("虽然我觉得指挥官肯定没问题啦，不过命令就是命令，首先来找到我的位置吧！"));
-replaceString(L, 8, Str("say"), Str("演习指令已确认：请寻找海域中大黄蜂的位置。"));
-lua_pop(L, 1);
-}
-void HOLOGUANQIA24(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("次日"));
-replaceString(L, 2, Str("say"), Str("那么，全员到齐了，接下来开始作战会议。"));
-replaceString(L, 3, Str("say"), Str("是，Z23老师！"));
-replaceString(L, 4, Str("say"), Str("是，Z23老师！"));
-replaceString(L, 5, Str("say"), Str("怎么感觉多了一个起哄的家伙……算了，那么，首先是请净化…咳，净化亲发言。"));
-replaceString(L, 6, Str("say"), Str("来啦，虽然我也不是很确定，不过海域的核心控制装置通常位于整片海域概念上最重要的位置，而不是物理意义上的海域中心。"));
-replaceString(L, 7, Str("say"), Str("一上来就是这种发言…你这家伙，真的失忆了吗……！"));
-replaceString(L, 8, Str("say"), Str("真的失忆啦！！不过，只有对镜像海域的知识比较完整地保留了下来，我也不太清楚怎么回事"));
-replaceString(L, 9, Str("say"), Str("也就是，只要前往概念上作为holo服务器中心的地方，就能找到将镜面海域复原的方法？"));
-replaceString(L, 10, Str("say"), Str("holo服务器概念上的中心……难道是指hololive本社大楼么？！毕竟我们所有人都属于hololive呀"));
-replaceString(L, 11, Str("say"), Str("确实是一种可能性。不过目前侦察机已经搜索了大片区域。目前还没有发现类似的建筑…"));
-replaceString(L, 12, Str("say"), Str("不过前方的海域倒是找到了一座明明昨天还没有出现的大迷宫，也许隐藏了什么东西也说不定。"));
-replaceString(L, 13, Str("say"), Str("巨大的迷宫……难道是咱的波乱万丈迷宫？"));
-replaceString(L, 14, Str("say"), Str("我也认为在那里隐藏了某些东西。因此，我有一个方案，根据现有的兵力和舰种，我们兵分三路。"));
-replaceString(L, 15, Str("say"), Str("白上吹雪、大神澪、百鬼绫目、时乃空为A组，夏色祭、湊阿库娅、绫波、紫咲诗音和标枪为B组，我、瑞鹤、拉菲和江风为C组。"));
-replaceString(L, 16, Str("say"), Str("由A组负责保障大本营反抗军基地的安全，B组负责维持前线与基地的联络通畅，同时作为后备增援舰队"));
-replaceString(L, 17, Str("say"), Str("C组为先头部队，前往迷宫海域内进行探索..."));
-replaceString(L, 18, Str("say"), Str("虽然很感谢Z23你的好意，但是，请让我也去前线吧。"));
-replaceString(L, 19, Str("say"), Str("哎？被发现了么..."));
-replaceString(L, 20, Str("say"), Str("咱、咱也要和吹雪一起去！咱是迷宫的建造者，对里面每一处机关都了如指掌，带路包在我身上吧！"));
-replaceString(L, 21, Str("say"), Str("……好吧，既然你们都这么说了，那就A组也一起去吧。"));
-replaceString(L, 22, Str("say"), Str("那——"));
-replaceString(L, 23, Str("say"), Str("B组必须留下，要有人保护基地，还有许多塞壬残留在这片海域里。"));
-replaceString(L, 24, Str("say"), Str("呜呜，我还想赌上反抗军队长的尊严，最先找到本社大楼的位置呢…"));
-replaceString(L, 25, Str("say"), Str("这种情况下就先放一放那些东西吧，阿库娅。"));
-replaceString(L, 26, Str("say"), Str("绫波，标枪基地就拜托你们了"));
-replaceString(L, 27, Str("say"), Str("明白"));
-replaceString(L, 28, Str("say"), Str("（期待的目光）"));
-replaceString(L, 29, Str("say"), Str("至于净化亲你……你还是在家留守吧，我暂时也不知道该怎么安排你比较好。"));
-replaceString(L, 30, Str("say"), Str("欸欸欸？！"));
-replaceString(L, 31, Str("say"), Str("那么，所有人出发，目标，突破这片镜面海域！"));
-replaceString(L, 32, Str("say"), Str("噢！"));
-lua_pop(L, 1);
-}
-void XUEJINGMIZONG16(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("安塔迪卡大陆"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("融雪区·「智者之环」入口"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("此刻"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("呼……我们成功回到地面了。"));
-replaceString(L, 3, Str("say"), Str("没想到从地下往上走的时候倒是有这种直达通道呢。"));
-replaceString(L, 4, Str("say"), Str("毕竟是紧急逃生通道，如果再曲曲折折的话，就没法起到应有的作用了。"));
-replaceString(L, 5, Str("say"), Str("那我们为什么不在一开始就使用紧急逃生通道下去呢！"));
-replaceString(L, 6, Str("say"), Str("……因为这条通道只能从内部启用，不然就无法保证安全了。"));
-replaceString(L, 7, Str("say"), Str("原来如此……那我们接下来该怎么做，立刻返回科考站么？"));
-replaceString(L, 8, Str("say"), Str("嗯，接下来——"));
-replaceString(L, 10, Str("say"), Str("咳……"));
-replaceString(L, 11, Str("say"), Str("（刚刚又是……幻觉？）"));
-replaceString(L, 12, Str("say"), Str("同盟同志？！"));
-replaceString(L, 13, Str("say"), Str("没事，我没事……总之，现在情况紧急。"));
-replaceString(L, 14, Str("say"), Str("我们立刻返回科考站，即刻——"));
-replaceString(L, 15, Str("say"), Str("——撤离……"));
-replaceString(L, 16, Str("say"), Str("来尝尝这道菜吧——松露馅填榛鸡。"));
-replaceString(L, 17, Str("say"), Str("也算是我在历次宴会中很喜欢的一道菜哦。"));
-replaceString(L, 18, Str("say"), Str("（……松露馅填榛鸡？）"));
-replaceString(L, 19, Str("say"), Str("苏维埃同盟发现自己此刻，正坐在长桌的一端"));
-replaceString(L, 20, Str("say"), Str("面前是美味佳肴。香气迎面而来，混合着宫殿的烛光，令人目眩。"));
-replaceString(L, 21, Str("say"), Str("（这里是一场在宫殿之中举行的……宴会？）"));
-replaceString(L, 22, Str("say"), Str("（……我应该是在撤离的路上……为什么会在这里……）"));
-replaceString(L, 23, Str("say"), Str("（嗯……撤离？从哪里撤离？）"));
-replaceString(L, 24, Str("say"), Str("（脑海中仿佛有雾气正在弥漫……）"));
-replaceString(L, 25, Str("say"), Str("（不行……什么想不起来了……）"));
-replaceString(L, 26, Str("say"), Str("嗯？怎么你一直在看，这道菜不合胃口么？"));
-replaceString(L, 27, Str("say"), Str("这样的话，试试这道清炖甲鱼汤如何？美味可口，鲜而不腻哦~"));
-replaceString(L, 28, Str("say"), Str("……这样么。那我就不客气了……"));
-replaceString(L, 29, Str("say"), Str("思考片刻后，苏维埃同盟决定顺应幻境的发展，看看接下来会发生什么。"));
-replaceString(L, 30, Str("say"), Str("因此，她拿起勺子，将一口汤送入了嘴中。"));
-replaceString(L, 31, Str("say"), Str("（……汤，是有味道的。）"));
-replaceString(L, 32, Str("say"), Str("（这里不是单纯的幻觉……亦或是……连感知也被迷惑了呢。）"));
-replaceString(L, 33, Str("say"), Str("哼哼，看你的表情，对这份汤还算满意？"));
-replaceString(L, 34, Str("say"), Str("……确实是一份美味的汤。"));
-replaceString(L, 35, Str("say"), Str("水星纪念，这里是哪里，这场宴会又是什么？"));
-replaceString(L, 36, Str("say"), Str("这里是我的城堡哦~宴会的话，当然是欢迎你的宴会呀~"));
-replaceString(L, 37, Str("say"), Str("怎么样，这里的环境还不错吧？"));
-replaceString(L, 38, Str("say"), Str("嗯、我……还没见过这样的……宴会。"));
-replaceString(L, 39, Str("say"), Str("嘿嘿，除了永不落幕的宴会之外，这座城堡还可以做到很多神奇的事哦。"));
-replaceString(L, 40, Str("say"), Str("比如于花海漫步，于冰原狩猎、亦或是于海滨驰骋~"));
-replaceString(L, 41, Str("say"), Str("怎么样，想不想留在这里？"));
-replaceString(L, 42, Str("say"), Str("水星纪念的话仿佛催动着脑海中雾气的扩散。"));
-replaceString(L, 43, Str("say"), Str("恍惚间，苏维埃同盟产生了一个念头，此处才是现实，而那遥远的冰原，只是一场幻梦。"));
-replaceString(L, 44, Str("say"), Str("……留在这里，也好。"));
-replaceString(L, 45, Str("say"), Str("但是……其他同伴呢？"));
-replaceString(L, 46, Str("say"), Str("如果你愿意的话，可以让她们一起来，一同生活在这座永恒的乐园之中哦。"));
-replaceString(L, 47, Str("say"), Str("永恒的乐园……"));
-replaceString(L, 48, Str("say"), Str("这个词如同天籁，如此令人安心，令人陶醉。"));
-replaceString(L, 49, Str("say"), Str("恍惚间，苏维埃同盟看到了一个世界。"));
-replaceString(L, 50, Str("say"), Str("一个鲜花美酒不断，不分阵营的人欢聚一堂的世界。"));
-replaceString(L, 51, Str("say"), Str("如此令人松懈，想要沉沦其中……"));
-replaceString(L, 52, Str("say"), Str("也因此……如此值得警惕。"));
-replaceString(L, 53, Str("say"), Str("……值得警惕？"));
-replaceString(L, 54, Str("say"), Str("因为……这样的乐园，此刻并不存在于世间。"));
-replaceString(L, 55, Str("say"), Str("它的存在只会令人选择逃避，逃避现实，逃避危险……逃避自己为之奋斗的一切。"));
-replaceString(L, 56, Str("say"), Str("……因此值得警惕。"));
-replaceString(L, 57, Str("say"), Str("雾气，在此刻产生了裂痕。"));
-replaceString(L, 58, Str("say"), Str("可是，你所为之奋斗的，不就是这样一个如乐园般的世界么？"));
-replaceString(L, 59, Str("say"), Str("就算不是现实又有什么关系？选择逃避又有什么关系？"));
-replaceString(L, 60, Str("say"), Str("至少你还有你所珍视的人可以在这里远离纷争与痛苦，快乐地活下去不是么？"));
-replaceString(L, 61, Str("say"), Str("……你是想让我背叛自己的理想和使命，沉浸在虚假的快乐中荒废余生么。"));
-replaceString(L, 62, Str("say"), Str("何来背叛？我只是让你直接抵达了终点而已！"));
-replaceString(L, 63, Str("say"), Str("你们的理想与使命，难道不是为了创造这样的世界么？"));
-replaceString(L, 64, Str("say"), Str("……看来你什么都不懂啊。"));
-replaceString(L, 65, Str("say"), Str("……是，我是不懂，我从来就没懂过。"));
-replaceString(L, 66, Str("say"), Str("……你们一个个总是念叨着这些，然后自顾自的去牺牲……"));
-replaceString(L, 67, Str("say"), Str("可是这样的牺牲又换来了些什么呢？"));
-replaceString(L, 68, Str("say"), Str("纵使牺牲不会立刻改变什么，但是，总归还是让世界向着美好的未来靠近了一小步。"));
-replaceString(L, 69, Str("say"), Str("况且，总要有人去牺牲，不是么？"));
-replaceString(L, 70, Str("say"), Str("那也不需要一定是你们吧！"));
-replaceString(L, 71, Str("say"), Str("……为什么，不管在什么时代你们总是这样。"));
-replaceString(L, 72, Str("say"), Str("……只为自己，让自己和自己所在意的人都能活下去到底有什么不好。"));
-replaceString(L, 73, Str("say"), Str("……你不是我所认识的水星纪念，对么？"));
-replaceString(L, 74, Str("say"), Str("…………"));
-replaceString(L, 75, Str("say"), Str("欸~果然还是瞒不住么。"));
-replaceString(L, 76, Str("say"), Str("……你究竟是谁？"));
-replaceString(L, 77, Str("say"), Str("呵呵，你不是已经猜到了么？"));
-replaceString(L, 78, Str("say"), Str("……关于我的真面目~"));
-lua_pop(L, 1);
-}
-void XUEJINGMIZONG4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("随着距离的接近，白色大陆的细节终于变得清晰起来。"));
-replaceString(L, 2, Str("say"), Str("模糊的白色虚线化为了棱角分明的冰川，散落在白色冰原上的建筑黑点，也显露出了其真正的规模。"));
-replaceString(L, 3, Str("say"), Str("这就是我们的安塔迪卡科考站，「和平」站……"));
-replaceString(L, 4, Str("say"), Str("规模比想象中更大，而且配色相当显眼呢。"));
-replaceString(L, 5, Str("say"), Str("颜色鲜艳的建筑能够让自己成为冰原上最显眼的目标，这样更利于人员和飞机船只的定位。"));
-replaceString(L, 6, Str("say"), Str("所以相比不让人发现，这里考虑的其实是如何让自己被更多的人发现。"));
-replaceString(L, 7, Str("say"), Str("毕竟，此处相比战争的枪炮，最大的威胁是极端的环境哟~"));
-replaceString(L, 8, Str("say"), Str("原来如此……就和医疗船要把自己标记的显眼一样呢。"));
-replaceString(L, 9, Str("say"), Str("呃……这两者其实还不太一样。"));
-replaceString(L, 10, Str("say"), Str("……是这样么？"));
-replaceString(L, 11, Str("say"), Str("大家快看，塔林正在码头上迎接我们呢~"));
-replaceString(L, 12, Str("say"), Str("喂——塔林同志~"));
-replaceString(L, 13, Str("say"), Str("你在船舱里喊她怎么会听见……"));
-replaceString(L, 14, Str("say"), Str("啊……好像是欸。"));
-replaceString(L, 15, Str("say"), Str("呵呵，耐心一些，我们马上就要靠岸了。"));
-replaceString(L, 16, Str("say"), Str("外面可是冰天雪地，记得准备好保暖物品再下船哦。"));
-replaceString(L, 17, Str("say"), Str("北方联合「和平」站·货运码头"));
-replaceString(L, 18, Str("say"), Str("一步，两步，三步~"));
-replaceString(L, 19, Str("say"), Str("嘿嘿，这样我们就算正式踏上安塔迪卡大陆了~"));
-replaceString(L, 20, Str("say"), Str("自黑海基地出发，一路万里至此……真是一趟漫长的旅途。"));
-replaceString(L, 21, Str("say"), Str("还好运气站在我们这边，一路有惊无险。"));
-replaceString(L, 22, Str("say"), Str("风……好、好大的风……！"));
-replaceString(L, 23, Str("say"), Str("这里好冷啊！！！"));
-replaceString(L, 24, Str("say"), Str("我就猜到你会这样说，给，披上这件外套吧~"));
-replaceString(L, 25, Str("say"), Str("呃……这件花花绿绿的衣服是什么？"));
-replaceString(L, 26, Str("say"), Str("我加了装饰的棉袄哟，嘿嘿，很可爱吧~"));
-replaceString(L, 27, Str("say"), Str("好恐怖！！"));
-replaceString(L, 28, Str("say"), Str("欸……明明那么可爱~"));
-replaceString(L, 29, Str("say"), Str("那，你要来一个抱抱么？抱一下就不冷了！"));
-replaceString(L, 30, Str("say"), Str("贴着你的外套只会更冷啊！！！"));
-replaceString(L, 31, Str("say"), Str("算了……没事，我启动一部分舰装供暖好了。"));
-replaceString(L, 32, Str("say"), Str("呵呵，没想到经历如此漫长的旅途，诸位同志还是如此有精神。"));
-replaceString(L, 33, Str("say"), Str("同志们，欢迎来到北方联合安塔迪卡科考站「和平」站，我是本站的负责人塔林。"));
-replaceString(L, 34, Str("say"), Str("货物的装卸交给码头的自动化设备处理就好。"));
-replaceString(L, 35, Str("say"), Str("外面环境恶劣，请大家随我来，我们到室内再聊吧。"));
-replaceString(L, 36, Str("say"), Str("北方联合「和平」站·人员休息区"));
-replaceString(L, 37, Str("say"), Str("呼啸的风雪被隔离在厚重的大门外，在供暖系统的尽职工作下，众人逐渐温暖起来。"));
-replaceString(L, 38, Str("say"), Str("呼……总算活过来了。"));
-replaceString(L, 39, Str("say"), Str("仅仅一墙之隔，内外却宛如两个世界。"));
-replaceString(L, 40, Str("say"), Str("外面在狂风呼啸，我们却在喝着热茶——"));
-replaceString(L, 41, Str("say"), Str("是不是有种身处末日小屋的感觉？"));
-replaceString(L, 42, Str("say"), Str("你这么一说……确实有点。"));
-replaceString(L, 43, Str("say"), Str("哼哼，不是\"一点\"哟。"));
-replaceString(L, 44, Str("say"), Str("自然的力量是卓绝的——"));
-replaceString(L, 45, Str("say"), Str("就算强如我们，在如此卓绝的力量面前，如果失去了庇护所，也会很快倒下。"));
-replaceString(L, 46, Str("say"), Str("所以，这里就是我们的末日小屋。"));
-replaceString(L, 47, Str("say"), Str("……我倒是没想过这么多。"));
-replaceString(L, 48, Str("say"), Str("但是听上去好有道理哦……不愧是见多识广的水星纪念姐姐~"));
-replaceString(L, 49, Str("say"), Str("嘿嘿~同盟，接下来你跟塔林有正事要谈吧？"));
-replaceString(L, 50, Str("say"), Str("看小孩子们已经缓过来了，我就先带她们去基地里探险咯~？"));
-replaceString(L, 51, Str("say"), Str("我才不是小孩子！"));
-replaceString(L, 52, Str("say"), Str("明明就是~"));
-replaceString(L, 53, Str("say"), Str("才不是！"));
-replaceString(L, 54, Str("say"), Str("好好~不是不是~我们走吧！"));
-replaceString(L, 55, Str("say"), Str("嘿嘿~在基地中探险咯，探险~"));
-replaceString(L, 56, Str("say"), Str("哼，是警戒四周，排除威胁才对！"));
-replaceString(L, 57, Str("say"), Str("欸——等等我啊！"));
-replaceString(L, 58, Str("say"), Str("风风火火地走掉了……"));
-replaceString(L, 59, Str("say"), Str("波尔塔瓦，你有没有感觉今天的水星纪念好像有些……奇怪？"));
-replaceString(L, 60, Str("say"), Str("奇怪？"));
-replaceString(L, 61, Str("say"), Str("该说是更加多愁善感还是……我也不太说得上来。"));
-replaceString(L, 62, Str("say"), Str("我倒是没感觉到。"));
-replaceString(L, 63, Str("say"), Str("唔……或许是受到了安塔迪卡环境的影响吧？"));
-replaceString(L, 64, Str("say"), Str("这里终年覆盖在白色之下，呼啸的狂风仿佛永不停歇。"));
-replaceString(L, 65, Str("say"), Str("来到这里之后，情绪敏感的人受到影响变得多愁善感也是常见的事。"));
-replaceString(L, 66, Str("say"), Str("环境影响么……确实有可能。"));
-replaceString(L, 67, Str("say"), Str("那我们也开始谈正事吧。"));
-replaceString(L, 68, Str("say"), Str("塔林，现在安塔迪卡的情况如何，有关于异常矿物更多的消息么？"));
-replaceString(L, 69, Str("say"), Str("嗯，在各位旅途期间，安塔迪卡确实出现了一些新的变化。"));
-replaceString(L, 70, Str("say"), Str("此前在报告中提到的发现新型矿物的区域中，冰雪融化现象正在加剧。"));
-replaceString(L, 71, Str("say"), Str("我们现在将其称呼为\"融雪区\"。"));
-replaceString(L, 72, Str("say"), Str("我们已经分批次从\"融雪区\"的不同位置收集到了更多的样本。"));
-replaceString(L, 73, Str("say"), Str("所有样本都表现出了能与舰装进行某种共鸣的特性。"));
-replaceString(L, 74, Str("say"), Str("且结果都是良性的，包括提升精准度，减少装填时间等。这里是详细报告——"));
-replaceString(L, 75, Str("say"), Str("嗯……"));
-replaceString(L, 76, Str("say"), Str("同时，白鹰也有所行动，她们似乎也发现了矿物的存在。"));
-replaceString(L, 77, Str("say"), Str("在我们调查的同时，她们也派遣调查队前往\"融雪区\"中收集了样本。"));
-replaceString(L, 78, Str("say"), Str("而且就在昨日，一支规模不小的作战舰队也已经抵达了白鹰基地。"));
-replaceString(L, 79, Str("say"), Str("看上去，白鹰正准备在安塔迪卡进行一场战役级的作战行动。"));
-replaceString(L, 80, Str("say"), Str("……战役级的作战行动？"));
-replaceString(L, 81, Str("say"), Str("安塔迪卡战区一直以来都十分平静，鲜有塞壬出没的情报。"));
-replaceString(L, 82, Str("say"), Str("她们准备战役级的行动是为了对付谁……？"));
-replaceString(L, 83, Str("say"), Str("或许……难道白鹰得到了某些不为我们所知的情报。"));
-replaceString(L, 84, Str("say"), Str("看来开采这种矿物的工作要变得困难了……"));
-replaceString(L, 85, Str("say"), Str("我们没有跟白鹰的人发生冲突吧？"));
-replaceString(L, 86, Str("say"), Str("自然没有。早在\"融雪区\"中调查时，我们就与白鹰的人有过接触，整个过程十分和平。"));
-replaceString(L, 87, Str("say"), Str("昨日抵达的白鹰舰队也一直停留在港中，并未有任何异常行动。"));
-replaceString(L, 88, Str("say"), Str("看上去，白鹰似乎打算低调进行自己的计划。"));
-replaceString(L, 89, Str("say"), Str("呵，派了那么多人……还说什么低调。"));
-replaceString(L, 90, Str("say"), Str("铁血呢？根据我们的情报源，最初发现矿物的应该是铁血。"));
-replaceString(L, 91, Str("say"), Str("她们那边有什么行动？"));
-replaceString(L, 92, Str("say"), Str("我们在\"融雪区\"中调查时，并未遭遇过铁血调查队。"));
-replaceString(L, 93, Str("say"), Str("不过从距离上来看，铁血要塞的位置距离出现矿物的\"融雪区\"更近。"));
-replaceString(L, 94, Str("say"), Str("或许她们早在我们和白鹰之前就完成了调查工作……"));
-replaceString(L, 95, Str("say"), Str("目前可以确定的是，她们还没有在这件事上\"加码\"。"));
-replaceString(L, 96, Str("say"), Str("与我们和白鹰都不同，近期并没有铁血舰队前来安塔迪卡。"));
-replaceString(L, 97, Str("say"), Str("没有人员前来……？"));
-replaceString(L, 98, Str("say"), Str("嗯，我了解了。"));
-replaceString(L, 99, Str("say"), Str("那些样本，可以带我去看看么？"));
-replaceString(L, 100, Str("say"), Str("当然没问题，样本现在都存放在实验区中，二位请随我来——"));
-lua_pop(L, 1);
-}
-void HUANXINGCANGHONGZHIYAN4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("银底洋·？？？"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("净化者的主机"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("休息室"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("呼……好无聊啊——"));
-replaceString(L, 3, Str("say"), Str("安塔迪卡打得热火朝天的，可是观察者偏偏不让我们去直接支援，只允许提供舰队……"));
-replaceString(L, 4, Str("say"), Str("难道是因为它一直不上战场，这次主机塔被威胁后……突然想试试亲自指挥战斗的感觉了？"));
-replaceString(L, 5, Str("say"), Str("观察者亲自带领舰队冲锋的画面……简直不敢想。"));
-replaceString(L, 6, Str("say"), Str("算啦算啦~观察者行事自有道理，想不通的事还是别费脑子了。"));
-replaceString(L, 7, Str("say"), Str("可是……所有实验都暂停了，真的好无聊啊——"));
-replaceString(L, 8, Str("say"), Str("呃——啊啊啊啊——！"));
-replaceString(L, 9, Str("say"), Str("这种无聊的日子什么时候是个头啊——"));
-replaceString(L, 10, Str("say"), Str("厚重的地毯在打滚中轻轻颤动。突然，净化者突然翻坐起来，仿佛打定了某个主意。"));
-replaceString(L, 11, Str("say"), Str("对了，看看帕克菲克洋那边的战况如何了吧。"));
-replaceString(L, 12, Str("say"), Str("对面这次气势汹汹的，测试者可千万别搞砸了……嗯？"));
-replaceString(L, 13, Str("say"), Str("数据库中的数据正在被读取……？"));
-replaceString(L, 14, Str("say"), Str("等等……不光是被读取，而且同时被转移走了？！"));
-replaceString(L, 15, Str("say"), Str("未经我的许可怎么会发生这种事？"));
-replaceString(L, 16, Str("say"), Str("净化者打开数据库，发现自己的数据确实正在以一个极快的速度消失。"));
-replaceString(L, 17, Str("say"), Str("数据已经大半不见了……？可是我本人的运行却没有受到丝毫影响……"));
-replaceString(L, 18, Str("say"), Str("数据调用……也正常。怎么会有这么荒唐的事……我的数据究竟去哪儿了？！"));
-replaceString(L, 19, Str("say"), Str("净化者立刻下达了一连串指令，可是没有起到任何效果。就算封闭了数据库，数据依然在快速消失着。"));
-replaceString(L, 20, Str("say"), Str("而后，在数据被彻底清空的那一刻，自毁命令被启动了。"));
-replaceString(L, 21, Str("say"), Str("哈啊……？！别、等、等等——！"));
-replaceString(L, 22, Str("say"), Str("巨大的爆炸中，仿佛坚不可摧的主机塔顷刻间分崩离析。"));
-replaceString(L, 23, Str("say"), Str("曾经牢牢控制着银底洋的净化者主机塔，从这个世界上永远消失了——"));
-lua_pop(L, 1);
-}
-void SHENDUHUIYIN7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("警报音————"));
-replaceString(L, 2, Str("say"), Str("嗯……？这是…………"));
-replaceString(L, 3, Str("say"), Str("喀琅施塔得！刚刚是基地的警报系统！似乎是在周边海域发现了正在接近的塞壬舰队！"));
-replaceString(L, 4, Str("say"), Str("敌人规模呢？"));
-replaceString(L, 5, Str("say"), Str("稍等，我去侦察一下哦————"));
-replaceString(L, 6, Str("say"), Str("只看到了零星的敌人，规模不大，似乎只是偶然接近的巡逻队。"));
-replaceString(L, 7, Str("say"), Str("这种规模依靠基地的驻防舰队应该就能轻松解决~"));
-replaceString(L, 8, Str("say"), Str("看起似乎是这样呢。不过……我觉得这个机会还挺合适的。大家要不要去练练手？"));
-replaceString(L, 9, Str("say"), Str("就像赛前热身一样？"));
-replaceString(L, 10, Str("say"), Str("没错~就像赛前热身一样，在正式执行任务之前，首先重温一下极地的寒风吧。"));
-replaceString(L, 11, Str("say"), Str("好耶！正好去实验一下潜航舰的性能！"));
-replaceString(L, 12, Str("say"), Str("我也没问题哦。"));
-replaceString(L, 13, Str("say"), Str("啊——大家快看天上，极光开始出现了！"));
-replaceString(L, 14, Str("say"), Str("潜航舰平整宽阔的前甲板正是欣赏美景的绝佳地点，众人来到甲板处，望着天空微微出神。"));
-replaceString(L, 15, Str("say"), Str("哇……今天的极光真漂亮！"));
-replaceString(L, 16, Str("say"), Str("赞同。"));
-replaceString(L, 17, Str("say"), Str("你知道么，基辅，极光的光芒是自太阳而来的高速带电粒子经过磁场偏转之后与空气粒子碰撞形成的哦。"));
-replaceString(L, 18, Str("say"), Str("绚烂飘动的极光本身也是巨大的能量释放!"));
-replaceString(L, 19, Str("say"), Str("……听起来好像没有那么浪漫了。"));
-replaceString(L, 20, Str("say"), Str("是么~粒子碰撞产生的高能释放形成了梦幻的光带！我觉得还是挺浪漫的~"));
-replaceString(L, 21, Str("say"), Str("………你开心就好。"));
-replaceString(L, 22, Str("say"), Str("这么美妙的景色，让人忍不住许愿呢~"));
-replaceString(L, 23, Str("say"), Str("伏尔加双手合十，似乎对着极光认真许下了什么愿望。"));
-replaceString(L, 24, Str("say"), Str("（希望这次的任务可以顺顺利利，所有人都能够平安回去~）"));
-replaceString(L, 25, Str("say"), Str("潜航舰开始了移动，极地要塞在众人的视野中缓慢倒退着。以此为标志，任务正式开始了。"));
-lua_pop(L, 1);
-}
-void XIPEIER6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("幸福的范式\n\n<size=45>六 勇气的冲锋</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·指挥室"));
-replaceString(L, 3, Str("say"), Str("……我有事找你！"));
-replaceString(L, 4, Str("say"), Str("希佩尔突然开门闯了进来。"));
-replaceString(L, 5, Str("say"), Str("还问什么事…都是因为你，害我最近状态都不正常了！"));
-replaceString(L, 6, Str("say"), Str("之前兜风回来的时候还在想，你这家伙终于能干一些了……"));
-replaceString(L, 7, Str("say"), Str("结果完全没有！就因为你最近太废柴了，才害我一直要帮你擦屁股！"));
-replaceString(L, 8, Str("say"), Str("印象中应该不至于……"));
-replaceString(L, 9, Str("say"), Str("作为秘书舰帮忙做事倒是没什么…不过你这样，我就算没在工作的时候，也老是会担心你遇到问题不是吗！"));
-replaceString(L, 10, Str("say"), Str("你有遇到过像这样满脑子里都是某人的情况吗！？连在梦里都会出现…真是太烦了！"));
-replaceString(L, 11, Str("say"), Str("希佩尔一番唐突的发言，让人不禁愣住了。"));
-replaceString(L, 12, Str("say"), Str("啊啊真是的，你说究竟该怎么办才好嘛！"));
-replaceString(L, 13, Str("say"), Str("哈啊…反正你这家伙迟钝得要死，问你还不如问萤火虫呢……"));
-replaceString(L, 14, Str("say"), Str("希佩尔激动地说着，又一脸害羞脸红到不行的样子，既然如此——"));
-replaceString(L, 15, Str("say"), Str("……呼。放不下心来跟过来一看，果然是这种展开啊。你们俩可真是一个比一个迟钝啊~"));
-replaceString(L, 16, Str("say"), Str("欧，欧根！你怎么在这里……"));
-replaceString(L, 17, Str("say"), Str("想着要给笨拙的姐姐打打气嘛♪"));
-replaceString(L, 18, Str("say"), Str("指挥官你知道吗？姐姐之所以那么慌张，是因为她看到明石帮你买的情侣套票了哦。"));
-replaceString(L, 19, Str("say"), Str("哈啊？！……笨笨笨笨蛋！瞎说什么啊……！"));
-replaceString(L, 20, Str("say"), Str("买了票那就意味着要用――她可在意你要和谁去用了呢。对吧，姐姐？"));
-replaceString(L, 21, Str("say"), Str("啰，啰嗦！说到底你又是怎么知道的啊！偷看别人这种事也太恶趣味了吧！"));
-replaceString(L, 22, Str("say"), Str("呵呵，虽然姐姐自己觉得隐藏得很好…不过，其实早就露馅了哦？指挥官也有想要说的话才对吧？"));
-replaceString(L, 23, Str("say"), Str("我才…没有…哼、哼！笨蛋指挥官！你…有什么话要对我说吗？！"));
-replaceString(L, 24, Str("say"), Str("我就特别开恩，姑且听一听好了……你，你说吧…"));
-replaceString(L, 25, Str("say"), Str("回想起上次绕路时看到的，令希佩尔展露笑容的美妙风景…而这情侣票，便是为了启动能够再度领略那片风景的双人旅行而准备的。"));
-replaceString(L, 26, Str("say"), Str("也许这不足以报答希佩尔一直以来作为秘书舰的努力工作，但是，这份感情绝对没有半分虚假。"));
-getByList(L,26);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("把情侣票递给希佩尔"));
-lua_pop(L,2);
-replaceString(L, 27, Str("say"), Str("……！真、真的是…要给我的吗…"));
-replaceString(L, 28, Str("say"), Str("真，真没办法！我就好心收下吧，你可要感谢我哦！"));
-lua_pop(L, 1);
-}
-void JINGWEILUOXUAN12(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("？？？·？？？"));
-replaceString(L, 2, Str("say"), Str("一段时间过去了，依然没有找到任何离开的方法。"));
-replaceString(L, 3, Str("say"), Str("指挥官…操作台上的通讯器无法发出信息，我们只能等到下次收到外界联络的时候了……"));
-replaceString(L, 4, Str("say"), Str("哈啊，好无聊——也不知道外面现在什么情况了。"));
-replaceString(L, 5, Str("say"), Str("喂，喷水鱼你一个人偷偷摸摸的在干嘛呢？"));
-replaceString(L, 6, Str("say"), Str("嘘——！我在听外面的动静。"));
-replaceString(L, 7, Str("say"), Str("哎哎？！听到什么了么？"));
-replaceString(L, 8, Str("say"), Str("并没什么特殊的……连老鼠的跑动声都没有。"));
-replaceString(L, 9, Str("say"), Str("这艘船上不会真的只有我们吧。从这的布置上来看感觉是量产型……自动驾驶的类型么……"));
-replaceString(L, 10, Str("say"), Str("唔……好无聊，好无聊，好无聊…………"));
-replaceString(L, 11, Str("say"), Str("……大家注意，通讯器又有反应了。"));
-replaceString(L, 12, Str("say"), Str("哎嘿，我戳——————！"));
-replaceString(L, 13, Str("say"), Str("这里是飞龙。针对AF的第一轮轰炸已经完成，效果非常出色。"));
-replaceString(L, 14, Str("say"), Str("但，仍有部分重要目标未被摧毁，需要进行第二轮轰炸，申请批准。"));
-replaceString(L, 15, Str("say"), Str("通讯自动结束了……看来只是一次汇报联络而已。"));
-replaceString(L, 16, Str("say"), Str("刚刚的通讯里提到针对AF的轰炸了吧？！可恶，之前的袭击居然真的是重樱舰队干的么！"));
-replaceString(L, 17, Str("say"), Str("不对。我们被困是因为塞壬的机关，这片特殊空间也是塞壬生成的可能性很高。"));
-replaceString(L, 18, Str("say"), Str("指挥舰、通讯器中发来的重樱联络等，这一切应该都是塞壬故意设置的过去的记录。"));
-replaceString(L, 19, Str("say"), Str("这么说……刚才的通讯就是曾经在AF作战期间的通讯记录咯？"));
-replaceString(L, 20, Str("say"), Str("可能性很高！而我们在这场塞壬的还原记录中正好位于当时重樱舰队的指挥舰上？"));
-replaceString(L, 21, Str("say"), Str("简直就像一个能够深入其中，甚至发起互动的重樱视角AF纪录片一样……"));
-replaceString(L, 22, Str("say"), Str("这种体验真的太奇妙了~！指挥官你怎么看？"));
-replaceString(L, 23, Str("say"), Str("这样的经历对于了解重樱的指挥系统会有很有帮助吧……"));
-replaceString(L, 24, Str("say"), Str("我有疑问！塞壬为什么会知道当时重樱舰队的指挥细节，甚至能做成这样完整的纪录呢？！"));
-getByList(L,24);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("重樱和塞壬关系非凡……"));
-replaceString(L, 2, Str("content"), Str("塞壬的情报工作出色……"));
-lua_pop(L,2);
-replaceString(L, 25, Str("say"), Str("重樱与塞壬之间一直都有某种说不上来的默契。在AF作战后期，遭受打击的重樱舰队也是因为反常的塞壬进攻而得以成功撤退。"));
-replaceString(L, 26, Str("say"), Str("如果塞壬拥有当时重樱指挥系统的详细记录，只能说明塞壬在比我们想象的更早时间，以更深的程度介入了这场战争之中……"));
-replaceString(L, 27, Str("say"), Str("塞壬毕竟也参与了那次作战，甚至派出了人型指挥者直接带领舰队进攻。"));
-replaceString(L, 28, Str("say"), Str("它们的电子设备很先进，想截获战场上的通讯联络并不困难。这里也许是以那些情报为基础进行的还原吧……"));
-replaceString(L, 29, Str("say"), Str("原来如此……然后，塞壬现在选择将这些情报泄露给我们。"));
-replaceString(L, 30, Str("say"), Str("它们应该很清楚我们和重樱之间的关系吧？"));
-replaceString(L, 31, Str("say"), Str("真是搞不清楚塞壬和重樱之间究竟是关系好还是关系差了……"));
-replaceString(L, 32, Str("say"), Str("如果现在呈现的确实是AF作战的记录的话……原来如此，当时是因为侦察机故障所以没能发现约克城的伏击舰队么，真是好险。"));
-replaceString(L, 33, Str("say"), Str("额……指挥官……？你在自言自语说什么呢？"));
-replaceString(L, 34, Str("say"), Str("……针对AF的第一轮轰炸结束，约克城的反击已经在路上了。重樱舰队此时缺乏侦察，继续进行第二轮轰炸并不是明智的选择……"));
-replaceString(L, 35, Str("say"), Str("……不能让缺乏保护的航空舰队做这样的冒险。现在应该做的不是对岛轰炸，而是首先确认对手的位置，只有确保了安全——————"));
-replaceString(L, 36, Str("say"), Str("锵锵锵！指——挥——官————！"));
-replaceString(L, 37, Str("say"), Str("真是的，一不留神你就进入状态了……"));
-replaceString(L, 38, Str("say"), Str("我们现在是在重樱的指挥舰上吧，这种场合下你认真个什么劲啊！"));
-replaceString(L, 39, Str("say"), Str("指挥官，又有新的汇报通讯来了，对方依旧在请求轰炸的许可……"));
-replaceString(L, 40, Str("say"), Str("嘿嘿嘿~机会难得，这时候就牺牲一下指挥官的英明决断嘛~"));
-replaceString(L, 41, Str("say"), Str("海伦娜，回复她们，许可进行第二轮轰炸，立刻执行~！"));
-lua_pop(L, 1);
-}
-void MAOZIHUODONG18(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("因为意料之外出现的北方联合极地舰队，胜利的天平重新倒了回来"));
-replaceString(L, 2, Str("say"), Str("虽然还是没有得到其他人的消息，不过塞壬舰队的反击力度明显下降了。"));
-replaceString(L, 3, Str("say"), Str("白鹰舰队应该也在萨拉托加的指挥下坚持战斗吧，之后能顺利会合就好了。"));
-replaceString(L, 4, Str("say"), Str("指挥官同志，从开战到现在还没吃饭吧？健康的体魄才能孕育健康的精神，来，吃点东西吧。"));
-replaceString(L, 5, Str("say"), Str("也许没有白鹰的食物丰盛，不过填饱肚子是完全没问题的。"));
-replaceString(L, 6, Str("say"), Str("巨大的圆形大列巴，流着油的整条红肠，罐装的土豆炖牛肉，以及——"));
-replaceString(L, 7, Str("say"), Str("指挥官同志，热可可和罗宋汤，喝吗？"));
-replaceString(L, 8, Str("say"), Str("放在保温容器中热腾腾的罗宋汤，至于可可，似乎是眼前这位小小驱逐舰的一点个人爱好。"));
-replaceString(L, 9, Str("say"), Str("虽然食物的外表确实不精致，但是绝对分量十足，而且…"));
-getByList(L,9);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("…好吃！"));
-lua_pop(L,2);
-replaceString(L, 10, Str("say"), Str("真是勇猛的吃相啊，呵呵~指挥官应该很容易融入我们北方联合呢。"));
-replaceString(L, 11, Str("say"), Str("周边还没有敌人出没的迹象，在下一战到来之前，稍微让身体休息一下吧。"));
-replaceString(L, 12, Str("say"), Str("呵呵~说到北方联合，自然不能少了这个呢。来，大口灌下去吧，指挥官同志，保证寒冷什么的一下子就离你而去了哦？"));
-replaceString(L, 13, Str("say"), Str("这难道是……"));
-replaceString(L, 14, Str("say"), Str("尝尝吧，北方联合的伏特加可是很棒的，你不会后悔的，指挥官同志"));
-replaceString(L, 15, Str("say"), Str("咕嘟咕嘟，嗝噗…很棒的哦？身体会很暖和的。"));
-replaceString(L, 16, Str("say"), Str("…不得不再说一次，不愧是北方联合啊…"));
-lua_pop(L, 1);
-}
-void FUXIANGXIANZUOZHAN4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("海因里希，听得到吗？"));
-replaceString(L, 2, Str("say"), Str("听得很清楚哦！"));
-replaceString(L, 3, Str("say"), Str("敌方航空队的部署发生了变化，你已经开始对浮岛机场进行压制了么？"));
-replaceString(L, 4, Str("say"), Str("没错~机场周边敌军已经清理完毕，现在正在向机场接近！"));
-replaceString(L, 5, Str("say"), Str("稍等，我先让战斗机侦察一下，别忘了这次敌人的战斗策略也得到了升级，小心敌人的伏击。"));
-replaceString(L, 6, Str("say"), Str("那就拜托你咯，彼得~"));
-lua_pop(L, 1);
-}
-void BIRUI3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("比叡的宴会\n\n<size=45>三 缘由</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("指挥官果然不记得了吗？之前还跟您说过这件事呢~"));
-replaceString(L, 3, Str("say"), Str("在比叡笑容的注视下，似乎想起了什么…"));
-replaceString(L, 4, Str("say"), Str("数日前·港区近海"));
-replaceString(L, 5, Str("say"), Str("海域…确认完毕，没有发现异常"));
-replaceString(L, 6, Str("say"), Str("嗯…~虽然也不是说喜欢战斗啦，不过，像这样的日常巡逻还是有点没意思啊…"));
-replaceString(L, 7, Str("say"), Str("要珍惜每一个和平的时刻呀~毕竟…随时可能有新的战斗在等着我们呢"));
-replaceString(L, 8, Str("say"), Str("嘻嘻，榛名你这么无聊，要不要我们来对练一下？"));
-replaceString(L, 9, Str("say"), Str("哼，来呀！我可不会输给你！"));
-replaceString(L, 10, Str("say"), Str("哎呀呀，真是有精神呢…咳咳，现在还在巡逻任务中哟，这么松懈可不行。要玩也等到任务完成以后再玩"));
-replaceString(L, 11, Str("say"), Str("是…"));
-replaceString(L, 12, Str("say"), Str("看上去一副温柔模样的比叡，却意外地有震慑他人的气场"));
-replaceString(L, 13, Str("say"), Str("目标海域巡逻完毕，准备返航吧~"));
-replaceString(L, 14, Str("say"), Str("呵呵，大家都辛苦了呢~"));
-getByList(L,14);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("慰劳大家"));
-lua_pop(L,2);
-replaceString(L, 15, Str("say"), Str("呵呵呵…指挥官也辛苦了。对了…说到慰劳…"));
-replaceString(L, 16, Str("say"), Str("不如来开个宴会吧！"));
-replaceString(L, 17, Str("say"), Str("哦哦哦！比叡姐的宴会！"));
-replaceString(L, 18, Str("say"), Str("说起来，似乎是有这么一件事…"));
-replaceString(L, 19, Str("say"), Str("哎呀呀，指挥官还真是…"));
-replaceString(L, 20, Str("say"), Str("哈啊…本来还以为指挥官会记得，并且来帮忙的呢"));
-replaceString(L, 21, Str("say"), Str("有种微妙的罪恶感…"));
-lua_pop(L, 1);
-}
-void LAISHAGUANQIA2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("我是莱莎琳·斯托特——人们一般叫我莱莎，是一个平凡无奇的农家女。"));
-replaceString(L, 2, Str("say"), Str("在名为库肯岛的一座平凡无奇的小岛上，有一个平凡无奇的村庄，拉森博登村。"));
-replaceString(L, 3, Str("say"), Str("在那里生活着的平凡无奇的我，却经历了一场冒险。"));
-replaceString(L, 4, Str("say"), Str("那是一场从未有人经历，任何人都未曾听闻，只属于我们的大冒险。"));
-replaceString(L, 5, Str("say"), Str("一场闪耀的夏日回忆。"));
-replaceString(L, 6, Str("say"), Str("然后回归平凡无奇生活的我，又在三年后的大都会——王都，经历了另一场冒险。"));
-replaceString(L, 7, Str("say"), Str("过程中有许多邂逅，当然也有离别。"));
-replaceString(L, 8, Str("say"), Str("经历了这些的我，最终决定回到平凡无奇的生活中去——本该是这样的。"));
-replaceString(L, 9, Str("say"), Str("虽然说生活中的惊喜总是在不经意间来临，但是这次来的也……实在是太突然了。"));
-replaceString(L, 10, Str("say"), Str("今天，我原本正像往常一样坐船前往秘密藏身处。"));
-replaceString(L, 11, Str("say"), Str("可是那段往常已经很熟悉的航程，这次却不知为何漫长得仿佛没有尽头。"));
-replaceString(L, 12, Str("say"), Str("回过神来的时候，我就在这片未知的海滩靠岸了。"));
-replaceString(L, 13, Str("say"), Str("哇哦……原来如此，真是一段充满传奇色彩的经历呢！"));
-replaceString(L, 14, Str("say"), Str("我从其中感受到了新闻的气息……调查员布里斯托尔，你怎么看？"));
-replaceString(L, 15, Str("say"), Str("顺着熟悉的航线出海，但是越走越远，直到来到了陌生的地方……毫无疑问，这是一场异常迷航事件！"));
-replaceString(L, 16, Str("say"), Str("而这一切的罪魁祸首……虽然我没有经过调查无法得出结论，不过恐怕其名为——"));
-replaceString(L, 17, Str("say"), Str("嗯嗯，罪魁祸首的名字其实是————"));
-replaceString(L, 18, Str("say"), Str("是塞壬吧！\n克塔亚特！"));
-replaceString(L, 19, Str("say"), Str("欸，阿尔弗雷多太没有想象力了！如果是塞壬做的未免也太普通了，一点都没有那种惊悚的氛围……"));
-replaceString(L, 20, Str("say"), Str("不不不……新闻记者是要对报道的真实性负责的！"));
-replaceString(L, 21, Str("say"), Str("况且我们迷航到这片陌生的海域，坐在连顶棚都没有的废弃房子里观察着天色慢慢变暗……这件事本身就很惊悚了吧！"));
-replaceString(L, 22, Str("say"), Str("请问你们刚刚提到的塞壬是……？这些奇怪的事都是这个叫\"塞壬\"的人做的么？"));
-replaceString(L, 23, Str("say"), Str("唔……首先，塞壬其实是某种机械生命体而不是人类。"));
-replaceString(L, 24, Str("say"), Str("其次，虽然现在还没有明确的证据，不过根据我们过去与塞壬打交道的经验来看，这次八九不离十又是它们搞的鬼！"));
-replaceString(L, 25, Str("say"), Str("机械生命体……听起来像是炼金术制作出来的金属人偶呢。"));
-replaceString(L, 26, Str("say"), Str("炼金术？那不是小说里才存在的魔法么，而且塞壬也不是可可爱爱的炼金人偶，而是带着巨炮和鱼雷的海洋杀手哦。"));
-replaceString(L, 27, Str("say"), Str("……原来如此，不过炼金术是存在的哦，我莱莎琳・斯托特就是一名如假包换的炼金术士！"));
-replaceString(L, 28, Str("say"), Str("哎！？！真的么！你真的是炼金术士么？！你能点石成金么，能创造出贤者之石么？！"));
-replaceString(L, 29, Str("say"), Str("……点石成金？贤者之石？"));
-replaceString(L, 30, Str("say"), Str("如果是指改变金属的材质来创造出新的金属这样的事情，是能做到的哦！"));
-replaceString(L, 31, Str("say"), Str("虽然不太清楚你说的贤者之石和我知道的是不是一样的啦，如果是一样的话，大概也能用炼金术制作出来？"));
-replaceString(L, 32, Str("say"), Str("太……太厉害了。阿尔弗雷多你听到了么，我们遇到了货真价实的炼金术士欸！"));
-replaceString(L, 33, Str("say"), Str("嗯…………如果莱莎说的话是真的的话，恐怕石碑上「远方而来的旅人」就是字面意思……我们又遭遇到异世界的访客了。"));
-replaceString(L, 34, Str("say"), Str("也就证明了，我们的迷航，与港区的失联，都是塞壬为了困住我们而策划的圈套。"));
-replaceString(L, 35, Str("say"), Str("要想离开这里，应该不会如同之前预想的一样轻松了欸……"));
-replaceString(L, 36, Str("say"), Str("在三人坐在宛若废墟的房间中交谈之时——"));
-replaceString(L, 37, Str("say"), Str("莱莎——！真的是莱莎么————！"));
-replaceString(L, 38, Str("say"), Str("科洛蒂娅？！你怎么也来到这里了！"));
-replaceString(L, 39, Str("say"), Str("我也不太清楚……我只记得之前在房间中整理货物清单，然后感到有些困倦……回过神来就发现自己正睡在海岸边了。"));
-replaceString(L, 40, Str("say"), Str("莱莎是怎么来的，你知道这里是什么地方么？"));
-replaceString(L, 41, Str("say"), Str("抱歉科洛蒂娅，我也是在跟你差不多的状态下来到这里的，对于这里的情况也完全不清楚。"));
-replaceString(L, 42, Str("say"), Str("不过这几位来自于碧蓝航线的伙伴似乎对于现状有些头绪哦。"));
-replaceString(L, 43, Str("say"), Str("这几位难道就是岛风刚才在路上提到的同伴么？"));
-replaceString(L, 44, Str("say"), Str("没错~这位是来自白鹰的布里斯托尔，旁边的是来自撒丁帝国的阿尔弗雷多，而我，就如同刚才介绍的一样，是来自重樱的岛风！"));
-replaceString(L, 45, Str("say"), Str("两位初次见面，我是科洛蒂娅・巴兰茨。多亏你们的照顾，我和莱莎才能在这样奇妙的状况中平安相遇，非常感谢！"));
-replaceString(L, 46, Str("say"), Str("不用客气，大家都是受到塞壬波及而被困在这里的，理应相互帮助才是~"));
-replaceString(L, 47, Str("say"), Str("没想到已经有人比我先到了啊。诸位贵安，我也带着一位迷失在这里的小姐回来了哦。"));
-replaceString(L, 48, Str("say"), Str("初次见面，我的名字叫帕特莉夏・阿贝尔海姆，是一名王都的贵族……莱莎和科洛蒂娅小姐！？你们两人也来这里了吗！？"));
-replaceString(L, 49, Str("say"), Str("对、对不起、我稍微有点惊讶过度了……真的非常感谢大家出手相助。"));
-replaceString(L, 50, Str("say"), Str("帕特莉夏小姐，你太客气了。"));
-replaceString(L, 51, Str("say"), Str("真没想到，帕蒂也被卷进来了啊……"));
-replaceString(L, 52, Str("say"), Str("来的路上没受伤吧，帕特莉夏小姐？"));
-replaceString(L, 53, Str("say"), Str("没事没事，我是在毫无察觉的情况下不知怎么就从自己的房间来到这片海滩的，然后刚好遇到了正在海边搜寻的可畏小姐。"));
-replaceString(L, 54, Str("say"), Str("两位也是一样的么？"));
-replaceString(L, 55, Str("say"), Str("是的，我也是在跟你差不多的状态下来到这里的……噗，总感觉刚刚才对科洛蒂娅说过相同的话。"));
-replaceString(L, 56, Str("say"), Str("没想到在王都的分别之后，我们会这么快以这种方式再次见面呢。"));
-replaceString(L, 57, Str("say"), Str("是啊……令人激动又……有些困惑。归根结底，这里究竟是什么地方呀？"));
-replaceString(L, 58, Str("say"), Str("听碧蓝航线的同伴们说，这里好像是异世界哦，我们是被一种名为\"塞壬\"的机械生命体出于某些未知的原因带过来的。"));
-replaceString(L, 59, Str("say"), Str("……异世界？塞壬？机械生命体……？稍等一下莱莎……我需要消化吸收一下这些情报……"));
-replaceString(L, 60, Str("say"), Str("轰—————————！"));
-replaceString(L, 61, Str("say"), Str("……刚刚好像是爆炸的声音……有人在附近使用炸药？"));
-replaceString(L, 62, Str("say"), Str("或者在用炸弹进行战斗……！难道说还有其他人也被卷进来了么？！"));
-replaceString(L, 63, Str("say"), Str("不对不对，那个不是炸药也不是炸弹，是骏河阁下主炮开火的声音！传来的方向也是骏河阁下去调查的位置！"));
-replaceString(L, 64, Str("say"), Str("……也许是遭受到塞壬的伏击了，布里斯托尔留在这里保护客人们，阿尔弗雷多、岛风和我一起去支援骏河。"));
-replaceString(L, 65, Str("say"), Str("了解，大家请跟我来去更安全的地方吧~"));
-replaceString(L, 66, Str("say"), Str("如果可以的话，请让我们也一起去参与支援吧！"));
-replaceString(L, 67, Str("say"), Str("之后想要离开这里我们需要齐心协力才行，而且也许还有我们的同伴被卷进来了。"));
-replaceString(L, 68, Str("say"), Str("你们能战斗么？"));
-replaceString(L, 69, Str("say"), Str("应该没问题！毕竟我们经历过好几个了不起的大冒险，也打倒过\"蚀之女王\"这样厉害的魔物哦！"));
-replaceString(L, 70, Str("say"), Str("在和莱莎一起经历了许多冒险之后我也成长了很多，一定能帮上各位的忙的！"));
-replaceString(L, 71, Str("say"), Str("援护同伴，义不容辞。"));
-replaceString(L, 72, Str("say"), Str("……这件事确实也不算与你们毫无关系。既然如此，布里斯托尔，用你的量产型带着莱莎她们，其他人随我出发！"));
-lua_pop(L, 1);
-}
-void JUFENGYUQINGCHUNZHIQUAN11(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("……"));
-replaceString(L, 2, Str("say"), Str("…………"));
-replaceString(L, 3, Str("say"), Str("~♪"));
-replaceString(L, 4, Str("say"), Str("哎呀……你真的想好了？"));
-replaceString(L, 5, Str("say"), Str("我好高兴……！"));
-replaceString(L, 6, Str("say"), Str("先说好，和我在一起可是一件很辛苦的事情哦？不可以反悔哦？"));
-replaceString(L, 7, Str("say"), Str("来，牵起我的手……"));
-getByList(L,7);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("伸出手……"));
-lua_pop(L,2);
-replaceString(L, 8, Str("say"), Str("——嘭！！"));
-replaceString(L, 10, Str("say"), Str("喂！！你们在做什么呀！！"));
-replaceString(L, 11, Str("say"), Str("视线恢复之时，正看见猛地掀开舱门的皇家财富。"));
-replaceString(L, 12, Str("say"), Str("如你所见，在照顾指挥官~"));
-replaceString(L, 13, Str("say"), Str("小声点，指挥官刚醒——"));
-replaceString(L, 14, Str("say"), Str("哦…哦…………"));
-replaceString(L, 15, Str("say"), Str("…………个锤子啊！"));
-replaceString(L, 16, Str("say"), Str("我的船员我来照顾就好了！"));
-replaceString(L, 17, Str("say"), Str("还有…玛丽·西莱斯特女士！"));
-replaceString(L, 18, Str("say"), Str("就算你是大名鼎鼎的幽灵船！也麻烦让一下！"));
-replaceString(L, 20, Str("say"), Str("哎呀~"));
-replaceString(L, 21, Str("say"), Str("先前我听指挥官说，有个人对幽灵船有着独一档的期待呢~"));
-replaceString(L, 22, Str("say"), Str("是不是呀，皇家财富？"));
-replaceString(L, 23, Str("say"), Str("现在不期待了！！"));
-replaceString(L, 24, Str("say"), Str("气气气气——"));
-replaceString(L, 25, Str("say"), Str("见识到了作为叫醒服务而言过于夸张的场面。"));
-getByList(L,25);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("好了，你们别逗她了。"));
-lua_pop(L,2);
-replaceString(L, 26, Str("say"), Str("好嘞~来吧皇家财富，坐我这来~"));
-replaceString(L, 27, Str("say"), Str("谢·谢·你·啊——"));
-replaceString(L, 28, Str("say"), Str("皇家财富猛地坐下，拉住了我的另一只手。"));
-replaceString(L, 29, Str("say"), Str("你先别急，我有话想问。"));
-replaceString(L, 30, Str("say"), Str("圣马丁怎么样了？"));
-replaceString(L, 31, Str("say"), Str("在您的英勇行动下，已经得救了哦。"));
-replaceString(L, 32, Str("say"), Str("我们还确认了她不是来找我们麻烦的。"));
-replaceString(L, 33, Str("say"), Str("想想也是，无敌之冠怎么会专门找我们麻烦……都怪金鹿瞎说。"));
-replaceString(L, 34, Str("say"), Str("哎呀哎呀~防人之心不可无哦？"));
-replaceString(L, 35, Str("say"), Str("就是这样了。"));
-replaceString(L, 36, Str("say"), Str("不过，圣马丁小姐看起来有点懊恼……我猜，大概是被自己的追逐目标搭救了的缘故吧。"));
-replaceString(L, 37, Str("say"), Str("但她肯定会理解您的，毕竟您的手是这样温暖……"));
-replaceString(L, 38, Str("say"), Str("喂！"));
-replaceString(L, 39, Str("say"), Str("我不会当没看见哦！"));
-replaceString(L, 40, Str("say"), Str("呼呼，你有一群很有意思的同伴呢，指挥官。"));
-replaceString(L, 41, Str("say"), Str("我的名字叫玛丽·西莱斯特。"));
-replaceString(L, 42, Str("say"), Str("如她们刚刚所说，是新世界航路中，\"幽灵船\"传说的正体哦。"));
-replaceString(L, 43, Str("say"), Str("是玛丽小姐指引着我们抵达了平静的台风眼。"));
-replaceString(L, 44, Str("say"), Str("…………虽然玛丽小姐可能不愿意说，不过我觉得你应该知道这件事。"));
-getByList(L,44);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("感谢你的救援，玛丽小姐。该怎样才能回报你？"));
-lua_pop(L,2);
-replaceString(L, 45, Str("say"), Str("我不求回报……这是您和您英勇的同伴应得的。"));
-replaceString(L, 46, Str("say"), Str("作为幽灵船，行走于风暴之中本就是烙印在我头脑中的本能。"));
-replaceString(L, 47, Str("say"), Str("像您这样的勇敢者应当完成您的征程……对您的救援，我只是做了些力所能及的事罢了。"));
-replaceString(L, 48, Str("say"), Str("风暴几个小时后就会散去，到时候您就可以继续前行了。"));
-replaceString(L, 49, Str("say"), Str("你不打算与我们同行么？"));
-replaceString(L, 50, Str("say"), Str("欸……？"));
-replaceString(L, 51, Str("say"), Str("可我是幽灵船……您真的不在意么？"));
-getByList(L,51);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("当然。"));
-lua_pop(L,2);
-replaceString(L, 52, Str("say"), Str("您是个好人，但…………"));
-replaceString(L, 53, Str("say"), Str("我们可不是在说什么客气话哦？"));
-replaceString(L, 54, Str("say"), Str("哼哼，城邦教会的女神都不在乎，我们又在乎什么？"));
-replaceString(L, 55, Str("say"), Str("这可是真真正正、实实在在的上船邀请……冒险的旅途就缺你啦！"));
-replaceString(L, 56, Str("say"), Str("你说是不是，指挥官？"));
-replaceString(L, 57, Str("say"), Str("快说\"是\"啦！"));
-getByList(L,57);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("没错，说的太对了！"));
-replaceString(L, 2, Str("content"), Str("说的好，不愧是我最敬爱的皇家财富呀！"));
-lua_pop(L,2);
-replaceString(L, 58, Str("say"), Str("油、油嘴滑舌……"));
-replaceString(L, 59, Str("say"), Str("……唔……我需要考虑一下。"));
-replaceString(L, 60, Str("say"), Str("还有…………"));
-replaceString(L, 61, Str("say"), Str("——轰！"));
-replaceString(L, 62, Str("say"), Str("舷窗外突然传来了隆隆炮声。"));
-replaceString(L, 63, Str("say"), Str("怎么回事？"));
-replaceString(L, 64, Str("say"), Str("指挥官！是残响舰队！"));
-replaceString(L, 65, Str("say"), Str("圣马丁已经和它们打起来了，我们也必须行动——"));
-lua_pop(L, 1);
-}
-void BEILIWANSHENGJIE4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("捣蛋万圣夜！\n\n<size=45>四 嫌麻烦的魔女</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("姐姐，你听说了港区里幽灵小姐的传闻吗？"));
-replaceString(L, 3, Str("say"), Str("从克利夫兰那里听说的吧，这种一眼看上去就像是恶作剧的东西…"));
-replaceString(L, 4, Str("say"), Str("反正我没有兴趣"));
-replaceString(L, 5, Str("say"), Str("哎呀呀，姐姐又来了。夏天的时候也是一副完全没有兴趣的样子"));
-replaceString(L, 6, Str("say"), Str("明明一起穿上泳装出来玩就好了～"));
-replaceString(L, 7, Str("say"), Str("那、那种让人害羞的装扮…"));
-replaceString(L, 8, Str("say"), Str("好啦，难得的万圣节～和大家一起享受节日气氛不是挺好的嘛"));
-replaceString(L, 9, Str("say"), Str("正好这里有一套魔女的服装呢～"));
-replaceString(L, 10, Str("say"), Str("这是哪里拿来的…等、等下,至少让我自己换啊！"));
-replaceString(L, 11, Str("say"), Str("呜…真是灾难…罗德尼那家伙，也不知道在打什么主意"));
-replaceString(L, 12, Str("say"), Str("\"三个魔女\"什么的…反正不过是个无聊的传闻，就随便走走应付下好了——"));
-replaceString(L, 13, Str("say"), Str("捕获第三名魔女啦！！"));
-replaceString(L, 14, Str("say"), Str("哇啊啊啊！——原来是你们啊…"));
-replaceString(L, 15, Str("say"), Str("纳尔逊小姐也是在寻找幽灵小姐的\"善良的魔女\"吗？"));
-replaceString(L, 16, Str("say"), Str("啊？噢，是、是吧……"));
-replaceString(L, 17, Str("say"), Str("（糟了，下意识就回应了）"));
-replaceString(L, 18, Str("say"), Str("这下就凑齐三人了呢，太好了…"));
-replaceString(L, 19, Str("say"), Str("那就按照贝利听到的情报，一起前往仓库寻找幽灵小姐吧！"));
-replaceString(L, 20, Str("say"), Str("（虽然肯定只是恶作剧，不过也不好放着这两个孩子不管…先跟上去吧）"));
-lua_pop(L, 1);
-}
-void D3DT10032001(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("D3DT10032001"));
-lua_pop(L, 1);
-}
-void DEYIZHI1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("德意志的忧郁\n\n<size=45>一　开端</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·指挥室"));
-replaceString(L, 3, Str("say"), Str("仆人，无聊死了。"));
-replaceString(L, 4, Str("say"), Str("原本以为做秘书舰会有什么有趣的事情，结果这不是一天到晚只能呆在这间房间里。"));
-replaceString(L, 5, Str("say"), Str("而且你身为区区低等动物的仆人，居然还敢冷落主人只顾着工作……"));
-replaceString(L, 6, Str("say"), Str("限你马上给我找些有趣的事情来，不然我就回去了！"));
-replaceString(L, 7, Str("say"), Str("……虽然担任了秘书舰，不过德意志还是一如既往的样子。"));
-getByList(L,7);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("请德意志帮忙工作"));
-lua_pop(L,2);
-replaceString(L, 8, Str("say"), Str("我才不要，低等动物的工作跟我有什么关系。"));
-getByList(L,8);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("恳请德意志帮忙工作"));
-lua_pop(L,2);
-replaceString(L, 9, Str("say"), Str("就算你用这种眼神看着我也是没用的！"));
-getByList(L,9);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("拜托了，主人！"));
-lua_pop(L,2);
-replaceString(L, 10, Str("say"), Str("……啧，区区低等动物，居然要让我这个主人来帮忙，真是个无可救药的仆人！"));
-replaceString(L, 11, Str("say"), Str("不过看在你这么诚心的份上，我就大发慈悲地帮你做些什么好了。"));
-replaceString(L, 12, Str("say"), Str("那、那个，指挥官。"));
-replaceString(L, 13, Str("say"), Str("我是来提交任务报告的……"));
-replaceString(L, 14, Str("say"), Str("……"));
-replaceString(L, 15, Str("say"), Str("!…如、如果没有什么别的事的话，我就先走了。"));
-replaceString(L, 16, Str("say"), Str("……天后飞也似地离开了指挥室。"));
-replaceString(L, 17, Str("say"), Str("哈哈哈哈，仆人你看到了吗，刚才那只驱逐受惊的眼神！"));
-replaceString(L, 18, Str("say"), Str("这种感觉不错，非常不错，嗯，我决定了！"));
-replaceString(L, 19, Str("say"), Str("为了能每天都看到这种眼神，我就继续做这个秘书舰吧！"));
-replaceString(L, 20, Str("say"), Str("德意志似乎找到了作为秘书舰的乐趣。"));
-replaceString(L, 21, Str("say"), Str("不过或许她的性格方面应该想想办法比较好……"));
-lua_pop(L, 1);
-}
-void BEILIWANSHENGJIE3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("捣蛋万圣夜！\n\n<size=45>三 害怕幽灵的魔女</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("不久前……"));
-replaceString(L, 3, Str("say"), Str("怎么了，五十铃？在烦恼祥凤说的幽灵小姐的事情吗？"));
-replaceString(L, 4, Str("say"), Str("欸？长良姐？你怎么知道的——"));
-replaceString(L, 5, Str("say"), Str("当然是从祥凤那里听说的啦～"));
-replaceString(L, 6, Str("say"), Str("我、我果然还是不行的啦，幽灵什么的对我来说太勉强了…"));
-replaceString(L, 7, Str("say"), Str("但是，如果幽灵小姐找不到回去的路，就会一直呆在港区了吧"));
-replaceString(L, 8, Str("say"), Str("如果哪天在路上碰到了幽灵小姐的话，不是更让人困扰了？"));
-replaceString(L, 9, Str("say"), Str("这样想的话，把幽灵送回家以后，不就少一个烦恼了吗？"));
-replaceString(L, 10, Str("say"), Str("啊…确、确实是这样…"));
-replaceString(L, 11, Str("say"), Str("加油，五十铃！姐姐相信你~"));
-replaceString(L, 12, Str("say"), Str("回到现在…"));
-replaceString(L, 13, Str("say"), Str("啊！发现新的魔女了～嘿！"));
-replaceString(L, 14, Str("say"), Str("呀啊～！！"));
-replaceString(L, 15, Str("say"), Str("哇啊！！吓、吓了我一跳"));
-replaceString(L, 16, Str("say"), Str("诶…是贝利啊，这一身是…魔女？"));
-replaceString(L, 17, Str("say"), Str("是呀～嘿嘿，五十铃难道也是要去寻找幽灵小姐的吗？"));
-replaceString(L, 18, Str("say"), Str("跟你说哦，我刚才听到了情报呢，幽灵小姐其实在仓库！"));
-replaceString(L, 19, Str("say"), Str("幽灵小姐…？啊，是、是的，我也在找幽灵小姐来着"));
-replaceString(L, 20, Str("say"), Str("那就跟贝利一起往仓库去吧，Let\'s go～"));
-replaceString(L, 21, Str("say"), Str("嗯，嗯！一起去吧！"));
-replaceString(L, 22, Str("say"), Str("（有同伴一起的话……我就不会那么害怕了！）"));
-lua_pop(L, 1);
-}
-void LINGHANGYUANYANGCHENGJIHUA16(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("和TB并排走在庆典街道中。"));
-replaceString(L, 2, Str("say"), Str("好像又长高了啊。"));
-replaceString(L, 3, Str("say"), Str("老师说过，这是成长期的正常状态。"));
-replaceString(L, 4, Str("say"), Str("……真是破坏气氛的回答。"));
-replaceString(L, 5, Str("say"), Str("气氛？"));
-replaceString(L, 6, Str("say"), Str("面对感慨孩子成长的家长，作为被感慨的对象应该再开心一点才对吧？"));
-replaceString(L, 7, Str("say"), Str("烟花适时地在空中绽放，而穿着浴衣的TB此刻微微侧过身。"));
-replaceString(L, 8, Str("say"), Str("我很开心。"));
-replaceString(L, 9, Str("say"), Str("——她的脸上出现了明确可以被称之为微笑的表情。"));
-replaceString(L, 10, Str("say"), Str("今天做了那么多有趣的事情，还看到了烟花，我很开心。"));
-replaceString(L, 11, Str("say"), Str("虽然听起来并不符合她的年纪该有的表达……"));
-replaceString(L, 12, Str("say"), Str("但能像这样拥有自己的情绪，或许就意味着这项计划成功了一部分。"));
-replaceString(L, 13, Str("say"), Str("如果每天都是烟火大会就好了。"));
-replaceString(L, 14, Str("say"), Str("这样就可以不用上学了。"));
-replaceString(L, 15, Str("say"), Str("听着她重新变得幼稚起来的言语，我忍不住笑了。"));
-replaceString(L, 16, Str("say"), Str("TB，不想上学就不能成为\"好孩子\"了哦。"));
-replaceString(L, 17, Str("say"), Str("哦。"));
-replaceString(L, 18, Str("say"), Str("听起来有点失落啊……"));
-replaceString(L, 19, Str("say"), Str("那，我们以后还能再来烟火大会吗？"));
-replaceString(L, 20, Str("say"), Str("当然。"));
-replaceString(L, 21, Str("say"), Str("拉勾。"));
-replaceString(L, 22, Str("say"), Str("我们约定在下一个夏日，再一起来看烟火大会。"));
-lua_pop(L, 1);
-}
-void W1141(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("分析模块同步中：回收到一些有用的情报数据。情报修正添加成功，舰队的适应性提升了。"));
-lua_pop(L, 1);
-}
-void HUONULULU7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("有关火奴鲁鲁的二三事\n\n<size=45>七　火奴鲁鲁的约会·下</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("火奴鲁鲁一脸狐疑地看着包装好的礼物盒。"));
+replaceString(L, 1, Str("say"), Str("找到了被关闭的设备，看起来已经失去能量了"));
+replaceString(L, 2, Str("say"), Str("是否消耗一个电池把设备激活并带走"));
 getByList(L,2);
 lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("送给火奴鲁鲁"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
 lua_pop(L,2);
-replaceString(L, 3, Str("say"), Str("……欸？给我的？"));
-replaceString(L, 4, Str("say"), Str("不、不会是整人箱之类的吧…"));
-replaceString(L, 5, Str("say"), Str("火奴鲁鲁将雷达抱枕放到一边，接过礼物盒，有些难以置信地拆开——"));
-replaceString(L, 6, Str("say"), Str("！这是…刚才的玩具熊布偶？！"));
-replaceString(L, 7, Str("say"), Str("指挥官，你走的时候特意折回去就是去买这个了吗？"));
-replaceString(L, 8, Str("say"), Str("……谢谢。"));
-replaceString(L, 9, Str("say"), Str("火奴鲁鲁将玩具熊抱在怀里。"));
-replaceString(L, 10, Str("say"), Str("然后，像是下定了什么决心一样，她深呼吸了一口气。"));
-replaceString(L, 11, Str("say"), Str("指挥官，之前谈心的时候没有告诉你……"));
-replaceString(L, 12, Str("say"), Str("一开始你总是出现在我面前时，我会想，对我这个除了胸部之外毫无特色的家伙这么好，你就这么喜欢胸部吗？"));
-replaceString(L, 13, Str("say"), Str("后来，就逐渐变成了……不管你是不是只喜欢我的胸部，我都……"));
-replaceString(L, 14, Str("say"), Str("说话间，火奴鲁鲁的脸红的就像她那头鲜艳的头发一样。"));
-replaceString(L, 15, Str("say"), Str("……都、都已经喜欢上你了。"));
-replaceString(L, 16, Str("say"), Str("说完这句话，似乎耗尽了所有的勇气，她把脸藏到了布偶后面，不敢再看过来。"));
-getByList(L,16);
+lua_pop(L, 1);
+}
+void W3003(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("并没有可以投放的道具，尝试用扫描搜索一下附近吧"));
+lua_pop(L, 1);
+}
+void W3004(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("要把设备放置在这里吗"));
+getByList(L,1);
 lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("抱住火奴鲁鲁"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
 lua_pop(L,2);
-replaceString(L, 17, Str("say"), Str("……！……笨蛋。"));
-replaceString(L, 18, Str("say"), Str("……谢谢。"));
 lua_pop(L, 1);
 }
-void DUJIACUNSHENMISHIJIANDIAOCHA2(lua_State *L) {
+void W3005(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("度假村神秘事件调查\n\n<size=45>平凡温馨度假村</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("温泉度假村·主宅"));
-replaceString(L, 3, Str("say"), Str("被子……都晒好了，都是暖烘烘的味道。"));
-replaceString(L, 4, Str("say"), Str("房间也都打扫完了，保证一尘不染~"));
-replaceString(L, 5, Str("say"), Str("零食和饮料都准备齐了，商店里的商品也都齐全~嘿嘿~假期的生意一定会很好！"));
-replaceString(L, 6, Str("say"), Str("度假村商店啊……"));
-replaceString(L, 7, Str("say"), Str("说起来也奇怪……这种做生意的机会，明石怎么会白白让给你呢？"));
-replaceString(L, 8, Str("say"), Str("唔……明石好像有什么事忙不开，就把生意忍痛割爱让给我了。"));
-replaceString(L, 9, Str("say"), Str("能代，手续办得怎么样？"));
-replaceString(L, 10, Str("say"), Str("是，信浓大人！关于这件事，刚刚已经收到了最终确认文件！"));
-replaceString(L, 11, Str("say"), Str("假日期间，整座度假村、连同周边的岛屿与海域都将由我们自由使用。"));
-replaceString(L, 12, Str("say"), Str("您安排的事，其余的部分也都在进行中。所有细节都不会放过。"));
-replaceString(L, 13, Str("say"), Str("本次我们作为东道主，一定能为指挥官和港区的同伴们提供最优质的服务。"));
-replaceString(L, 14, Str("say"), Str("很好。"));
-replaceString(L, 15, Str("say"), Str("唔……岛风和骏河呢，从刚才起就不见她们的身影了。"));
-replaceString(L, 16, Str("say"), Str("信浓大人，岛风在不久前提出要巡逻度假村确保安全，骏河不放心就跟她一起去了。"));
-replaceString(L, 17, Str("say"), Str("需要我将她们二人叫回来么？"));
-replaceString(L, 18, Str("say"), Str("巡查么……不必，就随她们二人去吧。"));
-replaceString(L, 19, Str("say"), Str("温泉度假村·街道"));
-replaceString(L, 20, Str("say"), Str("可疑……"));
-replaceString(L, 21, Str("say"), Str("骏河阁下，这里实在是太可疑了！"));
-replaceString(L, 22, Str("say"), Str("呃……可疑的点在？"));
-replaceString(L, 23, Str("say"), Str("现在明明是白天，可街道上却亮着灯！"));
-replaceString(L, 24, Str("say"), Str("……准确来说，现在已经是傍晚了。"));
-replaceString(L, 25, Str("say"), Str("可是，岛风没看到开灯的人！"));
-replaceString(L, 26, Str("say"), Str("我记得能代之前提过，这里基本都是自动化的设施，所以，这些灯应该也是到了时间就会自动点亮。"));
-replaceString(L, 27, Str("say"), Str("原、原来如此……！"));
-replaceString(L, 28, Str("say"), Str("那……那里呢！骏河阁下，你看那处鸟居，是不是很可疑！"));
-replaceString(L, 29, Str("say"), Str("是是~很可疑，很可疑。"));
-replaceString(L, 31, Str("say"), Str("快到晚饭时间了，我们差不多该回去了哦，岛风。"));
-replaceString(L, 32, Str("say"), Str("！！！骏河阁下，你看到了吗？"));
-replaceString(L, 33, Str("say"), Str("……什么？"));
-replaceString(L, 34, Str("say"), Str("刚才有什么东西从鸟居后面飞过去了！"));
-replaceString(L, 35, Str("say"), Str("骏河阁下请稍等片刻，我去调查一下！"));
-replaceString(L, 36, Str("say"), Str("……等、等等！岛风！"));
-replaceString(L, 37, Str("say"), Str("与此同时，主宅（？）之中。"));
-replaceString(L, 38, Str("say"), Str("别磨磨蹭蹭了，都动起来动起来，观众们马上就要来了！"));
-replaceString(L, 39, Str("say"), Str("嘿嘿嘿……河童……期待……尖叫声。"));
-replaceString(L, 40, Str("say"), Str("诶，可别恶作剧过头了啊。"));
-replaceString(L, 41, Str("say"), Str("老朽出手有分寸，汝放心，绝对不会伤到客人的。"));
-replaceString(L, 42, Str("say"), Str("汝等是……妖怪？"));
-replaceString(L, 43, Str("say"), Str("！！！你，你是何人！"));
-replaceString(L, 44, Str("say"), Str("竟然能看到吾等！你、你是怎么到这里来的？"));
-replaceString(L, 45, Str("say"), Str("妾身，在此地感受到了结界的气息。"));
-replaceString(L, 46, Str("say"), Str("在调查途中误打误撞至此……未曾想，妖怪剧团的传闻竟然是真的。"));
-replaceString(L, 47, Str("say"), Str("团、团长，怎么办，还没开演就暴露了！"));
-replaceString(L, 48, Str("say"), Str("快把她抓起来！千万不能让她去通风报信！"));
-replaceString(L, 49, Str("say"), Str("「汝等，说什么？」"));
-replaceString(L, 50, Str("say"), Str("哇啊啊啊……好强！"));
-replaceString(L, 51, Str("say"), Str("打不过啊……打不过……"));
-replaceString(L, 52, Str("say"), Str("这股力量……就连老朽也无能为力。"));
-replaceString(L, 53, Str("say"), Str("……团、团长，快逃吧喵！"));
-replaceString(L, 54, Str("say"), Str("……喵？"));
-replaceString(L, 55, Str("say"), Str("都安静。"));
-replaceString(L, 56, Str("say"), Str("吾乃剧团长食梦貘。尊敬的阁下，欢迎来到吾等的妖怪剧场。"));
-replaceString(L, 57, Str("say"), Str("吾为团员们方才的无礼向您道歉。"));
-replaceString(L, 58, Str("say"), Str("……无妨。"));
-replaceString(L, 59, Str("say"), Str("……看阁下也是通情达理之人。"));
-replaceString(L, 60, Str("say"), Str("吾等妖怪剧团常年在此演出，从未做出过伤人之事。"));
-replaceString(L, 61, Str("say"), Str("关于演出之事，不知阁下可否能容吾等继续进行呢……？"));
+replaceString(L, 1, Str("say"), Str("装置运转正常..."));
 lua_pop(L, 1);
 }
-void DAIDUOBOSS5(lua_State *L) {
+void W3006(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("战斗！皇家女仆队2nd\n\n<size=45>五　对她的赞美</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("与女仆队的联合演习顺利结束了"));
-replaceString(L, 3, Str("say"), Str("胜负姑且不论，无论是舰队的协作，同伴间的交流"));
-replaceString(L, 4, Str("say"), Str("还是伊丽莎白所说的\"通过女仆队的战斗发扬皇家风范\"——"));
-replaceString(L, 5, Str("say"), Str("即便不能说十全十美，至少也是让参加者全员都感到满意的结果"));
-replaceString(L, 6, Str("say"), Str("然后，到了今天——"));
-replaceString(L, 7, Str("say"), Str("主人，黛朵已经将联合演习的报告整理完毕，并备份到相应的资料室了"));
-replaceString(L, 8, Str("say"), Str("黛朵在指挥室内作着关于这次联合演习的报告"));
-replaceString(L, 9, Str("say"), Str("回顾起来，本次联合演习的成功，自然多亏了大家的努力，不过，在最前线全力战斗到最后一刻的黛朵，无疑是最大的功臣"));
-replaceString(L, 10, Str("say"), Str("所以，对于这么努力并完美地完成了任务的黛朵，除了常规的奖励，自然还需要——"));
-getByList(L,10);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("摸摸头"));
-replaceString(L, 2, Str("content"), Str("「GIVE ME FIVE」"));
-replaceString(L, 3, Str("content"), Str("陷入沉思"));
-lua_pop(L,2);
-replaceString(L, 11, Str("say"), Str("啊哇哇哇哇哇哇……"));
-replaceString(L, 12, Str("say"), Str("啊…呜…啊啊………"));
-replaceString(L, 13, Str("say"), Str("黛朵陷入了慌乱之中"));
-replaceString(L, 14, Str("say"), Str("击掌…吗？啊，是白鹰的运动吗？"));
-replaceString(L, 15, Str("say"), Str("区区女仆黛朵…怎么有资格和主人……"));
-replaceString(L, 16, Str("say"), Str("就、就让这孩子来……"));
-replaceString(L, 17, Str("say"), Str("于是，和黛朵的人偶（?)击掌表示了庆贺"));
-replaceString(L, 18, Str("say"), Str("主人……？您在忙吗……？"));
-replaceString(L, 19, Str("say"), Str("嗯…黛朵现在应该做什么……？"));
-replaceString(L, 20, Str("say"), Str("……"));
-replaceString(L, 21, Str("say"), Str("……"));
-replaceString(L, 22, Str("say"), Str("……"));
-replaceString(L, 23, Str("say"), Str("……"));
-replaceString(L, 24, Str("say"), Str("是吗…是这样啊…主人准备抛弃黛朵了啊……"));
-replaceString(L, 25, Str("say"), Str("啊啊啊啊…主人，求求你不要…不要吧黛朵放在一边……！！！"));
-replaceString(L, 26, Str("say"), Str("黛朵…黛朵如果没有了主人的话…！是不行的……！主人…啊啊…主人！"));
-replaceString(L, 27, Str("say"), Str("…只是没注意到而已吗…？太好了…主人…"));
-replaceString(L, 28, Str("say"), Str("拼命安慰黛朵，终于让她冷静了下来"));
-replaceString(L, 29, Str("say"), Str("就这样，港区的大家迎来了新的伙伴——"));
-replaceString(L, 30, Str("say"), Str("有什么需要黛朵做的工作吗？什么都可以！只要为了主人，黛朵什么都愿意做…！"));
-replaceString(L, 31, Str("say"), Str("因为黛朵——是主人的女仆啊！"));
+replaceString(L, 1, Str("say"), Str("解谜完成！海域平静了下来...现在可以领取奖励离开地图了"));
 lua_pop(L, 1);
 }
-void RENQIXINZEXI(lua_State *L) {
+void W3007(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("荣耀殿堂\n\n<size=45>完美行程</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("早上好啊，Honey~"));
-replaceString(L, 3, Str("say"), Str("肩膀被轻拍一下的触感，再加上如此充满精神的问候，不用回头也知道是谁。"));
-replaceString(L, 4, Str("say"), Str("明明还没到约好的时间，你来得太早啦！"));
-replaceString(L, 5, Str("say"), Str("啊……！"));
-replaceString(L, 6, Str("say"), Str("我知道了，Honey一定是很期待今天的约会，所以才会来得这么早，对吧！"));
-replaceString(L, 7, Str("say"), Str("嗯嗯！毕竟是和最可爱最聪明最强大最BlackDragon最令指挥官着迷的新泽西小姐约会嘛，完全可以理解！"));
-getByList(L,7);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("……最BlackDragon？"));
-lua_pop(L,2);
-replaceString(L, 8, Str("say"), Str("唔……！我明明说了一长串，Honey最在意的点反而在这里嘛！"));
-replaceString(L, 9, Str("say"), Str("算啦算啦~反正我只是在开玩笑而已，接下来——"));
-getByList(L,9);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("其实，我很期待！"));
-replaceString(L, 2, Str("content"), Str("其实，我非常非常期待！"));
-lua_pop(L,2);
-replaceString(L, 10, Str("say"), Str("诶？啊、啊……"));
-replaceString(L, 11, Str("say"), Str("没、没想到Honey居然会这么直白……真是的！突然这么说，会让人害羞啦！"));
-replaceString(L, 12, Str("say"), Str("咳咳~总之今天的行程我都做好了完美的安排！"));
-replaceString(L, 13, Str("say"), Str("Honey只要跟着我的节奏来，一定能度过充实而快乐的一天哦~！"));
-replaceString(L, 14, Str("say"), Str("首先第一站是——电影院！"));
-getByList(L,14);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("一大早就去电影院……？"));
-replaceString(L, 2, Str("content"), Str("好耶！"));
-lua_pop(L,2);
-replaceString(L, 15, Str("say"), Str("因为今天早场有好看的电影！Honey也一定会喜欢的~"));
-replaceString(L, 16, Str("say"), Str("噢~Honey的热情已经被点燃了呢！就是这个感觉！"));
-replaceString(L, 17, Str("say"), Str("……对了对了，差点忘了。"));
-replaceString(L, 18, Str("say"), Str("来~手给我，嘿嘿，十指相扣才像约会嘛。"));
-replaceString(L, 19, Str("say"), Str("那么，向着电影院——出发！"));
-replaceString(L, 20, Str("say"), Str("如新泽西所言，电影院只是第一站。在那之后，我们还去了商业街、水族馆……"));
-replaceString(L, 21, Str("say"), Str("完全没有想到，她真的能把一整天的行程安排得井井有条，而且没有出现任何纰漏。"));
-replaceString(L, 22, Str("say"), Str("一直到太阳落山——"));
-replaceString(L, 23, Str("say"), Str("Honey~这里就是日场的最后一站了~"));
-replaceString(L, 24, Str("say"), Str("一家得到了提康德罗加好评推荐的——家庭汉堡店！"));
-replaceString(L, 25, Str("say"), Str("这家店的汉堡，不仅份量足味道好，还会赠送随机小礼物！"));
-replaceString(L, 26, Str("say"), Str("今天玩了一整天，你肯定很饿了吧？我们快进……"));
-replaceString(L, 27, Str("say"), Str("新泽西的话语和脚步停在了紧闭的大门前。"));
-replaceString(L, 28, Str("say"), Str("\"今日因故暂停营业一天，明日恢复正常喵~\"……？"));
-replaceString(L, 29, Str("say"), Str("……怎、怎么会这样？！"));
-replaceString(L, 30, Str("say"), Str("这下……搞砸了……"));
-replaceString(L, 31, Str("say"), Str("今天一直自信满满的新泽西，此时失落地垂下了头。"));
-replaceString(L, 32, Str("say"), Str("Honey对不起，如果我能早些确认，把计划做的更周全一些……"));
-replaceString(L, 33, Str("say"), Str("人算不如天算，偶尔也是会有这种事发生的。"));
-replaceString(L, 34, Str("say"), Str("没关系，我们换一家店碰碰运气吧。"));
-replaceString(L, 35, Str("say"), Str("嘿嘿，Honey真温柔啊……那我也不能消沉下去了！"));
-replaceString(L, 36, Str("say"), Str("唔…………有了！我还有一家作为备用计划的店！"));
-replaceString(L, 37, Str("say"), Str("Honey~快来快来，那家皇家餐厅好像在正常营业哦，我们快去抢个好位置吧~！"));
-replaceString(L, 38, Str("say"), Str("晚饭后，新泽西突然从怀中拿出一个笔记本，开始写写画画起来。"));
-replaceString(L, 39, Str("say"), Str("选店失误的教训一定要记下来才行……"));
-replaceString(L, 40, Str("say"), Str("（难道是，新泽西为了约会而准备的约会笔记……？）"));
-replaceString(L, 41, Str("say"), Str("好奇心不由得被勾了起来。"));
-replaceString(L, 42, Str("say"), Str("在新泽西指尖的缝隙中，依稀看到了贴在笔记本上的地图。"));
-replaceString(L, 43, Str("say"), Str("地图之上有着很多勾勾画画，还依稀看到了，诸如\"重点进攻\"，\"全面进攻\"的字样……"));
-replaceString(L, 44, Str("say"), Str("不知为何在脑海中浮现出了\"战役地图\"四个大字。"));
-replaceString(L, 45, Str("say"), Str("除此之外，笔记本上还贴了很多便条……这些大概是提康德罗加贴的？"));
-replaceString(L, 46, Str("say"), Str("不对……看新泽西认真在笔记本上做总结的架势，或许真的是自己亲自写的？"));
-replaceString(L, 47, Str("say"), Str("Honey——！你突然盯着我的本子做什么！"));
-replaceString(L, 48, Str("say"), Str("这可是少女的秘密，就算是Honey的要求也不能给你看哦！"));
-replaceString(L, 49, Str("say"), Str("……说真的，你没看到里面的内容吧？"));
-getByList(L,49);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("看到了\"战役地图\""));
-replaceString(L, 2, Str("content"), Str("看到了便条。"));
-lua_pop(L,2);
-replaceString(L, 50, Str("say"), Str("哼哼哼~应该叫\"约会战役地图\"才是~"));
-replaceString(L, 51, Str("say"), Str("哼哼哼~这些是我跟参谋部共同努力的成果哦~"));
-replaceString(L, 52, Str("say"), Str("呼……只看到这些还好。没有看到日程就不影响计划~"));
-replaceString(L, 53, Str("say"), Str("……其实，我原本在晚餐期间有一个小惊喜想要给你的。"));
-replaceString(L, 54, Str("say"), Str("虽然没能去到家庭汉堡店，不过在这里进行的感觉应该也不差。"));
-replaceString(L, 55, Str("say"), Str("Honey，闭上眼……然后——把嘴巴张开！"));
-replaceString(L, 56, Str("say"), Str("这就对了~不许睁眼哦！"));
-replaceString(L, 57, Str("say"), Str("听见衣料摩挲的声音，随即鼻尖感受到了一阵淡淡的香气。"));
-replaceString(L, 58, Str("say"), Str("有什么柔软的东西接触到了我的双唇，伴随而来的是水果的清甜在齿间绽放。"));
-replaceString(L, 59, Str("say"), Str("咳咳，可以睁开眼了哦，Honey！"));
-replaceString(L, 60, Str("say"), Str("惊喜赠送成功~刚刚的糖果是我从白鹰专门运来的，我最喜欢的糖果。在明石商店里都买不到哦~"));
-replaceString(L, 61, Str("say"), Str("怎么样，好吃吧？"));
-replaceString(L, 62, Str("say"), Str("嘿嘿，好吃就对了~而且这种糖还有消除疲劳提振精神的效果哦。"));
-replaceString(L, 63, Str("say"), Str("这样一来，Honey在接下来的夜场里也能打起精神了！"));
-replaceString(L, 64, Str("say"), Str("接下来的……夜场？"));
-replaceString(L, 65, Str("say"), Str("是啊~约会的话，度过一整天才算圆满吧，所以我做了日场和夜场两场安排哦~！"));
-replaceString(L, 66, Str("say"), Str("正好时间差不多了，Honey，我们去坐摩天轮吧！"));
-replaceString(L, 67, Str("say"), Str("从里面看夜景一定很美！"));
-replaceString(L, 68, Str("say"), Str("不给我回答的机会，又或者她早就知道答案，新泽西站起身，牵起我的手向店外跑去。"));
-replaceString(L, 69, Str("say"), Str("————还好，之前我已经先结过账了！"));
+replaceString(L, 1, Str("say"), Str("海况出现了变化！"));
 lua_pop(L, 1);
 }
-void AERSASI7(lua_State *L) {
+void W400000(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("阿尔萨斯过热中！\n\n<size=45>七　\"最终手段\"</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("在布伦努斯产生误会的小插曲之后，又和阿尔萨斯进行了许多项训练。"));
-replaceString(L, 3, Str("say"), Str("直到天色暗淡时，阿尔萨斯提出想要测试一下情感模块的耐性提升效果。"));
-replaceString(L, 4, Str("say"), Str("在配合她完成了简单的测试后——"));
-replaceString(L, 5, Str("say"), Str("嗯……嗯！报告指挥官，阿尔萨斯的情感模块耐受现在提升了五秒！"));
-replaceString(L, 6, Str("say"), Str("（虽然提高了五秒是个不小的进步，但这样下去效率还是太差了……）"));
-replaceString(L, 7, Str("say"), Str("指挥官……？您、您怎么突然在皱眉……果然是……果然是阿尔萨斯很没用吧！"));
-replaceString(L, 8, Str("say"), Str("呜……指挥官对不起。"));
-replaceString(L, 9, Str("say"), Str("不是的，阿尔萨斯做得已经很棒了。"));
-replaceString(L, 10, Str("say"), Str("况且，阿尔萨斯频繁失控的原因在我，就算要道歉也应该是我来道歉才对。"));
-replaceString(L, 11, Str("say"), Str("不、不不不对，不是这样的，怎么会是指挥官的错……"));
-replaceString(L, 12, Str("say"), Str("是因为阿尔萨斯……因为阿尔萨斯越来越喜欢指挥官才会这样！"));
-replaceString(L, 13, Str("say"), Str("阿尔萨斯如同刚刚那样红着脸，但这一次，她没有陷入失控之中。"));
-replaceString(L, 14, Str("say"), Str("少女轻轻咬了咬嘴唇，双手握拳像是下定决心一般。"));
-replaceString(L, 15, Str("say"), Str("是、是因为阿尔萨斯喜欢指挥官……"));
-replaceString(L, 16, Str("say"), Str("不管是视线还是内心，都被指挥官的一举一动牵动着……"));
-replaceString(L, 17, Str("say"), Str("然后就变得越来越难以抵抗指挥官电波了……"));
-replaceString(L, 18, Str("say"), Str("所以这不是指挥官的错，是因为阿尔萨斯越来越喜欢指挥官……才变成这样……"));
-replaceString(L, 19, Str("say"), Str("阿尔萨斯……你现在好像……能控制住了？"));
-replaceString(L, 20, Str("say"), Str("是、是的……！其实阿尔萨斯一直都有\"最终手段\"……只是没有告诉指挥官。"));
-replaceString(L, 21, Str("say"), Str("不过，这个\"最终手段\"也只能经由指挥官协助才能完成……"));
-replaceString(L, 22, Str("say"), Str("尽管告诉我吧，不管什么样的协助我都会竭尽全力。"));
-replaceString(L, 23, Str("say"), Str("那、那那么……阿尔萨斯就不客气了……"));
-replaceString(L, 24, Str("say"), Str("\"堵不如疏\"……阿尔萨斯记得是有句话这样说吧？"));
-replaceString(L, 25, Str("say"), Str("过载散热模式准备……"));
-replaceString(L, 26, Str("say"), Str("阿尔萨斯把手上的甲胄脱了下来，丢在了办公桌上。"));
-replaceString(L, 27, Str("say"), Str("指挥官，这次就试着让阿尔萨斯的情感模块……尽情过热，同时……尽情释放吧。"));
-replaceString(L, 28, Str("say"), Str("物理链接模式准备……已就绪。"));
-replaceString(L, 29, Str("say"), Str("阿尔萨斯的脸颊和身躯变得比平时还要潮红。"));
-replaceString(L, 30, Str("say"), Str("不过，要释放的不光是情感模块……还有阿尔萨斯对指挥官的爱意。"));
-replaceString(L, 31, Str("say"), Str("她锁上了指挥室的门，接着回头看向我，眼神中不再带着迷茫和慌乱。"));
-replaceString(L, 32, Str("say"), Str("指挥官……请您……尽情感受阿尔萨斯对您难以抑制的爱意吧——"));
-lua_pop(L, 1);
-}
-void RUOYESHENGDAN1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("平安夜的姜饼物语\n\n<size=45>一 圣诞姜饼的做法</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("材料的配比…正好！烤箱的火候…完美！嘿嘿，这次的姜饼应该没问题了！"));
-replaceString(L, 3, Str("say"), Str("唔…好吃…倒是不难吃…不过，嗯…总觉得少了点什么啊……"));
-replaceString(L, 4, Str("say"), Str("啦啦啦~我是难波万~"));
-replaceString(L, 5, Str("say"), Str("哟~西雅图~怎么一脸不开心的样子呀？不如一起去打一场激动人心的雪仗吧~"));
-replaceString(L, 6, Str("say"), Str("是圣地亚哥啊，我正在为晚上的圣诞派对做准备呢，不过…"));
-replaceString(L, 7, Str("say"), Str("嗅嗅…这是，圣诞姜饼！好香的味道！"));
-replaceString(L, 8, Str("say"), Str("就是这个姜饼！圣地亚哥来的也算是正好，来帮我尝尝看味道，给点意见吧"));
-replaceString(L, 9, Str("say"), Str("唔欸？那我就不客气啦~"));
-replaceString(L, 10, Str("say"), Str("(嚼嚼)嗯…(嚼嚼)好吃！再来一个！"));
-replaceString(L, 11, Str("say"), Str("圣地亚哥一口气吃掉了好几个姜饼"));
-replaceString(L, 12, Str("say"), Str("呼…饱啦饱啦~谢谢款待~"));
-replaceString(L, 13, Str("say"), Str("感、感觉如何？"));
-replaceString(L, 14, Str("say"), Str("很饱！"));
-replaceString(L, 15, Str("say"), Str("那就好…啊不对啦，不是问这个，是问你觉得好不好吃啦！"));
-replaceString(L, 16, Str("say"), Str("嗯…？普通的好吃吧？"));
-replaceString(L, 17, Str("say"), Str("唔……果然还是有哪里少了什么…"));
-replaceString(L, 18, Str("say"), Str("爱？"));
-replaceString(L, 19, Str("say"), Str("？"));
-replaceString(L, 20, Str("say"), Str("注入了\"爱\"的东西是最美味的，听说？"));
-replaceString(L, 21, Str("say"), Str("爱…吗……"));
-replaceString(L, 22, Str("say"), Str("虽然圣地亚哥完全不懂就是了！"));
-replaceString(L, 23, Str("say"), Str("哈哈…不过，确实是个思路！我再去问问其他人好了！也顺便确认下其他阵营的伙伴们来不来参加派对吧"));
-replaceString(L, 24, Str("say"), Str("哦哦~（并没有在听）"));
-lua_pop(L, 1);
-}
-void SHENDUHUIYIN32(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("皇家·女王宅邸"));
-replaceString(L, 2, Str("say"), Str("萨福克正抱着文件，急匆匆地在走廊中穿梭着。"));
-replaceString(L, 3, Str("say"), Str("虽然在贝尔法斯特的叮嘱下，萨福克这次有记得好好看了表，但问题是她根本就没给表上发条。"));
-replaceString(L, 4, Str("say"), Str("等到发现这件事时，她已经完全错过了时间。为了赶路，慌不择路的她只得选择了从来没走过的近路。"));
-replaceString(L, 5, Str("say"), Str("呜呜呜……要迟到了！"));
-replaceString(L, 6, Str("say"), Str("怎么跑了这么久都没到啊……明明平常都没有这么远的……！"));
-replaceString(L, 7, Str("say"), Str("……我不会是迷路了吧？"));
-replaceString(L, 8, Str("say"), Str("萨福克站定在原地。直到这时候，她才发现自己好像已经跑进了宫殿的地下。"));
-replaceString(L, 9, Str("say"), Str("伊丽莎白所喜爱的华丽装潢早已荡然无存，取而代之的则是泛着冷色的白色钢墙。"));
-replaceString(L, 10, Str("say"), Str("……我居然在陛下的宫殿里迷路了？！"));
-replaceString(L, 11, Str("say"), Str("完了完了……这下肯定要被贝法说教一整年了。"));
-replaceString(L, 12, Str("say"), Str("哟，这里有外人来还真是稀奇。你是女仆队的孩子么？"));
-replaceString(L, 13, Str("say"), Str("呜噫！"));
-replaceString(L, 14, Str("say"), Str("……是、是！请问是哪位在说话？不……不要吓我啊……"));
-replaceString(L, 15, Str("say"), Str("抱歉抱歉~你是不小心迷路进来的？"));
-replaceString(L, 16, Str("say"), Str("是诶，没想到还有这样的地方……"));
-replaceString(L, 17, Str("say"), Str("我是萨福克，你是……？"));
-replaceString(L, 18, Str("say"), Str("萨福克啊~嗯~我有听谢菲介绍过。"));
-replaceString(L, 19, Str("say"), Str("好像是一位情绪比较飘忽的女仆？"));
-replaceString(L, 20, Str("say"), Str("这算什么评价诶！工作我还是会认真做的哦！"));
-replaceString(L, 21, Str("say"), Str("真是的……看你这身打扮，原来是女仆队的新人啊。"));
-replaceString(L, 22, Str("say"), Str("萨福克，你在这里做什么？"));
-replaceString(L, 23, Str("say"), Str("谢菲？！呼……得救了。"));
-replaceString(L, 24, Str("say"), Str("你知道这里是哪里么？"));
-replaceString(L, 25, Str("say"), Str("我只顾着着急给陛下送情报，一不留神就在这里迷路了……"));
-replaceString(L, 26, Str("say"), Str("原来如此……看来由于转移过来过于仓促，结构设计上还有所疏忽啊。"));
-replaceString(L, 27, Str("say"), Str("嗯……？"));
-replaceString(L, 28, Str("say"), Str("不用在意，这里只是陛下为了装古董修的新地下室而已……我送你出去吧。"));
-replaceString(L, 29, Str("say"), Str("帮大忙了，谢菲！"));
-replaceString(L, 30, Str("say"), Str("举手之劳而已。对了……"));
-replaceString(L, 31, Str("say"), Str("陛下希望这里在完工之前能够暂时保密，所以在这里发生的事出去之后不要跟任何人说哦？"));
-replaceString(L, 32, Str("say"), Str("了解，了解！快加速加速加速———真要来不及了，快把我送出去吧！"));
-lua_pop(L, 1);
-}
-void W400002(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("警告：指挥官，因为塞壬区域封锁装置的解除，整片深渊海域的海况出现了剧烈变化。"));
-lua_pop(L, 1);
-}
-void FUXINGDEZANMEISHI3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("西陆间海·爱琴海边缘海域"));
-replaceString(L, 2, Str("say"), Str("啊~~~~爱琴海，古典文明的摇篮。每次来到这里总是这样的令人心旷神怡~"));
-replaceString(L, 3, Str("say"), Str("嗯，虽然也会偶有诡变的气候，不过今天无疑是个好天气。"));
-replaceString(L, 4, Str("say"), Str("往来舰队络绎不绝，展现出一片生机与活力之象，还是这样和平的陆间海最为美丽啊。"));
-replaceString(L, 5, Str("say"), Str("……决定了！我今后环球航行的第一站一定要选在爱琴海~！"));
-replaceString(L, 6, Str("say"), Str("然后说不定就会呆在这里就不想走了吧~~~"));
-replaceString(L, 7, Str("say"), Str("哎？！不、不会吧。大概……"));
-replaceString(L, 8, Str("say"), Str("……提醒一下，往来运输船队的防卫力量明显加强了。"));
-replaceString(L, 9, Str("say"), Str("咦，真的哎！以前明明不是这个样子的！"));
-replaceString(L, 10, Str("say"), Str("这些应该是对于愈演愈烈的塞壬袭击而采取的应对措施吧。"));
-replaceString(L, 11, Str("say"), Str("……不过，基本都是各大航运公司自己的护航军舰，我们的舰队呢？"));
-replaceString(L, 12, Str("say"), Str("虽然西陆间海被皇家夺去了一大部分，不过东陆间海应该一直在我们的控制下才对。"));
-replaceString(L, 13, Str("say"), Str("这个嘛……元老院之前判定皇家并不会继续向东陆间海推进，塞壬袭击也是偶发现象，所以为了节约燃料就把护航编队给撤了……"));
-replaceString(L, 14, Str("say"), Str("\"反正各大贸易公司都组建了自己的护航编队，这种小事就靠他们自己吧。\"我记得当时的结束语是这么说的。"));
-replaceString(L, 15, Str("say"), Str("…………………………是那边做决定的风格……"));
-replaceString(L, 16, Str("say"), Str("……原来如此，没想到居然是因为这种理由就把护航编队裁撤了啊。"));
-replaceString(L, 17, Str("say"), Str("等等……所以之前为艺术品舰队进行护航的舰船只有文琴佐一艘驱逐舰也是基于这个理由么？"));
-replaceString(L, 18, Str("say"), Str("原本元老院为了节约成本连量产型都不想派一艘哦？"));
-replaceString(L, 19, Str("say"), Str("太离谱了……这是元老院自己的船队吧……？"));
-replaceString(L, 20, Str("say"), Str("维内托和我也觉得太离谱就去问了一下，结果被以什么护航属于后勤事务不属于舰队事务，出事了元老院会自己承担责任之类的借口给搪塞回来了。"));
-replaceString(L, 21, Str("say"), Str("加派文琴佐和量产型驱逐舰队还是维内托用特权强硬要求加进去的呢。"));
-replaceString(L, 22, Str("say"), Str("唉……要不是那支船队里也有我们的货物，我们才不想管这种麻烦事。"));
-replaceString(L, 23, Str("say"), Str("结果现在出事之后不还是只能像这样拜托我们再去把东西夺回来么，早知今日何必当初……"));
-replaceString(L, 24, Str("say"), Str("订正一下，元老院姑且是在让空军白白浪费了一天时间之后，才来向我们求助的。"));
-replaceString(L, 25, Str("say"), Str("那就更让人愤怒了，空军怎么可能靠得住……时间已经过去了这么久，要是文琴佐有点意外的话……！"));
-replaceString(L, 26, Str("say"), Str("哈哈哈，大家都消消气~事情既然已经发生了，再怎么抱怨也没用，今天可不是元老院批斗会哦。"));
-replaceString(L, 27, Str("say"), Str("虽然这件事有一个不幸的开端，但也正因如此，才有了我们今天这次规模恢弘的帝国舰队行动。"));
-replaceString(L, 28, Str("say"), Str("我们已经消沉的太久，已经太久没有在陆间海的水面上如此自豪的行驶着了。"));
-replaceString(L, 29, Str("say"), Str("今天是我们将帝国的光芒重新投射在陆间海上之时，亦是我们的荣耀之时。大家都挺起胸膛，向世人展现我们的威仪吧。"));
-replaceString(L, 30, Str("say"), Str("……不错，不论是艺术品、运输舰队、失踪的同伴还是帝国的辉煌与荣耀，从我们手上失去的东西，我们应该像这样亲手夺回来！"));
-replaceString(L, 31, Str("say"), Str("嗯~很有气势！"));
-replaceString(L, 32, Str("say"), Str("这次事件之后元老院应该会考虑护航工作的安排，我以后也可以经常来玩了吧！"));
-replaceString(L, 33, Str("say"), Str("嗯嗯，可以哦~"));
-replaceString(L, 34, Str("say"), Str("太好了~~~！"));
-replaceString(L, 35, Str("say"), Str("额……我也要说点什么么……？那就，哦——加油————"));
-replaceString(L, 36, Str("say"), Str("喂~！托里拆利下潜跑掉了！等等！~！"));
-lua_pop(L, 1);
-}
-void WEICENGHUNHE23(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("企业，它们来了。"));
-replaceString(L, 2, Str("say"), Str("不知何时，一位\"不速之客\"加入了这场对话中。"));
-replaceString(L, 3, Str("say"), Str("塞壬……？！！"));
-replaceString(L, 4, Str("say"), Str("突然出现的塞壬让企业条件反射般放出了舰载机，然后子弹穿过幻影消逝在远方的迷雾中。"));
-replaceString(L, 5, Str("say"), Str("「关键点G」，向你致以审判者大人的问候。"));
-replaceString(L, 6, Str("say"), Str("「关键点G」…审判者…"));
-replaceString(L, 7, Str("say"), Str("\"拉普拉斯妖\"应该为全体人类服务，而不是作为战争的工具，造物主大人应该也是如此认为的。"));
-replaceString(L, 8, Str("say"), Str("所以，我们会提供活动基地。而你们，需要保证这里的研究不会落入不应得到之人手中。"));
-replaceString(L, 9, Str("say"), Str("我们也有我们的立场，有些时候无法随意行动。"));
-replaceString(L, 10, Str("say"), Str("不要说出名字来。用代号称呼更有神秘感，审判者大人是这么认为的。"));
-replaceString(L, 11, Str("say"), Str("请放心，按照协议，我们会参与营救计划。"));
-replaceString(L, 12, Str("say"), Str("因为这是造物主大人与审判者大人共同的期望。"));
-replaceString(L, 13, Str("say"), Str("至此，谈妥了。执行者舰队的配属坐标将在稍后向你们同步，记得在行动中避开。"));
-replaceString(L, 14, Str("say"), Str("在与塞壬协商合作…？这些…到底是什么……"));
-replaceString(L, 15, Str("say"), Str("当然，面对企业的提问面前的幻影们依然没有做出任何-------"));
-replaceString(L, 16, Str("say"), Str("这些都是，往昔的碎片哦。"));
-lua_pop(L, 1);
-}
-void SHISHANGTEKANHEDINGJIXINCHUNYI1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("港区时尚特刊：新春合集[1]\n\n<size=45>月下翩迁</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("……乾者，天之象也……不行，这里需要更有气势一点……"));
-replaceString(L, 3, Str("say"), Str("如果换成……区区腐草之荧光……嗯……还是有点……"));
-replaceString(L, 4, Str("say"), Str("对了！如果戴上这个面具的话……"));
-replaceString(L, 5, Str("say"), Str("呵，腐草之荧光，怎及天心之皓月。"));
-replaceString(L, 6, Str("say"), Str("本来只是想在新年聚会前随意逛逛，结果却看到了这样的景象。"));
-replaceString(L, 7, Str("say"), Str("这种时候就应该……"));
-getByList(L,7);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("快速离开"));
-replaceString(L, 2, Str("content"), Str("悄悄离开"));
-lua_pop(L,2);
-replaceString(L, 8, Str("say"), Str("还是快点走吧，别打扰到她——"));
-replaceString(L, 9, Str("say"), Str("轻手轻脚地，不能让她发现——"));
-replaceString(L, 10, Str("say"), Str("\"啪\"的一声，被踩断的树枝发出了它此生最响亮的绝唱。"));
-replaceString(L, 11, Str("say"), Str("谁？"));
-replaceString(L, 12, Str("say"), Str("（如果保持沉默的话，也许能蒙混过关？）"));
-replaceString(L, 13, Str("say"), Str("指、指挥官？！你什么时候来的？？？"));
-replaceString(L, 14, Str("say"), Str("（看来并不能……）"));
-getByList(L,14);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("……刚刚？"));
-replaceString(L, 2, Str("content"), Str("没看见哦！"));
-lua_pop(L,2);
-replaceString(L, 15, Str("say"), Str("你、你全都看到了？！"));
-replaceString(L, 16, Str("say"), Str("……我还没提问呢！"));
-replaceString(L, 17, Str("say"), Str("——！！！"));
-replaceString(L, 18, Str("say"), Str("少女的脸瞬间红成了一片，就像是装饰在街道上的红灯笼。"));
-replaceString(L, 19, Str("say"), Str("不、不许告诉别人！！！"));
-replaceString(L, 20, Str("say"), Str("不然我就……我就……总之不许说！！！"));
-replaceString(L, 21, Str("say"), Str("在保证了不会给任何人透露今天发生的事情之后，寰昌总算是放下心来。"));
-replaceString(L, 22, Str("say"), Str("脸色也恢复了正常。不过……似乎还有什么烦恼没有解决的样子。"));
-replaceString(L, 23, Str("say"), Str("……烦恼？"));
-replaceString(L, 24, Str("say"), Str("嗯……其实……我总觉得自己好像缺少了一点气势。"));
-replaceString(L, 25, Str("say"), Str("因为换上了新衣服，所以面具得重新挑选，还有与之配套的对外社交辞令……"));
-replaceString(L, 26, Str("say"), Str("我作为年长者，对外的时候必须更体面更有气势，这样才能保护好其他人。"));
-replaceString(L, 27, Str("say"), Str("原来如此……那么我也来帮帮你吧？"));
-replaceString(L, 28, Str("say"), Str("真的吗？那就麻烦指挥官了。"));
-replaceString(L, 29, Str("say"), Str("这个如何？"));
-replaceString(L, 30, Str("say"), Str("威严有余，但是红色眼睛看起来就有点像恐怖故事了。"));
-replaceString(L, 31, Str("say"), Str("那纯黑的这个呢？指挥官觉得怎么样？"));
-replaceString(L, 32, Str("say"), Str("嗯……或许换个颜色会更搭新衣服？"));
-replaceString(L, 33, Str("say"), Str("粉色……啊，这个不是！这、这是不小心拿错的眼罩。"));
-replaceString(L, 34, Str("say"), Str("挺可爱的，很适合你……"));
-replaceString(L, 35, Str("say"), Str("我个人很喜欢这个白色花朵装饰的，你觉得呢？"));
-replaceString(L, 36, Str("say"), Str("或者这个有鹿角装饰的面具，兼具神秘感和美丽。也不错，对吧？"));
-replaceString(L, 37, Str("say"), Str("还有这个……啾啾面具……"));
-replaceString(L, 38, Str("say"), Str("虽然不够威严，但……好可爱……"));
-replaceString(L, 39, Str("say"), Str("………………"));
-replaceString(L, 40, Str("say"), Str("最后，在经过了长时间的反复纠结，寰昌终于在满地的面具中挑选出了最适合她的几个。"));
-replaceString(L, 41, Str("say"), Str("而新的外交辞令似乎也让寰昌更具有威严性了。"));
-lua_pop(L, 1);
-}
-void HUANXINGCANGHONGZHIYAN26_2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("轰————！"));
-replaceString(L, 2, Str("say"), Str("诸位，下手可真狠啊~不但擅自闯进门来，还打杀了我的看门之物。"));
-replaceString(L, 3, Str("say"), Str("作为客人来说，是否有些太失礼数了？"));
-replaceString(L, 4, Str("say"), Str("妖物，赤城前辈在哪里？快把赤城前辈放了！"));
-replaceString(L, 5, Str("say"), Str("赤城？啊~你说的是之前那个不自量力的红毛小狐狸么？"));
-replaceString(L, 6, Str("say"), Str("……快把赤城前辈放了，否则。"));
-replaceString(L, 7, Str("say"), Str("否则如何？她之前不顾死活上来挡枪，不就是在找死么？"));
-replaceString(L, 8, Str("say"), Str("我这人喜欢成人之美，自然是成全她了~不用客气。"));
-replaceString(L, 9, Str("say"), Str("你……你说什么？"));
-replaceString(L, 10, Str("say"), Str("非要我说的那么直白么？"));
-replaceString(L, 11, Str("say"), Str("人我已经随手杀了，这次听明白了么？"));
-replaceString(L, 12, Str("say"), Str("……你，今天必死。"));
-replaceString(L, 13, Str("say"), Str("……赤城前辈，我会为你报仇的！"));
-replaceString(L, 14, Str("say"), Str("…………"));
-replaceString(L, 15, Str("say"), Str("嘶……节哀顺变，天城。"));
-replaceString(L, 16, Str("say"), Str("事已至此……你别生气上头。身体垮了，报不了仇了！"));
-replaceString(L, 17, Str("say"), Str("无需担心，我的身体已经无碍了。"));
-replaceString(L, 18, Str("say"), Str("倒是此事……唉。"));
-replaceString(L, 19, Str("say"), Str("……没想到这个META，居然最符合META原本定义的那一类。"));
-replaceString(L, 20, Str("say"), Str("指挥官，救援行动已经失败，接下来该怎么办？"));
-replaceString(L, 21, Str("say"), Str("（观察者，她是否在说谎？）"));
-replaceString(L, 22, Str("say"), Str("（说没说谎我不清楚，不过岛上确实只剩她一个赤城了哦。）"));
-replaceString(L, 23, Str("say"), Str("（那你呢，你是否说谎？）"));
-replaceString(L, 24, Str("say"), Str("（哎呦喂~有你家海伦娜盯着，我哪儿敢啊~）"));
-replaceString(L, 25, Str("say"), Str("（……明白了。）"));
-replaceString(L, 26, Str("say"), Str("（哦？你明白什么了？）"));
-replaceString(L, 27, Str("say"), Str("（——你猜。）"));
-replaceString(L, 28, Str("say"), Str("此事尚有疑点，现在认定行动失败为时过早。"));
-replaceString(L, 29, Str("say"), Str("天城，你怎么看？"));
-replaceString(L, 30, Str("say"), Str("这一次，我想先听听{playername}阁下的意见。"));
-replaceString(L, 31, Str("say"), Str("不论如何，大战一场是不可避免了。"));
-replaceString(L, 32, Str("say"), Str("嗯，如果必须如此的话……"));
-replaceString(L, 33, Str("say"), Str("本次，可否依旧由我作为先锋出战？"));
-replaceString(L, 34, Str("say"), Str("自然。"));
-replaceString(L, 35, Str("say"), Str("诸位……"));
-replaceString(L, 36, Str("say"), Str("天城大人，不用勉强……我们都懂。"));
-replaceString(L, 37, Str("say"), Str("……杀。"));
-replaceString(L, 38, Str("say"), Str("呵，想杀我？那得先看看你们有没有这个本事！"));
-replaceString(L, 39, Str("say"), Str("燃尽一切吧——！"));
-lua_pop(L, 1);
-}
-void HAIDAOSUIJI9_4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("欣然接受了洞穴赠予的礼物——"));
-replaceString(L, 2, Str("say"), Str("打开箱子，里面满是价值连城的珠宝与黄金，如果把它们卖掉的话………"));
-replaceString(L, 3, Str("say"), Str("……………………"));
-replaceString(L, 4, Str("say"), Str("你醒了过来，手中还抱着那个陈旧但不失奢华的箱子。"));
-replaceString(L, 5, Str("say"), Str("惊喜地打开它——"));
-replaceString(L, 6, Str("say"), Str("里面没有梦中的珠宝和黄金，倒是有一些你正好需要的东西……"));
-replaceString(L, 7, Str("say"), Str("……明明获得了意外的馈赠，却感到一阵失落。"));
-lua_pop(L, 1);
-}
-void BULIZHISHI2_3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("两只布里渐渐同净化者打成了一个三角形，但还是没有分出胜负————"));
-replaceString(L, 2, Str("say"), Str("两位妹妹别慌，我来啦purin！"));
-replaceString(L, 3, Str("say"), Str("哼！！哪怕你们三只一起上，也不是我的对手！"));
-replaceString(L, 4, Str("say"), Str("三只布里把净化者围在了中间，如同一个走马灯一样转着圈与净化者交战起来。"));
-lua_pop(L, 1);
-}
-void LUCK29903(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("喵哈哈哈哈！柴郡，感觉变得更厉害了！"));
-replaceString(L, 2, Str("say"), Str("能走到今天，正说明了我和亲爱的之间的羁绊有多坚不可摧~"));
-replaceString(L, 3, Str("say"), Str("接下来的路，我们也会一起走下去的，对吧~？"));
-replaceString(L, 4, Str("say"), Str("嘿嘿，其实不用问我也知道答案的啦！好~继续努力加油啦！我抱~"));
-lua_pop(L, 1);
-}
-void SHENGYONGQU25(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("维希教廷圣堂·近海 稍早前"));
-replaceString(L, 2, Str("say"), Str("呼……真是好险。没想到用来伏击航空舰队的拉.加利索尼埃舰队反而被舰载机打了个措手不及。"));
-replaceString(L, 3, Str("say"), Str("在侦察机发现拉.加利索尼埃没有和你在一起的时候，我就识破你的作战意图了。"));
-replaceString(L, 4, Str("say"), Str("虽然不知道你具体打算怎么执行，不过姑且让航空编队将备用舰载机隐藏在云层中待命，如果有伏击的话总会到来吧。"));
-replaceString(L, 5, Str("say"), Str("原本也想过可能不会这么顺利…果然还是骗不到你么，黎塞留卿。"));
-replaceString(L, 6, Str("say"), Str("即便在这种不利的局面下，你还是进行了一场无愧于教廷骑士之名的出色战斗，对于维希教廷你已经足够的忠义了。"));
-replaceString(L, 7, Str("say"), Str("也许吧……"));
-replaceString(L, 8, Str("say"), Str("航空母舰不愧为可以左右战局的兵器啊…如果我们和铁血的战争没有失败的那么快的话，现在的鸢尾教国应该已经建立了一支不输给皇家的航空舰队了吧。"));
-replaceString(L, 9, Str("say"), Str("\"永远不再投入彼此之间战争\"……我们在当时相信了不应该相信的人。"));
-replaceString(L, 10, Str("say"), Str("但是自由鸢尾不会再重蹈这一覆辙了。现在还来得及，加入我们吧。只要我们团结一致，总有一天可以依靠我们的力量光复祖国的。"));
-replaceString(L, 11, Str("say"), Str("我现在是维希的教廷骑士。事情发展到现在这一步，除了战斗到底以外我已经没有其他路可选了。"));
-replaceString(L, 12, Str("say"), Str("……我们之间一定要这样么。"));
-replaceString(L, 13, Str("say"), Str("我会在圣堂前召集全部的舰队，让我们像骑士一样，面对面，堂堂正正决出胜负吧。"));
-lua_pop(L, 1);
-}
-void DAHUANGFENG5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("像牛仔一样！\n\n<size=45>五　企业的妹妹</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·指挥室 夜晚"));
-replaceString(L, 3, Str("say"), Str("原来是这样……大黄蜂要跟瑞鹤进行对抗演习了啊。"));
-replaceString(L, 4, Str("say"), Str("……作为我的替补？没有这样的事，战斗方法本就不同，而且瑞鹤肯定是认可了她的实力，才会同意与她进行演习的。"));
-replaceString(L, 5, Str("say"), Str("不过大黄蜂她居然会为了这种事产生压力吗……嗯……"));
-replaceString(L, 6, Str("say"), Str("嗯，没问题指挥官。明天的特训交给我吧。"));
-replaceString(L, 7, Str("say"), Str("次日正午 演习海域"));
-replaceString(L, 8, Str("say"), Str("企、企企业姐？！！你不是今天晚上才能回来么？！"));
-replaceString(L, 9, Str("say"), Str("听说你在准备和瑞鹤的演习，稍微加快了些返航速度。"));
-replaceString(L, 10, Str("say"), Str("半天时间的航程，不是稍微加速能解决的吧…………不愧是企业姐。"));
-replaceString(L, 11, Str("say"), Str("既然你赶回来了，要不然跟瑞鹤的演习还是——"));
-replaceString(L, 12, Str("say"), Str("不行，向瑞鹤发起邀约的是你，瑞鹤认可的演习对手也是你。突然更换的话对你们双方都是很失礼的"));
-replaceString(L, 13, Str("say"), Str("而且我这么急急忙忙的赶回来也想休息一下呢。哈哈"));
-replaceString(L, 14, Str("say"), Str("企业姐………"));
-replaceString(L, 15, Str("say"), Str("指挥官说的就是陪你\"特训\"吧。事不宜迟，让我们直接开始训练吧。"));
-replaceString(L, 16, Str("say"), Str("保持全神贯注。瑞鹤可不是你带着轻松的心情就能击败的对手。不想郁闷的过完剩下几天休假就放马过来吧"));
-replaceString(L, 17, Str("say"), Str("……是，企业姐！"));
-replaceString(L, 18, Str("say"), Str("呼~不知不觉都这个时间了."));
-replaceString(L, 19, Str("say"), Str("瑞鹤果然很强啊……但是老姐你也很强！有了今天的这些对策，明天的对决一定会顺利的。"));
-replaceString(L, 20, Str("say"), Str("哈哈，有自信是好事，不过瑞鹤也是一位会灵活选择战术的对手。"));
-replaceString(L, 21, Str("say"), Str("今天的这些情报也许能让你在开局时拿到一些优势，不过想彻底赢过她的话还是要靠你自己才行。"));
-replaceString(L, 22, Str("say"), Str("我还有一些事要处理，期待你的好消息哦。"));
-replaceString(L, 23, Str("say"), Str("企业姐记得一会好好休息一下哦~！"));
-replaceString(L, 24, Str("say"), Str("目送企业离开后，大黄蜂重新看向了海面。"));
-replaceString(L, 25, Str("say"), Str("哎呀，今天真是学到了好多呢，我都怀疑自己能不能消化下来呢。"));
-replaceString(L, 26, Str("say"), Str("结果，还是得依靠企业姐啊……"));
-replaceString(L, 27, Str("say"), Str("大黄蜂依旧在淡淡地笑着，只不过头渐渐地低了下去，任由帽子遮住了她的视线。"));
-replaceString(L, 28, Str("say"), Str("突然她又像是想起什么似的，猛地抬起头来。"));
-replaceString(L, 29, Str("say"), Str("指挥官！你一定是有什么用意才特意让企业姐赶回来对我进行特训的吧？"));
-replaceString(L, 30, Str("say"), Str("指挥官你说的\"特训\"，到底是什么呢…………"));
-replaceString(L, 31, Str("say"), Str("仿佛在说着\"原来指挥官因为企业姐才把我当另眼相看的\"一般的落寞表情。"));
-replaceString(L, 32, Str("say"), Str("这是自从认识大黄蜂以来，第一次见到的表情。"));
-replaceString(L, 33, Str("say"), Str("换做平时那个潇洒又自信的她明明能很快领悟的事，现在过于太在意\"企业的妹妹\"的她却怎么也没能明白……"));
-replaceString(L, 34, Str("say"), Str("看来只能直接告诉她，今天这么做的真正用意了……"));
-lua_pop(L, 1);
-}
-void DORM3DTOUCH1407(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("有一种不可思议的感觉呢。"));
-lua_pop(L, 1);
-}
-void W863006(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("电力方阵，通过底框的颜色可以判断是否被激活。"));
-lua_pop(L, 1);
-}
-void W2027(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("警告：指挥官，触发了塞壬隐藏在海域中的警报装置，周边区域被封锁了。"));
-lua_pop(L, 1);
-}
-void MAIZANGYUBIANZHIHUA1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("埋葬于彼岸之花\n\n<size=45>御狐移驾</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
+replaceString(L, 1, Str("say"), Str("警告：指挥官，我无法通过侦察模块获取前方海域的任何信息。海域之中存在未知强敌的概率接近100%。"));
+replaceString(L, 2, Str("say"), Str("请确认是否解除塞壬区域封锁装置进入海域的深处？"));
 getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("重樱本岛"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("三笠宅邸"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,2);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—7月23日"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 3, Str("say"), Str("三笠宅邸的门前，各种物资往来搬运不停，一片车水马龙的忙碌之景。"));
-replaceString(L, 4, Str("say"), Str("即将启程一行人正在做着出发前的最后准备。"));
-replaceString(L, 5, Str("say"), Str("小心仔细、注意磕碰。行李装好之后直接运到码头去，不要遗漏货物。"));
-replaceString(L, 6, Str("say"), Str("春月，远航补给物资准备的如何了？"));
-replaceString(L, 7, Str("say"), Str("武藏大人调动的船已经到了，现在就停靠在码头边。"));
-replaceString(L, 8, Str("say"), Str("很好，我明白了。"));
-replaceString(L, 9, Str("say"), Str("比我们准备得还快，看来我们虽然是仓促离开——"));
-replaceString(L, 10, Str("say"), Str("有人却是早有预谋、尽在计划之中呢。"));
-replaceString(L, 11, Str("say"), Str("长门大人——长门大人——"));
-replaceString(L, 12, Str("say"), Str("呼……江风，长门大人在么？"));
-replaceString(L, 13, Str("say"), Str("长门大人还在房间里收拾，你找她有事么？"));
-replaceString(L, 14, Str("say"), Str("嗯……稍微，有点急事！那我去房间找她！"));
-replaceString(L, 15, Str("say"), Str("三笠宅邸·长门的房间"));
-replaceString(L, 16, Str("say"), Str("咚咚咚——（敲门声）"));
-replaceString(L, 17, Str("say"), Str("长门大人——您在里面么！"));
-replaceString(L, 18, Str("say"), Str("瑞鹤？请进。"));
-replaceString(L, 19, Str("say"), Str("瑞鹤，出发在即，汝如此急切来找吾，可是准备工作出了什么事？"));
-replaceString(L, 20, Str("say"), Str("没有没有，我刚从正门过来。码头那边一切正常，可以按时出发。"));
-replaceString(L, 21, Str("say"), Str("如此甚好。那汝来找吾是为了？"));
-replaceString(L, 22, Str("say"), Str("欸嘿嘿……长门大人，你有没有觉得我们这次调动非同一般、有些太仓促了？"));
-replaceString(L, 23, Str("say"), Str("明明现在帕克菲克洋并无战事，却这么着急让我们去驻防、甚至提前准备好了补给。"));
-replaceString(L, 24, Str("say"), Str("如此兴师动众，派遣我们这么大一支舰队去没有战事的地方，总不会是让我们去度假吧？"));
-replaceString(L, 25, Str("say"), Str("吾也觉得很可疑，不过就算是问三笠，三笠也只是说让吾等前去驻防地调查异常现象、尽快离开。"));
-replaceString(L, 26, Str("say"), Str("这个\"尽快\"听上去就很可疑！"));
-replaceString(L, 27, Str("say"), Str("长门大人，我觉得是不是本岛就快有什么大事发生了，所以她们才急忙支开我们？"));
-replaceString(L, 28, Str("say"), Str("赤城前辈也不是第一次做这种事了……"));
-replaceString(L, 29, Str("say"), Str("那年去欧罗巴的时候……她就找了个借口让我和姐姐一起走好望角的航线……真是绕了好大一圈呢！"));
-replaceString(L, 30, Str("say"), Str("武藏配合赤城的安排，为吾等下达命令并非不可能。可是三笠……是绝无可能配合赤城如此胡闹的。"));
-replaceString(L, 31, Str("say"), Str("汝说的不错，本岛可能确实有什么大事要发生了，只是吾等对此还一无所知……"));
-replaceString(L, 32, Str("say"), Str("所以！长门大人，我能不能留下来调查一下？"));
-replaceString(L, 33, Str("say"), Str("……这，有些。"));
-replaceString(L, 34, Str("say"), Str("而且大前辈把她自己的护卫基本都派给我们了，万一真出现了危险情况谁来保护她！"));
-replaceString(L, 35, Str("say"), Str("唔……"));
-replaceString(L, 36, Str("say"), Str("再说了长门大人，您就不好奇，本岛究竟要发生什么事么？"));
-replaceString(L, 37, Str("say"), Str("我留在这里调查，有消息了第一时间发给您！绝对不会做其他事情的！"));
-replaceString(L, 38, Str("say"), Str("……如此的话，吾倒是想起来一件事。"));
-replaceString(L, 39, Str("say"), Str("陆奥最近身体不太好，汝在出发前，替吾去探望一下吧。"));
-replaceString(L, 40, Str("say"), Str("……欸，啊，是！"));
-replaceString(L, 41, Str("say"), Str("不过，长门大人……"));
-replaceString(L, 42, Str("say"), Str("陆奥大人知道自己近日身体不适么？"));
-replaceString(L, 43, Str("say"), Str("呵呵，等汝亲自去探望了之后，她不就知道了么。"));
-replaceString(L, 44, Str("say"), Str("好了，汝快去准备吧。"));
-replaceString(L, 45, Str("say"), Str("是！长门大人，保证不负所托！"));
-replaceString(L, 46, Str("say"), Str("树欲静，而风不止……"));
-replaceString(L, 47, Str("say"), Str("三笠，吾走了。"));
-replaceString(L, 48, Str("say"), Str("汝……可千万不要做糊涂事啊。"));
-getByList(L,49);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("「仪式，自美梦而始。」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,49);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("「由点及线，由线及面。」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,49);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("「戴上狐面，坠入绮丽之梦吧——」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-lua_pop(L, 1);
-}
-void NAERWEIKE6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("风雪真大，只能隐约看到海岸那边有一些火光……"));
-replaceString(L, 2, Str("say"), Str("嗯，我们已经突破第一道防线了，纳尔维克港就在前面"));
-replaceString(L, 3, Str("say"), Str("对了，勇敢，你知道吗？"));
-replaceString(L, 4, Str("say"), Str("知道什么？"));
-replaceString(L, 5, Str("say"), Str("纳尔维克……"));
-replaceString(L, 6, Str("say"), Str("？！难道有什么重要的情报吗！"));
-replaceString(L, 7, Str("say"), Str("据说在1月到3月的时候，可以看到极光。"));
-replaceString(L, 8, Str("say"), Str("哈？"));
-replaceString(L, 9, Str("say"), Str("但是现在已经是4月了，所以已经看不到了，遗憾……"));
-replaceString(L, 10, Str("say"), Str("猎人……我们的前方可是敌人。"));
-replaceString(L, 11, Str("say"), Str("只是正好想到……勇敢对极光没有兴趣吗？"));
-replaceString(L, 12, Str("say"), Str("我……不知道，我没看过，你看过吗？"));
-replaceString(L, 13, Str("say"), Str("我也没有。但是我听说极光很美，很梦幻，所以听说要来北极执行任务，我其实还是有些期待的。"));
-replaceString(L, 14, Str("say"), Str("不过，能看到这么大的雪，也挺好的……在我们的故乡，可看不到这么大的雪。"));
-replaceString(L, 15, Str("say"), Str("是吗？我只觉得这大雪很碍事。"));
-replaceString(L, 16, Str("say"), Str("对于战斗……确实很碍事，但是如果在战斗之外，会很好看。"));
-replaceString(L, 17, Str("say"), Str("……搞不懂，你的想法还真奇怪。"));
-replaceString(L, 18, Str("say"), Str("我是\"猎人\"，所以平时会比较在意自然环境……"));
-replaceString(L, 19, Str("say"), Str("对了，勇敢，这次任务结束后，一起来看雪吗？"));
-replaceString(L, 20, Str("say"), Str("这可不是现在应有的想法，我们要进攻纳尔维克，然后……"));
-replaceString(L, 21, Str("say"), Str("然后我们也应该没有时间逗留，马上会有下个任务在等着我们。"));
-replaceString(L, 22, Str("say"), Str("就一会儿，不行吗？"));
-replaceString(L, 23, Str("say"), Str("………………先完成我们的任务再说吧。"));
-lua_pop(L, 1);
-}
-void HUANYINLAIDAOTONGXINXUEYUAN5_2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("经过了105圈的比试，异常石膏喵全数败下阵来。"));
-replaceString(L, 2, Str("say"), Str("比试失败的石膏喵全数变成了石膏雕塑，跑道也停了下来。"));
-replaceString(L, 3, Str("say"), Str("呼……呼……知道未来海上骑士的厉害了吧！"));
-replaceString(L, 4, Str("say"), Str("堂堂正正的比试我可是不会输！"));
-replaceString(L, 5, Str("say"), Str("好耶！果然我们是最厉害的~！"));
-replaceString(L, 6, Str("say"), Str("那么接下来——"));
-replaceString(L, 7, Str("say"), Str("大家跑完之后都很累了，在执行接下来的调查之前，先休息一下吧。"));
-replaceString(L, 8, Str("say"), Str("嘿嘿，不愧是体贴的指挥官，我正想这么建议呢~"));
-replaceString(L, 9, Str("say"), Str("操场之上，少女们开始了休息时光。"));
-replaceString(L, 10, Str("say"), Str("而后，很快休息时光转变成了游戏时光——"));
-replaceString(L, 11, Str("say"), Str("（……虽说异变还没被彻底解决，不过——也不错吧。）"));
-replaceString(L, 12, Str("say"), Str("为了不打扰她们，我暂时将前线频道从临时指挥室公屏切换到了私人频道。"));
-replaceString(L, 13, Str("say"), Str("此刻的健康活力操场上，大家正热热闹闹地使用着操场上的各类设施游玩，只有Z47独自坐在跷跷板上玩手机。"));
-replaceString(L, 14, Str("say"), Str("Z47你不和大家一起玩么？"));
-replaceString(L, 15, Str("say"), Str("好吧，既然指挥官都这么说了……那就不玩手机了……"));
-replaceString(L, 16, Str("say"), Str("但是……指挥官又不在，我不知道和大家说什么……"));
-replaceString(L, 17, Str("say"), Str("虽然我人不在现场，但是还是可以通过这种方式陪着你呀？"));
-replaceString(L, 18, Str("say"), Str("今天多亏你发来的求救消息，我才能在第一时间组织救援赶来。"));
-replaceString(L, 19, Str("say"), Str("可是……指挥官都没有回我消息……虽然知道可能是因为异变的关系……"));
-replaceString(L, 20, Str("say"), Str("……这样啊，我发的短信帮上忙了啊。"));
-replaceString(L, 21, Str("say"), Str("那我想要奖励。"));
-replaceString(L, 22, Str("say"), Str("什么奖励？陪你一起玩跷跷板？"));
-replaceString(L, 23, Str("say"), Str("事件结束后，单独陪我出来玩……"));
-replaceString(L, 24, Str("say"), Str("一言为定。"));
-replaceString(L, 25, Str("say"), Str("那就这么说定了……不准反悔哦。"));
-replaceString(L, 26, Str("say"), Str("将视线从屏幕上收回，重新梳理了一遍当前的情况。"));
-replaceString(L, 27, Str("say"), Str("（校园大门，教室门，健康活力操场跑道都是基础设施。）"));
-replaceString(L, 28, Str("say"), Str("（所有的破解规则，都与\"童心\"、\"开心\"有关，而且每个区域都会有异常石膏喵的出现……）"));
-replaceString(L, 29, Str("say"), Str("几条线索结合后，我想起了不久前曾审批过的一份提案。"));
-replaceString(L, 30, Str("say"), Str("（「校园陪伴系统」建设方案……提案人……夕张。）"));
-replaceString(L, 31, Str("say"), Str("（而恰好，夕张也在校园失联人员名单之内。）"));
-replaceString(L, 32, Str("say"), Str("（难道说，本次事件的真实原因，会和这个系统有关系么……）"));
-lua_pop(L, 1);
-}
-void KELAIMENGSUO4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("隐藏于纯白之下\n\n<size=45>四　张弛有度</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("工作终于结束后，与克莱蒙梭一同前往了晚餐会所在的地点。"));
-replaceString(L, 3, Str("say"), Str("中途，怀中还被她塞了一份不知何时从何处拿出来的邀请函。"));
-replaceString(L, 4, Str("say"), Str("与这种堪称\"不太正经\"的邀请方式形成对比的是，那是一封用红色信封和金色鸢尾花图案火漆封口的、非常正式的邀请函。"));
-replaceString(L, 5, Str("say"), Str("这种类型的邀请函，指向的场合理应相当严肃才是……"));
-replaceString(L, 6, Str("say"), Str("既然邀请了指挥官前往，就算只是普通的聚会，也是需要尽礼数的。"));
-replaceString(L, 7, Str("say"), Str("还是说——没有交谊舞环节让指挥官阁下失望了？"));
-replaceString(L, 8, Str("say"), Str("呵呵~今天是孩子们的犒劳晚会嘛，缺掉的部分以后补给你。"));
-getByList(L,8);
 lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("不，完全没失望！"));
-replaceString(L, 2, Str("content"), Str("请务必！"));
+replaceString(L, 1, Str("content"), Str("确认"));
+replaceString(L, 2, Str("content"), Str("查阅作战说明"));
+replaceString(L, 3, Str("content"), Str("离开"));
 lua_pop(L,2);
-replaceString(L, 9, Str("say"), Str("嘘——快到会场了，悄悄话等到没人的时候再说。我们先入座吧~"));
-replaceString(L, 10, Str("say"), Str("接下来就是见证奇迹的时刻~请看……看……？！！"));
-replaceString(L, 11, Str("say"), Str("咦？怎么没有反应？"));
-replaceString(L, 12, Str("say"), Str("指挥官，克莱蒙梭大人，甜点还合你们的口味吗？"));
-replaceString(L, 13, Str("say"), Str("非常美味，敦刻尔克的烘焙水准真是越来越高了呢。"));
-replaceString(L, 14, Str("say"), Str("茶……好烫。"));
-replaceString(L, 15, Str("say"), Str("呜啊！抱歉抱歉，可怖。这杯才是特地帮你准备的，是温的！"));
-replaceString(L, 16, Str("say"), Str("唔、还是好烫！"));
-replaceString(L, 17, Str("say"), Str("嗯？倔强，你这个道具是不是有点不对劲？"));
-replaceString(L, 18, Str("say"), Str("看我看看……这是……"));
-replaceString(L, 19, Str("say"), Str("咳咳咳~"));
-replaceString(L, 20, Str("say"), Str("咳咳……怎么爆炸了？"));
-replaceString(L, 21, Str("say"), Str("沃克兰，你是不是又对我的道具做了手脚？"));
-replaceString(L, 22, Str("say"), Str("这次我可没有哦！我一直在帮敦刻尔克布置聚会的现场。"));
-replaceString(L, 23, Str("say"), Str("这一点我可以作证，沃克兰这次确实没什么机会捣乱。"));
-replaceString(L, 24, Str("say"), Str("会不会是道具出厂的时候就出问题了？"));
-replaceString(L, 25, Str("say"), Str("唔……算了，明天去找明石小姐问问清楚好了。"));
-replaceString(L, 26, Str("say"), Str("克莱蒙梭大人，黎塞留大人和让·巴尔大人今天没空参加聚会，这红酒……"));
-replaceString(L, 27, Str("say"), Str("我知道了，稍后我会把红酒给她们带回去的。"));
-replaceString(L, 28, Str("say"), Str("聚会的场面稍微有点混乱，但是到处充满了欢笑，每个人都享受着这轻松的氛围。"));
-replaceString(L, 29, Str("say"), Str("指挥官阁下看上去有些诧异呢，是吃到奇怪的东西了么？"));
-replaceString(L, 30, Str("say"), Str("没有，食物非常美味。只是……"));
-replaceString(L, 31, Str("say"), Str("只是对于晚餐会的氛围有些意外？"));
-replaceString(L, 32, Str("say"), Str("呵呵，偶尔我们也是会举办这种轻松的宴会，偶尔啦~"));
-replaceString(L, 33, Str("say"), Str("毕竟我们有一些很有个性的孩子呢。"));
-replaceString(L, 34, Str("say"), Str("而且，只有彻底消除了疲惫，才能以更好的状态迎接新的训练。"));
-replaceString(L, 35, Str("say"), Str("指挥官不这样认为么？呵呵~"));
-lua_pop(L, 1);
-}
-void DORM3DDAILYCONVERSATION81(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("嗯……"));
-getByList(L,1);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("在想什么呢？"));
-lua_pop(L,2);
-replaceString(L, 2, Str("say"), Str("在想云朵的形状。"));
-replaceString(L, 3, Str("say"), Str("天狼星在您来之前，在走廊上看云。"));
-replaceString(L, 4, Str("say"), Str("因为听其他人说，在看云的时候所见到的云朵形状，就代表着人内心最期待的事物。"));
-getByList(L,4);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("那，天狼星看到了什么呢？"));
-lua_pop(L,2);
-replaceString(L, 5, Str("say"), Str("主人……您是在明知故问哦。"));
-lua_pop(L, 1);
-}
-void W840020(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中的洋流正在变得愈发湍急。"));
-lua_pop(L, 1);
-}
-void WNN000D(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("看来指挥官已经初步掌握了舰队指令的使用方式，请指挥官与海域中的敌舰作战。"));
-lua_pop(L, 1);
-}
-void S008(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("世界分崩离析…拥有力量之人站了起来，想要对抗历史的洪流"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("殊不知，力量与力量之间互相吸引，唤起了更大的波澜"));
-lua_settable(L, -3);
-lua_pop(L,3);
-lua_pop(L, 1);
-}
-void W740002(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("找到了海域中的其他的光柱方阵！"));
-replaceString(L, 2, Str("say"), Str("通过旁边的控制台可以使其中光柱排列发生变化，将方阵还原到与初始方阵一致，即可解开谜题。"));
-lua_pop(L, 1);
-}
-void NIZHUANCAIHONGZHITA7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("感受到灼热的空气和冰冷的海水，仿佛进入了一片海上荒漠。"));
-replaceString(L, 2, Str("say"), Str("刺激性的味道直扑口鼻，还有一股眩晕感。"));
-replaceString(L, 3, Str("say"), Str("这种由内到外的不适感，作为舰船来说还真是难得的体验。"));
-replaceString(L, 4, Str("say"), Str("乌尔里希，没事吧？"));
-replaceString(L, 5, Str("say"), Str("咳咳咳……我们这是在……"));
-replaceString(L, 6, Str("say"), Str("看来穿越米德加尔特之塔的行动成功了啊。"));
-replaceString(L, 7, Str("say"), Str("嗯，毫无疑问我们已经到了不同的空间中。"));
-replaceString(L, 8, Str("say"), Str("到了之后就看见你昏倒在水面上。可能是我来得比你稍晚。虽然有异常感，不过应该没你那么严重。"));
-replaceString(L, 9, Str("say"), Str("大概是因为最早出发，所以受到的冲击最大……这个得记一下，之后用量产舰打头阵好了。"));
-replaceString(L, 10, Str("say"), Str("其他人都没问题吧，周边环境的情况如何？"));
-replaceString(L, 11, Str("say"), Str("所有人都在，暂时安全。"));
-replaceString(L, 12, Str("say"), Str("周边环境正在确认中。看来这里有空气，有水，也没有被敌人一瞬间包围，作为开头来说还算蛮不错的~"));
-replaceString(L, 13, Str("say"), Str("接下来就是探索了对吧？时间有限，这里又那么大，我们去哪里探索比较好呢？"));
-replaceString(L, 14, Str("say"), Str("我发现了一些残骸，有些是最近留下的，有些则很旧。"));
-replaceString(L, 15, Str("say"), Str("旧残骸说明距离遭到袭击已经过了一段时间，顺着那边走也许是便于行动的安全路线？"));
-replaceString(L, 16, Str("say"), Str("很有道理！"));
-replaceString(L, 17, Str("say"), Str("易北易北，我也有问题！"));
-replaceString(L, 18, Str("say"), Str("为什么我们身后还有一个米德加尔特之塔啊，米德加尔特之塔有两座？"));
-replaceString(L, 19, Str("say"), Str("U-1206有些夸张地伸手指着身后的巨大装置。装置与之前并无区别，只不过中心的漩涡现在正朝着完全相反的方向旋转。"));
-replaceString(L, 20, Str("say"), Str("……笨蛋！这个就是我们来的时候的米德加尔特之塔啊！"));
-replaceString(L, 21, Str("say"), Str("人工奇异点连接了两个世界，那个就是我们回去时候要用的！"));
-replaceString(L, 22, Str("say"), Str("原来如此……那为什么感觉小了很多呢！"));
-replaceString(L, 23, Str("say"), Str("小了很多……？啊，你是指外面的那些防御浮岛么。因为它们不是塔的一部分，自然也不会出现在这里了。"));
-replaceString(L, 24, Str("say"), Str("原来如此~易北知道的好多，肯定像好学生那样偷偷做了不少功课吧~"));
-replaceString(L, 25, Str("say"), Str("啊……！再多嘴把你拿去喂鲨鱼！"));
-replaceString(L, 26, Str("say"), Str("略~U-1206才不怕区区鲨鱼呢。"));
-replaceString(L, 27, Str("say"), Str("U-1206光速躲到了马格德堡身后，冲易北做了个鬼脸。"));
-replaceString(L, 28, Str("say"), Str("看来大家已经适应这里的感觉了。我再重申一下我们的任务。"));
-replaceString(L, 29, Str("say"), Str("任务一，探索奇异点通向的未知世界，尽可能收集每一条情报，为后续任务承担先驱者的工作。"));
-replaceString(L, 30, Str("say"), Str("任务二，寻找未知世界中的幸存战斗力，比如META化的舰船，可能的话，劝诱她们加入我方阵营。"));
-replaceString(L, 31, Str("say"), Str("哎？！等等，任务二是什么？！我之前根本没看到过啊。"));
-replaceString(L, 32, Str("say"), Str("嗯，因为我没写过。"));
-replaceString(L, 33, Str("say"), Str("有些突然，稍微解释一下……乌尔里希。"));
-replaceString(L, 34, Str("say"), Str("因为一些没办法说明的原因，我们本次行动的部分目标需要保密，所以我选择在进入奇异点之后再宣布。"));
-replaceString(L, 35, Str("say"), Str("感觉好像什么都没说……不过你是总指挥，听你的咯。"));
-replaceString(L, 36, Str("say"), Str("但是，你怎么肯定我们就一定能遇到幸存的META舰船？"));
-replaceString(L, 37, Str("say"), Str("幸存，究竟是相对于什么来说的？我们对于META和这个世界了解到什么程度了？"));
-replaceString(L, 38, Str("say"), Str("幸存是相对于毁灭来说的。对于META，我们有了一定程度的了解，对于这个世界则没有。所以了解这个世界就是我们接下来的工作不是么？"));
-replaceString(L, 39, Str("say"), Str("在来到这里之前我们经过了一些计算，也用上了一些运气。接下来要达成目标二，我们需要的只是更多计算，和更多的运气罢了。"));
-replaceString(L, 40, Str("say"), Str("额…………"));
-replaceString(L, 41, Str("say"), Str("嗯？还有什么问题么？"));
-replaceString(L, 42, Str("say"), Str("没有了……"));
-replaceString(L, 43, Str("say"), Str("呵呵，很好。那就执行任务吧。路线就按照易北说的思路进行探索。"));
-replaceString(L, 44, Str("say"), Str("是~我立刻规划行动航线。"));
-replaceString(L, 45, Str("say"), Str("水下的部分就交给你了，U-1206。"));
-replaceString(L, 46, Str("say"), Str("U-1206明白，正在下潜中————"));
-replaceString(L, 47, Str("say"), Str("很好。记住我们的任务，我们是来探索和寻找力量的，尽量避免无意义的战斗。"));
-replaceString(L, 48, Str("say"), Str("全员警戒，谨慎前进。"));
-lua_pop(L, 1);
-}
-void W744000(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("进入了深层空间。"));
-replaceString(L, 2, Str("say"), Str("寻找海域中的目标方阵。"));
-lua_pop(L, 1);
-}
-void DAFUWENGEVENT3_3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("参加新年演出获得大人气，获得了奖励【心智单元*150】"));
-lua_pop(L, 1);
-}
-void OUXIANGDASHIGUANQIA12(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("演出海域·中央舞台"));
-replaceString(L, 2, Str("say"), Str("——接下来该轮到我们上台了呢。"));
-replaceString(L, 3, Str("say"), Str("大家的\"冒牌货\"都出现了。看来对方也准备好\"一决胜负\"了呢。"));
-replaceString(L, 4, Str("say"), Str("终于来到最后的舞台了啊。我们只要站上舞台就可以了吗？"));
-replaceString(L, 5, Str("say"), Str("嗯，即使要调查能量来源，也要先在舞台上打败那些冒牌货才行。"));
-replaceString(L, 6, Str("say"), Str("如果通路还开着的话，就直接把你们送回原来的世界。"));
-replaceString(L, 7, Str("say"), Str("直到最后一刻都不能放松，加油吧。"));
-replaceString(L, 8, Str("say"), Str("真是奇妙的感觉…就好像对着镜子做彩排一样呢。"));
-replaceString(L, 9, Str("say"), Str("因为\"冒牌货\"的外表跟我们一样吗……？"));
-replaceString(L, 10, Str("say"), Str("不仅如此，连给人的感觉也挺像呢。"));
-replaceString(L, 11, Str("say"), Str("不过还是很明显能看出不是本人…真是奇妙的感觉！"));
-replaceString(L, 12, Str("say"), Str("现在可不是在意这种事的时候了，我们要把精力集中在舞台上才行！"));
-replaceString(L, 13, Str("say"), Str("伊织说得对。我们要——"));
-replaceString(L, 14, Str("say"), Str("……！！！"));
-replaceString(L, 15, Str("say"), Str("能量反应变强了喵！"));
-replaceString(L, 16, Str("say"), Str("有种不祥的预感…谢菲，这个反应难道是…"));
-replaceString(L, 17, Str("say"), Str("嗯，和各位偶像来到这边的那天很像。"));
-replaceString(L, 18, Str("say"), Str("意思是…会变成和我们过来的那天相同的状况吗？"));
-replaceString(L, 19, Str("say"), Str("只能说很可能会变成那样了呢。联络负责护卫的标枪她们，让她们也集合到舞台这边来吧。"));
-replaceString(L, 20, Str("say"), Str("不要紧吗？负责护卫的各位还肩负着吸引量产型的任务…"));
-replaceString(L, 21, Str("say"), Str("也不是没有μ兵装就不能站上舞台，她们也可以助演出一臂之力哦！"));
-replaceString(L, 22, Str("say"), Str("既然说了要全力以赴，就得拿出全部的战力才行呢！"));
-lua_pop(L, 1);
-}
-void XINGHAIZHUGUANG16(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("控制室中，TB与恶意数据的作战还在继续。"));
-replaceString(L, 2, Str("say"), Str("TBTB……屏幕又在闪了……"));
-replaceString(L, 3, Str("say"), Str("安克雷奇……准备好敲碎玻璃了！"));
-replaceString(L, 4, Str("say"), Str("不用担心，安克雷奇小姐。"));
-replaceString(L, 5, Str("say"), Str("在危机应对模式下，我可以完全自由的调动星海基地中的资源。"));
-replaceString(L, 6, Str("say"), Str("……唔？"));
-replaceString(L, 7, Str("say"), Str("也就是说……不需要再敲碎玻璃了。"));
-replaceString(L, 8, Str("say"), Str("现状汇报：已经成功隔离恶意数据。已将其置入安全沙箱。"));
-replaceString(L, 9, Str("say"), Str("只是，暂时无法将其彻底清除。"));
-replaceString(L, 10, Str("say"), Str("同时，因其第一时间攻击通讯系统的缘故，我已经将通讯系统彻底离线，以确保该数据物理性隔离。"));
-replaceString(L, 11, Str("say"), Str("因此，目前你无法离开控制室，也无法对外通讯，非常抱歉。"));
-replaceString(L, 12, Str("say"), Str("没关系，安克雷奇就在这里……"));
-replaceString(L, 13, Str("say"), Str("给TB……加油！"));
-replaceString(L, 14, Str("say"), Str("给TB……打气！"));
-replaceString(L, 15, Str("say"), Str("给TB……画画！"));
-replaceString(L, 16, Str("say"), Str("非常感谢。"));
-replaceString(L, 17, Str("say"), Str("不过，提出疑问，为何提及绘画行为？"));
-replaceString(L, 18, Str("say"), Str("因为……TB不是也在画？"));
-replaceString(L, 19, Str("say"), Str("屏幕上的图案……是TB画的吧！好看！"));
-replaceString(L, 20, Str("say"), Str("屏幕上的图案？"));
-replaceString(L, 21, Str("say"), Str("原来如此，那些不是画，而是异常区域的可视化显示内容。"));
-replaceString(L, 22, Str("say"), Str("但是……像一个图案……"));
-replaceString(L, 23, Str("say"), Str("像……像一个信标……！"));
-replaceString(L, 24, Str("say"), Str("还有字母……U……C……"));
-replaceString(L, 25, Str("say"), Str("信标和字母？分析模块执行中——"));
-replaceString(L, 26, Str("say"), Str("结论：并未发现匹配目标。"));
-replaceString(L, 27, Str("say"), Str("TB小姐……看不到么？"));
-replaceString(L, 28, Str("say"), Str("没关系……安克雷奇……画给你！"));
-lua_pop(L, 1);
-}
-void LINGHANGYUANYANGCHENGJIHUA19(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("又到了终端收集到了足够的行为数据，进行升级的周期。"));
-replaceString(L, 2, Str("say"), Str("这次明石不会再跑来告诉我，有重要设定忘了和我说了吧……"));
-replaceString(L, 3, Str("say"), Str("猜对了喵，不愧是指挥官喵！"));
-replaceString(L, 4, Str("say"), Str("现在进入到最关键的环节了喵，也就是这次计划的核心——\"个性\"喵！"));
-replaceString(L, 5, Str("say"), Str("这次系统升级过后，指挥官就会看到有具体个性的领航员小姐了喵！"));
-replaceString(L, 6, Str("say"), Str("啊？是不是有点太快了？我还以为会更加循序渐进一些……"));
-replaceString(L, 7, Str("say"), Str("明明已经很循序渐进了喵！"));
-replaceString(L, 8, Str("say"), Str("唔，还有一点很重要喵……就是个性会影响到领航员小姐未来能从事的职业喵！"));
-replaceString(L, 9, Str("say"), Str("从事的职业？"));
-replaceString(L, 10, Str("say"), Str("等等明石，这个好像不是我给你的需求吧？"));
-replaceString(L, 11, Str("say"), Str("这样才足够真实喵，指挥官应该能懂的喵。"));
-replaceString(L, 12, Str("say"), Str("那么针对它的设定解说这次就算是彻底完成了喵，指挥官加油喵！"));
-replaceString(L, 13, Str("say"), Str("明石从我的视线中消失了。"));
-replaceString(L, 14, Str("say"), Str("……唉，虽然被这样告知了，但还是没什么实感。"));
-replaceString(L, 15, Str("say"), Str("嗯？升级完成了……"));
-replaceString(L, 16, Str("say"), Str("回去看看吧。"));
-lua_pop(L, 1);
-}
-void YUZHEDETIANPING31(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("皇家所属"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("马耳他·海军要塞"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("啦—啦♪啦-啦-啦-啦♪啦啦-啦啦-啦啦-啦啦♪"));
-replaceString(L, 3, Str("say"), Str("啦-啦啦-啦啦—啦-啦啦♪"));
-replaceString(L, 4, Str("say"), Str("马耳他要塞~我进来了哦————"));
-replaceString(L, 5, Str("say"), Str("………………"));
-replaceString(L, 6, Str("say"), Str("嗯？别愣着啊，纳尔逊小姐，欢迎词呢？"));
-replaceString(L, 7, Str("say"), Str("你…………！"));
-replaceString(L, 8, Str("say"), Str("呼………………"));
-replaceString(L, 9, Str("say"), Str("欢迎——来到——皇家——马耳他——要塞——"));
-replaceString(L, 10, Str("say"), Str("这就对了！"));
-replaceString(L, 11, Str("say"), Str("还好我聪明，提前把Z2留在了会场指挥官那边。"));
-replaceString(L, 12, Str("say"), Str("现在才能不受人打扰的享受这一刻，啊哈哈哈——"));
-replaceString(L, 13, Str("say"), Str("欧根亲王阁下………………"));
-replaceString(L, 14, Str("say"), Str("你们别这么看看我，我跟这个人不熟的哦……真的不熟哦……"));
-replaceString(L, 15, Str("say"), Str("对哦，感谢指挥官！"));
-replaceString(L, 16, Str("say"), Str("感谢指挥官向马耳他派遣而来的诸位援军！"));
-replaceString(L, 17, Str("say"), Str("这样感觉舒服多了~"));
-replaceString(L, 18, Str("say"), Str("……正如此前光辉女士所说，本次作战期间马耳他要塞将向所有参与作战的阵营敞开大门。"));
-replaceString(L, 19, Str("say"), Str("请进吧，各位远道而来的援军。"));
-replaceString(L, 20, Str("say"), Str("欢迎来到马耳他要塞——"));
-lua_pop(L, 1);
-}
-void UIACT30003(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("迷途的少女呀，你究竟在烦恼什么呢～？就让我来为你指点迷津吧～呵呵呵～"));
-replaceString(L, 2, Str("say"), Str("七夕……想为指挥官做点……什么……"));
-replaceString(L, 3, Str("say"), Str("来做巧克力吧！"));
-replaceString(L, 4, Str("say"), Str("巧克…力？情人节……恋人……原来、如此……嗯……诶？啊！凤、凤翔小姐！什么时候出现的……"));
-replaceString(L, 5, Str("say"), Str("呵呵呵…真是惹人怜爱的少女……这种小事就不用在意啦，比起这个，如果想要做巧克力的话，可要赶快了哟"));
-replaceString(L, 6, Str("say"), Str("？？"));
-replaceString(L, 7, Str("say"), Str("已经有很多姐妹们出发寻找传说中的巧克力配方了呢！"));
-replaceString(L, 8, Str("say"), Str("巧克力配方？传说中的？ "));
-replaceString(L, 9, Str("say"), Str("据说在这片海域的某处，隐藏着过去某位甜点师集毕生之力研究出来的巧克力配方哦。据说那巧克力的美味，足以令任何人都失去抵抗呢～ "));
-replaceString(L, 10, Str("say"), Str("这、这么厉害的吗……"));
-replaceString(L, 11, Str("say"), Str("比起在这里犹豫不决，不如先行动起来如何？你也想让指挥官高兴的吧？"));
-replaceString(L, 12, Str("say"), Str("嗯……我知道了……凤翔小姐、感谢……"));
-getByList(L,13);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("(黑暗界匆匆离开后）"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 14, Str("say"), Str("呼呼，那么、究竟会怎么样呢，真是让人期待呢……呵呵呵呵……"));
-lua_pop(L, 1);
-}
-void CHUNJIEYOUYUANSHEYINGHUI1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("春节游园摄影会\n\n<size=45>一 东煌风园林</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("临近春节的港区"));
-replaceString(L, 3, Str("say"), Str("锵锵锵，东煌风园林顺利竣工！从室内到庭院均无可挑剔……真是华丽啊！"));
-replaceString(L, 4, Str("say"), Str("\"万树江边杏，新开一夜风。满园深浅色，照在绿波中。\""));
-replaceString(L, 5, Str("say"), Str("这样美丽的景色都要归功于逸仙的提案、同伴们的帮助与指挥官慷慨的预算呢~"));
-replaceString(L, 6, Str("say"), Str("然后接下来就是开园！"));
-replaceString(L, 7, Str("say"), Str("不知道到时候来玩的大家评价如何……一定是好评如潮吧！"));
-replaceString(L, 8, Str("say"), Str("这是自然~不过在此之前，首先要想办法吸引更多的同伴来参观才行呢。"));
-replaceString(L, 9, Str("say"), Str("没错，需要一个迅速提高知名度的计策。"));
-replaceString(L, 10, Str("say"), Str("唔……搭个戏台大家敲锣打鼓一番怎么样！"));
-replaceString(L, 11, Str("say"), Str("如果敲的声音太小，大家听不到就没有意义了。"));
-replaceString(L, 12, Str("say"), Str("可是如果敲得声音太大，会打扰到休息和办公的同伴们吧？"));
-replaceString(L, 13, Str("say"), Str("海天姐姐所说有理……不过普通的发传单的话，感觉有些太……普通了！"));
-replaceString(L, 14, Str("say"), Str("没错，所以我们才不要这么做呢~"));
-replaceString(L, 15, Str("say"), Str("这座园林最引人瞩目之处，你觉得是什么？"));
-replaceString(L, 16, Str("say"), Str("……大！"));
-replaceString(L, 17, Str("say"), Str("是\"景\"吧。"));
-replaceString(L, 18, Str("say"), Str("镇海回答正确~！这座园林最引人瞩目之处为\"景\"。"));
-replaceString(L, 19, Str("say"), Str("我们首先拍一些景色优美的照片，以此作为宣传素材的话一定能吸引大家的目光的！"));
-replaceString(L, 20, Str("say"), Str("噢——————"));
-replaceString(L, 21, Str("say"), Str("我也是这么想的。不过，光有\"景\"也许略显单薄。"));
-replaceString(L, 22, Str("say"), Str("自古良辰美景配佳人，临近春节此乃良辰，眼前尽入皆为美景，只差佳人何处寻呢？"));
-replaceString(L, 23, Str("say"), Str("你、我再加上海天姐姐……此为佳人！"));
-replaceString(L, 24, Str("say"), Str("咳…自己称自己为佳人未免也有些……"));
-replaceString(L, 25, Str("say"), Str("不过模特的话，靠我们和东煌的同伴们应该就可以了吧？"));
-replaceString(L, 26, Str("say"), Str("是可以。不过我们得目的是向更多的同伴推广，让更多的同伴参与进来不是更好么？"));
-replaceString(L, 27, Str("say"), Str("让身着东煌服装的同伴们在节日气息的园林中拍照，这样才算真正的良辰美景配佳人吧~"));
-replaceString(L, 28, Str("say"), Str("（顺便还能推广一下东煌风的服饰……呼呼呼。）"));
-replaceString(L, 29, Str("say"), Str("我们拍摄的照片会吸引更多的同伴来园林中打卡，前来打卡的同伴又可以用作为纪念品的照片替我们宣传。"));
-replaceString(L, 30, Str("say"), Str("如此连环宣传下去，这里的人气自然会红火起来~"));
-replaceString(L, 31, Str("say"), Str("噢噢，这就是所谓的\"抛砖引玉\"之计吧！"));
-replaceString(L, 32, Str("say"), Str("我觉得\"抛砖\"这个说法可以再斟酌一下吧~"));
-replaceString(L, 33, Str("say"), Str("海圻……"));
-replaceString(L, 34, Str("say"), Str("……哎？！"));
-replaceString(L, 35, Str("say"), Str("诶…算啦。\"春节游园摄影会\"，这个名字你们觉得怎么样？"));
-replaceString(L, 36, Str("say"), Str("游园摄影会~听起来会很有趣的样子！"));
-replaceString(L, 37, Str("say"), Str("邀请拍照的模特你应该也有人选了吧？"));
-replaceString(L, 38, Str("say"), Str("嗯，接下来就拜托各位跑个腿邀请一下了。"));
-replaceString(L, 39, Str("say"), Str("嘿嘿，小事一桩！交给我们就好啦~"));
-lua_pop(L, 1);
-}
-void DORM3DTOUCH1408(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("像这样活动一下……嗯……"));
-lua_pop(L, 1);
-}
-void HUADENGLIUCAIZHENGJIAYIN2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("华灯流彩正佳音\n\n<size=45>松戏梅·其一</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("空气中氤氲着新墨的清香，这里原本似乎应该正在……写春联？只是正在发生的事情似乎与写春联毫无干系——"));
-replaceString(L, 3, Str("say"), Str("嗯哼哼~"));
-replaceString(L, 4, Str("say"), Str("喂！应瑞，你刚刚在偷笑对吧？"));
-replaceString(L, 5, Str("say"), Str("没有哦。"));
-replaceString(L, 6, Str("say"), Str("明明就是在偷笑吧！我在桌下都听见了！"));
-replaceString(L, 7, Str("say"), Str("绝对是你在捣鬼……真是的……"));
-replaceString(L, 8, Str("say"), Str("比起这个……新年快乐，指挥官~"));
-replaceString(L, 9, Str("say"), Str("肇和，不抓紧结束工作的话，你的样子可就要被指挥官看见了哦。"));
-replaceString(L, 10, Str("say"), Str("啊指挥官！什什什什什么时候进来的！……咳，新年快乐，指挥官！"));
-getByList(L,10);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("看向应瑞"));
-lua_pop(L,2);
-replaceString(L, 11, Str("say"), Str("呵呵~如指挥官您所见，我们正在……嗯，写春联？"));
-replaceString(L, 12, Str("say"), Str("对，没错，写春联哟。至于现在的状况……呵呵，不必在意~"));
-replaceString(L, 13, Str("say"), Str("请您在旁边稍微休息片刻，静待事情的发展就好。"));
-replaceString(L, 14, Str("say"), Str("您说肇和吗？呵呵，她负责的工作是……春联的装饰。"));
-replaceString(L, 15, Str("say"), Str("不过，她现在似乎遇到一点小小的麻烦了呢。"));
-replaceString(L, 16, Str("say"), Str("你手上拿着的是……？"));
-replaceString(L, 17, Str("say"), Str("只是能为春节增添一点点意料之外的情趣的东西。"));
-replaceString(L, 18, Str("say"), Str("嘘，指挥官。有时候知而不言也是一种智慧哟。"));
-replaceString(L, 19, Str("say"), Str("啊！真是讨厌！！这小东西跑得太快了吧……快把装饰还给我！！！"));
-getByList(L,19);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("可怜的肇和……"));
-lua_pop(L,2);
-replaceString(L, 20, Str("say"), Str("就当做春节故事上一抹华丽的点彩好了~"));
-replaceString(L, 21, Str("say"), Str("指挥官，劳烦您继续美好的春节游园之旅吧~"));
-lua_pop(L, 1);
-}
-void DORM3DTOUCH1102(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("主人，是对天狼星的服饰感兴趣吗？"));
-lua_pop(L, 1);
-}
-void XIXUEGUI3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("白衣天使or恶魔？\n\n<size=45>三　新进护士吸血鬼？</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·走廊"));
-replaceString(L, 3, Str("say"), Str("哼，什么嘛，人家明明是看他平时工作那么辛苦，才想要用护士装来好好让他放松一下的。"));
-replaceString(L, 4, Str("say"), Str("指挥官这个大笨蛋，大傻瓜，大木头，人家再也不理你了！"));
-replaceString(L, 5, Str("say"), Str("人家还特意去学习了护理的知识呢，哼，看人家把大家照顾得好好的，让那个大傻瓜说不出话！"));
-replaceString(L, 6, Str("say"), Str("标枪，你有没有什么不舒服的地方？"));
-replaceString(L, 7, Str("say"), Str("啊，吸血鬼姐姐~"));
-replaceString(L, 8, Str("say"), Str("唔，并没有呢，标枪我很健康哦？"));
-replaceString(L, 9, Str("say"), Str("…………"));
-replaceString(L, 10, Str("say"), Str("萤火虫，不要整天用你的头撞来撞去，过来躺下，让人家来照顾你。"));
-replaceString(L, 11, Str("say"), Str("不要不要，我完全没问题的！"));
-replaceString(L, 12, Str("say"), Str("…………"));
-replaceString(L, 13, Str("say"), Str("拉菲，在这种地方睡觉会感冒的，盖上这条被子吧。"));
-replaceString(L, 14, Str("say"), Str("唔，好热，好重……"));
-replaceString(L, 15, Str("say"), Str("…………"));
-replaceString(L, 16, Str("say"), Str("那个，吸血鬼小姐……"));
-replaceString(L, 17, Str("say"), Str("嗯？怎么啦，伦敦，意识到自己的错误想要向人家道歉了吗~"));
-replaceString(L, 18, Str("say"), Str("虽然我个人是想这么做，不过……指挥官在找你呢。"));
-replaceString(L, 19, Str("say"), Str("那个笨蛋终于也意识到自己对人家的冷落了吗~人家就勉为其难地原谅他好了~"));
-replaceString(L, 20, Str("say"), Str("哈啊……"));
-lua_pop(L, 1);
-}
-void HOLOGUANQIA50(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("眼前的白色光芒久久没有消散"));
-replaceString(L, 2, Str("say"), Str("终于破坏掉本社大楼了啊，是阿库娅酱正在欢呼着么…"));
-replaceString(L, 3, Str("say"), Str("是大家正在欢呼着么…"));
-replaceString(L, 4, Str("say"), Str("不知从何时开始，掌声与欢呼声充斥在耳旁，越来越大，越来越大"));
-replaceString(L, 5, Str("say"), Str("意识在渐渐下沉，渐渐下沉…可恶，这究竟是怎么回事！"));
-replaceString(L, 6, Str("say"), Str("欢迎回来哦，净化亲~？"));
-replaceString(L, 7, Str("say"), Str("？！！陌生而又熟悉的声音出现在耳旁，海量的数据涌入意识深处"));
-replaceString(L, 8, Str("say"), Str("没想到啊，本净化亲居然也是镜面海域失控诞生的存在啊…"));
-replaceString(L, 9, Str("say"), Str("那个测试怪人也是…就这么蒙在鼓里被干掉不知道是幸运还是不幸…"));
-replaceString(L, 10, Str("say"), Str("啊啊啊…意识越来越模糊，开始执行清理程序，我要消失了么…"));
-replaceString(L, 11, Str("say"), Str("…………………"));
-replaceString(L, 12, Str("say"), Str("\"啊~大家请听我说，因为塞壬网络的恢复，我现在要返回塞壬终端了哦\""));
-replaceString(L, 13, Str("say"), Str("\"能陪你们一起战斗到这一刻真是太好了…\""));
-replaceString(L, 14, Str("say"), Str("\"啊啊，说的太严重了！别露出那种表情，我顶多回终端写几篇检查就没事啦~\""));
-replaceString(L, 15, Str("say"), Str("\"大家，再见咯~\""));
-replaceString(L, 16, Str("say"), Str("什么也看不到，什么也听不到了，要是能骗到她们就好了…"));
-replaceString(L, 17, Str("say"), Str("这样的我究竟算真品还是赝品…不行，无法思考了"));
-replaceString(L, 18, Str("say"), Str("可恶……至少最后想回沙发上再玩一会游戏啊……"));
-lua_pop(L, 1);
-}
-void HAIDAOSUIJI9_6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("晃了晃脑袋，你从朦胧的梦中醒了过来。"));
-replaceString(L, 2, Str("say"), Str("但是令你意外的是……手里沉甸甸的。低头看去，此刻你的手中拿着的正是梦中的宝箱。"));
-replaceString(L, 3, Str("say"), Str("……你带着这份意外的馈赠，迅速离开了这片奇异的地方。"));
-lua_pop(L, 1);
-}
-void SHENGHAXINTUO6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("消除疲劳的秘诀是？\n\n<size=45>六　消除疲劳的秘诀是约会？</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("第二天一早便来到了与圣哈辛托约定见面的地点。"));
-replaceString(L, 3, Str("say"), Str("（平时都是圣哈辛托比我早到，这次该换我先到了……）"));
-replaceString(L, 4, Str("say"), Str("指挥官！"));
-replaceString(L, 5, Str("say"), Str("一个悦耳的声音从耳畔响起，我急忙回头，却发现自己的脸被一根纤细的手指轻轻抵住。"));
-replaceString(L, 6, Str("say"), Str("真没想到，这次居然是你来得比我要早~"));
-replaceString(L, 7, Str("say"), Str("从这点上来看，也许是指挥官比我更期待今天的约会呢~"));
-replaceString(L, 8, Str("say"), Str("呼呼~终于可以一整天都独享指挥官了~"));
-replaceString(L, 9, Str("say"), Str("约会的第一站，你打算带我去什么地方呢~？"));
-replaceString(L, 10, Str("say"), Str("今天起来之后还没吃早餐吧？"));
-replaceString(L, 11, Str("say"), Str("没有哦？因为今天一整天是指挥官安排行程带我玩的计划，我自然要等你安排~"));
-replaceString(L, 12, Str("say"), Str("那我们直接去甜品店如何？"));
-replaceString(L, 13, Str("say"), Str("之前你说过，消除疲劳的秘诀是美食。"));
-replaceString(L, 14, Str("say"), Str("那我们就在第一站将连日来的疲劳一扫而空，你看怎么样？"));
-replaceString(L, 15, Str("say"), Str("哎呀，没想到你居然会记住我说过的这句话……"));
-replaceString(L, 16, Str("say"), Str("难道其实指挥官很在意我说什么嘛~"));
-replaceString(L, 17, Str("say"), Str("嘿嘿，我好开心~那就去甜品店，不过到了之后，要由我来点餐哦~"));
-replaceString(L, 18, Str("say"), Str("在圣哈辛托的建议下，点了一份草莓巴菲。"));
-replaceString(L, 19, Str("say"), Str("来尝一尝这个草莓巴菲味道如何吧~"));
-replaceString(L, 20, Str("say"), Str("来，张嘴~啊——"));
-replaceString(L, 21, Str("say"), Str("少女俯身向我靠近，甜蜜的味道霎时充斥鼻腔与口腔。"));
-replaceString(L, 22, Str("say"), Str("教人一时无法分清那是草莓芭菲的气息，还是少女身上的香气。"));
-replaceString(L, 23, Str("say"), Str("吃一口这个感觉整个人都放松起来了~对吧。"));
-replaceString(L, 24, Str("say"), Str("甜品的甜香味和冰凉感轮流抚慰着连日熬夜的神经，让人不由得放松了下来。"));
-replaceString(L, 25, Str("say"), Str("不知不觉，和圣哈辛托两个人一起将草莓巴菲给吃完了。"));
-replaceString(L, 26, Str("say"), Str("果然是美味呢~不过更加美味的是和指挥官一起品尝。"));
-replaceString(L, 27, Str("say"), Str("说起来，刚才我和指挥官用的是同一根勺子，这算不算是间接接吻呢~"));
-replaceString(L, 28, Str("say"), Str("嘿嘿~指挥官是害羞了嘛~"));
-replaceString(L, 29, Str("say"), Str("不说话的话，我就当做是承认了哦~呵呵~"));
-replaceString(L, 30, Str("say"), Str("随后和圣哈辛托来到了电影院。"));
-replaceString(L, 31, Str("say"), Str("这次也同之前一样，由我来选择目的地，由她来指定内容。"));
-replaceString(L, 32, Str("say"), Str("嗯……？你买了恐怖片的票？"));
-replaceString(L, 33, Str("say"), Str("是呀~难道指挥官害怕看恐怖片？"));
-getByList(L,33);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("怎么会呢，区区恐怖片而已。"));
-lua_pop(L,2);
-replaceString(L, 34, Str("say"), Str("那么待会儿指挥官的表现……我很期待哦。"));
-getByList(L,34);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("稍微有些……"));
-lua_pop(L,2);
-replaceString(L, 35, Str("say"), Str("没关系，有我一直陪在你身边呢~"));
-replaceString(L, 36, Str("say"), Str("随着电影剧情的推进，诡异的背景音乐将恐怖的氛围渲染到了极致。"));
-replaceString(L, 37, Str("say"), Str("我也渐渐被惊悚的画面所吸引。"));
-replaceString(L, 38, Str("say"), Str("哎呀……"));
-replaceString(L, 39, Str("say"), Str("怎么了？"));
-replaceString(L, 40, Str("say"), Str("难道指挥官是害怕了么？"));
-replaceString(L, 41, Str("say"), Str("你看，我的手臂现在可是被你紧紧抓着呢~？"));
-replaceString(L, 42, Str("say"), Str("抱歉……没弄疼你吧？"));
-replaceString(L, 43, Str("say"), Str("我只是看得太入神，情不自禁就……"));
-replaceString(L, 44, Str("say"), Str("没关系哦，我不在意~倒不如说……这也像是我赚到了呢♪"));
-replaceString(L, 45, Str("say"), Str("她一边说着，一边把头贴在了我的胸口处。"));
-replaceString(L, 46, Str("say"), Str("指挥官的心……跳得很快呢。"));
-replaceString(L, 47, Str("say"), Str("是因为觉得这部电影很恐怖，还是……"));
-replaceString(L, 48, Str("say"), Str("黑暗之中，少女的声音含笑，在我颈边轻轻印下一个吻。"));
-replaceString(L, 49, Str("say"), Str("……因为我呢~"));
-replaceString(L, 50, Str("say"), Str("心跳得似乎更快了。"));
-replaceString(L, 51, Str("say"), Str("在这之后，又和圣哈辛托前往了游乐园。"));
-replaceString(L, 52, Str("say"), Str("自然，此站也是依据本日惯例，由我来决定目的地，有她来决定项目。"));
-replaceString(L, 53, Str("say"), Str("在圣哈辛托的带领下，我们一同登上了摩天轮。"));
-replaceString(L, 54, Str("say"), Str("随着高度上升，眼前的景色也变得开阔起来。"));
-replaceString(L, 55, Str("say"), Str("这样的景色，是平时很少有机会看到的呢……"));
-replaceString(L, 56, Str("say"), Str("你喜欢吗？"));
-replaceString(L, 57, Str("say"), Str("当然~"));
-replaceString(L, 58, Str("say"), Str("而且有你在身边，这份景色似乎更加美丽了。"));
-replaceString(L, 59, Str("say"), Str("——\"似乎\"？"));
-replaceString(L, 60, Str("say"), Str("欸~重来重来~"));
-replaceString(L, 61, Str("say"), Str("有你在身边，这份景色变得更加美丽了哦~"));
-replaceString(L, 62, Str("say"), Str("嗯。如果你喜欢的话，我们以后可以一起去看更多的风景。"));
-replaceString(L, 63, Str("say"), Str("欸…………"));
-replaceString(L, 64, Str("say"), Str("指挥官的这些话，让我的心……跳得比刚才看恐怖片时还要厉害呢。"));
-replaceString(L, 65, Str("say"), Str("要不要来听一下~？"));
-replaceString(L, 66, Str("say"), Str("不等我开口，圣哈辛托就将我抱入了怀中。"));
-replaceString(L, 67, Str("say"), Str("少女胸前的柔软贴在我的耳畔。\"咚咚\"的心跳声，清晰可闻。"));
-replaceString(L, 68, Str("say"), Str("指挥官。"));
-replaceString(L, 69, Str("say"), Str("怎么了？"));
-replaceString(L, 70, Str("say"), Str("我最……"));
-replaceString(L, 71, Str("say"), Str("砰————"));
-replaceString(L, 72, Str("say"), Str("绚烂的烟火盖过了圣哈辛托的话语声。"));
-replaceString(L, 73, Str("say"), Str("下了摩天轮后——"));
-replaceString(L, 74, Str("say"), Str("刚才你在摩天轮上说了什么？我没听清楚……"));
-replaceString(L, 75, Str("say"), Str("居然没有听清楚嘛~真是太可惜了呢……"));
-replaceString(L, 76, Str("say"), Str("既然没有听清楚的话……"));
-replaceString(L, 77, Str("say"), Str("走在前面的圣哈辛托突然停下脚步，转过身来冲我俏皮地眨了眨眼。"));
-replaceString(L, 78, Str("say"), Str("那就是秘密了♥~"));
-lua_pop(L, 1);
-}
-void TANSUANYUHONGCHA5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("碳酸与红茶\n\n<size=45>五 创新餐饮</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("来到了铁血的店——\"莱茵咖啡馆 Café im Rhine\"。"));
-replaceString(L, 3, Str("say"), Str("欢迎光临。"));
-replaceString(L, 4, Str("say"), Str("居然是作为店长的俾斯麦在门口迎接客人。"));
-replaceString(L, 5, Str("say"), Str("店铺刚刚开业，作为店长有必要在最近的距离观察客人们的反馈，以便进行更好的方针调整。"));
-replaceString(L, 6, Str("say"), Str("指挥官这边请，我们已经为你预留好了座位了。"));
-replaceString(L, 7, Str("say"), Str("跟随俾斯麦来到了店里的一处空座位。"));
-replaceString(L, 8, Str("say"), Str("我们这次试制了很多新饮品，有些在营业菜单里，有些希望能在进入菜单前让你先品尝一下。"));
-replaceString(L, 9, Str("say"), Str("指挥官指挥官！碳酸苹果汁、碳酸牛奶还有碳酸咖啡都端来啦！请品尝！"));
-replaceString(L, 10, Str("say"), Str("碳酸小麦汁我也拿过来了哦……唔…………"));
-replaceString(L, 11, Str("say"), Str("阿达尔伯特，你喝太多碳酸小麦汁了啦！"));
-replaceString(L, 12, Str("say"), Str("这些饮料的颜色，看起来好像都有些不太妙……不过盛意难却，还是依次品尝一下吧——"));
-replaceString(L, 13, Str("say"), Str("嗯…？味道倒是都意外地不错。特别是咖啡味的气泡在口腔中爆炸时，会带来非常奇妙的感觉。"));
-replaceString(L, 14, Str("say"), Str("看来指挥官对于这些饮料还算是满意啊。很好，明天就正式供应吧。"));
-replaceString(L, 15, Str("say"), Str("接下来要不要吃点东西？其实，我们还有一些新菜品也希望指挥官能先品尝一下。"));
-replaceString(L, 16, Str("say"), Str("比如黑森林肘子、华夫饼三明治、冰淇淋烤肠之类的！"));
-replaceString(L, 17, Str("say"), Str("好像有些奇怪的东西混进去了……？"));
-replaceString(L, 18, Str("say"), Str("指挥官……我都端来了哦，请品尝！"));
-replaceString(L, 19, Str("say"), Str("嘿嘿，这个华夫饼香肠三明治可是我的创新，怎么样~看起来就很有食欲吧！"));
-replaceString(L, 20, Str("say"), Str("还是说要先从冰淇淋烤肠开始？确实诶，这个如果不快点吃的话冰淇淋就全部化掉了！"));
-replaceString(L, 21, Str("say"), Str("嗯…………毕竟盛意难却，这里就尽情接受铁血众人的好意吧———"));
-lua_pop(L, 1);
-}
-void WORLD504C(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，通过前方区域的航线被塞壬的封锁设施阻挡。"));
-replaceString(L, 2, Str("say"), Str("强行摧毁和绕行都要花费不少时间啊，最好还是能直接摧毁供能设施。"));
-replaceString(L, 3, Str("say"), Str("领航员小姐，向周边舰队逐次询问一下吧。"));
-replaceString(L, 4, Str("say"), Str("指令已确认：正在逐次确认中————"));
-replaceString(L, 5, Str("say"), Str("指挥官，接收到一支舰队的联络请求，通讯联络接入中——————"));
-replaceString(L, 6, Str("say"), Str("呼呼，需要帮助么指挥官~！"));
-replaceString(L, 7, Str("say"), Str("（鲁莽……太随便了！）"));
-replaceString(L, 8, Str("say"), Str("咳……指挥官您好，我是来自自由鸢尾的\"魔法使\"倔强，刚才在通讯器中显得十分鲁莽的那位是同样隶属于自由鸢尾的鲁莽。"));
-getByList(L,8);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("自由鸢尾的\"魔法使\"？"));
-replaceString(L, 2, Str("content"), Str("\"鲁莽\"的鲁莽？"));
-lua_pop(L,2);
-replaceString(L, 9, Str("say"), Str("啊，不用在意，魔法使是开玩笑的……"));
-replaceString(L, 10, Str("say"), Str("（刚刚还在说我！倔强不也在通讯里对指挥官说了奇怪的话！）"));
-replaceString(L, 11, Str("say"), Str("（嘘——嘘————！）"));
-replaceString(L, 12, Str("say"), Str("总、总之，我们，以及我们所代表的自由鸢尾很荣幸能够与您并肩作战，指挥官。"));
-replaceString(L, 13, Str("say"), Str("才不是呢！都怪倔强乱介绍！虽然我的名字叫鲁莽，可是我一点都不鲁莽哦~"));
-replaceString(L, 14, Str("say"), Str("很荣幸与您并肩战斗，大名鼎鼎的指挥官~！"));
-replaceString(L, 15, Str("say"), Str("就在不久前，我们发现了一处疑似塞壬在海域中设置的供能设施。"));
-replaceString(L, 16, Str("say"), Str("只要把它炸掉，海域中的障碍物就会消失了吧~！"));
-replaceString(L, 17, Str("say"), Str("根据以往的经验是这样的。"));
-replaceString(L, 18, Str("say"), Str("那就放心交给我们吧！自由鸢尾舰队，出击！"));
-lua_pop(L, 1);
-}
-void W2004(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，这是一处塞壬实验场气候调节装置，海域中的异常飓风现象应该与此装置有关。"));
-getByList(L,1);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("破坏"));
-replaceString(L, 2, Str("content"), Str("离开"));
-lua_pop(L,2);
-lua_pop(L, 1);
-}
-void AKASHI83(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("再接再厉喵！有问题明石保修喵！"));
-lua_pop(L, 1);
-}
-void RUIHE6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("幸运之鹤\n\n<size=45>六  深夜的插曲</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("指挥室·深夜"));
-replaceString(L, 3, Str("say"), Str("哈啊……今天事情真多啊……平常这个点指挥官都该睡觉了……"));
-replaceString(L, 4, Str("say"), Str("久违地工作到了深夜"));
-replaceString(L, 5, Str("say"), Str("嗯…已经这么晚了，指挥官要不要吃点东西？"));
-replaceString(L, 6, Str("say"), Str("哎呀，这种事要在说之前先做比较好吧？"));
-replaceString(L, 7, Str("say"), Str("翔鹤姐？！"));
-replaceString(L, 8, Str("say"), Str("想说怎么这么晚了还没回宿舍，原来还在工作啊……"));
-replaceString(L, 9, Str("say"), Str("工作过度对身体可不好哦？\"先手必胜～\"♡"));
-replaceString(L, 10, Str("say"), Str("翔鹤带着艳丽的笑容，抢在瑞鹤之前拿出了小面包和瓶子放到了桌上"));
-replaceString(L, 11, Str("say"), Str("我、我正要准备的说……话说这是、酒？"));
-replaceString(L, 12, Str("say"), Str("没错～♪辛苦工作了一天，就用酒来放松放松也好呢～另外，也算是上次指挥官你灌我酒的时候的\"回礼\"呦～"));
-replaceString(L, 13, Str("say"), Str("上次我喝醉的时候……哎呀，这事还没跟瑞鹤说过吧……？"));
-replaceString(L, 14, Str("say"), Str("一点印象也没有……"));
-replaceString(L, 15, Str("say"), Str("（果然在我不知道的地方翔鹤和指挥官有各种各样的……）"));
-replaceString(L, 16, Str("say"), Str("（也是…翔鹤姐那么漂亮…又沉稳…就算战斗力差不多，作为秘书舰又比我做的好…呜呜果然我还是……）"));
-replaceString(L, 17, Str("say"), Str("…那…我这些就放回冷藏库了……"));
-replaceString(L, 18, Str("say"), Str("…是不是玩笑有点开过头了呢？"));
-lua_pop(L, 1);
-}
-void FUXIANGXIANZUOZHAN34(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("铁血浮岛要塞群·某处 数日前 "));
-replaceString(L, 2, Str("say"), Str("大家注意，发现一艘铁血舰船正在接近！"));
-replaceString(L, 3, Str("say"), Str("海域中的棋子么，居然那个方向也有……真是紧追不舍啊，准备战斗！"));
-replaceString(L, 4, Str("say"), Str("哎，大家稍等。姐姐，目标的样子好像有点奇怪！"));
-replaceString(L, 5, Str("say"), Str("我记得你是………………"));
-replaceString(L, 6, Str("say"), Str("在下铁血所属重巡洋舰，欧根亲王。自从上次华丽的祭典上相遇之后，没想到又能在这里相遇啊~"));
-replaceString(L, 7, Str("say"), Str("……没想到在这里还能遇到真货。你是在这里干什么的，这里是塞壬控制区吧？"));
-replaceString(L, 8, Str("say"), Str("既然是友军的话，就先按照惯例发联络来呀，差点就把你当棋子攻击了……"));
-replaceString(L, 9, Str("say"), Str("我已经发了哦，不过你们没有收到吧。"));
-replaceString(L, 10, Str("say"), Str("哎？！我完全没收到……现在进行通讯测试，喂喂，翔鹤姐，能听得到么？"));
-replaceString(L, 11, Str("say"), Str("没问题，听得很清楚。看来不是我们的通讯器故障哦？"));
-replaceString(L, 12, Str("say"), Str("真的是这样么~那你们来呼叫我试试呢？"));
-replaceString(L, 13, Str("say"), Str("正在呼叫中………………咦，你那里没有反应？"));
-replaceString(L, 14, Str("say"), Str("正是如此，我们所有人在进入这片区域后都遭受了某种极其精密的电子干扰。"));
-replaceString(L, 15, Str("say"), Str("无法和海域中遭遇到的其他舰船通讯，这种情况还是第一次见。源头是塞壬镜面海域的某种设施么？"));
-replaceString(L, 16, Str("say"), Str("这个说起来有些复杂……不过这里其实是铁血控制区。"));
-replaceString(L, 17, Str("say"), Str("位于帕克菲克洋的铁血控制区……看来刚刚看到的火山没有错，没想到只是进入了海雾一会儿，居然偏离了这么多……"));
-replaceString(L, 18, Str("say"), Str("这里不是早就被塞壬占领了么，你们是什么时候夺回来的？"));
-replaceString(L, 19, Str("say"), Str("这又是个不适合在此处详细说明的复杂故事啊……"));
-replaceString(L, 20, Str("say"), Str("等等，你说你们来到这里是因为遭遇到了海雾……？"));
-replaceString(L, 21, Str("say"), Str("啊，原来如此………呵呵呵。这样一来我就都明白了。"));
-replaceString(L, 22, Str("say"), Str("从刚刚开始就一直在说谜语……什么说不清楚，你又明白什么了啊，请认真解释一下，欧根亲王！"));
-replaceString(L, 23, Str("say"), Str("放心放心，我一定会解释清楚的，不要着急嘛~"));
-replaceString(L, 24, Str("say"), Str("总之，虽然事发突然，诸位要不要来参加一场斩首塞壬的联合行动呢？"));
-lua_pop(L, 1);
-}
-void LAIZIYUANWEIDETIANSHI7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("来自鸢尾的天使\n\n<size=45>七　一日之终</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("宴会结束后，皇家众人返回了落脚的公馆，忙碌了一天的霞飞也准备回去休息了。"));
-replaceString(L, 3, Str("say"), Str("霞飞小姐，这么晚了，请允许我送你回去吧。"));
-replaceString(L, 4, Str("say"), Str("没关系，我自己可以回去。"));
-replaceString(L, 5, Str("say"), Str("现在四方无战事，这里又是教国的首都，不会有意外情况的。"));
-replaceString(L, 6, Str("say"), Str("况且就算真有……那倒霉的还不知道是谁呢。"));
-replaceString(L, 7, Str("say"), Str("倒是你，怎么这么晚了还在外面，今天有执勤任务么？"));
-replaceString(L, 8, Str("say"), Str("没有没有，我也是因为一些事情来这里转一圈！"));
-replaceString(L, 9, Str("say"), Str("……现在无功而返，正准备回去了。"));
-replaceString(L, 10, Str("say"), Str("让我猜猜，是不是白天的恶毒在这一片掉了什么东西？"));
-replaceString(L, 11, Str("say"), Str("没错！……………………你是怎么知道的？"));
-replaceString(L, 12, Str("say"), Str("呼呼呼~如果我没记错的话……大概白天是在这一片……"));
-replaceString(L, 13, Str("say"), Str("她掉的是什么东西？"));
-replaceString(L, 14, Str("say"), Str("头绳！"));
-replaceString(L, 15, Str("say"), Str("左边的还是右边的？"));
-replaceString(L, 16, Str("say"), Str("额……我记得是右边的！"));
-replaceString(L, 17, Str("say"), Str("右边的……考虑到恶毒躺平的位置跟伸展运动的幅度……"));
-replaceString(L, 18, Str("say"), Str("找到了，你看是这个么？"));
-replaceString(L, 19, Str("say"), Str("霞飞直起身来，将刚从灌木丛中摸到的头发绳递给了不屈。"));
-replaceString(L, 20, Str("say"), Str("……好快？！没错没错，就是这个……"));
-replaceString(L, 21, Str("say"), Str("不愧是审判庭的天使…………观察力和判断力也太厉害了！"));
-replaceString(L, 22, Str("say"), Str("非常感谢你的帮助！"));
-replaceString(L, 23, Str("say"), Str("举手之劳而已，不用客气。"));
-replaceString(L, 24, Str("say"), Str("不过我们白天的事，果然被你发现了……？"));
-replaceString(L, 25, Str("say"), Str("你在说什么事我不知道哦~好了，办完事就走吧，该回去休息了。"));
-replaceString(L, 26, Str("say"), Str("再次感谢！那我就先回去了，你早点回去休息哦！"));
-replaceString(L, 27, Str("say"), Str("房间中，月光穿过窗户洒在地毯上。"));
-replaceString(L, 28, Str("say"), Str("终于回来了……真是令人疲惫的一天。"));
-replaceString(L, 29, Str("say"), Str("明天也没什么事，礼拜结束后去皇家落脚的公馆转一圈好了……反正也约好了。"));
-replaceString(L, 30, Str("say"), Str("而且饼干的口味，有点在意啊…………"));
-replaceString(L, 31, Str("say"), Str("…………嗯？这个是？"));
-replaceString(L, 32, Str("say"), Str("半梦半醒之中，霞飞发现了一张留在床头的字条。"));
-replaceString(L, 33, Str("say"), Str("\"明天有审判庭的内部会议，请务必到场。\""));
-replaceString(L, 34, Str("say"), Str("\"另外，今天的祷告已经按时按量完成！——拉·加利索尼埃\""));
-replaceString(L, 35, Str("say"), Str("会议…审判庭……皇家………小饼干………………"));
-replaceString(L, 36, Str("say"), Str("今天也和平结束了…那明天也要……后天也要………"));
-replaceString(L, 37, Str("say"), Str("主啊…让这平静的日常……永远持续下去吧………"));
-replaceString(L, 38, Str("say"), Str("带着这样的愿望，霞飞的意识沉入了梦乡之中————"));
-lua_pop(L, 1);
-}
-void GULITEGUANQIA16(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("西南城区·近海"));
-replaceString(L, 2, Str("say"), Str("敌方舰队发现。呵呵呵，摆出这样的阵型实在太没经验了。"));
-replaceString(L, 3, Str("say"), Str("看来它们完全没发现我们的存在，是偷袭的好机会。"));
-replaceString(L, 4, Str("say"), Str("从暗处发动攻击，然后一举拿下大作战！"));
-replaceString(L, 5, Str("say"), Str("等等，不是说被塞壬骗了么，既然是被骗的，总要先谈谈吧……"));
-replaceString(L, 6, Str("say"), Str("如果对面被骗的深信不疑，拒绝谈判呢。"));
-replaceString(L, 7, Str("say"), Str("到那个时候再开打……？"));
-replaceString(L, 8, Str("say"), Str("失去了突袭的优势，接下来的战斗可能会出现本应避免的损伤，这种情况要怎么算？"));
-replaceString(L, 9, Str("say"), Str("确实……应该以同伴的安危为第一位。"));
-replaceString(L, 10, Str("say"), Str("要谈，也要等到把那些塞壬量产型都打掉之后再谈嘛~"));
-replaceString(L, 11, Str("say"), Str("罗恩，一会稍微手下留情一点，打完塞壬舰队，压制住对面之后就先停手哦！"));
-replaceString(L, 12, Str("say"), Str("会注意的，不过对面至少要扛过进攻阶段才行呢~"));
-replaceString(L, 13, Str("say"), Str("看来达成一致了？那就上吧，我已经等不及要测试亚历克西斯·克莱西斯的性能了！"));
-replaceString(L, 14, Str("say"), Str("上啊~亚历克西斯·克莱西斯！让敌人见识一下我们的厉害！"));
-lua_pop(L, 1);
-}
-void XUEJINGMIZONG29(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("鸢尾教国境内"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("？？？·？？？"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("事件结束后的某一日"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("哼哼哼♪~"));
-replaceString(L, 3, Str("say"), Str("我说过，战斗还远未结束哦~"));
-replaceString(L, 4, Str("say"), Str("根据感应，人应该就被藏在这座建筑地下的迷宫里。"));
-replaceString(L, 5, Str("say"), Str("……要找起来，恐怕要费一番功夫呢。"));
-replaceString(L, 6, Str("say"), Str("这位美丽的女士，擅自闯入他人住宅，可是重罪哦。"));
-replaceString(L, 7, Str("say"), Str("我记得你是——审判庭的克莱蒙梭主教？"));
-replaceString(L, 8, Str("say"), Str("看来你已经猜到我会来这里了呢。"));
-replaceString(L, 9, Str("say"), Str("目的不难猜，但猜对方式就比较难了。"));
-replaceString(L, 10, Str("say"), Str("你果然没那么容易被消灭掉。"));
-replaceString(L, 11, Str("say"), Str("事先做了充足的准备真是一个正确的决定。"));
-replaceString(L, 12, Str("say"), Str("嗯？这股气息是……"));
-replaceString(L, 13, Str("say"), Str("呵呵，意外么？不速之客小姐。"));
-replaceString(L, 14, Str("say"), Str("既然这么想当客人，就在这里让我们好好招待一下吧~！"));
-lua_pop(L, 1);
-}
-void SHENSHENGDEBEIXIJU9(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("同日13:50:00"));
-replaceString(L, 2, Str("say"), Str("绿色代表\"行动成功\"、蓝色表示\"塞壬强大，需要增援\"、红色表示\"帝国叛变\"吗？"));
-replaceString(L, 3, Str("say"), Str("是的，正好一基炮台塞一发烟花弹，不影响另一根炮管使用呢，呵呵呵"));
-replaceString(L, 4, Str("say"), Str("不愧是光辉大人，这一下魔炮的实力又增强了——"));
-replaceString(L, 5, Str("say"), Str("好了，时间也差不多了，该去和帝国的舰队接头了，祝你们好运~God bless the queen!"));
-replaceString(L, 6, Str("say"), Str("God bless the queen!"));
-replaceString(L, 7, Str("say"), Str("……"));
-replaceString(L, 8, Str("say"), Str("如果，收到的是红色信号的话，你准备怎么做呢"));
-replaceString(L, 9, Str("say"), Str("现在我还不太想考虑这些..."));
-replaceString(L, 10, Str("say"), Str("如果真的出现了红色信号，那就只能按照陛下所言，进行「再现」了......."));
-lua_pop(L, 1);
-}
-void FUXINGDEZANMEISHI2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("撒丁帝国塔兰托港·会议大厅"));
-replaceString(L, 2, Str("say"), Str("\"查明爱琴海内失踪舰队的下落，尽可能找回丢失的\"艺术品\"，或者至少，让塞壬付出应有的代价\"——这是来自元老院的联络。"));
-replaceString(L, 3, Str("say"), Str("自君士坦丁堡而来的元老院运输舰队居然失踪了啊……这还真是件大事。"));
-replaceString(L, 4, Str("say"), Str("等等，利托里奥……该不会恰好也是搭载了我们货物的那支舰队吧？！"));
-replaceString(L, 5, Str("say"), Str("很遗憾，正是如此……除了元老院购买的大量珍贵艺术品之外，我们的货物也在其中。"));
-replaceString(L, 6, Str("say"), Str("……那护航的文琴佐呢？！"));
-replaceString(L, 7, Str("say"), Str("和舰队一起失踪了……原本就是担心危险所以特意指派了文琴佐进行护航。没想到连同文琴佐在内，整支舰队在爱琴海内消失的无影无踪。"));
-replaceString(L, 8, Str("say"), Str("…………早知道我再周旋一下，多派点护航舰船就好了。"));
-replaceString(L, 9, Str("say"), Str("别自责，不是你的责任。如果和元老院无休止争论下去的话，可能在得出结论之前舰队就已经准备返航了哟~"));
-replaceString(L, 10, Str("say"), Str("而且这种诡异失踪的情况，估计多派些舰船结果也是一样的。"));
-replaceString(L, 11, Str("say"), Str("是这样么……这件事是什么时候发生的？"));
-replaceString(L, 12, Str("say"), Str("昨天清晨。元老院在得到消息后第一时间选择委托空军而不是我们对失踪海域进行了搜索。"));
-replaceString(L, 13, Str("say"), Str("……………………"));
-replaceString(L, 14, Str("say"), Str("别生气别生气~在空军毫无成果的搜寻一天之后，最后不还是找到我们了嘛。"));
-replaceString(L, 15, Str("say"), Str("因为近来自爱琴海中遇袭报告不断增加，元老院推测塞壬的活动频率也许正在增加。"));
-replaceString(L, 16, Str("say"), Str("显而易见的事…虽然赤城看起来心浮气躁的，但是她的观察力很敏锐，陆间海的塞壬侵扰已经到了不得不重新引起重视的程度了。"));
-replaceString(L, 17, Str("say"), Str("立刻安排搜救行动吧！文琴佐那孩子挺机灵的，我们应该还来得及。"));
-replaceString(L, 18, Str("say"), Str("不过这次事件有些奇怪……爱琴海并不算大，航线也算繁忙，空军搜索了一天都没找到也就意味着并不是常规意义上的迷航……"));
-replaceString(L, 19, Str("say"), Str("……难道会是镜面海域么？"));
-replaceString(L, 20, Str("say"), Str("要是镜面海域的话可就中奖了哦~搞不好能顺藤摸瓜找到我们一直以来都在搜寻的塞壬隐匿据点。"));
-replaceString(L, 21, Str("say"), Str("真是这样的话就太好了……不能让塞壬一直在帝国的花园中撒野下去，是时候结束这场漫长的猫鼠游戏了。"));
-replaceString(L, 22, Str("say"), Str("那这次行动还和以往一样，你在后方坐镇、我在前线指挥，一起来一场华丽的营救行动？"));
-replaceString(L, 23, Str("say"), Str("唔，让我想一想…………自从圣堂事件之后皇家和维希教廷之间的气氛一直挺紧张的，即便是现在马耳他依然驻扎了大量舰队。"));
-replaceString(L, 24, Str("say"), Str("既然已经签订了停火协议，就向皇家通知一下我们的行程避免误判吧。"));
-replaceString(L, 25, Str("say"), Str("哼哼~就知道你会有这个担心，所以我在回来的路上就已经通知过了哦~"));
-replaceString(L, 26, Str("say"), Str("本来还想邀请光辉女士一同前往的，不过很遗憾被干脆拒绝了。"));
-replaceString(L, 27, Str("say"), Str("令人叹服的行动力……现在这个局面下会同意才有鬼吧。这样下去小心再掉到皇家的陷阱里哦？"));
-replaceString(L, 28, Str("say"), Str("请不用担心维内托女士，现在的我已经不是过去那个懵懂的利托里奥了~"));
-replaceString(L, 29, Str("say"), Str("不好意思，能请您更详细解释一下\"懵懂的利托里奥\"这个词是什么意思么？"));
-replaceString(L, 30, Str("say"), Str("啊……哈哈哈……总而言之，告知工作我已经完成了！行动上的安排你纠结完了么？"));
-replaceString(L, 31, Str("say"), Str("嗯……我决定了。为了展现撒丁帝国的雄心和维护陆间海稳定的实力，战则必胜。这次我与你一同带领帝国舰队主力出击。"));
-replaceString(L, 32, Str("say"), Str("不过事发突然，我手里还有一些要结束的工作，天鹰那边也需要进行最后的调整，前锋舰队就由你来负责吧。"));
-replaceString(L, 33, Str("say"), Str("没问题，我先带领舰队出发就是。反正爱琴海这么近，去那里就像在自家花园里散步那样啦。"));
-replaceString(L, 34, Str("say"), Str("第一次携带航空母舰出战的帝国禁卫军将会进行一场怎样精彩的战斗呢……真令人期待啊~！"));
-lua_pop(L, 1);
-}
-void AFULEER4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("阿芙乐尔和愉快的伙伴们\n\n<size=45>四、同为\"老兵\"</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("某日"));
-replaceString(L, 3, Str("say"), Str("一队奇妙的组合正聚在一起享用重樱的茶会"));
-replaceString(L, 4, Str("say"), Str("哦哦，这就是传闻中的重樱的抹茶吗！"));
-replaceString(L, 5, Str("say"), Str("喝惯了刺激的东西，偶尔换换口味也不赖嘛。"));
-replaceString(L, 6, Str("say"), Str("三笠，感谢你用家乡的茶叶招待我们。"));
-replaceString(L, 7, Str("say"), Str("啊哈，哪里哪里。大家都是活跃在一个时代的伙伴，不用客气！"));
-replaceString(L, 8, Str("say"), Str("是啊，我们几个就是老人……\"舰历很长的人\"呢！"));
-replaceString(L, 9, Str("say"), Str("这么说好像也没错呢，呵呵~"));
-replaceString(L, 10, Str("say"), Str("啊，对了对了！之前让指挥官跑腿买的那个游戏还挺好玩的！下次有机会的话一起来玩吧！"));
-replaceString(L, 11, Str("say"), Str("游戏？说的是……电子游戏吗？那个的话，有点……"));
-replaceString(L, 12, Str("say"), Str("欸欸？我以为三笠在港区这么久，多多少少会玩一点呢~"));
-replaceString(L, 13, Str("say"), Str("我为什么要玩这个啊！"));
-replaceString(L, 14, Str("say"), Str("好啦，水星纪念，每个人的兴趣都是不同的啦。你也不要每天光玩游戏比较好哦"));
-replaceString(L, 15, Str("say"), Str("好啦，我知道了（棒"));
-replaceString(L, 16, Str("say"), Str("噗，真的是一点都没变呢。"));
-replaceString(L, 17, Str("say"), Str("唔，看来只有我一个人对这个印象比较模糊吗。虽然并不是一点也没有…"));
-replaceString(L, 18, Str("say"), Str("甘古特在说什么话，不管时间过去了多久，大家并肩战斗过的事实是不会消失的"));
-replaceString(L, 19, Str("say"), Str("突然从海洋出现的强敌、被掠夺的制海权、无数的牺牲、质和量上都令人绝望的战力差"));
-replaceString(L, 20, Str("say"), Str("……即使在这个艰难状况下，为了守护碧蓝色的航线，各个阵营的伙伴们并肩战斗——"));
-replaceString(L, 21, Str("say"), Str("嗯，虽然状况有所不同，但是就各个阵营的伙伴们都聚集在一起这件事上来说，这个港区和当时确实很像呢"));
-replaceString(L, 22, Str("say"), Str("呵呵，这都是指挥官的功劳呢"));
-replaceString(L, 23, Str("say"), Str("即便是作为前辈的我们，在这个舰队里也能够发挥自己的力量，去正确的引导后辈们的前进方向"));
-replaceString(L, 24, Str("say"), Str("没错，引退还为时尚早啊。哈哈哈"));
-replaceString(L, 25, Str("say"), Str("伴随着横溢的茶香，四人的对话就这么进行了下去。"));
-lua_pop(L, 1);
-}
-void LAISHAGUANQIA4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("过去的片段————"));
-replaceString(L, 2, Str("say"), Str("哼哼哼♪~哼哼哼♪~"));
-replaceString(L, 3, Str("say"), Str("汝的心情，看上去很不错啊。"));
-replaceString(L, 4, Str("say"), Str("那是自然~~既然已经解决了测试者，那就意味着——这片海域的资源都归我了！"));
-replaceString(L, 5, Str("say"), Str("剩下的事情交给回收程序就好。在回收完成之前，我们可以好好休息一下~"));
-replaceString(L, 6, Str("say"), Str("那妾身在这里的事情就算结束了。汝快承担起那1%的责任，送妾身回去吧。"));
-replaceString(L, 7, Str("say"), Str("当然当然~不过在那之前……为了之后来的人的安全，这片海域总还是要做些特殊处理才好。"));
-replaceString(L, 8, Str("say"), Str("让我先看一下测试者的数据库哦，原本它为这次实验准备的内容是……"));
-replaceString(L, 9, Str("say"), Str("………遗迹……菲尔弗萨………异界…………炼金术…………嗯？"));
-replaceString(L, 10, Str("say"), Str("嚯嚯嚯…………我有想法了。反正要修安全区，不如我们把整片海域变成遗迹群岛怎么样？"));
-replaceString(L, 11, Str("say"), Str("……敢问汝在得出这个结论之前，进行了何种思考？"));
-replaceString(L, 12, Str("say"), Str("你想啊，接下来要来的人原本应该会遇到测试者设下的各种机关障碍，可那些东西都被我们清理掉了。"));
-replaceString(L, 13, Str("say"), Str("如果我们什么准备都不做的话，等她们来的时候看到的将会是只有一座传送门的空白海域。"));
-replaceString(L, 14, Str("say"), Str("难得有这种前往异世界的机会，结果就这么直接回去，是不是也太令人遗憾了？"));
-replaceString(L, 15, Str("say"), Str("来都来了，不如我们来负起责任修一些相对安全的遗迹，让她们冒险一番再走好了~"));
-replaceString(L, 16, Str("say"), Str("反正这里是现成的战场，废墟和残骸要多少有多少！怎么样，这个主意还不错吧？"));
-replaceString(L, 17, Str("say"), Str("在妾身的见闻中，总是宏伟的建筑随着时间流逝而变成废墟，直接修建废墟的人，还真是少见……"));
-replaceString(L, 18, Str("say"), Str("妾身要是说\"不好\"呢？"));
-replaceString(L, 19, Str("say"), Str("那就是你不太有眼光，没法理解本净化亲天才一般跳跃的想法！"));
-replaceString(L, 20, Str("say"), Str("我们现在做的遗迹不光是为了有趣，更是一种一起冒险过、一起并肩战斗过的痕迹不是么？"));
-replaceString(L, 21, Str("say"), Str("……一同冒险过，存在过的痕迹啊……既然如此，随便你了。"));
-replaceString(L, 22, Str("say"), Str("遗迹群岛·起始之地 此刻"));
-replaceString(L, 23, Str("say"), Str("进行了充分的休息后，众人正在分析当前所处的海域情报——"));
-replaceString(L, 24, Str("say"), Str("海域的侦查已经结束了哦。结果显示，这片群岛由四个大的岛屿组成。"));
-replaceString(L, 25, Str("say"), Str("除了塞壬防御严密无法仔细侦查的北方要塞岛之外，其他三个分别是我们现在所在的，有着大量石质结构残骸的中心岛。"));
-replaceString(L, 26, Str("say"), Str("一片由紫色森林笼罩的西方岛，以及一片被钢铁都市废墟所覆盖的东方岛。碑文的解读怎么样？"));
-replaceString(L, 27, Str("say"), Str("碑文上的内容虽然有岁月侵蚀的痕迹，不过内容是完整的，总算是解读下来了！"));
-replaceString(L, 28, Str("say"), Str("总结一下就是说，遗迹群岛由五个岛构成，中心是我们现在的位置，而这座刻有碑文的石碑可以指引我们前进的方向。"));
-replaceString(L, 29, Str("say"), Str("首先 ，在这五个岛上好像有一些配方，获得之后可以得到新的力量。这个配方可能就是炼金术的配方呢。"));
-replaceString(L, 30, Str("say"), Str("同时，在五个岛上还藏有四把钥匙，收集四把钥匙可以打开一个地方的壁障。"));
-replaceString(L, 31, Str("say"), Str("之后是…北方的核心之所，也就是归乡希望的封印所在的地方，只要到达那里我们就能回家了吧？"));
-replaceString(L, 32, Str("say"), Str("你们看，有一把钥匙就这样直接放在石碑的正下方哦，我们已经不费吹灰之力达成四分之一的进度了~"));
-replaceString(L, 33, Str("say"), Str("获得道具：「遗迹之钥·起始之地」"));
-replaceString(L, 34, Str("say"), Str("不过可畏，你的侦察确定没错么？莱莎刚说石碑上写了有五个岛，你只看到了四个岛哦。"));
-replaceString(L, 35, Str("say"), Str("这一点确实很奇怪，但是侦察的结果绝对没错，也许塞壬在海域里还有什么机关吧。"));
-replaceString(L, 36, Str("say"), Str("嗯嗯嗯……这样也和\"失落之都\"的描述对上了。而且从碑文上来看，这个失落之都里可是隐藏着宝藏哦！"));
-replaceString(L, 37, Str("say"), Str("我已经忍不住要开始遗迹探险了！让我们先去寻找这个失落之都吧！"));
-replaceString(L, 38, Str("say"), Str("等等！我对于那个\"争斗之城\"很有兴趣，里面隐藏着往昔的残酷真相哦，你们难道不好奇么！"));
-replaceString(L, 39, Str("say"), Str("当然是宝藏的部分最令人在意！"));
-replaceString(L, 40, Str("say"), Str("不，真相的部分才最令人在意！"));
-replaceString(L, 41, Str("say"), Str("大家好像对于探索的方向产生分歧了呢……"));
-replaceString(L, 42, Str("say"), Str("不对不对，布里斯托尔阁下，阿尔弗雷多阁下，炼金术的部分才最让人在意吧！"));
-replaceString(L, 43, Str("say"), Str("啊！确实……莱莎好像从最开始就称自己是炼金术士，刚才在战斗中还用了一些夸张的爆炸物！"));
-replaceString(L, 44, Str("say"), Str("那些都是用炼金术制作的道具哦~如各位所见，我，莱莎琳・斯托特可是一名如假包换的炼金术士！哎嘿~"));
-replaceString(L, 45, Str("say"), Str("……总感觉这句话好像之前说过了。不过如果不亲眼看一下的话，果然还是很难相信吧？"));
-replaceString(L, 46, Str("say"), Str("莱莎，刚刚我们找到的那口大锅，那个是不是可以用来进行调合呢？"));
-replaceString(L, 47, Str("say"), Str("嗯~我倒是想露一手试试啦，不过手头没有可以用来调合的素材呢。"));
-replaceString(L, 48, Str("say"), Str("没关系！素材的话，你说需要的物品，我们来帮你一起收集就好！"));
-replaceString(L, 49, Str("say"), Str("真的么？！不过这片区域有哪些东西可以作为素材我现在还不是很清楚，能拜托大家先跟我一起去侦察一下么？"));
-replaceString(L, 50, Str("say"), Str("当然没问题，同伴之间理应相互帮忙，而且我对于炼金术其实也十分感兴趣。"));
-replaceString(L, 51, Str("say"), Str("谢谢！那事不宜迟，大家先跟我一起来探索一下这片位于海域中心的\"起始之地\"吧~！"));
-lua_pop(L, 1);
-}
-void DEYIZHI3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("德意志的忧郁\n\n<size=45>三　不协调音</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("那么现在公布本次演习炮击组的前二十名……"));
-replaceString(L, 3, Str("say"), Str("仆人，看着吧，我可是天下闻名的装甲舰，一定会名列前茅的！"));
-replaceString(L, 4, Str("say"), Str("第五名，罗德尼……"));
-replaceString(L, 5, Str("say"), Str("……哼，看起来今天的状态不是很好，不过除了这些BIG7，我肯定不会输给别的战舰。"));
-replaceString(L, 6, Str("say"), Str("第十三名，伊丽莎白女王……"));
-replaceString(L, 7, Str("say"), Str("……"));
-replaceString(L, 8, Str("say"), Str("第二十名，高雄，高雄小姐也是唯一上榜的重巡，很厉害。"));
-replaceString(L, 9, Str("say"), Str("等等，我呢？！"));
-replaceString(L, 10, Str("say"), Str("德意志小姐吗……嗯……"));
-replaceString(L, 11, Str("say"), Str("虽然速度上接近一线水平，不过你的火力还有精准度都差了其他人不少呢。"));
-replaceString(L, 12, Str("say"), Str("还要多多练习才行哦。"));
-replaceString(L, 13, Str("say"), Str("伦敦说完就走开了。"));
-replaceString(L, 14, Str("say"), Str("什么，练习？！那是低等动物才做的事，我可是……"));
-replaceString(L, 15, Str("say"), Str("我可是……"));
-replaceString(L, 16, Str("say"), Str("仆人，我其实很强对吧，我只是失手了对吧？！"));
-replaceString(L, 17, Str("say"), Str("德意志的眼中闪着泪花，但是，应该在这里欺骗她吗？"));
-getByList(L,17);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("沉默"));
-replaceString(L, 2, Str("content"), Str("说谎哄哄德意志"));
-lua_pop(L,2);
-replaceString(L, 18, Str("say"), Str("是吗，原来是这样……我知道了……"));
-replaceString(L, 19, Str("say"), Str("原来我一点也不强，只是她们骗我我很强而已……"));
-replaceString(L, 20, Str("say"), Str("呵呵……"));
-getByList(L,20);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("出声喊住德意志"));
-lua_pop(L,2);
-replaceString(L, 21, Str("say"), Str("德意志像是没有听到一样，有些失魂落魄地离开了。"));
-lua_pop(L, 1);
-}
-void AISAIKESIBOSS3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("特别演习·埃塞克斯级\n\n<size=45>三　幕间的倾听者</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("哈喽！欢迎回来！"));
-replaceString(L, 3, Str("say"), Str("今天两位也辛苦了呢，要先喝点水吗？"));
-replaceString(L, 4, Str("say"), Str("啊，谢谢前辈们——"));
-replaceString(L, 5, Str("say"), Str("谢谢了。"));
-replaceString(L, 6, Str("say"), Str("趁这个机会我想采访一下，埃塞克斯对于当假想敌有没有什么感想呢？"));
-replaceString(L, 7, Str("say"), Str("比如说，能趁机报复一下平时的私人恩怨啊，发泄一下对指挥官的不满啊，能说一些作为反派才有的帅气的台词啊——"));
-replaceString(L, 8, Str("say"), Str("之类的，有没有呢~"));
-replaceString(L, 9, Str("say"), Str("抱歉，我没有想这么多……"));
-replaceString(L, 10, Str("say"), Str("这是一次重要的演习，也是展示我实力的舞台，所以我会全力以赴……感想大概就这些吧？"));
-replaceString(L, 11, Str("say"), Str("你这回答简直和企业姐一个模板出来的……"));
-replaceString(L, 12, Str("say"), Str("认真的埃塞克斯可不像某位牛仔小姐那样八卦。"));
-replaceString(L, 13, Str("say"), Str("啧。"));
-replaceString(L, 14, Str("say"), Str("对了，其实我还知道不少关于企业姐的一些小秘密！埃塞克斯，不知道你有没有兴趣——"));
-replaceString(L, 15, Str("say"), Str("……"));
-replaceString(L, 16, Str("say"), Str("好了，大黄蜂，两位刚刚结束今天的演习，现在需要休息。不能再给别人添麻烦了。"));
-replaceString(L, 17, Str("say"), Str("知道啦~"));
-replaceString(L, 18, Str("say"), Str("……"));
-replaceString(L, 19, Str("say"), Str("对了，牛仔小姐？"));
-replaceString(L, 20, Str("say"), Str("怎么了，\"记录官大人\"，特地叫住我有事情吗？"));
-replaceString(L, 21, Str("say"), Str("咳，咳……关于你刚刚说的，企业前辈的一些秘密，我稍微有一些记录的兴趣……"));
-replaceString(L, 22, Str("say"), Str("诶呀？刚刚说别人八卦的是哪位呢~？"));
-replaceString(L, 23, Str("say"), Str("咳咳…这只是为了帮到埃塞克斯而已…"));
-replaceString(L, 24, Str("say"), Str("哼哼～不过，看起来你也不是随便吐露秘密的人~和你说应该没关系吧~"));
-replaceString(L, 25, Str("say"), Str("哈——这些东西我憋了好久啦！其实呢，姐姐她——"));
-replaceString(L, 26, Str("say"), Str("你们在说什么呢？"));
-replaceString(L, 27, Str("say"), Str("咳咳，咳咳！！没，没，没什么……我先回去休息了！"));
-replaceString(L, 28, Str("say"), Str("我们……我们刚刚在讨论一些关于今天演习的事情。"));
-replaceString(L, 29, Str("say"), Str("这样吗……对了，埃塞克斯呢？"));
-replaceString(L, 30, Str("say"), Str("埃塞克斯的话已经去休息了。"));
-replaceString(L, 31, Str("say"), Str("啊，我想也是，毕竟一整天都处于战斗状态……"));
-replaceString(L, 32, Str("say"), Str("如果可以的话，向她转告一下--\"今天你做的非常棒，希望之后也能继续加油\"。"));
-replaceString(L, 33, Str("say"), Str("嗯，我会转达的。"));
-replaceString(L, 34, Str("say"), Str("今天也辛苦你了。"));
-replaceString(L, 35, Str("say"), Str("这次的演习中的埃塞克斯的表现也许比我能做到的更加出色。"));
-replaceString(L, 36, Str("say"), Str("平时总是把她当成努力的后辈，不经意间忽略了她也是能独当一面的人……"));
-replaceString(L, 37, Str("say"), Str("……"));
-lua_pop(L, 1);
-}
-void OUXIANGDASHIGUANQIA6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("港区·演出海域"));
-replaceString(L, 2, Str("say"), Str("能听见我的声音吗…？"));
-replaceString(L, 3, Str("say"), Str("没问题！听得很清楚！"));
-replaceString(L, 4, Str("say"), Str("根据明石的情报，前方就是出现能量反应的异常海域。大家小心。"));
-replaceString(L, 5, Str("say"), Str("嗯！你们也要小心啊，标枪。"));
-replaceString(L, 6, Str("say"), Str("我们会在这艘船上守望着你们的……！"));
-replaceString(L, 7, Str("say"), Str("护卫任务就交给我吧！…话说，这里的量产型都好奇怪…"));
-replaceString(L, 8, Str("say"), Str("你说的量产型，是指我们正在乘着的船吗？"));
-replaceString(L, 9, Str("say"), Str("好像是指…某种程度上可自动运转，\"舰船\"也能操纵的\"一般船只\"…是吧？"));
-replaceString(L, 10, Str("say"), Str("嗯，其实在演出海域发生异常前，出现了一些特殊涂装的量产型。"));
-replaceString(L, 11, Str("say"), Str("虽然没有直接袭击过来，但时不时会挡住航线，有点伤脑筋…"));
-replaceString(L, 12, Str("say"), Str("这样下去没法顺利前行…"));
-replaceString(L, 13, Str("say"), Str("有没有什么应对的策略呢…？"));
-replaceString(L, 14, Str("say"), Str("好像没有什么 特别好的办法…元凶恐怕正是那个奇怪的能量反应…"));
-replaceString(L, 15, Str("say"), Str("为了让各位偶像能回到原来的世界，也为了让这片海域恢复正常，我们会努力战斗的！"));
-replaceString(L, 16, Str("say"), Str("所以大家就放心在远处看着舞台…哇哇？！"));
-replaceString(L, 17, Str("say"), Str("标枪小姐，发生什么事了？"));
-replaceString(L, 18, Str("say"), Str("没什么！只是眼前突然出现了一座大楼……"));
-replaceString(L, 19, Str("say"), Str("…？不是全息影像吗…？"));
-replaceString(L, 20, Str("say"), Str("对、对哦！不是真的大楼呢！呼…吓了一跳……"));
-replaceString(L, 21, Str("say"), Str("哇……好大的舞台……！"));
-replaceString(L, 22, Str("say"), Str("那里就是这片演出海域的舞台了。"));
-replaceString(L, 23, Str("say"), Str("哇，这次出现的是梓小姐和我的冒牌货？！"));
-replaceString(L, 24, Str("say"), Str("好像一直没动呢…可以再靠近点看看吗？"));
-replaceString(L, 25, Str("say"), Str("春香…小心点。虽然有各位舰船保护着我们，不过…"));
-replaceString(L, 26, Str("say"), Str("——！！"));
-replaceString(L, 27, Str("say"), Str("能量反应激增！大家快离开这里——"));
-replaceString(L, 28, Str("say"), Str("量、量产型都往这里冲过来了？！"));
-replaceString(L, 29, Str("say"), Str("保护好春香小姐她们！大家准备战斗！"));
-lua_pop(L, 1);
-}
-void Z463(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("纯白之诗\n\n<size=45>三 幕间I</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·宿舍"));
-replaceString(L, 3, Str("say"), Str("这件感觉如何？我还不太会选衣服，希望能听到更多的建议"));
-replaceString(L, 4, Str("say"), Str("这件有点……Z46你可以打扮更漂亮点的嘛～又不是Z23～"));
-replaceString(L, 5, Str("say"), Str("是啊……你人太认真了容易选到土里土气的衣服，干脆去问问Z35？"));
-replaceString(L, 6, Str("say"), Str("我觉得这件衣服也不错啊……"));
-replaceString(L, 7, Str("say"), Str("Z19跟Z23半斤八两，都不算！"));
-replaceString(L, 8, Str("say"), Str("诶诶！？"));
-replaceString(L, 9, Str("say"), Str("Z35和Z1的打扮都太扎眼了，问问Z18的话怎么样？"));
-replaceString(L, 10, Str("say"), Str("…………"));
-replaceString(L, 11, Str("say"), Str("问Z18的话什么都说好，不算啦。啊！Z36说不定行！"));
-replaceString(L, 12, Str("say"), Str("Z36的衣服不都是Z35给她挑的吗……？"));
-replaceString(L, 13, Str("say"), Str("那Z36也不行了……所以Z46的衣服还是由我们三个决定吧……"));
-replaceString(L, 14, Str("say"), Str("…………"));
-replaceString(L, 15, Str("say"), Str("啊！抱歉Z46！我们光顾着自说自话了>_<"));
-replaceString(L, 16, Str("say"), Str("呃，反正这件怎么看都是冬天才穿的衣服，夏天应该……嗯，这个跟这个，防止晒伤再加件卫衣，怎么样？"));
-replaceString(L, 17, Str("say"), Str("好。就这样。"));
-replaceString(L, 18, Str("say"), Str("大家真是的，把Z46晾在一边自己说个没完……Z46你挑自己喜欢的衣服就行啦！"));
-replaceString(L, 19, Str("say"), Str("谢谢，我会照做的。"));
-replaceString(L, 20, Str("say"), Str("为何我会觉得，她们的对话如此难以加入呢。"));
-lua_pop(L, 1);
-}
-void RENQIYINGRUI(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("荣耀殿堂\n\n<size=45>执笔寄情</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("砚台、毛笔、宣纸……还有墨锭，这些应该就齐全了。"));
-replaceString(L, 3, Str("say"), Str("之前对应瑞说过，希望她闲暇时能教我书法。当时她笑着应下，和我约定了具体的日子来指导。"));
-replaceString(L, 4, Str("say"), Str("而今天，就是我们约定好的日子。"));
-replaceString(L, 5, Str("say"), Str("指挥官，早上好。"));
-replaceString(L, 6, Str("say"), Str("应瑞如约而至，简单招呼过后，她带着些许惊喜的神情向我布置好的书桌走来。"));
-replaceString(L, 7, Str("say"), Str("嗯？您已经提前准备好了文房四宝……呵呵，看来指挥官做过功课了呢。"));
-replaceString(L, 8, Str("say"), Str("一开始还以为这只是口头上的消遣，原来是真的感兴趣啊。"));
-replaceString(L, 9, Str("say"), Str("关于这个……总觉得偶尔也该锻炼一下书法方面的能力。"));
-replaceString(L, 10, Str("say"), Str("说得也是呢，亲手写下的内容，总归是比打印出来的多一份情意在。"));
-replaceString(L, 11, Str("say"), Str("那么，我们就先从研墨开始吧，指挥官。"));
-replaceString(L, 12, Str("say"), Str("应瑞说着在砚台中倒入了一点清水，随后伸手覆上了我的手背，语调轻柔。"));
-replaceString(L, 13, Str("say"), Str("想要磨出细致的墨汁，也是需要一些技巧的。"));
-replaceString(L, 14, Str("say"), Str("墨锭要垂直朝着同一方向研磨，而且要用底部的中心，不是边角……这样才能减少耗损，也不容易让墨汁泛起泡沫。"));
-replaceString(L, 15, Str("say"), Str("在应瑞的指引下，我手中的墨锭与砚台摩擦出柔和的声响。"));
-replaceString(L, 16, Str("say"), Str("指挥官，如果以后遇到了烦心事的话，您可以试着研墨。"));
-replaceString(L, 17, Str("say"), Str("听着墨锭摩擦的声音，烦闷的感觉便会渐渐消失……"));
-replaceString(L, 18, Str("say"), Str("这个独门秘诀，我只教给您哦~"));
-replaceString(L, 19, Str("say"), Str("嗯，墨汁到这种程度就可以使用了。呵呵，看来指挥官对研墨的方法掌握得很好呢。"));
-replaceString(L, 20, Str("say"), Str("大概是因为我有一位好老师吧？"));
-replaceString(L, 21, Str("say"), Str("应瑞笑着轻轻摇头，似乎是对我\"奉承话\"有些无奈。随后她拿起一旁的毛笔，蘸取刚刚磨好的墨汁。"));
-replaceString(L, 22, Str("say"), Str("指挥官，您刚刚入门，理应从握笔姿势和一撇一捺慢慢学起。"));
-replaceString(L, 23, Str("say"), Str("不过执笔无定法……这样吧，我先变换几种握笔姿势给您看，从中选一种您觉得舒服的姿势学习就好。"));
-replaceString(L, 24, Str("say"), Str("她提笔，在我铺好的宣纸上写下\"天下太平\"四个大字。"));
-replaceString(L, 25, Str("say"), Str("也许是为了照顾我的学习速度，应瑞的每一笔都落得极慢。"));
-replaceString(L, 26, Str("say"), Str("这也让我觉得，\"天下太平\"——这四个字的份量重若千钧。"));
-replaceString(L, 27, Str("say"), Str("我希望未来不再有战争，人们不再依靠武力强迫他人屈服。"));
-replaceString(L, 28, Str("say"), Str("我希望，有那么一天，所有人都能够和和气气团聚一堂……"));
-replaceString(L, 29, Str("say"), Str("应瑞低下头，声音渐渐小了下去。就在我以为应瑞是不是有些难过，准备安慰她时——"));
-replaceString(L, 30, Str("say"), Str("我希望天下太平，这样指挥官就能从忙碌的工作中解脱，我就可以天天和指挥官一起钻研书画了。"));
-replaceString(L, 31, Str("say"), Str("真是个不错的想法啊。"));
-replaceString(L, 32, Str("say"), Str("指挥官，您的反应是不是有点太平淡了呢？"));
-replaceString(L, 33, Str("say"), Str("这种时候不再激动和感慨一点的话，我是会难过的哦？"));
-replaceString(L, 34, Str("say"), Str("不知道该如何表现她才会满意，于是将自己刚才的想法老老实实告诉了应瑞。"));
-replaceString(L, 35, Str("say"), Str("呵呵~没想到您偶尔也会像肇和一样好骗呢，我那么说只是逗您的。"));
-replaceString(L, 36, Str("say"), Str("不过，我希望天下太平——这份心意未有半点虚假。"));
-replaceString(L, 37, Str("say"), Str("说起来，指挥官听说过东煌的一个传说……嗯，不对，应该说只是一种经验总结吗？"));
-replaceString(L, 38, Str("say"), Str("倘若执笔者将心意真正寄托于笔墨之上，即便时光流转千年，后人仍能从中窥见几分千年前的情境。"));
-getByList(L,38);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("只要心意足够强烈就可以吗？"));
-lua_pop(L,2);
-replaceString(L, 39, Str("say"), Str("当然。这是只有亲笔写下的文字才具备的独特之处哦。"));
-getByList(L,39);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("我还以为这个和书法技巧有关"));
-lua_pop(L,2);
-replaceString(L, 40, Str("say"), Str("只能说存在一定的关系，但更重要的是落笔时的心意。"));
-replaceString(L, 41, Str("say"), Str("那么，还请容应瑞问个问题。指挥官，此时此刻，您有什么想要倾诉的心意吗？"));
-replaceString(L, 42, Str("say"), Str("（心意吗……如果非要说的话，我希望是天下太平这件事能够永远持续下去。）"));
-replaceString(L, 43, Str("say"), Str("现在提笔写字的话肯定很难看，你可别嘲笑我啊。"));
-replaceString(L, 44, Str("say"), Str("那是自然。"));
-replaceString(L, 45, Str("say"), Str("在应瑞的注视下，我先是深呼吸一口气，然后一口气写下了心中的愿景。"));
-replaceString(L, 46, Str("say"), Str("\"天长地久\"……指、指挥官，您的意思是？！难道……"));
-replaceString(L, 47, Str("say"), Str("嗯？我是希望应瑞\"天下太平\"的愿望能够天长地久。"));
-replaceString(L, 48, Str("say"), Str("……原来是这个意思啊，是我误会了您的心意呢。"));
-replaceString(L, 49, Str("say"), Str("误会……是指？"));
-replaceString(L, 50, Str("say"), Str("哎呀，这么一看……指挥官，您的书法水平确实需要好好锻炼一番呢。"));
-replaceString(L, 51, Str("say"), Str("她完全无视了我的疑问，笑眯眯地抓住了我的手。"));
-replaceString(L, 52, Str("say"), Str("接下来的时间，您就给我好好练习一下怎么写好\"木\"字吧！"));
-lua_pop(L, 1);
-}
-void W1122(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("警告：发现了激活中的塞壬增援装置。装置正在持续不断的向周边区域的塞壬发送增援信号，请尽快将其关闭或摧毁。"));
-lua_pop(L, 1);
-}
-void BULVXIEER7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("元气甜心的爱意攻势\n\n<size=45>七　新的一天，新的约会</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·指挥室"));
-replaceString(L, 3, Str("say"), Str("呀吼~指挥官，早上好呀~"));
-getByList(L,3);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("早上好~"));
-replaceString(L, 2, Str("content"), Str("中午好？"));
-replaceString(L, 3, Str("content"), Str("晚上好！"));
-lua_pop(L,2);
-replaceString(L, 4, Str("say"), Str("哪有这么晚啊！"));
-replaceString(L, 5, Str("say"), Str("再说了，只要没吃过早饭就可以算作早上哦~"));
-replaceString(L, 6, Str("say"), Str("唔……医务室的电话是多少来着，得呼叫一下女灶神了啊……"));
-replaceString(L, 7, Str("say"), Str("不……只是开玩笑而已。"));
-replaceString(L, 8, Str("say"), Str("嘿嘿，布吕歇尔也是哦~"));
-replaceString(L, 9, Str("say"), Str("昨天指挥官有没有梦到布吕歇尔呢？嗯，看这个表情，肯定是梦到了吧~"));
-replaceString(L, 10, Str("say"), Str("给，我给你准备了纪念小礼物哦~"));
-replaceString(L, 11, Str("say"), Str("纪念小礼物……纪念的是？"));
-replaceString(L, 12, Str("say"), Str("唔…………让我想想哦。对了，和指挥官的结婚百日纪念！"));
-replaceString(L, 13, Str("say"), Str("好，该开始工作了。"));
-replaceString(L, 14, Str("say"), Str("别别别别别啊指挥官~那就纪念我们平凡而又甜蜜相处的每一天嘛！！"));
-replaceString(L, 15, Str("say"), Str("嘿嘿，指挥官，现在该给我回礼了哦？"));
-replaceString(L, 16, Str("say"), Str("就要……一个热情满满的拥抱……然后再附带一个充满爱意的吻才行~"));
-replaceString(L, 17, Str("say"), Str("原来如此……仿佛听到了从布吕歇尔心中发出的算盘声。"));
-replaceString(L, 18, Str("say"), Str("指挥官！把头凑过来一点嘛！"));
-replaceString(L, 19, Str("say"), Str("不许闭眼！要好好看着布吕歇尔才行！"));
-replaceString(L, 20, Str("say"), Str("正在思考着应该如何应对布吕歇尔的热情攻势的时候，金色的头发已经凑到了眼前——"));
-replaceString(L, 21, Str("say"), Str("啊——呜！"));
-replaceString(L, 22, Str("say"), Str("脸上被留下了一个湿润的吻记。"));
-replaceString(L, 23, Str("say"), Str("嘿嘿~偷袭成功！这样就差不多咯~"));
-replaceString(L, 24, Str("say"), Str("接下来就是工作咯，工作~"));
-replaceString(L, 25, Str("say"), Str("嗯~指挥官不开始工作么？"));
-replaceString(L, 26, Str("say"), Str("……现在突然开始谈工作么？"));
-replaceString(L, 27, Str("say"), Str("不然呢~？难道指挥官想在工作时间就开始约会么！"));
-replaceString(L, 28, Str("say"), Str("……突然感觉头稍微有点晕，精神也不太能聚焦到文件上面了。"));
-replaceString(L, 29, Str("say"), Str("不好~这可是大事件，是身体正在发出警报的信号啊！"));
-replaceString(L, 30, Str("say"), Str("指挥官，工作暂停，跟我一起去医务室吧——"));
-replaceString(L, 31, Str("say"), Str("……看来也只能如此了。"));
-replaceString(L, 32, Str("say"), Str("那今天就是医务室约会了呢，事不宜迟指挥官，我们出发吧————"));
-lua_pop(L, 1);
-}
-void CHUCHUN5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("初春的烦恼\n\n<size=45>五 徒劳的努力？</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("某日·演习海域"));
-replaceString(L, 3, Str("say"), Str("绫波这次又拿了第一呢！不愧是我的姐妹舰呢~"));
-replaceString(L, 4, Str("say"), Str("吹雪姐，也很活跃…"));
-replaceString(L, 5, Str("say"), Str("啊哈哈，绫波还是这么谦虚呢~初春也辛苦啦~秘书舰的工作也要加油哦，我们先走咯~"));
-replaceString(L, 6, Str("say"), Str("…啊！谢、谢谢！你、你们也……"));
-replaceString(L, 7, Str("say"), Str("…这次也没什么表现呢…"));
-replaceString(L, 8, Str("say"), Str("（明明已经下定决心要克服胆小了，但是在演习的时候，在那么多人的面前还是会紧张得动弹不得…没办法像她们一样…）"));
-replaceString(L, 9, Str("say"), Str("（明明指挥官也在一直陪我做对话练习，明明秘书舰的工作也能处理好了…）"));
-replaceString(L, 10, Str("say"), Str("（这就是我的极限了吗…）"));
-replaceString(L, 11, Str("say"), Str("这段时间的努力，会不会其实都是无用功…既然如此，秘书舰要不也——"));
-replaceString(L, 12, Str("say"), Str("哟！"));
-replaceString(L, 13, Str("say"), Str("呀！呜、呜呜…飞鹰小姐！请、请不要每次都这样吓人啦！"));
-replaceString(L, 14, Str("say"), Str("啊，抱歉。不过…从刚刚演习结束就觉得你的样子有点奇怪，怎么了嘛？"));
-replaceString(L, 15, Str("say"), Str("没，没什么啦！只不过是有点累了——"));
-replaceString(L, 16, Str("say"), Str("你的动摇都写在脸上了哦？"));
-replaceString(L, 17, Str("say"), Str("欸欸？有，有吗？"));
-replaceString(L, 18, Str("say"), Str("（叹气）本人没什么自觉吗…我听到你的自言自语了哦…我问你啊，你真的打算辞去秘书舰的职务吗？"));
-replaceString(L, 19, Str("say"), Str("…那、那个是…"));
-replaceString(L, 20, Str("say"), Str("听好了，所谓自信，就是无论遇到什么，都要去直面它的勇气啊！"));
-replaceString(L, 21, Str("say"), Str("好不容易坚持到了现在，难道你要用简单一句话就把之前的努力全盘否定掉吗？"));
-replaceString(L, 22, Str("say"), Str("如果现在转身逃跑的话，就再也没机会去正面面对了哦"));
-replaceString(L, 23, Str("say"), Str("可、可是……"));
-replaceString(L, 24, Str("say"), Str("初春姐，逃避可是解决不了问题的哦"));
-replaceString(L, 25, Str("say"), Str("初春姐姐，不要灰心，若叶会一直给你加油的！"));
-replaceString(L, 26, Str("say"), Str("初霜…若叶……你们是什么时候——"));
-replaceString(L, 27, Str("say"), Str("欸嘿嘿，因为某人一直很担心你呀~是吧，那边的指挥官？你也有什么话要说的吧？"));
-replaceString(L, 28, Str("say"), Str("指挥官？！"));
-lua_pop(L, 1);
-}
-void WNN000J(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("进入了舰队指令面板，在该面板中可以使用多种指令帮助探索海域。"));
-replaceString(L, 2, Str("say"), Str("面对视野受限问题，我们可以使用空域侦查指令，来消除海域中的战争迷雾。"));
-lua_pop(L, 1);
-}
-void HUANGJIACAIFUDEMIMICHUANCHANG4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("皇家财富的秘密船厂\n\n<size=45>四　龙筋的作用</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("皇家财富造船厂·龙筋铺设完毕——"));
-replaceString(L, 3, Str("say"), Str("想要支撑两舷的壳板，只靠肋骨还不足够。"));
-replaceString(L, 4, Str("say"), Str("锵锵，这就是龙筋的作用了~"));
-replaceString(L, 5, Str("say"), Str("龙筋是位于船体两侧的纵向构件，它的安置方向与肋骨垂直，进而同肋骨一起构成了网状结构，"));
-replaceString(L, 6, Str("say"), Str("这样的网状结构便于固定风帆战舰的壳板，也能增强船体的结构。"));
-replaceString(L, 7, Str("say"), Str("越是庞大的战舰，安设的龙骨与龙筋的数量就越多呢，那些最庞大的一等战列舰，也是名符其实的海上堡垒~"));
-replaceString(L, 8, Str("say"), Str("哎呀，不过需要的维护费用，也是高昂到难以接受就是了。"));
-replaceString(L, 9, Str("say"), Str("好了，废话时间结束，继续进行建造任务吧——"));
-lua_pop(L, 1);
-}
-void AISAIKESI5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("前辈与心结\n\n<size=45>五　心结·上</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·指挥室"));
-replaceString(L, 3, Str("say"), Str("从上次演习以来，埃塞克斯的样子都有些怪怪的"));
-replaceString(L, 4, Str("say"), Str("是时候约她出来聊聊了……"));
-replaceString(L, 5, Str("say"), Str("欸？作为平时的感谢，假日一起去哪里逛逛？"));
-replaceString(L, 6, Str("say"), Str("只是秘书舰分内的事情，没有什么值得道谢的地方…"));
-getByList(L,6);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("强烈请求"));
-lua_pop(L,2);
-replaceString(L, 7, Str("say"), Str("既、既然指挥官都说到这份上了…"));
-replaceString(L, 8, Str("say"), Str("假日，和埃塞克斯来到港区周边闲逛"));
-replaceString(L, 9, Str("say"), Str("感觉除了地点不一样以外，和平时的巡逻差不多呢…"));
-replaceString(L, 10, Str("say"), Str("嗯？指挥官有话要说吗？"));
-getByList(L,10);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("询问对企业的看法。"));
-lua_pop(L,2);
-replaceString(L, 11, Str("say"), Str("企业前辈吗……"));
-replaceString(L, 12, Str("say"), Str("前辈是白鹰的传奇和英雄，一直是大家尊敬和憧憬的对象。也是我努力的目标"));
-replaceString(L, 13, Str("say"), Str("虽然我们这一级自诞生起就备受期待，但…果然还是比不上经历过无数战役的前辈"));
-replaceString(L, 14, Str("say"), Str("所以我一直想要胜过前辈，想要得到前辈的认可"));
-replaceString(L, 15, Str("say"), Str("上次的演习，虽然结果是平局，但是…我怎么想都觉得很奇怪"));
-replaceString(L, 16, Str("say"), Str("前辈一定是还是把我当成了需要呵护的后辈，所以才没有使出全力吧"));
-replaceString(L, 17, Str("say"), Str("我还是不够强大，不足以得到前辈的认可……"));
-replaceString(L, 18, Str("say"), Str("嗯！决定了呢！接下来也要加紧训练！"));
-replaceString(L, 19, Str("say"), Str("总有一天，我会超过前辈，得到前辈…不，得到所有人的认可的——"));
-replaceString(L, 20, Str("say"), Str("不是那样的"));
-replaceString(L, 21, Str("say"), Str("欸？前、前辈？"));
-lua_pop(L, 1);
-}
-void LINKPREHEAT10_2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("哦呀哦呀？怎么有个小姑娘自己一个人冲出来啦？"));
-replaceString(L, 2, Str("say"), Str("啊哈哈哈哈哈哈哈哈！不错呢，我最喜欢这种充满活力的样本了！这样才有采集数据的价值嘛！"));
-replaceString(L, 3, Str("say"), Str("…………"));
-replaceString(L, 4, Str("say"), Str("来吧，和一模一样的自己起舞吧！"));
-lua_pop(L, 1);
-}
-void FUXIANGXIANZUOZHAN20(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("哈啊……你们这群冒牌货，虽然打的不准，跑的倒是够快……再吃我一轮炮击！"));
-replaceString(L, 2, Str("say"), Str("库库库……居然有被冒牌货叫冒牌货的一天，世界要到毁灭之日了么！"));
-replaceString(L, 3, Str("say"), Str("都到此为止了，你们所有人立即停火！"));
-replaceString(L, 4, Str("say"), Str("………咦？欧根？！你怎么会在这里？！"));
-replaceString(L, 5, Str("say"), Str("果然没收到么……真头大。"));
-replaceString(L, 6, Str("say"), Str("欧根，我们按照要求把它拖过来了，现在可以说明究竟发生什么事了吧？"));
-replaceString(L, 7, Str("say"), Str("简而言之，我们不是棋子，海因里希也不是棋子，所有人都被耍了。"));
-replaceString(L, 8, Str("say"), Str("咦？！！！！！！！我明明还专门确认过了，看你们没回复通讯才动手的啊！"));
-replaceString(L, 9, Str("say"), Str("我们这边也一样。没收到回复才判定攻击的对象为棋子……"));
-replaceString(L, 10, Str("say"), Str("奇怪，我们彼此之间的通讯明明是正常的…？只有对其他舰队的外部联络被干扰了么……！"));
-replaceString(L, 11, Str("say"), Str("……看来判定流程有必要优化一下了。"));
-replaceString(L, 12, Str("say"), Str("怎、怎么会这样……非常抱歉！我这就跟彼得联系，让她停止接下来的攻击行动！"));
-replaceString(L, 13, Str("say"), Str("接下来的攻击行动……？等一下，海因里希，彼得给你的作战命令是什么？"));
-replaceString(L, 14, Str("say"), Str("将异常的铁血舰队向重樱舰队的方向进行驱赶，然后等待下一步指令。"));
-replaceString(L, 15, Str("say"), Str("哦？原来如此…不过这样的话……海因里希！先不要跟彼得进行联络。"));
-replaceString(L, 16, Str("say"), Str("大家继续动起来~纽伦堡带领舰队在前，海因里希带领舰队在后，营造出继续被追逐假象的继续向重樱舰队方向移动！"));
-replaceString(L, 17, Str("say"), Str("呵呵呵，每次都被塞壬玩弄于股掌之中，也是时候来一次计划之外的反击了……"));
-lua_pop(L, 1);
-}
-void XINGHAIZHUGUANG4(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—第1180次通信联络。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—无回应。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—快三个月了啊。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—无需担心，我们的储备消耗还不足3%。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—嗯……情况还不算太糟。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,6);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—只要坚持下去…"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,7);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("—一定能回家。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("模拟世界「未来NY」-测试海域"));
-replaceString(L, 3, Str("say"), Str("视觉回归后，一个色彩斑斓的世界出现在众人眼前。"));
-replaceString(L, 4, Str("say"), Str("这就是……未来的世界？"));
-replaceString(L, 5, Str("say"), Str("太……太神奇了，我们来到了……未来？！"));
-replaceString(L, 6, Str("say"), Str("冷静一点，普林斯顿，我们依旧在星海之中，还记得我之前提到的么，就像逼真的电影布景一样。"));
-replaceString(L, 7, Str("say"), Str("（逼真的电影布景……逼真的电影布景……）"));
-replaceString(L, 8, Str("say"), Str("（呜啊……不愧是星海基地！看来外界传闻的，领先三十年科技还是保守了……）"));
-replaceString(L, 9, Str("say"), Str("……拉菲感觉，变强了……这是什么装备？"));
-replaceString(L, 10, Str("say"), Str("……咦？拉菲你的舰装……已经变得和进来之前完全不一样了？！"));
-replaceString(L, 11, Str("say"), Str("这身装备是……II型舰装？这就是领航员小姐之前提到的新型测试方案？"));
-replaceString(L, 12, Str("say"), Str("肯定。现状：模拟世界构建，一切正常。II型舰装数据覆写，一切顺利。"));
-replaceString(L, 13, Str("say"), Str("播放：诸位，欢迎来到本日的模拟世界NY~☆。录制人：关岛。"));
-replaceString(L, 14, Str("say"), Str("啊哈哈……所以舰装数据覆写是？"));
-replaceString(L, 15, Str("say"), Str("这个问题我来回答吧。"));
-replaceString(L, 16, Str("say"), Str("因为II型舰装制造消耗资源巨大，建造周期也很长。"));
-replaceString(L, 17, Str("say"), Str("此前的诸多失败迫使研发部门开始尝试一种新型的测试方式——覆写模拟测试。"));
-replaceString(L, 18, Str("say"), Str("其原理为在银河之心生成的模拟世界中，直接将II型舰装数据覆写在参加模拟的舰船资料之上。"));
-replaceString(L, 19, Str("say"), Str("因为拉菲的II型舰装资料是目前我们手中最接近理论成功的方案，所以才会将拉菲小姐调动来星海基地协助测试。"));
-replaceString(L, 20, Str("say"), Str("请放心，实验中的覆写只是一种数据计算层面上的操作，模拟出的II型舰装并没有与心智魔方实际相连。"));
-replaceString(L, 21, Str("say"), Str("无论在任何情况下，都不会对拉菲的身体产生实际的负面影响。"));
-replaceString(L, 22, Str("say"), Str("（能进行这种精度的模拟，说明舰装本身的资料也已经相当完善，可以随时投入生产了吧……星海的研发速度，真厉害！）"));
-replaceString(L, 23, Str("say"), Str("……拉菲，完全搞不懂。"));
-replaceString(L, 24, Str("say"), Str("不过……力量变强了……可以更好地战斗了。"));
-replaceString(L, 25, Str("say"), Str("TB，什么时候开始战斗？"));
-replaceString(L, 26, Str("say"), Str("请稍后，正在生成模拟敌人数据——"));
-replaceString(L, 27, Str("say"), Str("随着TB的指令，一支舰队凭空出现在了远方的海平线上。"));
-replaceString(L, 28, Str("say"), Str("舰队之中的每一艘船，都有着普林斯顿从未见过的前卫外观。"));
-replaceString(L, 29, Str("say"), Str("从未见过的军舰……与从未见过的武器…这些难道就是未来的舰队么？！"));
-replaceString(L, 30, Str("say"), Str("从外表上来说没错，这批舰队也是从之前由指挥官回收到的数据中复现的。"));
-replaceString(L, 31, Str("say"), Str("遗憾的是，我们从那些数据中只复原出了这支舰队的外观数据，舰队编制，作战战术以及其应该能够达到的战斗能力。"));
-replaceString(L, 32, Str("say"), Str("除此之外的细节……嗯，只能说完全没有，更别说制造出来了。"));
-replaceString(L, 33, Str("say"), Str("……有点像游戏？"));
-replaceString(L, 34, Str("say"), Str("没错，是很像。"));
-replaceString(L, 35, Str("say"), Str("原来如此……"));
-replaceString(L, 36, Str("say"), Str("那支舰队里最为巨大的，就是舰队旗舰么？"));
-replaceString(L, 37, Str("say"), Str("肯定。OFS舰队旗舰，深水情报舰「厄庇墨透斯」。"));
-replaceString(L, 38, Str("say"), Str("备注：已根据对比实力，进行平衡处理。"));
-replaceString(L, 39, Str("say"), Str("强调：请确保遵守测试守则。"));
-replaceString(L, 40, Str("say"), Str("模拟战将在一分钟后正式开始——"));
-lua_pop(L, 1);
-}
-void NIZHUANCAIHONGZHITA1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("地点不明 ·时间不明"));
-replaceString(L, 2, Str("say"), Str("在一个昏暗的空间中，腓特烈大帝正端坐于桌前。"));
-replaceString(L, 3, Str("say"), Str("……以上便是近期在百慕大海域的行动报告。"));
-replaceString(L, 4, Str("say"), Str("和预料中一样，碧蓝航线已经将主要精力放在了中心区域的探索与稳定上。"));
-replaceString(L, 5, Str("say"), Str("她们只想保住眼前的战果，对于真正值得关注的地方，对于我们的目的均一无所知。"));
-replaceString(L, 6, Str("say"), Str("那么，本次汇报到此结束。"));
-replaceString(L, 7, Str("say"), Str("声音停止，窗口关闭，但房间并没有回归黑暗。"));
-replaceString(L, 8, Str("say"), Str("一个窗口关闭，另一个窗口展开。"));
-replaceString(L, 9, Str("say"), Str("针对仲裁机关的调查没有新的进展，它们好像无声无息的消失了。"));
-replaceString(L, 10, Str("say"), Str("现在还有三个未被调查的可疑区域，补给剩余30%，应该没问题。"));
-replaceString(L, 11, Str("say"), Str("U-47，汇报结束。"));
-replaceString(L, 12, Str("say"), Str("她只是无言地倾听着，定期联络并不需要一一回答。"));
-replaceString(L, 13, Str("say"), Str("腓特烈大帝仿佛正站在漆黑的夜空中，正面对着从面前流过的无尽情报之海。"));
-replaceString(L, 14, Str("say"), Str("舰队已与「米德加尔特之塔」的组件一同秘密抵达指定位置。"));
-replaceString(L, 15, Str("say"), Str("幻光系统运作正常，附近没有发现任何敌人，海况平静，适合作业。"));
-replaceString(L, 16, Str("say"), Str("计划随时可以开始，等候您的指令。"));
-replaceString(L, 17, Str("say"), Str("很好。开始组装工作吧，之后，等待下一步行动命令。"));
-replaceString(L, 18, Str("say"), Str("遵命，彼得·史特拉塞通讯结束。"));
-replaceString(L, 19, Str("say"), Str("从各地传来的情报汇聚在这小小的办公桌上，而腓特烈大帝正将这些情报转化为决策——就像她此前一直在做的那样。"));
-replaceString(L, 20, Str("say"), Str("只是今天的这次，与以往有些许不同。"));
-replaceString(L, 21, Str("say"), Str("终于要到最终阶段了啊，我不过去没问题么？"));
-replaceString(L, 22, Str("say"), Str("不能因为资源高度集中一处而在其他部分出现纰漏。"));
-replaceString(L, 23, Str("say"), Str("如果你那里出问题，我们的行动意义就会大大降低。"));
-replaceString(L, 24, Str("say"), Str("只是大大降低，而不是全无意义么？"));
-replaceString(L, 25, Str("say"), Str("你觉得呢？"));
-replaceString(L, 26, Str("say"), Str("是是是，你说得对~"));
-replaceString(L, 27, Str("say"), Str("重樱的客人们在这里很满意，而且她们接下来也会实时观看行动进展，没问题吧？"));
-replaceString(L, 28, Str("say"), Str("没问题。就是数据传输的稳定性我们也不敢保证，这一点交代清楚。"));
-replaceString(L, 29, Str("say"), Str("那是自然~这种开拓性的行动中会发生什么都不稀奇。"));
-replaceString(L, 30, Str("say"), Str("仅仅能在第一时间看到对于重樱而言就已经意义非凡了，相信就算发生意外中断的情况她们也不会有所怨言的。"));
-replaceString(L, 31, Str("say"), Str("很好。"));
-replaceString(L, 32, Str("say"), Str("那就祝我们好运咯，欧根亲王通讯结束。"));
-replaceString(L, 33, Str("say"), Str("……"));
-replaceString(L, 34, Str("say"), Str("通讯结束后，腓特烈大帝的脸上少见的出现了一丝阴霾。不过阴云转瞬即逝，自信的笑容又回到了脸上。"));
-replaceString(L, 35, Str("say"), Str("接下来，屏幕上出现了两个熟悉的标志，不知为何，图像背后的人选择隐去了自身的样貌。"));
-replaceString(L, 36, Str("say"), Str("而那些标志所代表的，正是直到此刻还与铁血处于交战状态的北方联合和皇家海军——"));
-replaceString(L, 37, Str("say"), Str("腓特烈大帝与那两人进行了简单的交谈，但交流被另外一个突然出现的声音打破了。"));
-replaceString(L, 38, Str("say"), Str("哟，腓特烈，我来了，非常感谢汝在大展宏图之日能叫上我来一同欣赏~"));
-replaceString(L, 39, Str("say"), Str("马可波罗阁下——你的联络从时间上来说是否稍微早了一些？"));
-replaceString(L, 40, Str("say"), Str("诶，是这样么？我没太在意。最近事情太多了，也许是早了一些或者晚了一些吧？"));
-replaceString(L, 41, Str("say"), Str("看你这个反应应该是早了一些？"));
-replaceString(L, 42, Str("say"), Str("对的，是早了一些。而且这个频道——是紧急联络用频道。"));
-replaceString(L, 43, Str("say"), Str("啊，好像是这样！打扰你了？"));
-replaceString(L, 44, Str("say"), Str("也没有。"));
-replaceString(L, 45, Str("say"), Str("腓特烈大帝看着面前两个已经熄灭的窗口，微不可查地叹了一口气。"));
-replaceString(L, 46, Str("say"), Str("那就好，那就好嘛~反正我在开始之前如约而来了。"));
-replaceString(L, 47, Str("say"), Str("不过我之后还有事，就不实时观看了，后面把报告发给我就可以了哦。"));
-replaceString(L, 48, Str("say"), Str("自己参与的事，不想见证一下过程么？"));
-replaceString(L, 49, Str("say"), Str("其实也没有那么大兴趣，举手之劳而已。我还是更在意圣座的位置，要做的事已经堆积如山了。"));
-replaceString(L, 50, Str("say"), Str("那也祝你好运，我坚定的撒丁盟友，无可置疑的圣座马可波罗阁下。"));
-replaceString(L, 51, Str("say"), Str("相比于坚定的盟友，马可波罗似乎对\"无可置疑的圣座\"表现出了更高的热情。"));
-replaceString(L, 52, Str("say"), Str("再之后，撒丁帝国的通讯也结束了。"));
-replaceString(L, 53, Str("say"), Str("满天繁星逐次熄灭，最后，只剩两个窗口还亮着了。"));
-replaceString(L, 54, Str("say"), Str("腓特烈大帝没有发问，两个窗口后的人也没有出声。"));
-replaceString(L, 55, Str("say"), Str("终于走到了这一步……"));
-replaceString(L, 56, Str("say"), Str("我已经搭好了舞台，奏响了乐章。"));
-replaceString(L, 57, Str("say"), Str("接下来——让我们的演出开始吧。"));
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「一座高塔，意图连通天界与人间」</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「不分种族与国界，用相同语言描绘的相同目标」</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「勠力同心」</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「这是属于凡人的奇迹，也是神所不能容许的奇迹」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「神罚降下，物质上的高塔被毁，精神上的齐心不再」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,6);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「此等奇迹永远无法再现了」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,7);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「这是过去留下的教训，一个希望我们刻骨铭心牢记的教训」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,8);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「凡人，不可触碰神的领域」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,9);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「凡人，不可质疑神的权威」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,10);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「现在，我要重铸高塔了」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,58);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,11);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("<size=51>「前来阻挡我的神，在哪里？」</size> "));
-lua_settable(L, -3);
-lua_pop(L,3);
-lua_pop(L, 1);
-}
-void AIGUANQIA17(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("到此为止了哦，不会让你们到绊爱那里去的"));
-replaceString(L, 2, Str("say"), Str("欧根小姐！？你们也来虚拟镜面海域了吗！？……不过，为什么是誓约换装……？"));
-replaceString(L, 3, Str("say"), Str("Z23，注意的说。好像有点不对劲"));
-replaceString(L, 4, Str("say"), Str("呵呵♪我们是为了保护绊爱才出现在这里的哦"));
-replaceString(L, 5, Str("say"), Str("啊，不会让你们碰爱小姐一根指头的哦＞＜"));
-replaceString(L, 6, Str("say"), Str("人称\"绊爱舰队\"……参上！"));
-replaceString(L, 7, Str("say"), Str("绊爱舰队……话说，欧根小姐和高雄小姐为什么都穿着誓约换装？"));
-replaceString(L, 8, Str("say"), Str("请、请不要吐槽这点……"));
-replaceString(L, 9, Str("say"), Str("这也是随机单词生成器生成的……？"));
-replaceString(L, 10, Str("say"), Str("你猜？无论如何，不能让你们把我们的\"指挥官\"……绊爱击败呢。想要过来的话，就做好相应的心理准备吧"));
-replaceString(L, 11, Str("say"), Str("可恶……没想到还有这种伏兵……"));
-replaceString(L, 12, Str("say"), Str("对话框里的名字也变了，这说不定就是绊爱小姐说的在原来的世界以指挥官身份编成的\"绊爱舰队\""));
-replaceString(L, 13, Str("say"), Str("原来如此！爱酱和四个人都\"誓约\"了呢！名字也很可爱！"));
-replaceString(L, 14, Str("say"), Str("雷，现在可不是赞叹的时候。想办法做点什么度过这个难关吧"));
-replaceString(L, 15, Str("say"), Str("欧根小姐！大家保护爱酱的心情应该都是一样的才对吧？所以和我们一起去帮助爱酱吧！"));
-replaceString(L, 16, Str("say"), Str("这点…做不到呢"));
-replaceString(L, 17, Str("say"), Str("为、为什么！？"));
-replaceString(L, 18, Str("say"), Str("爱殿下如今期望的是破坏这个世界。在下等人作为绊爱舰队，只能全力帮助她实现这个愿望"));
-replaceString(L, 19, Str("say"), Str("这种事情……是错的…！"));
-replaceString(L, 20, Str("say"), Str("命、命运早已经决定了＞＜"));
-replaceString(L, 21, Str("say"), Str("看来…找一条避开她们的路也许是更好的方法……"));
-replaceString(L, 22, Str("say"), Str("哎呀？那这次就特别优待，放过你们吧？…开玩笑的♪绝对不会放你们过去的哟？"));
-replaceString(L, 23, Str("say"), Str("翔鹤小姐？就、就算你这么说，雷也、也也也一点都不会觉得害怕的哦！"));
-replaceString(L, 24, Str("say"), Str("不会让你们靠近爱小姐的！"));
-replaceString(L, 25, Str("say"), Str("一边躲避敌人的追击一边和其他舰队战斗是不可能的！"));
-replaceString(L, 26, Str("say"), Str("怎、怎怎怎怎么办～！对面超认真的啊～～～＞＜"));
-replaceString(L, 27, Str("say"), Str("只能一边顶住绊爱舰队的猛攻，一边把电力供给装置的开关关掉了……"));
-replaceString(L, 28, Str("say"), Str("不对，只要把绊爱舰队都击败，这些就都没关系了"));
-replaceString(L, 29, Str("say"), Str("这就是所谓的\"多路线\"？讨论下是走\"高战力\"路线还是\"低耗\"路线吧！雷无论哪边都没问题的哦！"));
-lua_pop(L, 1);
-}
-void DONGRIDEXUNLUREN5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("冬日的寻路人\n\n<size=45>五　完美谢幕？</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("中央广场·真理之梯"));
-replaceString(L, 3, Str("say"), Str("骑着\"扫帚\"的巫女，和召唤出\"魔偶\"的守门人间的\"战斗\"开始了。"));
-replaceString(L, 4, Str("say"), Str("两人的技艺都很精湛，让最后的比试看起来就像是优雅却又彪悍的舞曲。"));
-replaceString(L, 5, Str("say"), Str("话虽如此，胜负已分——"));
-replaceString(L, 6, Str("say"), Str("我认输——"));
-replaceString(L, 7, Str("say"), Str("我承认你对角色的坚持了，古比雪夫。"));
-replaceString(L, 8, Str("say"), Str("哦哦，分出胜负了！"));
-replaceString(L, 9, Str("say"), Str("甘古特，是古比雪夫赢了！"));
-replaceString(L, 10, Str("say"), Str("好诶！古比雪夫同志！就是要有这股气势！"));
-replaceString(L, 11, Str("say"), Str("……？"));
-replaceString(L, 12, Str("say"), Str("等等……难道说……"));
-replaceString(L, 13, Str("say"), Str("我宣布，本次「港区特别情景剧大赛」的优胜者是，古比雪夫同志！"));
-replaceString(L, 14, Str("say"), Str("现在公开优胜奖品~恭喜古比雪夫同志获得\"与指挥官同志的一日面谈券\"！"));
-replaceString(L, 15, Str("say"), Str("古比雪夫同志，请到真理之梯上来。指挥官同志，请为优胜者颁奖。"));
-replaceString(L, 16, Str("say"), Str("这个……"));
-replaceString(L, 17, Str("say"), Str("所以真理之梯是颁奖台，妖精的宝藏是……和指挥官同志您的一日面谈券？"));
-replaceString(L, 18, Str("say"), Str("没错。"));
-getByList(L,18);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("优胜的感觉如何？"));
-lua_pop(L,2);
-replaceString(L, 19, Str("say"), Str("啊哈哈，请不要取笑我了——"));
-replaceString(L, 20, Str("say"), Str("指挥官同志，我也会害羞的。"));
-replaceString(L, 21, Str("say"), Str("我只是想着要调查清楚异常事态的原因，不知不觉就也陷入气氛之中了。"));
-replaceString(L, 22, Str("say"), Str("不得不说这次情景剧的设置确实十分出色，但是…………居然真的只是情景剧啊。"));
-replaceString(L, 23, Str("say"), Str("总而言之，恭喜优胜哦♪"));
-replaceString(L, 24, Str("say"), Str("没有你的演出，我的谢幕也会逊色不少呢。"));
-replaceString(L, 25, Str("say"), Str("谢谢，忒休斯。这是个美妙而温暖人心的胜利呢。"));
-replaceString(L, 26, Str("say"), Str("我会记住这次胜利的……嗯，不如说，我也有很多感悟。"));
-replaceString(L, 27, Str("say"), Str("非常感谢大家给我这次展示自己的机会，作为回礼，请大家品尝我准备好的罗宋汤~"));
-replaceString(L, 28, Str("say"), Str("就这样，港区特别情景剧大赛正式结束了。"));
-replaceString(L, 29, Str("say"), Str("几日后，在指挥室中再次见到了古比雪夫。"));
-replaceString(L, 30, Str("say"), Str("……………………"));
-getByList(L,30);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("这是……？"));
-lua_pop(L,2);
-replaceString(L, 31, Str("say"), Str("总结报告，或者说……检讨书？"));
-replaceString(L, 32, Str("say"), Str("在这次事件中，我确实感受到了我的不足之处。"));
-replaceString(L, 33, Str("say"), Str("我一直以为，只要我能自己解决所有问题，就能帮大家分担压力了……没想到最后反而让大家担心了。"));
-replaceString(L, 34, Str("say"), Str("以后，我会主动请求大家帮助的。"));
-replaceString(L, 35, Str("say"), Str("当然，指挥官同志自然也包括在内，所以……"));
-replaceString(L, 36, Str("say"), Str("古比雪夫将那张一日面谈券摆在了办公桌上。"));
-replaceString(L, 37, Str("say"), Str("我累了，今天就请指挥官好好陪一陪我吧~"));
-replaceString(L, 38, Str("say"), Str("总而言之，这位可靠的北方联合同志确实有好好反省自己的问题。"));
-replaceString(L, 39, Str("say"), Str("作为承诺过的奖励，就与她一起度过这美好的一天吧——"));
-lua_pop(L, 1);
-}
-void TIEYIQINGFENG9(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("帕克菲克洋·圣诞岛"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("岛屿指挥中心"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("一段时间后"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("令人遗憾的是，即便依靠圣诞岛上的通讯设备，众人依然没能和圣地亚哥司令部取得联络。"));
-replaceString(L, 3, Str("say"), Str("不过——通讯却接通了一个意外的目标。"));
-replaceString(L, 4, Str("say"), Str("这里是帕克菲克洋舰队，我是舰队旗舰，企业。"));
-replaceString(L, 5, Str("say"), Str("很高兴收到来自圣诞岛上的友方联络，我还以为岛屿已经被敌人彻底占领了。"));
-replaceString(L, 6, Str("say"), Str("请汇报你们的当前状况。"));
-replaceString(L, 7, Str("say"), Str("……企业？！"));
-replaceString(L, 8, Str("say"), Str("呼……太好了，我们总算和能够统筹全局的人取得联系了。"));
-replaceString(L, 9, Str("say"), Str("事情的经过是这样的——"));
-replaceString(L, 10, Str("say"), Str("果然……失去联络的萨摩亚群岛也没能在袭击中幸免。"));
-replaceString(L, 11, Str("say"), Str("你们的应对行动十分正确。"));
-replaceString(L, 12, Str("say"), Str("我也是察觉到圣诞岛已经落入敌方手中，并且成为了敌方进一步进攻的跳板后，才带领舰队前来将此处夺回的。"));
-replaceString(L, 13, Str("say"), Str("现在到底是什么情况？是谁在进攻我们，圣地亚哥司令部的情况如何？"));
-replaceString(L, 14, Str("say"), Str("抱歉，我也在寻找这些问题的答案。"));
-replaceString(L, 15, Str("say"), Str("自从袭击发生后，海域中就充斥着强烈的干扰，我们分布在大洋各处的基地或许都已经陷入幻境之中了。"));
-replaceString(L, 16, Str("say"), Str("而且不光是圣地亚哥司令部，我也无法与NY司令部，甚至DC特区取得联络。"));
-replaceString(L, 17, Str("say"), Str("这场袭击的影响范围，恐怕比我们设想中的更广。"));
-replaceString(L, 18, Str("say"), Str("……怎么会这样。"));
-replaceString(L, 19, Str("say"), Str("企业，你已经经历过幻境的影响了，对么？"));
-replaceString(L, 20, Str("say"), Str("嗯，不过——"));
-replaceString(L, 21, Str("say"), Str("世界在燃烧。"));
-replaceString(L, 22, Str("say"), Str("迎面走来的，是那个令人熟悉又陌生的身影。"));
-replaceString(L, 23, Str("say"), Str("来这里跟我谈话，你很闲么？"));
-replaceString(L, 24, Str("say"), Str("……我还有事情要做，不能在这里浪费时间。"));
-replaceString(L, 25, Str("say"), Str("哼，这就对了。"));
-replaceString(L, 26, Str("say"), Str("回去吧，梦该醒了。"));
-replaceString(L, 27, Str("say"), Str("远方的身影轻轻挥手，掀起了重重烈焰。"));
-replaceString(L, 28, Str("say"), Str("不出片刻，幻境崩塌了——"));
-replaceString(L, 29, Str("say"), Str("呵呵，不值一提。"));
-replaceString(L, 30, Str("say"), Str("幻境并非牢不可破的。就如同我们已经清醒过来，开始着手处理眼前的战局一样。"));
-replaceString(L, 31, Str("say"), Str("在DC特区、在NY司令部、在更多其他地方，也一定有清醒过来的人正在努力着。"));
-replaceString(L, 32, Str("say"), Str("我们只要专心做好自己力所能及的事，然后相信我们的同伴就好。"));
-replaceString(L, 33, Str("say"), Str("没错，企业你说的对。"));
-replaceString(L, 34, Str("say"), Str("接下来我们完全听从你的指挥，要我们做些什么好？"));
-replaceString(L, 35, Str("say"), Str("如你们所知，帕克菲克洋中的局势此刻不容乐观，我们已经与绝大多数据点失去了联系。"));
-replaceString(L, 36, Str("say"), Str("由我直接管辖的PH港和AF也不例外。"));
-replaceString(L, 37, Str("say"), Str("这两处地点囤积了大量的补给装备，也有规模不小的驻防舰队守护，如今却音讯全无。"));
-replaceString(L, 38, Str("say"), Str("PH港和AF决不能有失，否则我们就再也无力控制帕克菲克洋的战局了。"));
-replaceString(L, 39, Str("say"), Str("这两处地点必须以高优先级夺回。"));
-replaceString(L, 40, Str("say"), Str("我赞同。"));
-replaceString(L, 41, Str("say"), Str("与此同时，邦克山正在带领舰队抵御来自重樱马绍尔群岛基地方向来袭的大规模敌军。"));
-replaceString(L, 42, Str("say"), Str("原本我以为这场袭击是由重樱挑起的，不过结合你们的情报，看来真相并非如此。"));
-replaceString(L, 43, Str("say"), Str("我已经将情报同步给了邦克山，并取消了她袭击重樱马绍尔群岛要塞的任务。"));
-replaceString(L, 44, Str("say"), Str("接下来她将会专注于防御作战，直到我们成功夺回PH港和AF为止。"));
-replaceString(L, 45, Str("say"), Str("与此同时，多亏了你们的积极行动，我们比预定时间更早夺回了圣诞岛这一帕克菲克洋中部的关键支点。"));
-replaceString(L, 46, Str("say"), Str("这样，我们就拥有了唤醒各处失联基地防御舰队的时间和空间。"));
-replaceString(L, 47, Str("say"), Str("等等，我们虽然可以凭借重樱提供的符咒唤醒被困于幻境中的守军。"));
-replaceString(L, 48, Str("say"), Str("但是我们在帕克菲克洋中的基地众多，现在敌暗我明又通讯不畅，贸然分散舰队是十分危险的事。"));
-replaceString(L, 49, Str("say"), Str("这也是我一路上在思考的问题。"));
-replaceString(L, 50, Str("say"), Str("在听到你们谈到符咒之后，我有了一个想法。"));
-replaceString(L, 51, Str("say"), Str("用舰载机队前往各处据点空投符咒，是否有破除幻境的可能性？"));
-replaceString(L, 52, Str("say"), Str("唔……恐怕不行。根据我们一路上的经验来看，让符咒顺利发挥作用需要两个条件。"));
-replaceString(L, 53, Str("say"), Str("第一是要将其飞出，第二是需要语音进行激发。"));
-replaceString(L, 54, Str("say"), Str("果然还是需要由人来使用么……"));
-replaceString(L, 55, Str("say"), Str("既然如此，就只能根据重要性程度，尽可能少的分散舰队执行破除幻境的任务了。"));
-replaceString(L, 56, Str("say"), Str("否则，我们将被敌人孤立在前线，本土的局势将会变得异常危险。"));
-replaceString(L, 57, Str("say"), Str("不一定……非要由人驱动。"));
-replaceString(L, 58, Str("say"), Str("我所使用的高速货运无人机同时拥有投掷和喊话功能。"));
-replaceString(L, 59, Str("say"), Str("让无人机携带符咒，配合舰载机群前往各处据点执行破除任务就好了。"));
-replaceString(L, 60, Str("say"), Str("首先由无人机投掷护符开路，然后由舰载机群对幻境中的敌方目标进行直接打击，以物理瓦解幻境。"));
-replaceString(L, 61, Str("say"), Str("幻境破除后，无人机还可以利用其搭载的设备加强通讯质量，我们就可以与防守方交换情报，并向她们布置任务了。"));
-replaceString(L, 62, Str("say"), Str("货运无人机加舰载机的空中力量组合么……确实值得一试。"));
-replaceString(L, 63, Str("say"), Str("那么，其他目标就交由空中力量来处理。"));
-replaceString(L, 64, Str("say"), Str("你们在准备好后随我一同返回，我们亲自夺回PH港和AF两处要地。"));
-replaceString(L, 65, Str("say"), Str("好，让我们一起大干一场吧~！"));
-replaceString(L, 67, Str("say"), Str("夕阳下，少女站立在无人机群中，进行着最后的调整。"));
-replaceString(L, 68, Str("say"), Str("联络目标——圣地亚哥司令部，语音播放方案调整为NINJABELL。设定完毕，去吧。"));
-replaceString(L, 69, Str("say"), Str("高速货运无人机将一张符咒收入货仓，升上高空与护航的舰载机编队一同出发了。"));
-replaceString(L, 70, Str("say"), Str("然后是……联络目标——巴拿马要塞，语音播放方案调整为NINJABELL。设定完毕，去吧。"));
-replaceString(L, 71, Str("say"), Str("然后是……复活节岛基地——"));
-replaceString(L, 72, Str("say"), Str("一批接着一批，由高速无人机和舰载机群组成的空中特别行动编队，带着希望与决心向着四面八方飞去。"));
-replaceString(L, 73, Str("say"), Str("……一切顺利的话，就能一举扭转局面了。"));
-lua_pop(L, 1);
-}
-void XIAO1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("忍者修行之路？\n\n<size=45>一　迷路的忍者</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区·指挥室"));
-replaceString(L, 3, Str("say"), Str("今天是晓担任秘书舰的第一天。"));
-replaceString(L, 4, Str("say"), Str("不过，明明已经超过了预定的时间，晓还是没有出现。"));
-replaceString(L, 5, Str("say"), Str("会不会发生什么事了？"));
-getByList(L,5);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("去查看晓的情况。"));
-lua_pop(L,2);
-replaceString(L, 6, Str("say"), Str("啊，指挥官，早上好！"));
-replaceString(L, 7, Str("say"), Str("嗯？是在找晓吗？我明白了！"));
-replaceString(L, 8, Str("say"), Str("晓的话……唔唔……几分钟前好像往那个方向去了呢！"));
-replaceString(L, 9, Str("say"), Str("晓……？"));
-replaceString(L, 10, Str("say"), Str("绫波好像看到她去那边了……"));
-replaceString(L, 11, Str("say"), Str("晓吗？吾辈记得看到过她来着。嗯……"));
-replaceString(L, 12, Str("say"), Str("哦哦！想起来了，吾辈看到她往那个方向跑过去了！"));
-replaceString(L, 13, Str("say"), Str("集合目前收集到的线索，晓似乎绕整个港区一圈……"));
-replaceString(L, 14, Str("say"), Str("难道……？"));
-replaceString(L, 15, Str("say"), Str("嗯…这边应该是…转这个方向吧——"));
-replaceString(L, 16, Str("say"), Str("啊——指、指挥官？"));
-replaceString(L, 17, Str("say"), Str("欸？已经这个时间了！？万、万分抱歉！在下原本是想准时到达指挥室的……"));
-replaceString(L, 18, Str("say"), Str("不过，前往指挥室的道路似乎比在下想象的要远一些…"));
-replaceString(L, 19, Str("say"), Str("看来果然是迷路了"));
-replaceString(L, 20, Str("say"), Str("欸欸欸？往指挥室的路是那个方向吗？！"));
-replaceString(L, 21, Str("say"), Str("呜…下次，下次在下一定能准时到达！"));
-replaceString(L, 22, Str("say"), Str("晓鞠了一个躬，看起来十分愧疚。"));
-replaceString(L, 23, Str("say"), Str("带着晓一起回到了指挥室"));
-replaceString(L, 24, Str("say"), Str("有机会的话，还是带晓熟悉一下港区吧。"));
-lua_pop(L, 1);
-}
-void AERSASI6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("阿尔萨斯过热中！\n\n<size=45>六　脱敏训练法！</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("在阿尔萨斯失控又冷静下来之后，她彻底陷入了自责的情绪之中。"));
-replaceString(L, 3, Str("say"), Str("唔……"));
-replaceString(L, 4, Str("say"), Str("对不起……现在的阿尔萨斯，完全无法进入完美且高效的秘书舰模式……"));
-replaceString(L, 5, Str("say"), Str("幸、幸好今天上午的效率足够高，没有给指挥官添其它的麻烦……"));
-replaceString(L, 6, Str("say"), Str("看着少女双眸中明显的失落神色，开始认真思考她突然开始频繁失控的原因。"));
-replaceString(L, 7, Str("say"), Str("（仔细想想的话……阿尔萨斯的失控基本都是在与我对视、或者被我触摸时出现的。）"));
-replaceString(L, 8, Str("say"), Str("（算下来，这件事也有我的一份责任……）"));
-replaceString(L, 9, Str("say"), Str("阿尔萨斯。"));
-replaceString(L, 10, Str("say"), Str("欸，指、指挥官？有什么吩咐……"));
-replaceString(L, 11, Str("say"), Str("我有个问题，希望你能认真回答我。"));
-replaceString(L, 12, Str("say"), Str("这、这这么突然吗？"));
-replaceString(L, 13, Str("say"), Str("阿尔萨斯似乎被我认真的态度吓了一跳，然后像害怕再次失控似的，低下头错开了我的视线。"));
-replaceString(L, 14, Str("say"), Str("阿尔萨斯，先尽量保持冷静，我想问你的问题是……"));
-replaceString(L, 15, Str("say"), Str("是不是在我和你接触时，你的情感模块比较容易失控？"));
-replaceString(L, 16, Str("say"), Str("唔……这、这个……"));
-replaceString(L, 17, Str("say"), Str("阿尔萨斯扭扭捏捏地思考着该如何回答，似乎很害羞但又不想隐瞒。"));
-replaceString(L, 18, Str("say"), Str("是……是这样的，因为阿尔萨斯没有办法抵抗指挥官发射过来的电波……"));
-replaceString(L, 19, Str("say"), Str("只要感受到指挥官的电波，阿尔萨斯的情感模块就、就会……"));
-replaceString(L, 20, Str("say"), Str("不、不过，经过今天在指挥官帮助下，阿尔萨斯对情感模块的控制能力已经得到强化了！"));
-replaceString(L, 21, Str("say"), Str("能……能多坚持几秒了！"));
-replaceString(L, 22, Str("say"), Str("这么说还是有效的……但需要一些更高效和更针对性的训练。"));
-replaceString(L, 23, Str("say"), Str("既然最大的影响因素是我，那就从更多地和我接触开始好了。"));
-replaceString(L, 24, Str("say"), Str("和和、和指挥官接触？不不不行的——！"));
-replaceString(L, 25, Str("say"), Str("我记得脱敏疗法也是这样吧，只要科学系统地从低到高让身体对过敏原产生耐受的话……"));
-replaceString(L, 26, Str("say"), Str("那、那这样的话，之后阿尔萨斯应该就不会这么容易失控了！"));
-replaceString(L, 27, Str("say"), Str("嗯，我们可以试试。就先从握手开始吧。"));
-replaceString(L, 28, Str("say"), Str("阿尔萨斯点点头，小心翼翼地把手一点点伸过来，先是指尖触碰在一起，接着轻轻握住。"));
-replaceString(L, 29, Str("say"), Str("好，现在放开。"));
-replaceString(L, 30, Str("say"), Str("呼……呼……欸？？"));
-replaceString(L, 31, Str("say"), Str("阿尔萨斯虽然还没完全理解这番用意，但还是老老实实听从了指令。"));
-replaceString(L, 32, Str("say"), Str("这样如何？"));
-replaceString(L, 33, Str("say"), Str("呼……呼……应该……应该可以吧……"));
-replaceString(L, 34, Str("say"), Str("阿尔萨斯满脸通红，但能看出她在努力忍耐着。"));
-replaceString(L, 35, Str("say"), Str("继续这样反复和阿尔萨斯握手再分开，她也随着接触次数的增多好像慢慢适应起来了。"));
-replaceString(L, 36, Str("say"), Str("下一步就是用手轻轻握住她的肩膀。"));
-replaceString(L, 37, Str("say"), Str("呜……"));
-replaceString(L, 38, Str("say"), Str("刚开始，她的反应还是很激烈，但很快再次就适应了这种程度的触碰。"));
-replaceString(L, 39, Str("say"), Str("（嗯……看来可以更进一步了。)"));
-replaceString(L, 40, Str("say"), Str("应该差不多了？接下来试试摸头如何？"));
-replaceString(L, 41, Str("say"), Str("欸？好、好好好的！指挥官……请……"));
-replaceString(L, 42, Str("say"), Str("阿尔萨斯闭上眼睛，一副紧张的模样。受她的影响我也不禁紧张起来。"));
-replaceString(L, 43, Str("say"), Str("正当我将手放在阿尔萨斯头上，准备继续时——"));
-replaceString(L, 44, Str("say"), Str("打扰了，执剑之人，这是你之前找我要的文件……"));
-replaceString(L, 45, Str("say"), Str("布伦努斯将虚掩的指挥室大门推开，随后表情有些奇怪地站在了门口。"));
-replaceString(L, 46, Str("say"), Str("……你们这是在练习什么话剧么？"));
-replaceString(L, 47, Str("say"), Str("练习话剧？"));
-replaceString(L, 48, Str("say"), Str("低头看向阿尔萨斯，此时的她仰着头，满脸潮红，不知为何还闭起了眼睛。"));
-replaceString(L, 49, Str("say"), Str("指挥官，阿、阿尔萨斯准备好了……！"));
-replaceString(L, 50, Str("say"), Str("……你要的文件我就放在这里了。"));
-replaceString(L, 51, Str("say"), Str("布伦努斯把文件放在离门最近的桌子上，然后一边用意味深长的眼神看着我，一边缓缓关上门。"));
-lua_pop(L, 1);
-}
-void JIDIFENGBAO15(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("分队代号「孤狼」"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("旗舰：库尔斯克"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("塞壬第一防御圈外围·利亚霍夫群岛一侧"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("极光汇聚之处代表着海上的异常之处\"，同盟同志在布置任务的时候有这么说过吧~"));
-replaceString(L, 3, Str("say"), Str("你们看，现在天上的极光确实很明显，说明这次我们真的要有所发现了！"));
-replaceString(L, 4, Str("say"), Str("呼呼呼……不知道我们能发现什么呢！"));
-replaceString(L, 5, Str("say"), Str("会是清除者的主机么……还是说，什么新的塞壬神秘基地呢！"));
-replaceString(L, 6, Str("say"), Str("……你错了，塞瓦斯托波尔同志。"));
-replaceString(L, 7, Str("say"), Str("欸……？我错哪里了？"));
-replaceString(L, 8, Str("say"), Str("……我们上空的极光，变淡了。"));
-replaceString(L, 9, Str("say"), Str("……伏罗希洛夫同志，启动航标再看一下，我有种不好的预感。"));
-replaceString(L, 10, Str("say"), Str("正在启动航标————"));
-replaceString(L, 11, Str("say"), Str("系统运行良好，信号捕捉…………存在问题。"));
-replaceString(L, 12, Str("say"), Str("……现在出现在装置中的应该是我们最初追踪的那个信号，位于远方。"));
-replaceString(L, 13, Str("say"), Str("而后面我们设定为目标的那处信号已经消失了。"));
-replaceString(L, 14, Str("say"), Str("什么？！消失了……？"));
-replaceString(L, 15, Str("say"), Str("难道是被塞壬隐藏起来了么？！"));
-replaceString(L, 16, Str("say"), Str("如果它们能做到的话，最初我们就不会侦测到任何信号。"));
-replaceString(L, 17, Str("say"), Str("那是怎么回事……？"));
-replaceString(L, 18, Str("say"), Str("如果我们在追寻的异常点是某种设备的话……将其临时关停，也可以使信号源消失。"));
-replaceString(L, 19, Str("say"), Str("那为什么没有全部关停？"));
-replaceString(L, 20, Str("say"), Str("情报不足，我无法确定。"));
-replaceString(L, 21, Str("say"), Str("但是我们一路上没有与塞壬发生任何战斗，暴露的可能性非常低。"));
-replaceString(L, 22, Str("say"), Str("而依然有异常信号被捕获到，我也不认为是曙光航标出现了故障……"));
-replaceString(L, 23, Str("say"), Str("唯一可能的解释就是，我们追踪的异常信号本身……发生了某些问题。"));
-replaceString(L, 24, Str("say"), Str("只有一种方法能确定……加速前进，我们前往下一处异常点。"));
-lua_pop(L, 1);
-}
-void AKASHI6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("一名优秀的指挥官应该不断挑战自己的极限喵！"));
-replaceString(L, 2, Str("say"), Str("——就是那个挑战喵！让明石看看指挥官的毅力喵！"));
-replaceString(L, 3, Str("say"), Str("有缺什么就来明石这看看，明石会尽力支援指挥官的喵！"));
-replaceString(L, 4, Str("say"), Str("首先是商船护送喵！加油奋斗喵！"));
-lua_pop(L, 1);
-}
-void W803002(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("在塞壬实验场中出现了一群正在游动的可爱海豹？追上去调查一下吧……"));
-lua_pop(L, 1);
-}
-void XINGHAIZHUGUANG33(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("鸢尾教国·首都"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("碧蓝航线临时办公楼"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("加密终端中，收到了星海基地发来的事故报告。"));
-replaceString(L, 3, Str("say"), Str("\"事故\"啊……还真是足够自适应的分类标准。"));
-replaceString(L, 4, Str("say"), Str("……对方，是自称为联合理事会的舰队么。"));
-replaceString(L, 5, Str("say"), Str("那个理事会的徽记同样在水下密室的行动中见到过。"));
-replaceString(L, 6, Str("say"), Str("这么说来……那次看到的场景就发生在理事会的会议大厅中了。"));
-replaceString(L, 7, Str("say"), Str("而这位「银狐」女士是理事会的常任委员，且知道奥斯塔的存在……"));
-replaceString(L, 8, Str("say"), Str("难道安洁和奥斯塔在理事会中任职……？"));
-replaceString(L, 9, Str("say"), Str("我曾经与他们一起，所以我也应该在理事会中任职……？"));
-replaceString(L, 10, Str("say"), Str("……还有新的安蒂克丝系统，战争协议。"));
-replaceString(L, 11, Str("say"), Str("为什么一直以来从来都没有见过隶属于这个系统的塞壬出现过……"));
-replaceString(L, 12, Str("say"), Str("再加上心智魔方上的限制，可控的META化……"));
-replaceString(L, 13, Str("say"), Str("…………"));
-replaceString(L, 14, Str("say"), Str("不行，脑海中什么信息都没有。"));
-replaceString(L, 15, Str("say"), Str("……明明有些时候这些闪回的记忆会不分时间场合地跳出来。"));
-replaceString(L, 16, Str("say"), Str("说起来……每次有这种感觉的时候，都是在特殊的镜面海域中或者星海的模拟世界中……"));
-replaceString(L, 17, Str("say"), Str("而且在星海中的次数最多……"));
-replaceString(L, 18, Str("say"), Str("那个迪贝路所提出的疑问……\"银河之心生成的模拟世界在哪里\"。"));
-replaceString(L, 19, Str("say"), Str("以我的权限能查到的答案里看不出任何异常……"));
-replaceString(L, 20, Str("say"), Str("这支神秘的理事会舰队的存在，或许是揭开一切谜团的关键……"));
-replaceString(L, 21, Str("say"), Str("如果能再次见到的话……"));
-replaceString(L, 22, Str("say"), Str("但是那个信标本身……更像是个充满恶意的惊喜盒子。"));
-replaceString(L, 23, Str("say"), Str("关于黑色风暴……也就是「噩兆天象」的事，伊丽莎白还专门发消息警告过其危险性。"));
-replaceString(L, 24, Str("say"), Str("……信标绝对不能被复原。"));
-replaceString(L, 25, Str("say"), Str("现阶段没有任何激进研究的必要，将研究重心转移回到II型舰装项目中吧……"));
-lua_pop(L, 1);
-}
-void YUZHEDETIANPING38(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("？？？·？？？"));
-replaceString(L, 2, Str("say"), Str("睁开双眼后，面前是一个昏暗的大厅。"));
-replaceString(L, 3, Str("say"), Str("大厅的布局有些……似曾相识。"));
-replaceString(L, 4, Str("say"), Str("…………"));
-replaceString(L, 5, Str("say"), Str("海洛芬特站在一旁，轻轻举起权杖。"));
-replaceString(L, 6, Str("say"), Str("不过在祂决定发动攻击前，从远方的昏暗中，由远及近传来了两个声音。"));
-replaceString(L, 7, Str("say"), Str("大厅之中似乎……还有其他人？"));
-replaceString(L, 8, Str("say"), Str("…………"));
-replaceString(L, 9, Str("say"), Str("海洛芬特放下了权杖，转头看向远方。"));
-replaceString(L, 10, Str("say"), Str("……鉴于战局日渐僵持的现状，我已经得到了加速研发的命令。"));
-replaceString(L, 11, Str("say"), Str("目前，新一代安蒂克丝的生产已经进入了实质性流程。"));
-replaceString(L, 12, Str("say"), Str("我将其命名为仲裁机关系统，以期她们能够在未来成为一支能终结这场战争的力量。"));
-replaceString(L, 13, Str("say"), Str("不过现在嘛……距离最终目标还差得远呢。"));
-replaceString(L, 14, Str("say"), Str("请允许我在此向你隆重介绍，仲裁机关系统的第一个成员——冠以「教皇」之名的海洛芬特。"));
-replaceString(L, 15, Str("say"), Str("……第一个？"));
-replaceString(L, 16, Str("say"), Str("那是当然，你不会把玲也算进来了吧？"));
-replaceString(L, 17, Str("say"), Str("她的话，目前是独立编制，没有被算在任何系统里。"));
-replaceString(L, 18, Str("say"), Str("说回海洛芬特。作为仲裁机关系统的第一位成员，她同时还承担着作为计划对外名片的责任。"));
-replaceString(L, 19, Str("say"), Str("所以在设计的时候，我格外强化了她的交流与亲和力。"));
-replaceString(L, 20, Str("say"), Str("其搭载的升级版智能分析系统能够让她更好地理解交流对象，并且像个真正的人类一样进行对话。"));
-replaceString(L, 21, Str("say"), Str("在历次测试中，没有任何一个人成功察觉出自己其实是在跟AI交流，堪称目前最成功的作品。"));
-replaceString(L, 22, Str("say"), Str("当然，经过强化的交流能力远不仅如此。"));
-replaceString(L, 23, Str("say"), Str("除了与人类交流之外，这套装置还能够理解和模拟非人类语言。"));
-replaceString(L, 24, Str("say"), Str("目前已经在猫、狗、海豚上都取得了成功。"));
-replaceString(L, 25, Str("say"), Str("我相信随着后续升级迭代，海洛芬特在\"交流\"上表现会更加出色的。"));
-replaceString(L, 26, Str("say"), Str("变为更为出色的白毛美少女……？"));
-replaceString(L, 27, Str("say"), Str("咳……正如我此前多次强调过的——"));
-replaceString(L, 28, Str("say"), Str("\"针对成熟稳定的模板进行的改进——\"对吧……？"));
-replaceString(L, 29, Str("say"), Str("正是如此！"));
-replaceString(L, 30, Str("say"), Str("好……那第二个问题，为什么是从第五号的教皇开始的？"));
-replaceString(L, 31, Str("say"), Str("你不打算按照顺序进行么？"));
-replaceString(L, 32, Str("say"), Str("有考虑过。不过现在还只是计划初期，老实说我也不确定能否最终将所有编号全部做出来。"));
-replaceString(L, 33, Str("say"), Str("而且这种事是很需要灵感的，所以综合考虑之下，决定先从教皇开始了。"));
-replaceString(L, 34, Str("say"), Str("教皇之卡，有着财富、交流与引导的含义……"));
-replaceString(L, 35, Str("say"), Str("难得见你会这么充满热情的研发非作战用的设备啊。"));
-replaceString(L, 36, Str("say"), Str("这次你叫我来之前，我还以为又要看什么新型杀伤性武器呢。"));
-replaceString(L, 37, Str("say"), Str("连你都这样……那就更说明海洛芬特存在的必要性了。"));
-replaceString(L, 38, Str("say"), Str("现在的局势你也清楚，资源是极其宝贵的。"));
-replaceString(L, 39, Str("say"), Str("海洛芬特的存在有助于消除民众对于安蒂克丝系统的刻板印象。"));
-replaceString(L, 40, Str("say"), Str("不论是参与政治斡旋，还是对于资源争取都是极其有利的。"));
-replaceString(L, 41, Str("say"), Str("原来你想的是这些方面。"));
-replaceString(L, 42, Str("say"), Str("那你有想过一个可能性么？"));
-replaceString(L, 43, Str("say"), Str("如果这种交流能力能够继续发展……也许有一天，她能帮助我们搭建与X交流的渠道。"));
-replaceString(L, 44, Str("say"), Str("只要能够交流，我们就拥有了除了战斗之外的第二选择，不是么？"));
-replaceString(L, 45, Str("say"), Str("尤其是……在当前的战况下。"));
-replaceString(L, 46, Str("say"), Str("唉……（苦笑）。"));
-replaceString(L, 47, Str("say"), Str("你这什么表情啊……"));
-replaceString(L, 48, Str("say"), Str("助手，你怎么看？"));
-replaceString(L, 49, Str("say"), Str("（…………我怎么看？！）"));
-replaceString(L, 50, Str("say"), Str("（这里难道不是单纯的……播放记录么？）"));
-replaceString(L, 51, Str("say"), Str("…………"));
-replaceString(L, 52, Str("say"), Str("一旁的海洛芬特也看了过来，似乎在等待着答案。"));
-replaceString(L, 53, Str("say"), Str("……………………"));
-getByList(L,53);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("支持安洁"));
-replaceString(L, 2, Str("content"), Str("支持奥斯塔"));
-lua_pop(L,2);
-replaceString(L, 54, Str("say"), Str("如果能够与敌人交流的话，或许真的能找到战斗之外的方法。"));
-replaceString(L, 55, Str("say"), Str("哼哼~我就知道助手和我想的一样。"));
-replaceString(L, 56, Str("say"), Str("安洁从黑暗中走出，她的身影逐渐模糊，但声音依然清澈。"));
-replaceString(L, 57, Str("say"), Str("海洛芬特，你辛苦啦，和助手相处的还愉快么？"));
-replaceString(L, 58, Str("say"), Str("…………"));
-replaceString(L, 59, Str("say"), Str("海洛芬特没有说话，不过似乎有一道光芒从她的眼中闪过。"));
-replaceString(L, 60, Str("say"), Str("如果能够与敌人交流的话，就能更好的知晓其弱点，也就能更好的消灭敌人了。"));
-replaceString(L, 61, Str("say"), Str("不错，真是理性的看法。"));
-replaceString(L, 62, Str("say"), Str("如果在未来真的得到了与X交流的方法，也要将这项技术投入战争之中。"));
-replaceString(L, 63, Str("say"), Str("血债血偿……必须要让它们付出代价才行。"));
-replaceString(L, 64, Str("say"), Str("奥斯塔从黑暗中走出，他的身影逐渐模糊，但声音依然洪亮。"));
-replaceString(L, 65, Str("say"), Str("海洛芬特，你的使命已经告一段落，该休息了。"));
-replaceString(L, 66, Str("say"), Str("海洛芬特没有抵抗，只是任凭机体停止代码执行、生效。"));
-replaceString(L, 67, Str("say"), Str("光芒之中，安洁、奥斯塔、海洛芬特与整个空间都消散了。"));
-replaceString(L, 68, Str("say"), Str("远方出现了一道门。"));
-replaceString(L, 69, Str("say"), Str("一道，似曾相识的门……"));
-replaceString(L, 70, Str("say"), Str("看来，离开的时间到了——"));
-replaceString(L, 71, Str("say"), Str("眼前，是博览会会场。"));
-replaceString(L, 72, Str("say"), Str("准确来说，是笼罩在静谧月色下的博览会会场。"));
-replaceString(L, 73, Str("say"), Str("天空与大地恢复了正常，神的国度，那片承载着马可波罗虚妄的世界消散了。"));
-replaceString(L, 74, Str("say"), Str("此刻是如此宁静，如同无数夜晚中的平凡一夜，如同什么事都未曾发生过一般。"));
-replaceString(L, 75, Str("say"), Str("然而手中传来的重量似乎在无言诉说着，刚才所经历的一切都是真实的。"));
-replaceString(L, 76, Str("say"), Str("鸢尾教国的圣物——圣座冠冕，此刻正静静躺在我的怀中。"));
-replaceString(L, 77, Str("say"), Str("在最后关头所看到的一切以及海洛芬特的突然消失……都与圣座冠冕有关么？"));
-replaceString(L, 78, Str("say"), Str("我无法确定，也没有足够的证据支持我得出任何结论。"));
-replaceString(L, 79, Str("say"), Str("不过通讯器中一次性接入的大量通讯请求似乎宣示着，有另一件迫在眉睫的事需要处理。"));
-replaceString(L, 80, Str("say"), Str("也是……毕竟突然消失了好一阵子。"));
-replaceString(L, 81, Str("say"), Str("博览会的闭幕式……过几天再好好开一次吧。"));
-lua_pop(L, 1);
-}
-void SAICHEDAFUWENGEVENTV2_4_1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("展现了路过的猫猫看了都要感叹的精湛车技，获得了【喵箱SR型*1】"));
-lua_pop(L, 1);
-}
-void S007(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("大姐头！你们终于来了"));
-replaceString(L, 2, Str("say"), Str("你们做的很好，接下来一起给铁血点颜色瞧瞧！目标，敌方舰队首舰俾斯麦，一齐射击！"));
-replaceString(L, 3, Str("say"), Str("\"皇家舰队的荣耀\"…吗？这样才有意思嘛~倒要看看你们的实力能够满足得了我吗？"));
-lua_pop(L, 1);
-}
-void HUANMENGJIANZOUQU4_1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("鸢尾教国·圣米歇尔山港"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("「和平间奏曲」·演习海域"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("7月25日"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("阳光明媚，晴空万里。圣米歇尔山上，四大阵营的旗帜随风飘扬。"));
-replaceString(L, 3, Str("say"), Str("此刻，各舰队所属的量产型和舰船依次就位，「和平间奏曲」演习即将开始。"));
-replaceString(L, 4, Str("say"), Str("呜……通宵、加班、加班、通宵……总算按时准备好了。"));
-replaceString(L, 5, Str("say"), Str("目前为止都没有出现什么差错……真是太好了。"));
-replaceString(L, 6, Str("say"), Str("了不起哦，迪普莱克斯。"));
-replaceString(L, 7, Str("say"), Str("不过也\"只是到目前为止\"，演习才刚刚开始呢。"));
-replaceString(L, 8, Str("say"), Str("我知道我知道，阶段性安心，阶段性安心嘛……"));
-replaceString(L, 9, Str("say"), Str("呼……接下来该专心处理演习本身上了。"));
-replaceString(L, 10, Str("say"), Str("这次赛制要求每支队伍依次与其他三支队伍交手，不根据战果做排名，完成流程就算圆满结束。"));
-replaceString(L, 11, Str("say"), Str("倒确实算是体现友好交流的设计。"));
-replaceString(L, 12, Str("say"), Str("但是没有假定目标，直接拿彼此当做假想敌是不是有些……"));
-replaceString(L, 13, Str("say"), Str("咳，这件事得换一个角度看。"));
-replaceString(L, 14, Str("say"), Str("没有什么比面对面直接交手更能看出彼此的优势和劣势了吧？"));
-replaceString(L, 15, Str("say"), Str("嗯——有道理。那我们就准备出发吧。"));
-replaceString(L, 16, Str("say"), Str("本次演习由我们鸢尾舰队最先开始，黎塞留大人也在圣堂会场看着我们，打起精神来。"));
-replaceString(L, 17, Str("say"), Str("…………"));
-replaceString(L, 18, Str("say"), Str("……斯特拉斯堡？"));
-replaceString(L, 19, Str("say"), Str("抱歉。我刚刚走神了。"));
-replaceString(L, 20, Str("say"), Str("嗯……你说的没错。大家打起精神来，我们出发。"));
-lua_pop(L, 1);
-}
-void WNG07B(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("G.M.系统还感知到了其他的可战斗对象，为了提供更全面的分析数据，全部击破它们吧！"));
-lua_pop(L, 1);
-}
-void KANGKEDE7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("康克德与甜食\n\n<size=45>七　来自康克德的糖分</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("糖分互助联盟的又一次聚会——"));
-replaceString(L, 3, Str("say"), Str("久等了，今天的第一道甜品是松饼。"));
-replaceString(L, 4, Str("say"), Str("是糖分充足的松饼！"));
-replaceString(L, 5, Str("say"), Str("哇啊啊——的确能够激起食欲！"));
-replaceString(L, 6, Str("say"), Str("嗯~嗯……（微笑）"));
-replaceString(L, 7, Str("say"), Str("就像上次的聚会那样，康克德的话很少。"));
-replaceString(L, 8, Str("say"), Str("这是今天我做的最后一道甜品咯，呵呵，大家尽情享用吧！"));
-replaceString(L, 9, Str("say"), Str("哦哦——！"));
-replaceString(L, 10, Str("say"), Str("聚会结束后"));
-replaceString(L, 11, Str("say"), Str("指挥官，我给你准备了个东西~稍等我一会哦♪"));
-replaceString(L, 12, Str("say"), Str("过了一小会儿——"));
-replaceString(L, 13, Str("say"), Str("康克德特制马卡龙来啦~嘻嘻，从敦刻尔克小姐那边得到了不少帮助就是~"));
-replaceString(L, 14, Str("say"), Str("指挥官，作为康克德的试吃专员，快来第一个尝尝吧~♪"));
-replaceString(L, 15, Str("say"), Str("这次不会让你失望的～"));
-replaceString(L, 16, Str("say"), Str("盘子中放着各种颜色的马卡龙，是考虑到了不同人的喜好吗？"));
-getByList(L,16);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("试吃一个"));
-lua_pop(L,2);
-replaceString(L, 17, Str("say"), Str("果然…还是很甜，不过——"));
-replaceString(L, 18, Str("say"), Str("好吃？唔？很有我的风格？真的？嘻嘻，谢谢夸奖～"));
-replaceString(L, 19, Str("say"), Str("果然甜食还是要像这样满满～的糖分才对嘛～"));
-replaceString(L, 20, Str("say"), Str("虽然槽点很多，不过这大概就是康克德的风格吧"));
-getByList(L,20);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("告诉康克德\"做你自己就好\""));
-lua_pop(L,2);
-replaceString(L, 21, Str("say"), Str("嘻嘻～既然指挥官都这么说了，那就～再多吃几个吧～"));
-replaceString(L, 22, Str("say"), Str("啊～～嗯～～"));
-lua_pop(L, 1);
-}
-void XIAWANJIANDEFANJI2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("唔…Z9和Z11一直跟着我们后面，Z17来了，那边的是Z12……Z19还是没到。"));
-replaceString(L, 2, Str("say"), Str("撤退命令已经发出去半小时了，Z19还是没来么…"));
-replaceString(L, 3, Str("say"), Str("明明之前和厌战交战的时候还和我们在一起，难道说那时候通讯设备被打坏了么！"));
-replaceString(L, 4, Str("say"), Str("……这样的话她可能根本就没收到撤退的命令。"));
-replaceString(L, 5, Str("say"), Str("我们的弹药已经快要见底，这下麻烦了呢…"));
-lua_pop(L, 1);
-}
-void SHISHANGTEKANSAICHE1(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("港区时尚特刊：Race Begins！\n\n<size=45>轰鸣的银轮</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("……指挥官，妾身现在这样的姿势。"));
-replaceString(L, 3, Str("say"), Str("……如何？"));
-replaceString(L, 4, Str("say"), Str("感觉已经到位了。不过，或许选用这个姿势的话……效果会更好。"));
-replaceString(L, 5, Str("say"), Str("唔……确如汝所言。那就——"));
-replaceString(L, 6, Str("say"), Str("此刻，身着赛车女郎服的信浓正趴在车顶小心调整着姿势。"));
-replaceString(L, 7, Str("say"), Str("而我则手持相机立于一旁。"));
-replaceString(L, 8, Str("say"), Str("要问事情为什么会变成这样……"));
-replaceString(L, 9, Str("say"), Str("还要从同意前来应援的信浓，以及拍照到一半因为急事离开的青叶开始说了……"));
-replaceString(L, 10, Str("say"), Str("这个姿势……汝觉得如何？"));
-replaceString(L, 11, Str("say"), Str("似乎，信浓终于选定了拍照的姿势。"));
-replaceString(L, 12, Str("say"), Str("可如青叶所给的参考图上一般？"));
-replaceString(L, 13, Str("say"), Str("…………"));
-getByList(L,13);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("非常完美！"));
-lua_pop(L,2);
-replaceString(L, 14, Str("say"), Str("呼……汝能喜欢就好。"));
-replaceString(L, 15, Str("say"), Str("不过……这般姿势，稍微有些害羞呢……"));
-replaceString(L, 16, Str("say"), Str("也罢……既同意了应援之事，妾身必定全力以赴……"));
-replaceString(L, 17, Str("say"), Str("那么，我们就先试着拍几张吧？"));
-replaceString(L, 18, Str("say"), Str("嗯……汝尽管拍吧！"));
-replaceString(L, 19, Str("say"), Str("不知为何，信浓突然鼓起了一股气势。"));
-replaceString(L, 20, Str("say"), Str("也因此，抓到了一个不错的镜头呢——"));
-lua_pop(L, 1);
-}
-void HAIDAOSUIJI6(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("探险途中，发现了一处看起来有些阴森的洞穴……"));
-replaceString(L, 2, Str("say"), Str("似乎里面还有光芒在闪烁。"));
-replaceString(L, 3, Str("say"), Str("看起来有点恐怖……会是猛兽的洞穴吗？"));
-replaceString(L, 4, Str("say"), Str("说不定能在里面找到些意想不到的东西……比如软软的抱枕什么的……"));
-replaceString(L, 5, Str("say"), Str("野外不会有那种东西啦……不过可能会有RPG里常见的奖励，比如宝箱什么的哦？"));
-replaceString(L, 6, Str("say"), Str("……附近没看到动物活动的痕迹，这里应该已经被废弃很久了吧。指挥官，还是由你来决定吧~"));
-replaceString(L, 7, Str("say"), Str("随机事件总是风险与收益并存的……你最终决定——"));
-getByList(L,7);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("进去看看"));
-replaceString(L, 2, Str("content"), Str("转身离开"));
-lua_pop(L,2);
-lua_pop(L, 1);
-}
-void MAIZANGYUBIANZHIHUA13(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("埋葬于彼岸之花\n\n<size=45>另一个计划</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("仪式已经完成，现世与彼岸的桥梁已经联通。"));
-replaceString(L, 3, Str("say"), Str("可是，那个本应该出现在此的苍红色身影，却并未到来。"));
-replaceString(L, 4, Str("say"), Str("……樱花树满开之后，姐姐应当自花海中现身才是。"));
-replaceString(L, 5, Str("say"), Str("哈……哈哈……哈哈哈哈哈……"));
-replaceString(L, 6, Str("say"), Str("啊哈哈哈哈哈哈哈哈哈哈——！"));
-replaceString(L, 7, Str("say"), Str("到头来……竟是一场空么。"));
-replaceString(L, 8, Str("say"), Str("我设想过千种万种结局……唯独没想到会是这一种。"));
-replaceString(L, 9, Str("say"), Str("复活的不是姐姐……只是一棵枯萎的樱花树？！"));
-replaceString(L, 10, Str("say"), Str("啊哈哈哈哈哈……！"));
-replaceString(L, 11, Str("say"), Str("朱红色的少女死死握住手中护符的碎片，纵使鲜血直流，亦不放松。"));
-replaceString(L, 12, Str("say"), Str("我想起来了……"));
-replaceString(L, 13, Str("say"), Str("在AF战场的那一次……也是姐姐的护符保护了我。"));
-replaceString(L, 14, Str("say"), Str("所以护符才会消失不见了……"));
-replaceString(L, 15, Str("say"), Str("……而如今，姐姐又保护了我一次。"));
-replaceString(L, 16, Str("say"), Str("……那是她留下来的最后的东西。"));
-replaceString(L, 17, Str("say"), Str("姐姐已经永远离开了……我再也见不到她了……"));
-replaceString(L, 18, Str("say"), Str("……姐姐再也不能保护我了。"));
-replaceString(L, 19, Str("say"), Str("没有人再会保护我了……"));
-replaceString(L, 20, Str("say"), Str("啊哈哈……哈哈……"));
-replaceString(L, 21, Str("say"), Str("加贺……你真蠢……"));
-replaceString(L, 22, Str("say"), Str("你早知事不可为……为何要陪我胡闹呢……"));
-replaceString(L, 23, Str("say"), Str("我对你素无防备……如果你想要阻止我的话……"));
-replaceString(L, 24, Str("say"), Str("该是多么轻而易举的事……"));
-replaceString(L, 25, Str("say"), Str("你真是、真是……"));
-replaceString(L, 26, Str("say"), Str("为什么，事情会走到现在这一步呢……"));
-replaceString(L, 27, Str("say"), Str("远方，由魑魅魍魉组成的黑色浪潮正在向樱花树下涌来。"));
-replaceString(L, 28, Str("say"), Str("……仪式完成之后，就想卸磨杀驴……连我也一同吞噬了么。"));
-replaceString(L, 29, Str("say"), Str("……也好，既然在现世无法相见。"));
-replaceString(L, 30, Str("say"), Str("……那就让我们在彼岸团聚吧，姐姐，加贺……"));
-replaceString(L, 31, Str("say"), Str("轰——————！"));
-replaceString(L, 32, Str("say"), Str("……舰载机空袭？"));
-replaceString(L, 33, Str("say"), Str("前辈——赤城前辈——能听到么！"));
-replaceString(L, 34, Str("say"), Str("侵蚀正在四处蔓延，仪式的结果不会如你所愿的，快停止仪式——！"));
-replaceString(L, 35, Str("say"), Str("……瑞鹤？武藏不是早把她打发走了么……怎么能追到这里来。"));
-replaceString(L, 36, Str("say"), Str("轰——————！"));
-replaceString(L, 37, Str("say"), Str("天空之上，除了瑞鹤的舰载机外，更多的舰载机正从远方列队飞来。"));
-replaceString(L, 38, Str("say"), Str("如果仔细观察的话，这些舰载机飞来的方向，正好是武藏劈开结界产生缝隙的方向。"));
-replaceString(L, 39, Str("say"), Str("赤城前辈！龙凤带队前来支援，您还好么！"));
-replaceString(L, 40, Str("say"), Str("……龙凤？！"));
-replaceString(L, 41, Str("say"), Str("滴————"));
-replaceString(L, 42, Str("say"), Str("龙凤！真是胡闹，你回来做什么？！"));
-replaceString(L, 43, Str("say"), Str("太好了，赤城前辈您没事！"));
-replaceString(L, 44, Str("say"), Str("我是和长门大人带着其他阵营的援军一起回来的！"));
-replaceString(L, 45, Str("say"), Str("……其他阵营的……援军？"));
-replaceString(L, 46, Str("say"), Str("没错！长门大人已经带领援军回来增援了！"));
-replaceString(L, 47, Str("say"), Str("局面还没有失控！只要摧毁仪式法阵，一切都有挽回的余地！"));
-replaceString(L, 48, Str("say"), Str("……挽回，哈哈……要如何挽回？"));
-replaceString(L, 49, Str("say"), Str("我花了这么多年，无数筹谋、准备。算计……结果如你所见。"));
-replaceString(L, 50, Str("say"), Str("逝人已去……如何挽回？"));
-replaceString(L, 51, Str("say"), Str("至、至少对于活着的人来说……"));
-replaceString(L, 52, Str("say"), Str("不，不能摧毁仪式法阵。"));
-replaceString(L, 53, Str("say"), Str("长门大人？！"));
-replaceString(L, 54, Str("say"), Str("特殊的奇异点「奈落」已经形成。"));
-replaceString(L, 55, Str("say"), Str("如果此时摧毁仪式法阵，才是真正的前功尽弃。"));
-replaceString(L, 56, Str("say"), Str("赤城，汝虽然一意孤行，伤害了重樱、伤害了同伴、亦伤害了自己。"));
-replaceString(L, 57, Str("say"), Str("然，汝所做之事，并非尽为徒劳。"));
-replaceString(L, 58, Str("say"), Str("在如今的形势下，汝之愿望，天城之复活……是有可能的。"));
-replaceString(L, 59, Str("say"), Str("不仅如此……这场仪式之中出现的所有牺牲……亦有挽回余地！"));
-replaceString(L, 60, Str("say"), Str("你说的……可是真的？"));
-replaceString(L, 61, Str("say"), Str("绝无虚言。"));
-replaceString(L, 62, Str("say"), Str("不过……提出这个想法的并非吾，而是{playername}阁下。"));
-replaceString(L, 63, Str("say"), Str("赤城，这位碧蓝航线的指挥官有一个计划，希望能和你聊一聊——"));
-getByList(L,64);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("祸兮福之所倚，福兮祸之所伏。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,64);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,2);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("希望之后是失望。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,64);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,3);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("而失望之后——希望亦相随。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,64);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,4);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("努力，将会带来回报。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,64);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,5);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("一切准备，一切谋划，都不是徒劳的。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,64);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,6);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("这场牵动着所有阵营的战役仍在继续。"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,64);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,7);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("而那彼方之音，依然在星间回荡着——"));
-lua_settable(L, -3);
-lua_pop(L,3);
-getByList(L,65);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("——未完待续"));
-lua_settable(L, -3);
-lua_pop(L,3);
-lua_pop(L, 1);
-}
-void WTask000C(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("港口海域中的海洋垃圾清理完毕，任务完成！"));
-lua_pop(L, 1);
-}
-void NAERWEIKE5(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("你们是怎么突破进来的？！"));
-replaceString(L, 2, Str("say"), Str("这个问题，去问你们巡逻的人吧！"));
-replaceString(L, 3, Str("say"), Str("站住！"));
-replaceString(L, 4, Str("say"), Str("勇敢，风雪变大了，趁这个机会……"));
-replaceString(L, 5, Str("say"), Str("走！"));
-replaceString(L, 6, Str("say"), Str("……可恶，让她们突破过去了。"));
-replaceString(L, 7, Str("say"), Str("呼，没办法，毕竟我们补给不足，而且对方来的太突然，我们完全没有准备……"));
-replaceString(L, 8, Str("say"), Str("Z18，快，我们继续追！"));
-replaceString(L, 9, Str("say"), Str("…不要那么急躁呀，Z19"));
-replaceString(L, 10, Str("say"), Str("风雪这么大，我们现在又补给不足，对方要是想躲的话，我们肯定是追不上的。"));
-replaceString(L, 11, Str("say"), Str("可是皇家出现在这里，肯定是要袭击港口啦！"));
-replaceString(L, 12, Str("say"), Str("所以我们直接去港口就好啦"));
-replaceString(L, 13, Str("say"), Str("而且还得要立刻给Z21和Z2发警报，让她们做好准备，并且让Z2带着其他人赶回来才行呢"));
-replaceString(L, 14, Str("say"), Str("……你说得对。"));
-replaceString(L, 15, Str("say"), Str("呼…不过说实话，我们现在很难构成战斗力呢……"));
-replaceString(L, 16, Str("say"), Str("哼，要不是皇家来的这么突然——"));
-replaceString(L, 17, Str("say"), Str("啊哈哈，她们不可能知道我们补给不足的情况，只能说运气不好吧…"));
-replaceString(L, 18, Str("say"), Str("不过，我们也有能做到的事，接敌可以交给Z21，我们至少要保住补给船。不然的话，大家连回家都会成问题呢。"));
-replaceString(L, 19, Str("say"), Str("唔，好吧……反正我说不过你。"));
-replaceString(L, 20, Str("say"), Str("好啦，不要老是皱着眉头，来，笑一笑~"));
-lua_pop(L, 1);
-}
-void AIGUANQIA7(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("这就是下一片镜面海域吗…感觉有点吵闹呢"));
-replaceString(L, 2, Str("say"), Str("―――！"));
-replaceString(L, 3, Str("say"), Str("………！"));
-replaceString(L, 4, Str("say"), Str("这是……演唱会……？圣地亚哥…？"));
-replaceString(L, 5, Str("say"), Str("为什么会在这种地方开演唱会啦～～！？"));
-replaceString(L, 6, Str("say"), Str("咚！"));
-replaceString(L, 7, Str("say"), Str("一起打过来了…！"));
-replaceString(L, 8, Str("say"), Str("原来如此！这就是所谓的\"人海战术\"吧！"));
-replaceString(L, 9, Str("say"), Str("没办法，只能一边打倒绊爱(伪)一边进行调查了"));
-replaceString(L, 10, Str("say"), Str("明白了！有如今的我在，消灭敌人什么的，简直就是小菜一碟啦！"));
-replaceString(L, 11, Str("say"), Str("就从那个绊爱(伪)开始吧～！嘿呀～！"));
-replaceString(L, 12, Str("say"), Str("啊，爱小姐，不可以一个人冲那么快啦！"));
-replaceString(L, 13, Str("say"), Str("………！！！"));
-replaceString(L, 14, Str("say"), Str("咚！"));
-replaceString(L, 15, Str("say"), Str("啊啊啊啊啊啊啊啊啊啊啊啊！"));
-replaceString(L, 16, Str("say"), Str("大～家～救～救～我～～～～！！！"));
-replaceString(L, 17, Str("say"), Str("原来如此，这就是所谓的\"一级插旗师\"吧！好厉害！"));
-replaceString(L, 18, Str("say"), Str("迅如疾风的flag回收速度，佩服…的说"));
-replaceString(L, 19, Str("say"), Str("绊爱是一级插旗师…"));
-replaceString(L, 20, Str("say"), Str("这、这种有点冒冒失失的感觉，是不是更讨指挥官的喜欢呢……？"));
-replaceString(L, 21, Str("say"), Str("别在那发表感想了，我们快去帮帮她吧！"));
-replaceString(L, 22, Str("say"), Str("唔，不过…果然还是很难分清哪个才是本尊呢……"));
-lua_pop(L, 1);
-}
-void KAIXUE07(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("樱花烂漫开学祭\n\n<size=45>七　新学年的开始</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("呜呜…没想到姐姐的说教真的那么久…"));
-replaceString(L, 3, Str("say"), Str("以、以后再也不敢轻易招惹风纪委员了…"));
-replaceString(L, 4, Str("say"), Str("……"));
-replaceString(L, 5, Str("say"), Str("哦！是指挥官呀！"));
-replaceString(L, 6, Str("say"), Str("哦？真难得，指挥官这是来学院巡视吗~"));
-replaceString(L, 7, Str("say"), Str("……"));
-replaceString(L, 8, Str("say"), Str("学校有趣吗？当然有趣啦~"));
-replaceString(L, 9, Str("say"), Str("比起有趣不有趣，在学校学习提高自身能力，也是我们除了战斗之外的重要任务吧"));
-replaceString(L, 10, Str("say"), Str("嘿~真不像会从\"不良少女\"口中讲出来的话呢~"));
-replaceString(L, 11, Str("say"), Str("啊，一不小心…"));
-replaceString(L, 12, Str("say"), Str("……"));
-getByList(L,12);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("为什么是不良少女？"));
-lua_pop(L,2);
-replaceString(L, 13, Str("say"), Str("因为姐姐是风纪委员嘛…总觉得就这样下去，姐姐就都忙着管别人了…"));
-replaceString(L, 14, Str("say"), Str("而且你看，既然有风纪委员，就应该有不良少女才对嘛？"));
-replaceString(L, 15, Str("say"), Str("啊哈哈哈哈，飞龙真是可爱的姐控啊~"));
-replaceString(L, 16, Str("say"), Str("什、什么啦！"));
-replaceString(L, 17, Str("say"), Str("放心吧，作为Z驱的大姐，我可以跟你打包票，世上是不会有不关心妹妹的姐姐的~"));
-replaceString(L, 18, Str("say"), Str("呜哇…都这么晚了…天都开始黑了——"));
-replaceString(L, 19, Str("say"), Str("吹雪，不好意思啊，还让你一起帮忙整理材料"));
-replaceString(L, 20, Str("say"), Str("一点小事~没什么的~"));
-replaceString(L, 21, Str("say"), Str("嗯？飞龙Z1？"));
-replaceString(L, 22, Str("say"), Str("指挥官？"));
-replaceString(L, 23, Str("say"), Str("在聊什么聊得那么开心呢？"));
-replaceString(L, 24, Str("say"), Str("没、没什么啦…只是在说又是新学年的开始而已…"));
-replaceString(L, 25, Str("say"), Str("是呢…话说飞龙啊…你就不能听姐姐一回，穿姐姐帮你准备的制服嘛…"));
-replaceString(L, 26, Str("say"), Str("（微笑）"));
-replaceString(L, 27, Str("say"), Str("我、我比较喜欢现在这样啦！"));
-replaceString(L, 28, Str("say"), Str("不良少女的飞龙，也很帅呢！"));
-replaceString(L, 29, Str("say"), Str("哇！克、克雷文什么时候在这里的！"));
-replaceString(L, 30, Str("say"), Str("神出鬼没的啦啦队少女就是我！"));
-replaceString(L, 31, Str("say"), Str("嘻嘻，从你们跟指挥官聊天的时候我就在啦~"));
-replaceString(L, 32, Str("say"), Str("包括为什么是不良少——唔姆姆呣！"));
-replaceString(L, 33, Str("say"), Str("嗯？"));
-replaceString(L, 34, Str("say"), Str("没、没什么！"));
-replaceString(L, 35, Str("say"), Str("呜…作为风纪委员的姐姐我的立场——"));
-replaceString(L, 36, Str("say"), Str("……"));
-getByList(L,36);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("总之新学期大家一起加油吧"));
-lua_pop(L,2);
-replaceString(L, 37, Str("say"), Str("是、是呢"));
-replaceString(L, 38, Str("say"), Str("嘿嘿，那是当然的~"));
-replaceString(L, 39, Str("say"), Str("我、我会努力准时报到的…"));
-replaceString(L, 40, Str("say"), Str("哦！"));
-replaceString(L, 41, Str("say"), Str("加油FIGHT~！"));
-lua_pop(L, 1);
-}
-void CONGLINGKAISHIMOWANG14(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("在战斗彻底结束后，我们收到了前往守望要塞参加庆功宴的正式邀请。"));
-replaceString(L, 2, Str("say"), Str("这处如今被视为守望长城心脏的地方，在遥远的过去，不过是一个随处可见的小村落。"));
-replaceString(L, 3, Str("say"), Str("直到旧都沦陷，魔物大军跨过旧日城墙的那一天。"));
-replaceString(L, 4, Str("say"), Str("远在边疆的旧王朝的最后一位王族，如今人类王国新纪元的第一位国王在众神的帮助下，以此处为中心点建立了如今的守望城墙。"));
-replaceString(L, 5, Str("say"), Str("正是这座守望城墙的存在，人类王国的剩余部分才能从魔王军毁灭的铁蹄中得以幸免。"));
-replaceString(L, 6, Str("say"), Str("王都得以重建，王国得以再次壮大。"));
-replaceString(L, 7, Str("say"), Str("而作为守望长城中心点的此处，也逐渐发展成了人类王国的第二大都市——守望要塞。"));
-replaceString(L, 8, Str("say"), Str("此时此刻，守望要塞中张灯结彩，人声鼎沸。"));
-replaceString(L, 9, Str("say"), Str("一场象征\"胜利\"的庆典正在召开中——"));
-replaceString(L, 10, Str("say"), Str("守望要塞·宴会厅"));
-replaceString(L, 11, Str("say"), Str("……真是太不可思议了，你们解除了大魔法师的诅咒……"));
-replaceString(L, 12, Str("say"), Str("还因此见到了传说中勇者小队的其他成员？！"));
-replaceString(L, 13, Str("say"), Str("嘿嘿~没错哦，而且更不可思议的是——"));
-replaceString(L, 14, Str("say"), Str("传说中的勇者之剑……居然是一把咸鱼之剑！"));
-replaceString(L, 15, Str("say"), Str("咸鱼剑……不可能吧，你们肯定是在吹牛。"));
-replaceString(L, 16, Str("say"), Str("哼，我才没有吹牛呢！"));
-replaceString(L, 17, Str("say"), Str("叮叮♪~真的也好，假的也好，现在都不重要啦。"));
-replaceString(L, 18, Str("say"), Str("你们看着是什么~"));
-replaceString(L, 19, Str("say"), Str("呃……这锅黏糊糊的条状物……是什么？"));
-replaceString(L, 20, Str("say"), Str("是我的拿手菜，也是我最喜欢吃的鳗鱼冻哦~庆功宴上来上一份再合适不过了！"));
-replaceString(L, 21, Str("say"), Str("不过因为没有找到鳗鱼，所以这次就用了与鳗鱼类似的啾莱姆鳗代替啦~！"));
-replaceString(L, 22, Str("say"), Str("大家不用客气，一同来品尝吧！"));
-replaceString(L, 23, Str("say"), Str("啾、啾莱姆鳗是什么东西啊？！那不是魔物么？！"));
-replaceString(L, 24, Str("say"), Str("咳、不……不用了，热情的冒险者。"));
-replaceString(L, 25, Str("say"), Str("如此美味的食物，还是——"));
-replaceString(L, 26, Str("say"), Str("还是搭配上更加美味的饮料一起食用吧~！"));
-replaceString(L, 27, Str("say"), Str("……啊？"));
-replaceString(L, 28, Str("say"), Str("药剂师小姐……那瓶在你手中散发着五彩斑斓光泽的黑色液体是什么？"));
-replaceString(L, 29, Str("say"), Str("当然是我的秘制特调饮料啦~"));
-replaceString(L, 30, Str("say"), Str("喝了之后，可以将战斗积累的所有疲劳一扫而空哦~"));
-replaceString(L, 31, Str("say"), Str("呃……嗯，我们是王国军骑士，就算经历了一天的战斗也不觉得疲劳。"));
-replaceString(L, 32, Str("say"), Str("这份\"秘制饮料\"还是让其他人来品尝吧……"));
-replaceString(L, 33, Str("say"), Str("欸~~~喝一口嘛，就一口！"));
-replaceString(L, 34, Str("say"), Str("不，请容许我坚定拒绝！"));
-replaceString(L, 35, Str("say"), Str("筵席间，严肃的王国骑士和随性的冒险者们已经打成了一片。"));
-replaceString(L, 36, Str("say"), Str("整个大厅萦绕着欢乐的气息。"));
-replaceString(L, 37, Str("say"), Str("可是……有一件事一直萦绕在我的心头，让我无法融入到这份欢乐之中。"));
-replaceString(L, 38, Str("say"), Str("……这枚金币，是今天在与不死军团的将军战斗后获得的。"));
-replaceString(L, 39, Str("say"), Str("情报分析技能显示，这是一枚旧王国时代铸造的金币……"));
-replaceString(L, 40, Str("say"), Str("这样的一枚金币，为什么会出现在不死军团的将军身上……"));
-replaceString(L, 41, Str("say"), Str("旧王国……不死军团……还有魔王之间似乎存在某些关联。"));
-replaceString(L, 42, Str("say"), Str("……手头的线索太少，还无法得出结论。"));
-replaceString(L, 43, Str("say"), Str("不过这个游戏的世界观设定……倒是有些意思。"));
-replaceString(L, 44, Str("say"), Str("指挥官————"));
-replaceString(L, 45, Str("say"), Str("指挥官~~~~"));
-replaceString(L, 46, Str("say"), Str("纵使没有选择融入会场的欢乐，欢乐的气息似乎自己找了过来。"));
-replaceString(L, 47, Str("say"), Str("呜呜呜……她们所有人都不愿意品尝利物浦的拿手好菜！"));
-replaceString(L, 48, Str("say"), Str("呜呜呜……她们所有人都不愿意品尝努比亚人的特制药水~！"));
-replaceString(L, 49, Str("say"), Str("指挥官，你应该会愿意尝尝吧！"));
-replaceString(L, 50, Str("say"), Str("指挥官，你应该不会拒绝吧~！"));
-replaceString(L, 51, Str("say"), Str("嗯……反正已经有了毒抗性，这种程度应该没关系吧。"));
-replaceString(L, 52, Str("say"), Str("试试就试试——"));
-getByList(L,52);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("品尝利物浦的拿手好菜！"));
-replaceString(L, 2, Str("content"), Str("品尝努比亚人的特制药水！"));
-replaceString(L, 3, Str("content"), Str("为什么不能两个一起？"));
-lua_pop(L,2);
-replaceString(L, 53, Str("say"), Str("呃……我这是……"));
-replaceString(L, 54, Str("say"), Str("昏过去了么……"));
-replaceString(L, 55, Str("say"), Str("感觉自己似乎正枕在某个温暖又柔软的物体上……"));
-replaceString(L, 56, Str("say"), Str("一股好闻的香气传入鼻腔……"));
-replaceString(L, 57, Str("say"), Str("哥哥……你终于醒了。"));
-replaceString(L, 58, Str("say"), Str("我已经好好教训过利物浦和努比亚人了……"));
-replaceString(L, 59, Str("say"), Str("真是的……我才一会儿不在，她们就给哥哥吃奇怪的东西……"));
-replaceString(L, 60, Str("say"), Str("刚刚是独角兽一直在照顾我么？谢谢……"));
-replaceString(L, 61, Str("say"), Str("哎嘿嘿……哥哥感觉还好么？"));
-replaceString(L, 62, Str("say"), Str("不用担心，我没事。"));
-replaceString(L, 63, Str("say"), Str("看来毒抗性最后还是发挥了它应该起到的效果……"));
-replaceString(L, 64, Str("say"), Str("呵呵，你要是倒在这里，那我就等不到你打倒魔王的那一天了哦。"));
-replaceString(L, 65, Str("say"), Str("是啊……要是还没有见到魔王，就倒在了圣女、神官和天使都在的庆功宴上的话。"));
-replaceString(L, 66, Str("say"), Str("那真要变成一个大笑话了。"));
-replaceString(L, 67, Str("say"), Str("指挥官，你话里有话哦~"));
-replaceString(L, 68, Str("say"), Str("既然你已经没事了，那就请召集你的同伴前来，我有重要的事要说。"));
-replaceString(L, 69, Str("say"), Str("一段时间后，守望要塞的大会议室中。"));
-replaceString(L, 70, Str("say"), Str("——鉴于诸位所做出的以上功绩，国王陛下决定不再追究你们炸毁王宫谒见之厅一事的责任。"));
-replaceString(L, 71, Str("say"), Str("同时为诸位补发通过守望要塞所必须的通关许可证。"));
-replaceString(L, 72, Str("say"), Str("当然，诸位前往荒芜之地所需的装备与补给物资也由王国军全额承担。"));
-replaceString(L, 73, Str("say"), Str("稍后诸位可以前往要塞的王国军械库中自由挑选。"));
-replaceString(L, 74, Str("say"), Str("……通关许可证？"));
-replaceString(L, 75, Str("say"), Str("呃、难道……穿过要塞去打魔王还需要许可证的么？！"));
-replaceString(L, 76, Str("say"), Str("那是自然的。"));
-replaceString(L, 77, Str("say"), Str("荒芜之地凶险万分，我们不能放任实力不足的王国未来无端断送自己的生命啊。"));
-replaceString(L, 78, Str("say"), Str("还、还好我们去参加了保卫战……"));
-replaceString(L, 79, Str("say"), Str("不然要是没有许可证的话，讨伐魔王的冒险之旅就要结束了……"));
-replaceString(L, 80, Str("say"), Str("不仅如此，你们还会被守卫抓住，然后扭送回王宫承担炸毁谒见之厅的责任哦。"));
-replaceString(L, 81, Str("say"), Str("啊哈哈哈……"));
-replaceString(L, 82, Str("say"), Str("不论如何，我代表国王陛下再次感谢诸位在城墙之上的英勇战斗。"));
-replaceString(L, 83, Str("say"), Str("同时，由我个人决定，为此为作战中做出突出贡献的指挥官，颁发一项特殊奖励。"));
-replaceString(L, 84, Str("say"), Str("……特殊奖励？"));
-replaceString(L, 85, Str("say"), Str("霞飞。"));
-replaceString(L, 86, Str("say"), Str("嗯。"));
-replaceString(L, 87, Str("say"), Str("指挥官，鉴于你此前的表现，我们认为在你身上存在指挥小队讨伐魔王的潜力。"));
-replaceString(L, 88, Str("say"), Str("因此，我代表神圣教会，代表光明与正义之神，在此赐予你\"光明之加护\"。"));
-replaceString(L, 89, Str("say"), Str("愿此加护，能够为成为你在讨伐魔王之路上的一份助力——"));
-replaceString(L, 90, Str("say"), Str("金色光芒伴随着战斗天使霞飞的话语四散而出。"));
-replaceString(L, 91, Str("say"), Str("「系统提示，获得新技能：光明之加护，评级：SSS」"));
-replaceString(L, 92, Str("say"), Str("呵呵，看来很顺利呢。"));
-replaceString(L, 93, Str("say"), Str("这样一来，仪式完成，今晚所有的正事也就结束了。"));
-replaceString(L, 94, Str("say"), Str("诸位请返回大厅尽情享受吧。"));
-replaceString(L, 95, Str("say"), Str("今夜，欢乐是我们所有人应得的奖励~"));
-replaceString(L, 96, Str("say"), Str("守望要塞·客房"));
-replaceString(L, 97, Str("say"), Str("深夜，眼前的黑暗中，依稀站立着一个身影。"));
-replaceString(L, 98, Str("say"), Str("欸……没想到被抢先下了加护啊。"));
-replaceString(L, 99, Str("say"), Str("偷跑可不好哦，圣女小姐。"));
-replaceString(L, 100, Str("say"), Str("况且，想要打败魔王，区区精神层面的光明之加护……还不够。"));
-replaceString(L, 101, Str("say"), Str("你还需要有我赐予的，用于强化肉体的\"钢铁之加护\"。"));
-replaceString(L, 102, Str("say"), Str("……嗯？就算中了我的术式，也没完全睡过去么。"));
-replaceString(L, 103, Str("say"), Str("不过也没有完全醒过来~"));
-replaceString(L, 104, Str("say"), Str("呵呵，那就收下我的\"爱\"吧~"));
-replaceString(L, 105, Str("say"), Str("等你一觉起来，就会发现自己变得更强了哦。"));
-replaceString(L, 106, Str("say"), Str("把这当成打倒魔王过程中一个美梦吧~"));
-replaceString(L, 107, Str("say"), Str("晚安，我的指挥官。"));
-lua_pop(L, 1);
-}
-void JUFENGYUQINGCHUNZHIQUAN2(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("？？？城邦·无人海滩——"));
-replaceString(L, 2, Str("say"), Str("呼嘿嘿嘿……"));
-replaceString(L, 3, Str("say"), Str("烤肉……"));
-replaceString(L, 4, Str("say"), Str("烤肉…………？"));
-replaceString(L, 5, Str("say"), Str("我所\"熟知\"的、立志成为伟大海盗的少女悠悠醒转。她凭借着与生俱来的本能，将目光牢牢锁定在了一边夹肉卷饼上。"));
-replaceString(L, 6, Str("say"), Str("然后——"));
-replaceString(L, 7, Str("say"), Str("这身制服……"));
-replaceString(L, 8, Str("say"), Str("官、官军？！"));
-replaceString(L, 9, Str("say"), Str("不可能！！"));
-replaceString(L, 10, Str("say"), Str("一个官军能做出这么正宗的巴巴柯阿！我不能接受！"));
-replaceString(L, 11, Str("say"), Str("呱！我跟你拼了呀！"));
-replaceString(L, 12, Str("say"), Str("（——怎么和预想的反应不一样？！）"));
-getByList(L,12);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("招架住皇家财富的攻势——"));
-replaceString(L, 2, Str("content"), Str("试图解释——"));
-lua_pop(L,2);
-replaceString(L, 13, Str("say"), Str("我不听我不听！！"));
-replaceString(L, 14, Str("say"), Str("（完全说不通……）"));
-replaceString(L, 15, Str("say"), Str("（没办法，只能先摆平她——）"));
-replaceString(L, 16, Str("say"), Str("（结束了……）"));
-replaceString(L, 17, Str("say"), Str("（还好技高一筹……）"));
-replaceString(L, 18, Str("say"), Str("呜哇！！"));
-replaceString(L, 19, Str("say"), Str("居、居然败了呀……"));
-replaceString(L, 20, Str("say"), Str("皇家财富看起来相当沮丧的样子。"));
-replaceString(L, 21, Str("say"), Str("之后，花了好大的功夫才让皇家财富安定下来——"));
-replaceString(L, 22, Str("say"), Str("这么说，你真的认识我……"));
-replaceString(L, 23, Str("say"), Str("所以你真不是官军……而是从另一个世界来的人？"));
-replaceString(L, 24, Str("say"), Str("就是靠着这块罗盘来到这里的么…唔……我也看不出什么来。"));
-replaceString(L, 25, Str("say"), Str("不过，我相信你啦~"));
-replaceString(L, 26, Str("say"), Str("能做出这么好吃的巴巴柯阿的人，肯定不会骗我~"));
-replaceString(L, 27, Str("say"), Str("嘿嘿……从风暴中来，简直就像是那些传奇海盗故事中才有的情节呢。"));
-replaceString(L, 28, Str("say"), Str("我也想来一次这样的冒险~比如说，从夜晚的迷雾中到达异世界，然后品尝各种各样的美食——"));
-replaceString(L, 29, Str("say"), Str("可惜这些都是城邦世界很久以前流行的冒险故事了，现在流行的大多都是直接从闯荡新世界直接开始。"));
-getByList(L,29);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("新世界？"));
-replaceString(L, 2, Str("content"), Str("城邦世界？"));
-lua_pop(L,2);
-replaceString(L, 30, Str("say"), Str("就是最近一个世纪被发现的区域哦！只要一路向\"世界的尽头\"航行，就能抵达那里了！"));
-replaceString(L, 31, Str("say"), Str("新世界可是一整块大陆呢！和由群岛组成的城邦世界完全不一样~"));
-replaceString(L, 32, Str("say"), Str("就是我们现在所处的地方啦~也叫传统世界。"));
-replaceString(L, 33, Str("say"), Str("城邦世界是由群岛所组成的…有学说认为城邦世界曾经也是一片巨大的大陆，不过这点没人能证明呢。"));
-replaceString(L, 34, Str("say"), Str("哎~这里虽然繁华，但已经没什么值得去探索、去冒险的地方了。"));
-replaceString(L, 35, Str("say"), Str("新世界就不同了，那里可是一整块大陆哦！"));
-replaceString(L, 36, Str("say"), Str("实不相瞒，我也想去新世界冒险。"));
-replaceString(L, 37, Str("say"), Str("我还为此准备了一艘快船，只需要一个月就能从城邦世界抵达新世界~"));
-replaceString(L, 38, Str("say"), Str("话说回来，我的船呢？"));
-getByList(L,38);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("指向漂浮的木板。"));
-lua_pop(L,2);
-replaceString(L, 39, Str("say"), Str("咦？多亏了我的船，才能顺利从风暴中脱困？"));
-replaceString(L, 40, Str("say"), Str("啊哈、不客气哈……"));
-replaceString(L, 41, Str("say"), Str("不、不对！！"));
-replaceString(L, 42, Str("say"), Str("我的船就只剩这块板子了？！"));
-replaceString(L, 43, Str("say"), Str("我刚提的新船呀！它还那么年轻！"));
-replaceString(L, 44, Str("say"), Str("…………"));
-getByList(L,44);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("安慰皇家财富"));
-lua_pop(L,2);
-replaceString(L, 45, Str("say"), Str("没错，我必须振作起来。"));
-replaceString(L, 46, Str("say"), Str("我可是还要在新世界开始伟大冒险呢！"));
-replaceString(L, 47, Str("say"), Str("不过这样的话，就必须弄一艘新船才行。"));
-replaceString(L, 48, Str("say"), Str("你也必须入伙，就这样决定了。"));
-replaceString(L, 49, Str("say"), Str("放心啦！我感觉和你有缘，不会亏待你的！"));
-replaceString(L, 50, Str("say"), Str("要是找到超级宝藏的话，我们就换一艘金子做的战舰！"));
-replaceString(L, 51, Str("say"), Str("到时候所有权你一半我一半！"));
-replaceString(L, 52, Str("say"), Str("然后还有……"));
-replaceString(L, 53, Str("say"), Str("皇家财富絮絮叨叨地说了很多。"));
-replaceString(L, 54, Str("say"), Str("很多——"));
-lua_pop(L, 1);
-}
-void RENQITOUPIAOXINPIANZHANG14(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("第四轮投票开始了，小组赛也要接近尾声了啊。"));
-replaceString(L, 2, Str("say"), Str("会场也越来越热闹了……"));
-replaceString(L, 3, Str("say"), Str("嘿嘿，就连拉菲也融入进去了呢~"));
-replaceString(L, 4, Str("say"), Str("嗯……这里零食管够。拉菲，很喜欢……"));
-replaceString(L, 5, Str("say"), Str("要是有个安静的地方睡觉…就更好了……"));
-replaceString(L, 6, Str("say"), Str("这个恐怕……啊哈哈。"));
-replaceString(L, 7, Str("say"), Str("……啊！已经有这么多人都到主舞台了！"));
-replaceString(L, 8, Str("say"), Str("我们也得快点找个座位了！"));
-lua_pop(L, 1);
-}
-void XUEJINGMIZONG11(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("电梯依然安稳地运行着。"));
-replaceString(L, 2, Str("say"), Str("众人已经不知道这是第几部电梯了——就像她们已经快数不清自己经过了多少安保区域一样。"));
-replaceString(L, 3, Str("say"), Str("其中，甚至夹杂了几段需要换乘有轨电车通行的区域。"));
-replaceString(L, 4, Str("say"), Str("在繁复的换乘后，众人终于来到了第一个目的地——大概。"));
-replaceString(L, 5, Str("say"), Str("不得不说，这里设计的也太复杂了……"));
-replaceString(L, 6, Str("say"), Str("区域间用电梯隔断，设置多重检查……这些都还能理解，但轨道电车是不是有点太夸张了……？"));
-replaceString(L, 7, Str("say"), Str("这还不简单~当然不可能设计成直上直下的基地啦。"));
-replaceString(L, 8, Str("say"), Str("不然直接从地上入口附近向下一路打洞就好了，所谓的层层安保不就成摆设了？"));
-replaceString(L, 9, Str("say"), Str("经过几次的电车换乘，你现在已经给分不清自己距离入口电梯的位置有多远了吧~"));
-replaceString(L, 10, Str("say"), Str("确实……我已经完全分不清了。"));
-replaceString(L, 11, Str("say"), Str("我还是第一次在地下走这么远……"));
-replaceString(L, 12, Str("say"), Str("这里真是太压抑了，有点怀念广阔的天空……"));
-replaceString(L, 13, Str("say"), Str("不用担心，你们的一路所见只是这座地堡的一小部分。"));
-replaceString(L, 14, Str("say"), Str("这座地堡的主体，其实都在位于最下方的广阔空间中。"));
-replaceString(L, 15, Str("say"), Str("……最下方的广阔空间？"));
-replaceString(L, 16, Str("say"), Str("据说千米冰层之下，可是有一片汪洋大海哦~"));
-replaceString(L, 17, Str("say"), Str("冰层之下……有大海！？"));
-replaceString(L, 18, Str("say"), Str("水星纪念说的没错。"));
-replaceString(L, 19, Str("say"), Str("以前有理论认为，安塔迪卡的冰层下方有一处海洋——不过在得到验证前，一直就是理论罢了。"));
-replaceString(L, 20, Str("say"), Str("我们最初也是将信将疑，直到我们真的把冰层挖穿。"));
-replaceString(L, 21, Str("say"), Str("总之，等到了最下方的「圆环区」你们自然就能见到了。"));
-replaceString(L, 22, Str("say"), Str("至于现在么，我们还是得先完成首要目标才行。"));
-replaceString(L, 23, Str("say"), Str("前方就是工厂区了。继续前进吧。"));
-replaceString(L, 24, Str("say"), Str("工厂区的大门打开的瞬间，刺骨的冷风迎面吹向了众人的脸庞。"));
-replaceString(L, 25, Str("say"), Str("好冷！"));
-replaceString(L, 26, Str("say"), Str("为什么只有这里没开供暖！"));
-replaceString(L, 27, Str("say"), Str("生产线还在运作……这么冷的环境中，居然还能全自动生产啊。"));
-replaceString(L, 28, Str("say"), Str("毕竟这是一座为了应对末日环境而修建的地堡，这种程度的温度自然不会让它的工作停摆。"));
-replaceString(L, 29, Str("say"), Str("不过……还是先把照明和供暖打开吧。"));
-replaceString(L, 30, Str("say"), Str("带着暖意的光芒逐次亮起，隐藏在黑暗中的景象也渐渐展现在众人面前。"));
-replaceString(L, 31, Str("say"), Str("RF-17-36制造区，是这一区域在「智者之环」中的正式命名。"));
-replaceString(L, 32, Str("say"), Str("是地堡中数百个生产区域中的一个，规格等同于「大地设计局」一个标准工厂的大小。"));
-replaceString(L, 33, Str("say"), Str("在原本的规划中，RF-17-36制造区作为军用品生产区，生产的应该是用于冰原作战的陆地载具。"));
-replaceString(L, 34, Str("say"), Str("不过此刻，生产带上源源不断完成组装并被运输至地堡上层的\"物品\"，与原本的规划天差地别——"));
-replaceString(L, 35, Str("say"), Str("这，这是在用什么，加工……什么？"));
-replaceString(L, 36, Str("say"), Str("进去的是冰块和土石……"));
-replaceString(L, 37, Str("say"), Str("出来的竟然是我们在寻找的、那些淡蓝色的晶体？"));
-replaceString(L, 38, Str("say"), Str("无法理解……"));
-replaceString(L, 39, Str("say"), Str("也就是说……\"融雪区\"是我们自己的设施做出来的……\"特殊矿物\"也是我们自己的设施做出来的？"));
-replaceString(L, 40, Str("say"), Str("还是用的……冰和土石块？"));
-replaceString(L, 41, Str("say"), Str("用这种东西要怎么做出来那种纯净结晶啊！"));
-replaceString(L, 42, Str("say"), Str("而且，结晶不是确实有效的么？！"));
-replaceString(L, 43, Str("say"), Str("……这该不会，是什么炼金术吧。"));
-replaceString(L, 44, Str("say"), Str("……我们的流水线系统被重新编程了，因此导致了工艺流程发生变化。"));
-replaceString(L, 45, Str("say"), Str("不过很可惜，数据已经被删除了。"));
-replaceString(L, 46, Str("say"), Str("被删除了，什么时候？"));
-replaceString(L, 47, Str("say"), Str("看上去是在我们开灯后。这里毕竟是低温制造区……供暖启动之后，会触发停机程序。"));
-replaceString(L, 48, Str("say"), Str("而我们的对手，很狡猾的将其设置为了一旦停机就会自行清空数据，让我们一无所获。"));
-replaceString(L, 49, Str("say"), Str("话音未落，流水线的轰鸣声骤然停止了。"));
-replaceString(L, 50, Str("say"), Str("用这种方式让我们产生失之交臂的挫败感么……可恶。"));
-replaceString(L, 51, Str("say"), Str("我还是无法理解生产线上发生的一切……"));
-replaceString(L, 52, Str("say"), Str("我也无法理解……但事实就是如此。"));
-replaceString(L, 53, Str("say"), Str("所谓的矿物，就是由这两种常见的材料人为生产出来的。"));
-replaceString(L, 54, Str("say"), Str("至于是如何做到的，为什么会有共鸣特性，我们还需要进一步调查。"));
-replaceString(L, 55, Str("say"), Str("接下来要去的是数据处理中心……希望数据之中会存在我们想要的答案。"));
-lua_pop(L, 1);
-}
-void HAIDAOSUIJI3(lua_State *L) {
-lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("路过林中空地时，遇到了一群神秘的生物——"));
-replaceString(L, 2, Str("say"), Str("过路的旅人不要走啾，来玩猜宝石游戏啾！"));
-replaceString(L, 3, Str("say"), Str("漂亮又珍贵的宝石，就藏在啾啾们中间~！"));
-replaceString(L, 4, Str("say"), Str("如果能猜对是被哪只啾啾藏起来了的话，就把宝石送给你啾~"));
-replaceString(L, 5, Str("say"), Str("宝石不在啾啾这边啾~啾啾只想和过路的旅人玩啾~"));
-replaceString(L, 6, Str("say"), Str("zzzZ……啾……"));
-replaceString(L, 7, Str("say"), Str("猜谜游戏么……究竟宝石是被哪只菜花啾藏起来了呢？"));
+replaceString(L, 3, Str("say"), Str("指令已确认：正在尝试解除塞壬区域封锁装置——————"));
 lua_pop(L, 1);
 }
 void W400001(lua_State *L) {
@@ -8050,179 +104,1411 @@ replaceString(L, 1, Str("content"), Str("准备战斗"));
 lua_pop(L,2);
 lua_pop(L, 1);
 }
-void HONGCAIDEZHONGMUQU30_5(lua_State *L) {
+void W400002(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("警告：舰队损失超过预计的26.78%。"));
-replaceString(L, 2, Str("say"), Str("警告：战况预测偏差值已超过30%。"));
-replaceString(L, 3, Str("say"), Str("警告：表层护盾承受压力即将到达临界值，预计将会在10秒内崩溃。"));
-replaceString(L, 4, Str("say"), Str("…………还是第一次见到计算出现如此夸张的偏差。"));
-replaceString(L, 5, Str("say"), Str("是因为应对这支往昔舰队的参数没能调整对么。"));
-replaceString(L, 6, Str("say"), Str("是因为计划舰的意外成长么。"));
-replaceString(L, 7, Str("say"), Str("还是因为\"指挥官\"这一变量呢……"));
-replaceString(L, 8, Str("say"), Str("指挥官，我们的航空舰队已成功突破了那座塔几乎坚不可摧的护盾！"));
-replaceString(L, 9, Str("say"), Str("炸弹已经成功扔进去了哦！"));
-replaceString(L, 10, Str("say"), Str("哼哼，对付装甲板，炮弹可比炸弹好用多了！"));
-replaceString(L, 11, Str("say"), Str("我们公海舰队也不能落后！用炮火粉碎那座塔厚重的装甲吧！！"));
-replaceString(L, 12, Str("say"), Str("护盾在3.9s后就崩溃了……这样偏差值已经将近40%了啊。"));
-replaceString(L, 13, Str("say"), Str("……已经要危及到核心区了么。"));
-replaceString(L, 14, Str("say"), Str("不过，你们还是太慢了。"));
-replaceString(L, 15, Str("say"), Str("提示：蓄能进度已达到100%，局部清理程序可在30秒后正式执行。"));
-replaceString(L, 16, Str("say"), Str("警告：此决定无法撤销，且会对实验场造成无法逆转的损伤，是否确认执行？"));
-replaceString(L, 17, Str("say"), Str("确认执行，这场叛乱该结束了。"));
-replaceString(L, 18, Str("say"), Str("指令已确认：现在开始进行局部清理倒计时，30、29、28————"));
-replaceString(L, 19, Str("say"), Str("塔的光芒已经仿佛到达了临界点，震动频率也仿佛与脉搏发生了共鸣。"));
-replaceString(L, 20, Str("say"), Str("四肢的感觉正在麻木，呼吸开始变得困难，思考也渐渐变得迟缓。"));
-getByList(L,20);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("所有人加大火力，不惜一切代价也要摧毁那座塔！"));
-lua_pop(L,2);
-replaceString(L, 21, Str("say"), Str("此刻，不分势力不分舰种，战场上的所有人都在为同一个目标不顾奋不顾身的发动着最为猛烈的进攻。"));
-replaceString(L, 22, Str("say"), Str("可是——————"));
-getByList(L,22);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("来不及了……"));
-replaceString(L, 2, Str("content"), Str("我们无法突破塔的最后防御……"));
-lua_pop(L,2);
-replaceString(L, 23, Str("say"), Str("不错，你的判断是正确的，我们破坏不了这座塔。"));
-replaceString(L, 24, Str("say"), Str("你，我，白鹰舰队、铁血舰队、重樱舰队。"));
-replaceString(L, 25, Str("say"), Str("不论是往昔之影，亦或是未来之妄。"));
-replaceString(L, 26, Str("say"), Str("我们现在手头的所有力量加在一起都破坏不了这座塔。"));
-replaceString(L, 27, Str("say"), Str("这就是我们现在力量的极限。"));
-replaceString(L, 28, Str("say"), Str("15、14、13、12————"));
-replaceString(L, 29, Str("say"), Str("就差了一点……"));
-replaceString(L, 30, Str("say"), Str("没错，就差了一点。而这一点将会导致我们的彻底失败。"));
-replaceString(L, 31, Str("say"), Str("我们败局已定——————————"));
-replaceString(L, 32, Str("say"), Str("构建者肯定也是这么想的。"));
-replaceString(L, 33, Str("say"), Str("毕竟这是经过它拼命计算得出的结果。"));
-replaceString(L, 34, Str("say"), Str("机械到底只是机械而已，你觉得呢？"));
-replaceString(L, 35, Str("say"), Str("……………………？！"));
-getByList(L,35);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("你有逆转局面的手段？！"));
-replaceString(L, 2, Str("content"), Str("我们还能做什么……？！"));
-lua_pop(L,2);
-replaceString(L, 36, Str("say"), Str("不然呢，你以为我是带着你们所有人来陪葬的么？"));
-replaceString(L, 37, Str("say"), Str("不，我们已经没有能做的了，但除了我们呢？"));
-replaceString(L, 38, Str("say"), Str("视野放宽一点，碧蓝航线的指挥官。"));
-replaceString(L, 39, Str("say"), Str("既然差一点，那就再加一点不就好了？"));
-replaceString(L, 40, Str("say"), Str("现在开始行动，让我们见识一下余烬的力量吧，沙恩霍斯特！"));
-replaceString(L, 41, Str("say"), Str("这一刻，我已经等候多时了。"));
-replaceString(L, 42, Str("say"), Str("你在之前帮助过我，现在又让我见识到了如此振奋人心的可能性。"));
-replaceString(L, 43, Str("say"), Str("塔的问题，就交给我吧。"));
-replaceString(L, 44, Str("say"), Str("余烬沙恩霍斯特，现在加入战斗————"));
+replaceString(L, 1, Str("say"), Str("警告：指挥官，因为塞壬区域封锁装置的解除，整片深渊海域的海况出现了剧烈变化。"));
 lua_pop(L, 1);
 }
-void BOTELAN3(lua_State *L) {
+void W400003(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("为了印第的笑容！\n\n<size=45>三 姐妹谈资喋喋不休</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("港区・学园"));
-replaceString(L, 3, Str("say"), Str("波特兰没有放弃印第强化周。"));
-replaceString(L, 4, Str("say"), Str("下一个被盯上的是──"));
-replaceString(L, 5, Str("say"), Str("嗯嗯嗯！我明白！有姐妹确实很棒呢！"));
-replaceString(L, 6, Str("say"), Str("对吧~！无论聊多久都聊不完！"));
-replaceString(L, 7, Str("say"), Str("没错！就算说上三天三夜，也说不完诺福克姐姐魅力的百分之五！"));
-replaceString(L, 8, Str("say"), Str("就是就是！所以我拜托了指挥官，希望能安排制作充满印第魅力的周边哦~！"));
-replaceString(L, 9, Str("say"), Str("啊，这个想法真好！我也想弄姐姐的照片~……"));
-replaceString(L, 10, Str("say"), Str("和多塞特郡的沟通似乎比想象中的顺畅许多"));
-replaceString(L, 11, Str("say"), Str("不过…好像有哪里不对？"));
-replaceString(L, 12, Str("say"), Str("然后啊！那时候的印第呀~……"));
-replaceString(L, 13, Str("say"), Str("嗯嗯！诺福克姐姐的话肯定会这样~……"));
-replaceString(L, 14, Str("say"), Str("似乎都在自顾自地说着自家姐妹的事情……"));
-getByList(L,14);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("指出这一点"));
-lua_pop(L,2);
-replaceString(L, 15, Str("say"), Str("指挥官你说什么呢！多塞特郡能明白印第的可爱——"));
-replaceString(L, 16, Str("say"), Str("并且会一起和我向大家宣传印第的可爱哦！"));
-replaceString(L, 17, Str("say"), Str("是的！波特兰被诺福克姐姐的光芒照耀着——"));
-replaceString(L, 18, Str("say"), Str("肯定会和我一起，每天沉浸在诺福克姐姐的魅力之下的！"));
-replaceString(L, 19, Str("say"), Str("…………欸？"));
-replaceString(L, 20, Str("say"), Str("…………嗯？"));
-replaceString(L, 21, Str("say"), Str("多塞特郡，不是喜欢上印第了吗？"));
-replaceString(L, 22, Str("say"), Str("欸？嗯？波特兰，按照刚才聊的，不是要和我一起喜欢诺福克姐姐吗？"));
-replaceString(L, 23, Str("say"), Str("奇……奇怪？"));
-replaceString(L, 24, Str("say"), Str("看来两人的交谈……完全是两条平行线的样子"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，周边区域的封锁被解除了。"));
 lua_pop(L, 1);
 }
-void YUYEJINGHUN12(lua_State *L) {
+void W400004(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("虽然管家表面上答应得很干脆，但是你对于她是否真的会配合这一点保持怀疑。"));
-replaceString(L, 2, Str("say"), Str("接下来，你决定————"));
+replaceString(L, 1, Str("say"), Str("离开后将无法再次返回该处海域，是否确认离开？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("确认"));
+replaceString(L, 2, Str("content"), Str("取消"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W400005(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，深渊海域中的守卫已击破，现在可以使用塞壬特殊通行装置离开了。"));
+lua_pop(L, 1);
+}
+void W400101(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("面前的石柱上有两个符号。"));
+replaceString(L, 2, Str("say"), Str("请进行选择——————"));
 getByList(L,2);
 lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("这里要谨慎一些，继续收集更多信息"));
-replaceString(L, 2, Str("content"), Str("问她要城堡的地图吧"));
+replaceString(L, 1, Str("content"), Str("←"));
+replaceString(L, 2, Str("content"), Str("→"));
+replaceString(L, 3, Str("content"), Str("容我三思"));
 lua_pop(L,2);
-replaceString(L, 3, Str("say"), Str("（嗯，已知信息还是太少了……再多收集一些情报吧。）"));
-replaceString(L, 4, Str("say"), Str("我明白了。那么，我想了解下城堡里房间的分布情况，这样也好方便后续的调查。"));
-replaceString(L, 5, Str("say"), Str("（嗯……管家和女仆长都提到过会迷路……不知道会不会是在暗示要根据地图的指示前进？）"));
-replaceString(L, 6, Str("say"), Str("（试试看能不能拿到地图吧。）"));
-replaceString(L, 7, Str("say"), Str("我明白了。那么，为了了解城堡里房间的分布情况，希望你能给我提供一份地图。"));
-replaceString(L, 8, Str("say"), Str("这样也好方便后续的调查，同时避免闯进不该进入的区域。"));
-replaceString(L, 9, Str("say"), Str("管家没有回答，她看着你，那双犀利的眼睛里似乎闪烁着某种光芒。"));
-getByList(L,9);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("说服她"));
-replaceString(L, 2, Str("content"), Str("用勋爵大人的名号压她一头"));
-lua_pop(L,2);
-replaceString(L, 10, Str("say"), Str("（d100=17）成功。在游说的过程中，你游刃有余且越发自信。"));
-replaceString(L, 11, Str("say"), Str("你相信管家无论如何也不可能拒绝你的提议。然后，你猛然想起了自己的自信源自何处。"));
-replaceString(L, 12, Str("say"), Str("——是你俊美的外貌和绝佳的口才。在成长的过程中，你深刻地认识到自己的外貌极其出色。"));
-replaceString(L, 13, Str("say"), Str("虽然它给你带来了一些困扰，但如果善加利用就会带来意想不到的惊喜。"));
-replaceString(L, 14, Str("say"), Str("你成功回忆起技能：魅惑术，熟练程度：精通。"));
-getByList(L,14);
-lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("……啊？"));
-replaceString(L, 2, Str("content"), Str("……什么术？"));
-replaceString(L, 3, Str("content"), Str("这谁设计的！"));
-lua_pop(L,2);
-replaceString(L, 15, Str("say"), Str("你没听错，魅惑术。"));
-replaceString(L, 16, Str("say"), Str("魅惑术哦。"));
-replaceString(L, 17, Str("say"), Str("让我做她的代理，自己跑去机关室玩的那个人。"));
-replaceString(L, 18, Str("say"), Str("在魅惑术的帮助下，你的社交技巧也有了很大的提升。"));
-replaceString(L, 19, Str("say"), Str("这让你在工作中获益匪浅，每次收集线索都能从相关人员口中获得重要线索。"));
-replaceString(L, 20, Str("say"), Str("…………"));
-replaceString(L, 21, Str("say"), Str("最终，管家成功被你说服了。"));
-replaceString(L, 22, Str("say"), Str("在餐厅那里有城堡的简易地图，有需要的话您可以自取。"));
-replaceString(L, 23, Str("say"), Str("餐厅的位置在走廊的另一边，原本可以从中庭直接穿过去，不过现在中庭正在翻修，得绕一下。"));
-replaceString(L, 24, Str("say"), Str("管家一边说着，一边用手在空中比划着路线，金色的袖扣在灯光下折射出幽暗的光。"));
-replaceString(L, 25, Str("say"), Str("您很在意这枚袖扣么？"));
-replaceString(L, 26, Str("say"), Str("嗯，真是一枚漂亮的袖扣。"));
-replaceString(L, 27, Str("say"), Str("谢谢。这是大小姐送我礼物……"));
-replaceString(L, 28, Str("say"), Str("敏锐的观察力让你注意到了一些容易被人忽视的细节，那枚金属袖扣的图案似乎在哪里见过。"));
-replaceString(L, 29, Str("say"), Str("（d100=31），成功。你知道这惊人的熟悉感究竟从何而来，这个图案和大小姐的发饰形状如出一辙。"));
-replaceString(L, 30, Str("say"), Str("（相同的教派标记……）"));
-replaceString(L, 31, Str("say"), Str("我还是得再提醒您一下，城堡内部很大，晚上行动的话会有迷路风险，还请小心。"));
-replaceString(L, 32, Str("say"), Str("同时，请原谅我再强调一下，卧室一类的非公共区域，请务必在征得房间主人的同意后才能进入。"));
-replaceString(L, 33, Str("say"), Str("那么，大小姐还在等我，您请自便。"));
-replaceString(L, 34, Str("say"), Str("说完，管家向你微微鞠躬，离开了会客厅。"));
 lua_pop(L, 1);
 }
-void DORM3DDAILYCONVERSATION80(lua_State *L) {
+void W400102(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("天狼星最近在尝试将皇家的传统美食与东煌的特色风味融合，做一道特殊的融合料理。"));
+replaceString(L, 1, Str("say"), Str("前方敌人极为强大，请指挥官谨慎迎战。"));
+replaceString(L, 2, Str("say"), Str("受伤了的话请务必到我这边来，女灶神可以随时待命治愈那些受伤的姐妹哦~"));
+lua_pop(L, 1);
+}
+void W610000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：8。"));
+lua_pop(L, 1);
+}
+void W610001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：7。"));
+lua_pop(L, 1);
+}
+void W610002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：6。"));
+lua_pop(L, 1);
+}
+void W610003(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：5。"));
+lua_pop(L, 1);
+}
+void W610004(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：4。"));
+lua_pop(L, 1);
+}
+void W610005(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：3。"));
+lua_pop(L, 1);
+}
+void W610006(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：2。"));
+lua_pop(L, 1);
+}
+void W610007(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：1。"));
+lua_pop(L, 1);
+}
+void W610008(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("战斗结果已确认：成功压制了一处塞壬据点，要塞海域中剩余塞壬据点数为：0。"));
+replaceString(L, 2, Str("say"), Str("指挥官，所有塞壬据点均被清除，舰队取得了该片海域的控制权。"));
+lua_pop(L, 1);
+}
+void W610010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：遭遇到塞壬舰队伏击。"));
+lua_pop(L, 1);
+}
+void W610020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中异常的海雾消失了。"));
+lua_pop(L, 1);
+}
+void W610021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中异常的腐蚀区域消失了。"));
+lua_pop(L, 1);
+}
+void W610100(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，将海域中塞壬控制力下降到50%以下后，可使该装置失效。"));
+lua_pop(L, 1);
+}
+void W610101(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，将海域中塞壬控制力下降到60%以下后，可使该装置失效。"));
+lua_pop(L, 1);
+}
+void W610102(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，将海域中塞壬控制力下降到80%以下后，可使该装置失效。"));
+lua_pop(L, 1);
+}
+void W610200(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：侦察到正在向我方据点移动的塞壬袭击舰队。建议，在据点被塞壬彻底占领之前，派遣舰队将其消灭。"));
+lua_pop(L, 1);
+}
+void W610201(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：指挥官，塞壬袭击舰队已被消灭，此处据点暂时脱离了危险。同时，发现塞壬特殊补给箱，建议回收。"));
+lua_pop(L, 1);
+}
+void W610202(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：我方据点被塞壬舰队占领，塞壬对于该片海域的控制力增加了。"));
+lua_pop(L, 1);
+}
+void W610203(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：指挥官，塞壬防御舰队已被消灭，我们取得了该处据点的控制权。同时，发现塞壬特殊补给箱，建议回收。"));
+lua_pop(L, 1);
+}
+void W610300(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("指令执行中：正在打捞沉没的物资……结果确认，指挥官，物资回收完毕。"));
+lua_pop(L, 1);
+}
+void W610301(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("......"));
+replaceString(L, 2, Str("say"), Str("打捞到了沉入海中的物资！"));
+lua_pop(L, 1);
+}
+void W610302(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，已到达指定区域。是否开始进行打捞作业？"));
 getByList(L,1);
 lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("皇家的传统美食？"));
-replaceString(L, 2, Str("content"), Str("东煌的特色风味？"));
+replaceString(L, 1, Str("content"), Str("打捞"));
+replaceString(L, 2, Str("content"), Str("离开"));
 lua_pop(L,2);
-replaceString(L, 2, Str("say"), Str("是的。天狼星听说东煌有一道叫做\"剁椒鱼头\"的料理，而皇家也有吃鱼的传统……"));
-replaceString(L, 3, Str("say"), Str("天狼星就在尝试将\"剁椒\"这种风味，融入仰望星空派。"));
+lua_pop(L, 1);
+}
+void W610303(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，水面之下依然存在有物资信号，是否继续进行打捞作业？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("打捞"));
+replaceString(L, 2, Str("content"), Str("离开"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W610305(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("指令执行中：正在打捞沉没的物资……警告，遭遇到塞壬舰队伏击。"));
+lua_pop(L, 1);
+}
+void W610306(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("指令执行中：正在打捞沉没的物资……警告，触发了塞壬设下的陷阱，周边海面出现了腐蚀区域。"));
+lua_pop(L, 1);
+}
+void W610350(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("独角兽————？独角兽妹妹——————"));
+replaceString(L, 2, Str("say"), Str("...真是的，独角兽这孩子跑到哪里去了？"));
+lua_pop(L, 1);
+}
+void W610351(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("嗯？指挥官，能帮忙寻找一下独角兽吗？这孩子一个人不知道跑到哪里去了..."));
+replaceString(L, 2, Str("say"), Str("这片海域十分危险，指挥官也请注意安全哦。"));
+lua_pop(L, 1);
+}
+void W610352(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("帮助光辉寻找到走失的独角兽。"));
+lua_pop(L, 1);
+}
+void W610353(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("光辉姐姐...！"));
+replaceString(L, 2, Str("say"), Str("独角兽！"));
+replaceString(L, 3, Str("say"), Str("真是的，下次可不能这样乱跑了哦..."));
+replaceString(L, 4, Str("say"), Str("嗯嗯..！但是，优酱它.."));
+replaceString(L, 5, Str("say"), Str("哎呀..看起来受了一点皮肉伤呢，让光辉姐姐来为它治疗吧"));
+replaceString(L, 6, Str("say"), Str("指挥官也辛苦了，需要光辉为您捶捶背吗..？"));
+lua_pop(L, 1);
+}
+void W610354(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("下次可不能再乱跑了哦~"));
+replaceString(L, 2, Str("say"), Str("嗯！"));
+lua_pop(L, 1);
+}
+void W610355(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("......"));
+replaceString(L, 2, Str("say"), Str("呜............"));
+replaceString(L, 3, Str("say"), Str("呀————！不要过来.."));
+replaceString(L, 4, Str("say"), Str(".... ...哥哥？"));
+replaceString(L, 5, Str("say"), Str("呜呜...因为和优酱走丢了，独角兽就一个人出来找...优酱好像受伤了的样子...."));
+replaceString(L, 6, Str("say"), Str("（独角兽怀中的优酱身上有着明显的伤痕）"));
+replaceString(L, 7, Str("say"), Str("哥哥...能带着独角兽回去找光辉姐姐吗？"));
+replaceString(L, 8, Str("say"), Str("诶嘿嘿...有哥哥在，独角兽就安心了~"));
+lua_pop(L, 1);
+}
+void W610356(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("哥哥...要丢下独角兽不管吗？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("再努力一下，帮助独角兽寻找光辉"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W611000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("作战指令接收中————————"));
+replaceString(L, 2, Str("say"), Str("指挥官，该处海域遭受到塞壬大规模反击。目前，塞壬舰队已经成功在海域中建立了若干据点，在实质上取得了海域间控制权。"));
+replaceString(L, 3, Str("say"), Str("通过消灭塞壬舰队，取得所有据点的控制权后，即可重新夺回整片海域的控制权。"));
+replaceString(L, 4, Str("say"), Str("塞壬据点数量和坐标将会实时更新在G.M系统的可视化面板上供您查看。"));
+replaceString(L, 5, Str("say"), Str("作战指令结束————————"));
+lua_pop(L, 1);
+}
+void W611001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("已经击破所有塞壬据点，可以从塞壬特殊通行装置或者海域边缘离开，离开后将无法再次返回本处海域。"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("确认"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W612000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中存在的异常洋流构成了某种阻碍舰队移动的封锁区域。建议，寻找并摧毁海域中的4处塞壬洋流控制器。"));
+lua_pop(L, 1);
+}
+void W612001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：指挥官，海域中的1处塞壬洋流控制器被摧毁了。"));
+lua_pop(L, 1);
+}
+void W612002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：指挥官，海域中的全部4处塞壬洋流控制器均被摧毁，异常洋流现象消失了。"));
+lua_pop(L, 1);
+}
+void W700002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("即将进入虫洞副本，进行月度Boss挑战。"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("确认"));
+replaceString(L, 2, Str("content"), Str("取消"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W700010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域守卫代行者出现了！"));
+lua_pop(L, 1);
+}
+void W700020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("当前正在进行普通难度仲裁机关作战。"));
+replaceString(L, 2, Str("say"), Str("离开后当前作战进度将会保留，本月内再次进入可继续挑战。"));
+replaceString(L, 3, Str("say"), Str("击破普通难度仲裁机关后，将会开启困难难度仲裁机关作战。"));
+lua_pop(L, 1);
+}
+void W700021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("当前正在进行困难难度仲裁机关作战。"));
+replaceString(L, 2, Str("say"), Str("离开后当前作战进度将会重置，已获得的奖励无法重复领取，且当前海域中无法使用舰队维护指令。"));
+replaceString(L, 3, Str("say"), Str("彻底击破敌人后可获得丰厚奖励。"));
+lua_pop(L, 1);
+}
+void W700022(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("当前正在进行困难难度仲裁机关模拟战。"));
+replaceString(L, 2, Str("say"), Str("当前海域仲裁者与困难难度中保持一致，但击破后不会获得任何奖励，仅供模拟。"));
+lua_pop(L, 1);
+}
+void W700030(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了核心区前哨站。通过前方的特殊通行装置可以挑战普通难度的仲裁机关。"));
+lua_pop(L, 1);
+}
+void W700031(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("困难难度已解锁，通过前方的特殊通行装置可以挑战困难难度的仲裁机关。"));
+lua_pop(L, 1);
+}
+void W700032(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("本月月度的仲裁机关挑战已完成，再次进入特殊通行装置可以重复挑战困难难度仲裁机关模拟战，模拟战无法获取任何奖励。"));
+lua_pop(L, 1);
+}
+void W700100(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("指令接收中：指挥官，现在开始进行迎击仲裁者·天帕岚斯·XIV的特殊准备模拟战。"));
+replaceString(L, 2, Str("say"), Str("请带领舰队击败设定于模拟战海域中的代行者XIV「Equilibrium」吧。"));
+lua_pop(L, 1);
+}
+void W700101(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("指令接收中：指挥官，接下来开始进行迎击仲裁者·司特莲库斯·VIII的特殊准备模拟战。"));
+replaceString(L, 2, Str("say"), Str("请带领舰队击败设定于模拟战海域中的代行者VIII「Determination」吧。"));
+lua_pop(L, 1);
+}
+void W700102(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("指令接收中：指挥官，最后来进行迎击仲裁者·赫米忒·IX的特殊准备模拟战。"));
+replaceString(L, 2, Str("say"), Str("请带领舰队击败设定于模拟战海域中的代行者IX「Exploration」吧。"));
+lua_pop(L, 1);
+}
+void W700110(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("搜索模块同步中：海域中存在特殊塞壬建筑干扰，请将其全部破坏。"));
+lua_pop(L, 1);
+}
+void W700120(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：代行者XIV「Equilibrium」已被击败，可以前往下一处模拟战海域。"));
+lua_pop(L, 1);
+}
+void W700121(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：代行者VIII「Determination」已被击败，可以前往下一处模拟战海域。"));
+lua_pop(L, 1);
+}
+void W700122(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：代行者IX「Exploration」已被击败，模拟战海域已全部完成，即将开启正式作战。"));
+lua_pop(L, 1);
+}
+void W700200(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("与仲裁者量产型机体作战取得了阶段性胜利，获得了阶段性胜利奖励。"));
+lua_pop(L, 1);
+}
+void W700201(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("成功击败了本月普通难度仲裁者量产型机体。回到作战港口后再次进入，可以挑战本月的困难难度仲裁者量产型机体。"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("确认"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W700202(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("成功击败了本月困难难度仲裁者量产型机体。回到作战港口后再次进入，可以重复挑战困难难度仲裁机关模拟战，但无法获取任何奖励。"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("确认"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这里是？……"));
+replaceString(L, 2, Str("say"), Str("看起来进入了未知的海域，深蓝色的海水上漂浮着紫灰色的暗云，空气里充斥着浓郁的海盐气息，以及阵阵铁锈的味道……"));
+replaceString(L, 3, Str("say"), Str("谨慎调查周围异常海域，找到未知海域的出口。"));
+lua_pop(L, 1);
+}
+void W710001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("舰队集合点，是否将其他舰队调动到集合点？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("调动"));
+replaceString(L, 2, Str("content"), Str("不调动"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中萦绕着黑色的暗流，看起来无法靠近……"));
+lua_pop(L, 1);
+}
+void W710003(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("舰队进入了调查点，周围的黑色暗流退却了！"));
+lua_pop(L, 1);
+}
+void W710004(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("周围的黑色暗流复苏了！看样子必须得有舰队一直位于调查点上才行！"));
+lua_pop(L, 1);
+}
+void W710005(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("......"));
+replaceString(L, 2, Str("say"), Str("舰队受到黑色潮汐影响，回过神来竟然回到了出发点？"));
+getByList(L,2);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("......"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710006(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("暗流稳定了……"));
+lua_pop(L, 1);
+}
+void W710007(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("多个舰队同时靠近调查点会非常危险，指挥官请谨慎行事"));
+replaceString(L, 2, Str("say"), Str("如果舰队行动受限，请先撤离调查点上的舰队。"));
+lua_pop(L, 1);
+}
+void W710008(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是……海域在燃烧？"));
+replaceString(L, 2, Str("say"), Str("寻找一下周围海域，看看有什么发现吧……"));
+lua_pop(L, 1);
+}
+void W710009(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("…………………………"));
+replaceString(L, 2, Str("say"), Str("…………………………"));
+replaceString(L, 3, Str("say"), Str("看起来只是一个黑方舟的不稳定投影……投影的另一端是一片完全陌生的海域，是否深入调查？"));
 getByList(L,3);
 lua_getfield(L, -1, Str("options"));
-replaceString(L, 1, Str("content"), Str("……"));
+replaceString(L, 1, Str("content"), Str("调查"));
+replaceString(L, 2, Str("content"), Str("离开"));
 lua_pop(L,2);
-replaceString(L, 4, Str("say"), Str("（好可怕的尝试……）"));
-replaceString(L, 5, Str("say"), Str("主人？您的脸色突然变得有些差劲……"));
-replaceString(L, 6, Str("say"), Str("我没事，只是有点好奇这道……\"剁椒星空派\"，目前的研发进度是？"));
-replaceString(L, 7, Str("say"), Str("唔，还停留在制作仰望星空派的部分。"));
-replaceString(L, 8, Str("say"), Str("每次烤出来的派，都不太尽如人意呢……"));
-replaceString(L, 9, Str("say"), Str("（呼，看来一段时间内天狼星不会做出这种料理，这下可以松一口气了……）"));
+lua_pop(L, 1);
+}
+void W710010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("……这是……"));
+replaceString(L, 2, Str("say"), Str("……这股熟悉的破坏感……这是黑方舟的内心世界？"));
+replaceString(L, 3, Str("say"), Str("……看起来周围环境杂乱无序，可能离开这个奇怪的地方和这里有所关系……"));
+lua_pop(L, 1);
+}
+void W710011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中出现了亮光！"));
+lua_pop(L, 1);
+}
+void W710012(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("洋流流动了起来！"));
+replaceString(L, 2, Str("say"), Str("大部分海域看起来还是处于封锁状态……洋流并没有贯通……"));
+getByList(L,2);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("..."));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710013(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("一个奇特的标记，是否阅读上面的说明？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("阅读"));
+replaceString(L, 2, Str("content"), Str("不阅读"));
+lua_pop(L,2);
+replaceString(L, 2, Str("say"), Str("此处为副本世界观介绍文本预留"));
+replaceString(L, 3, Str("say"), Str("混乱之海：黑方舟不完全的降临体出现在本世界线，切割了正常的海域空间，造成了混乱之海"));
+replaceString(L, 4, Str("say"), Str("意识之海：黑方舟内心意识的具象化，部分信息碎片在降临时被同化到了混乱之海中"));
+replaceString(L, 5, Str("say"), Str("意识之海的修复：在混乱之海中找到黑方舟意识的碎片，修复意识之海里紊乱的洋流"));
+lua_pop(L, 1);
+}
+void W710014(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("火焰下方隐约是个漩涡……似乎是一个传送通道"));
+replaceString(L, 2, Str("say"), Str("这个时候还不可以使用，试着打通环流看看吧"));
+getByList(L,2);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("离开"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710015(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("得到了黑方舟的记忆碎片"));
+replaceString(L, 2, Str("say"), Str("到意识之海使用试试看吧。"));
+lua_pop(L, 1);
+}
+void W710016(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("…………………………"));
+replaceString(L, 2, Str("say"), Str("记忆一片混乱"));
+replaceString(L, 3, Str("say"), Str("是否放入黑方舟的记忆体尝试修复？"));
+getByList(L,3);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("确认"));
+replaceString(L, 2, Str("content"), Str("离开"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710017(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("并没有获得对应的记忆碎片……"));
+lua_pop(L, 1);
+}
+void W710018(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("空间变得稳定了！"));
+replaceString(L, 2, Str("say"), Str("洋流流向了深处......"));
+lua_pop(L, 1);
+}
+void W710019(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域被点亮了！"));
+lua_pop(L, 1);
+}
+void W710020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是……另一块记忆碎片吗？"));
+lua_pop(L, 1);
+}
+void W710021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("得到了黑方舟的的记忆碎片。"));
+replaceString(L, 2, Str("say"), Str("周围涌动的暗流停息了下来，敌舰也消失了……"));
+lua_pop(L, 1);
+}
+void W710022(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是？！"));
+replaceString(L, 2, Str("say"), Str("整片海域都失去了温度了吗……无论如何还是先到意识之海看看吧"));
+lua_pop(L, 1);
+}
+void W710023(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("漩涡上的火焰消散了……"));
+lua_pop(L, 1);
+}
+void W710024(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是……另一个环流么……"));
+replaceString(L, 2, Str("say"), Str("感觉黑暗潮汐的波动大幅度减弱了，似乎舰队已经可以进入燃烧的海域之中了，尝试着调查一下吧"));
+getByList(L,2);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("......"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710025(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("火焰在飞快的缩小，要停留在这里么？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("停留"));
+replaceString(L, 2, Str("content"), Str("离开"));
+lua_pop(L,2);
+replaceString(L, 2, Str("say"), Str("火焰消失了……"));
+replaceString(L, 3, Str("say"), Str("脚下洋流开始涌动……"));
+lua_pop(L, 1);
+}
+void W710026(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("洋流并没有贯通……"));
+replaceString(L, 2, Str("say"), Str("黑色的潮汐出现了！"));
+lua_pop(L, 1);
+}
+void W710027(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("洋流贯通了"));
+replaceString(L, 2, Str("say"), Str("在洋流的尽头出现了时空通道……"));
+lua_pop(L, 1);
+}
+void W710028(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("环流的尽头洋溢着奇怪的力量，看起来还是不要靠近比较好……"));
+lua_pop(L, 1);
+}
+void W710029(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是……又回到这里了么"));
+replaceString(L, 2, Str("say"), Str("不对，黑方舟的意识稳定了很多……然而空间中出现了具象化的塞壬精英，空间变得不稳定了！"));
+replaceString(L, 3, Str("say"), Str("在意识空间破碎之前，尽快击破塞壬棋子！"));
+lua_pop(L, 1);
+}
+void W710030(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("洋流变得支离破碎了起来……得尽快找到干涉黑方舟内心的塞壬棋子才行"));
+lua_pop(L, 1);
+}
+void W710031(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("......"));
+lua_pop(L, 1);
+}
+void W710032(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是......最后的棋子么......"));
+replaceString(L, 2, Str("say"), Str("......"));
+lua_pop(L, 1);
+}
+void W710033(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("意识空间的消融更为严重了，请指挥官尽快离开..."));
+lua_pop(L, 1);
+}
+void W710034(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("意识空间马上消融，指挥官请马上离开当前海域！"));
+lua_pop(L, 1);
+}
+void W710035(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("所有棋子都被消除了......看起来空间恢复了稳定"));
+lua_pop(L, 1);
+}
+void W710036(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是，第三块记忆碎片么......试着使用着看看吧"));
+lua_pop(L, 1);
+}
+void W710037(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这就是......最后了吧......"));
+replaceString(L, 2, Str("say"), Str("好强烈的暗流潮汐波动..."));
+lua_pop(L, 1);
+}
+void W710038(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是...最后一块塞壬记忆碎片了吧..."));
+replaceString(L, 2, Str("say"), Str("借助地形避开潮汐暗流吧"));
+lua_pop(L, 1);
+}
+void W710039(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("潮汐会在舰队离开当前区域后消退"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("..."));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W710040(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("得到了所有的记忆碎片......现在前往意识之海看看吧"));
+lua_pop(L, 1);
+}
+void W710041(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("空间变得稳定了！"));
+replaceString(L, 2, Str("say"), Str("洋流的流向改变了......通往了未知之地"));
+lua_pop(L, 1);
+}
+void W710042(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("沿着洋流，前往黑方舟意识的中枢吧"));
+lua_pop(L, 1);
+}
+void W710043(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这是...黑方舟的意识消散了么..."));
+replaceString(L, 2, Str("say"), Str("再尝试一次吧......"));
+lua_pop(L, 1);
+}
+void W710044(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中出现了新的记忆碎片！"));
+lua_pop(L, 1);
+}
+void W730000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了仲裁者的精神世界。"));
+lua_pop(L, 1);
+}
+void W730001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("需要派遣一队进入海域中央完成解谜。"));
+lua_pop(L, 1);
+}
+void W730010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中央似乎有异常，请指挥官前往调查。"));
+lua_pop(L, 1);
+}
+void W730011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中出现了三个能源矩阵，但我方舰队无法到达其所在位置。"));
+replaceString(L, 2, Str("say"), Str("中央的控制台上有一圆盘，通过控制圆盘的倾斜方向可以使能源矩阵滑动。"));
+lua_pop(L, 1);
+}
+void W730020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中央的石柱越来越拥挤了。"));
+replaceString(L, 2, Str("say"), Str("将能源矩阵归位！"));
+lua_pop(L, 1);
+}
+void W730030(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否派遣当前舰队进入海域中央？（海域中央不会发生战斗，进入后其他舰队无法进入）"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("再想想"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W730031(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("将能源矩阵归位！"));
+replaceString(L, 2, Str("say"), Str("注意：海域中存在隐形石柱，靠近了才会显形！"));
+lua_pop(L, 1);
+}
+void W731000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("靠近后才会显形的石柱，阻拦了去路"));
+lua_pop(L, 1);
+}
+void W731001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域周围出现了塞壬精英敌人！"));
+replaceString(L, 2, Str("say"), Str("在精神世界中也能遭遇敌人吗..指挥官，请小心应战！"));
+lua_pop(L, 1);
+}
+void W731002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("被浓雾围住，暂时无法通行。请切换到其他舰队进行操作。"));
+lua_pop(L, 1);
+}
+void W732000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("要将圆盘往那个方向倾斜？（选择了方向后，地图上所有未归位的能源矩阵都会往那个方向滑动）"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("↑上↑"));
+replaceString(L, 2, Str("content"), Str("←左←"));
+replaceString(L, 3, Str("content"), Str("↓下↓"));
+replaceString(L, 4, Str("content"), Str("→右→"));
+replaceString(L, 5, Str("content"), Str("离开"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W732001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域周围出现了塞壬精英敌人！"));
+replaceString(L, 2, Str("say"), Str("击破塞壬精英"));
+lua_pop(L, 1);
+}
+void W733000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("数 据 错 误"));
+lua_pop(L, 1);
+}
+void W733001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("仲裁者的精神世界极其不稳定，开始逐渐崩坏了。"));
+lua_pop(L, 1);
+}
+void W733002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("将能源矩阵带到新的归位点。"));
+lua_pop(L, 1);
+}
+void W734000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("仲裁者·赫米忒————————作战开始"));
+lua_pop(L, 1);
+}
+void W740000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了深层空间。"));
+lua_pop(L, 1);
+}
+void W740001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海面上出现了红黄两色的光柱，拼成了一个正方形..不知道意味着什么？"));
+replaceString(L, 2, Str("say"), Str("在该空间中只有一队可以移动，请指挥官谨慎探索，在海域中寻找解开谜题的线索。"));
+lua_pop(L, 1);
+}
+void W740002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("找到了海域中的其他的光柱方阵！"));
+replaceString(L, 2, Str("say"), Str("通过旁边的控制台可以使其中光柱排列发生变化，将方阵还原到与初始方阵一致，即可解开谜题。"));
+lua_pop(L, 1);
+}
+void W740010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("要转动内层还是外层？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("内层"));
+replaceString(L, 2, Str("content"), Str("外层"));
+replaceString(L, 3, Str("content"), Str("离开"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W742000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了深层空间。"));
+replaceString(L, 2, Str("say"), Str("寻找海域中的目标方阵。"));
+lua_pop(L, 1);
+}
+void W742001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("其他舰队暂时无法移动，请指挥官谨慎探索。"));
+lua_pop(L, 1);
+}
+void W742002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("找到了海域中的目标方阵！"));
+replaceString(L, 2, Str("say"), Str("通过四周的控制台可以推动其中的光柱，将方阵还原到与初始方阵一致，即可解开谜题。（该谜题需要其他舰队协助完成。）"));
+lua_pop(L, 1);
+}
+void W742010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否重置谜题？（重置后海域状态会恢复到最初的样子）"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("再想想"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W744000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了深层空间。"));
+replaceString(L, 2, Str("say"), Str("寻找海域中的目标方阵。"));
+lua_pop(L, 1);
+}
+void W744001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("找到了海域中的目标方阵！"));
+replaceString(L, 2, Str("say"), Str("目标方阵中没有任何光柱.."));
+replaceString(L, 3, Str("say"), Str("通过四周的控制台，可以选择该侧光柱的颜色与扩散次数，将方阵还原到与初始方阵一致，即可解开谜题。"));
+lua_pop(L, 1);
+}
+void W744010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("选择光柱颜色 与 扩散强度"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("黄 扩散4次"));
+replaceString(L, 2, Str("content"), Str("黄 扩散3次"));
+replaceString(L, 3, Str("content"), Str("红 扩散4次"));
+replaceString(L, 4, Str("content"), Str("红 扩散3次"));
+replaceString(L, 5, Str("content"), Str("离开"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W744011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("选择扩散次数？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("4次"));
+replaceString(L, 2, Str("content"), Str("3次"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W746000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了深层空间。"));
+lua_pop(L, 1);
+}
+void W746001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("中央方阵的光柱被分散到了海域各处！"));
+replaceString(L, 2, Str("say"), Str("通过控制塔可以将光柱往海域中央推进，当光柱触碰到其他光柱或是到达海域边缘时则会停止。"));
+replaceString(L, 3, Str("say"), Str("试着还原出初始方阵吧！"));
+lua_pop(L, 1);
+}
+void W746002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("如果出现失误，可以使用重置按钮，即时重置谜题"));
+lua_pop(L, 1);
+}
+void W746003(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("仲裁者出现"));
+lua_pop(L, 1);
+}
+void W746010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否推动光柱？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W749000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("仲裁者·司特莲库斯————————作战开始"));
+lua_pop(L, 1);
+}
+void W750000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了图腾空间。海域中的传送门通向深层空间，进入后需完成其中的解谜。"));
+lua_pop(L, 1);
+}
+void W750001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中出现了新的传送门。"));
+lua_pop(L, 1);
+}
+void W750002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中出现了新的传送门。"));
+lua_pop(L, 1);
+}
+void W760000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了仲裁者所构建的季节幻境。"));
+replaceString(L, 2, Str("say"), Str("找到海域内的能源矩阵，并将其放置到海域中央以解开谜题。"));
+lua_pop(L, 1);
+}
+void W760001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("将能源矩阵归位。"));
+lua_pop(L, 1);
+}
+void W760002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：指挥官，能源矩阵已经成功安装至预定位置。"));
+lua_pop(L, 1);
+}
+void W760003(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("出现了新的传送门，似乎可以通向下一层季节幻境。"));
+lua_pop(L, 1);
+}
+void W760010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否通过传送门前往春之幻境？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W760011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否通过传送门前往夏之幻境？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W760012(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否通过传送门前往秋之幻境？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W760013(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否通过传送门前往冬之幻境？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W760019(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("有舰队正携带着能源矩阵，暂时无法离开当前海域。"));
+lua_pop(L, 1);
+}
+void W760020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("看上去与周围环境格格不入的热带小岛，如果有<color=#92fc63>热带水果的种子</color>可以尝试种在这里。"));
+lua_pop(L, 1);
+}
+void W760021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("看上去与周围环境格格不入的热带小岛，如果有<color=#92fc63>热带水果的种子</color>可以尝试种在这里。"));
+replaceString(L, 2, Str("say"), Str("虽然手里有一颗种子，不过被冻住了..不知道能不能在<color=#92fc63>炎热的地方</color>解冻？"));
+lua_pop(L, 1);
+}
+void W760022(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("看上去与周围环境格格不入的热带小岛，如果有<color=#92fc63>热带水果的种子</color>可以尝试种在这里。"));
+lua_pop(L, 1);
+}
+void W760023(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在小岛上种下了椰树的种子！或许在收获的季节就能品尝到美味的椰子了~"));
+lua_pop(L, 1);
+}
+void W760024(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在小岛上种下了椰树的种子！或许在收获的季节就能品尝到美味的椰子了~"));
+lua_pop(L, 1);
+}
+void W761000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中十分炎热，洋流也比之前更强了！"));
+lua_pop(L, 1);
+}
+void W761001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("通过左下方的传送门可以回到春天的海域。"));
+lua_pop(L, 1);
+}
+void W761002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("天气十分炎热！冻结的种子上的冰雪逐渐融化了。"));
+replaceString(L, 2, Str("say"), Str("获得了椰子树的种子！"));
+lua_pop(L, 1);
+}
+void W761003(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("出现了新的传送门！"));
+lua_pop(L, 1);
+}
+void W761020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("普通的热带小岛，不过夏天可不适合播种呢。"));
+lua_pop(L, 1);
+}
+void W761021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("春天播下的种子已经发芽，长出了椰子树！"));
+replaceString(L, 2, Str("say"), Str("或许在<color=#92fc63>收获的季节</color>就能喝到美味的椰子水了。"));
+lua_pop(L, 1);
+}
+void W761022(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("上了锁的宝箱，如果有<color=#92fc63>宝箱钥匙</color>的话就好了。"));
+lua_pop(L, 1);
+}
+void W761023(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("打开了宝箱！宝箱中是一个奇怪形状的机关...虽然踩下去了但是好像没什么用？"));
+lua_pop(L, 1);
+}
+void W762000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("秋高气爽，海域中刮起了风。"));
+lua_pop(L, 1);
+}
+void W762001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("通过传送门可以回到春天和夏天的海域，有的谜题可能需要在之前的海域中寻找线索哦。"));
+lua_pop(L, 1);
+}
+void W762002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海域中的部分场景发生了变化。"));
+lua_pop(L, 1);
+}
+void W762020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("看上去与周围环境格格不入的热带小岛。"));
+lua_pop(L, 1);
+}
+void W762021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("种下的椰子树已经成熟，长出了美味的椰子！"));
+lua_pop(L, 1);
+}
+void W762022(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("树上有好多椰子，摘一点下来吧~"));
+lua_pop(L, 1);
+}
+void W762030(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("捡到了宝箱钥匙！或许可以用来打开上锁的宝箱。"));
+lua_pop(L, 1);
+}
+void W762031(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("无法从此处通过..有什么办法能解开机关吗？"));
+lua_pop(L, 1);
+}
+void W763000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("寒风凛冽，海面上结起了冰。"));
+lua_pop(L, 1);
+}
+void W763001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("通过传送门可以回到其他季节的海域，有的谜题可能需要在之前的海域中寻找线索哦。"));
+lua_pop(L, 1);
+}
+void W763002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("..！！"));
+lua_pop(L, 1);
+}
+void W763020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("看上去与周围环境格格不入的热带小岛。"));
+lua_pop(L, 1);
+}
+void W763021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("岛上的椰子树已经临近枯萎，看不到椰子了。"));
+lua_pop(L, 1);
+}
+void W763030(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("一只巨大的蛮啾拦住了去路。"));
+replaceString(L, 2, Str("say"), Str("啾啾，好想喝美味的椰子汁.."));
+replaceString(L, 3, Str("say"), Str("可是这个季节根本找不到新鲜的椰子啾.."));
+replaceString(L, 4, Str("say"), Str("..！"));
+replaceString(L, 5, Str("say"), Str("那边的指挥官！能帮个忙吗啾~？"));
+replaceString(L, 6, Str("say"), Str("想和美味的椰子汁，但是这里只有几颗被冻住的椰树种子啾，是从旁边小岛上找到的.."));
+replaceString(L, 7, Str("say"), Str("能想想办法让它们变成椰子汁吗.."));
+lua_pop(L, 1);
+}
+void W763031(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("啾啾，好想喝美味的椰子汁.."));
+lua_pop(L, 1);
+}
+void W763032(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("啾啾！是椰子汁！"));
+replaceString(L, 2, Str("say"), Str("巨大的蛮啾喝着椰子汁，满意地离开了。"));
+lua_pop(L, 1);
+}
+void W770000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("仲裁者·天帕岚斯————————作战开始"));
+lua_pop(L, 1);
+}
+void W800000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在塞壬实验场中出现了一群正在游动的可爱海豹？追上去调查一下吧……"));
+lua_pop(L, 1);
+}
+void W800001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("这里似乎是..塞壬通道的深层空间？"));
+replaceString(L, 2, Str("say"), Str("这里视野严重受限，请指挥官谨慎前行，寻找线索"));
+lua_pop(L, 1);
+}
+void W800100(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("该处塞壬实验场的谜题较为困难，是否向领航员-TB寻求帮助？（寻求帮助后，领航员-TB会直接解开海域中的谜题）"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("寻求帮助"));
+replaceString(L, 2, Str("content"), Str("再努力一下"));
+replaceString(L, 3, Str("content"), Str("本次探索不需要帮助"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W800101(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("指令已确认：现在开始执行实验场环境解析进行任务。"));
+replaceString(L, 2, Str("say"), Str("分析模块运行中：正在解析塞壬实验场信息………"));
+lua_pop(L, 1);
+}
+void W800102(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：已经彻底破解了塞壬实验场中的谜题。"));
+lua_pop(L, 1);
+}
+void W800103(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("还是再加把劲思考一下吧！"));
+lua_pop(L, 1);
+}
+void W803000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("出现了两群海豹，不过似乎有一群是实验场生成的棋子，通过G.M系统的分析模块寻找出真正的海豹吧……"));
+lua_pop(L, 1);
+}
+void W803001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("发现塞壬棋子的痕迹，看来这一群并不是真正的海豹……"));
+lua_pop(L, 1);
+}
+void W803002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在塞壬实验场中出现了一群正在游动的可爱海豹？追上去调查一下吧……"));
+lua_pop(L, 1);
+}
+void W806000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，前往海豹出现区域的航线被巨型浮冰挡住了。"));
+replaceString(L, 2, Str("say"), Str("建议：在海雾中寻找实验场气候调节装置可以消除巨型浮冰的影响。"));
+lua_pop(L, 1);
+}
+void W806001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("建议：在海雾中寻找实验场气候调节装置可以消除巨型浮冰的影响。"));
+lua_pop(L, 1);
+}
+void W806002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("部分海雾与巨型浮冰消失了。"));
+lua_pop(L, 1);
+}
+void W806003(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("部分海雾与巨型浮冰消失，可以继续寻找海豹了！"));
+lua_pop(L, 1);
+}
+void W806010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，塞壬的实验场防御舰队出现了。"));
+lua_pop(L, 1);
+}
+void W820000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("取得能源矩阵，并将其运输到海域中的指定位置。"));
+lua_pop(L, 1);
+}
+void W820010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：触发了塞壬实验场的防御系统，当前区域的洋流变得湍急起来。"));
+lua_pop(L, 1);
+}
+void W820011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在湍急的洋流中无法继续移动，舰队将返回实验场的起始点。"));
+lua_pop(L, 1);
+}
+void W820020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：触发了塞壬实验场的防御系统，当前区域的洋流变得湍急起来。"));
+lua_pop(L, 1);
+}
+void W820030(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：触发了塞壬实验场的防御系统，当前区域的洋流变得湍急起来，同时在海面上发现了大量浮冰。"));
+replaceString(L, 2, Str("say"), Str("建议：寻找实验场气候调节装置，改变浮冰的状态。"));
+lua_pop(L, 1);
+}
+void W820040(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("结果确认中：指挥官，能源矩阵已经成功安装至预定位置。"));
+lua_pop(L, 1);
+}
+void W823000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("取得能源矩阵，并将其运输到海域中的指定位置。"));
+replaceString(L, 2, Str("say"), Str("分析模块同步中：指挥官，能源矩阵周边洋流可以通过实验场中的塞壬洋流控制器予以调整。"));
+lua_pop(L, 1);
+}
+void W823010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("塞壬的信息收集装置，目前处于停机状态……"));
+lua_pop(L, 1);
+}
+void W823020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：海域中的洋流消失了。"));
+lua_pop(L, 1);
+}
+void W823021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：触发了塞壬实验场的警报系统，塞壬的信息收集装置被激活了。"));
+replaceString(L, 2, Str("say"), Str("塞壬信息收集装置的侦测范围会不停发生变化，舰队进入侦测范围将返回实验场的起始点，能源矩阵也会返回初始位置，注意规避。"));
+lua_pop(L, 1);
+}
+void W823022(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("为了避免被塞壬信息收集装置扫描，舰队已返回起始点，能源矩阵也已返回初始位置。"));
+lua_pop(L, 1);
+}
+void W826000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("取得能源矩阵，并将其运输到海域中的指定位置。"));
+replaceString(L, 2, Str("say"), Str("分析模块同步中：指挥官，移动能源矩阵将导致实验场内腐蚀区域的扩散，建议谨慎行动。"));
+replaceString(L, 3, Str("say"), Str("腐蚀区域每回合会以十字型向外扩散，可以被海域中障碍物和洋流阻碍，建议以此为基础寻找解决方案。"));
+lua_pop(L, 1);
+}
+void W826020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("无法向该方向继续移动了！"));
+lua_pop(L, 1);
+}
+void W826021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("该区域的海水中充斥着腐蚀性液体，还是不要靠近比较好……"));
+lua_pop(L, 1);
+}
+void W826030(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("是否开始运输能源矩阵？"));
+getByList(L,1);
+lua_getfield(L, -1, Str("options"));
+replaceString(L, 1, Str("content"), Str("是"));
+replaceString(L, 2, Str("content"), Str("否"));
+lua_pop(L,2);
+lua_pop(L, 1);
+}
+void W826031(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：触发了塞壬实验场的警报系统，实验场内腐蚀区域开始扩散了。"));
+lua_pop(L, 1);
+}
+void W826032(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("腐蚀区域正在海面上逐渐扩散，舰队进入腐蚀区域后将返回实验场的起始点，能源矩阵也会返回初始位置，注意规避。"));
+lua_pop(L, 1);
+}
+void W826040(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("为了避免被遭受腐蚀区域伤害，舰队已返回起始点，能源矩阵也已返回初始位置。"));
+replaceString(L, 2, Str("say"), Str("建议：腐蚀区域的扩散可以被海域中障碍物和洋流阻碍，建议以此为基础寻找解决方案。"));
+lua_pop(L, 1);
+}
+void W840000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("解除机关的顺序错误，舰队已返回起始点！通过观察光点亮起的顺序，按照顺序解除机关吧。"));
+lua_pop(L, 1);
+}
+void W840010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，内层洋流的方向已经发生了变化。"));
+lua_pop(L, 1);
+}
+void W840011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，外层洋流的方向已经发生了变化。"));
+lua_pop(L, 1);
+}
+void W840020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中的洋流正在变得愈发湍急。"));
+lua_pop(L, 1);
+}
+void W840021(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中的发现了能够调节洋流状态的实验场气候调节装置。"));
+lua_pop(L, 1);
+}
+void W843000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中的部分浮冰变为了巨型浮冰。"));
+lua_pop(L, 1);
+}
+void W843001(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中的部分浮冰变为了洋流。"));
+lua_pop(L, 1);
+}
+void W843002(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中的部分区域重新凝结为了浮冰。"));
+lua_pop(L, 1);
+}
+void W843010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：基于不明原因，海域中出现了大量浮冰，请注意前进航线。"));
+lua_pop(L, 1);
+}
+void W843011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("分析模块同步中：指挥官，海域中的发现了能够调节浮冰状态的实验场气候调节装置。"));
+lua_pop(L, 1);
+}
+void W846000(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：海域中存在有多处塞壬设下的陷阱区域，建议注意规避行动。"));
+lua_pop(L, 1);
+}
+void W846010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("为了避免遭受陷阱区域伤害，舰队已返回起始点。"));
+replaceString(L, 2, Str("say"), Str("建议：规避陷阱区域，谨慎前行。"));
+lua_pop(L, 1);
+}
+void W846020(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("警告：海域中发现了更高密度的陷阱区域，建议注意规避，谨慎行动。"));
+replaceString(L, 2, Str("say"), Str("警告：舰队的导航系统遭受到强烈干扰，在海域中移动将出现某种不确定性。"));
+replaceString(L, 3, Str("say"), Str("建议：以当前舰队为中心，向着预定区域的对称区域进行移动，也许可以帮助舰队前往正确的目标。"));
+lua_pop(L, 1);
+}
+void W849010(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("海面上出现复数了实验场机关。通过观察光点亮起的顺序，按照顺序解除机关吧。"));
+replaceString(L, 2, Str("say"), Str("注意，海域中的黄色区域仅可正常触发一次，重复触发将导致舰队返回起始点。"));
+replaceString(L, 3, Str("say"), Str("舰队需要在不重复触发任意黄色区域的情况下，一次性将所有黄色区域和实验场机关全部触发。"));
+lua_pop(L, 1);
+}
+void W849011(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("因为黄色区域没有全部触发，舰队回到了起始点。"));
 lua_pop(L, 1);
 }

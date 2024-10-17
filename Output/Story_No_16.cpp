@@ -1,123 +1,91 @@
 #include "../common.h"
-void RENQITIANLANGXING(lua_State *L) {
+void WNG01(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("SPストーリー\n\n<size=45>ハプニング！？</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("…ご主人様！誇らしきご主人様！？"));
-replaceString(L, 3, Str("say"), Str("日差しに波の音、見知らぬ海岸の風景が目の前に広がっていた。"));
-replaceString(L, 4, Str("say"), Str("よかった…！誇らしきご主人様、ご無事で……！"));
-replaceString(L, 5, Str("say"), Str("それは突然の出来事だった。"));
-replaceString(L, 6, Str("say"), Str("航路の状況確認のため、とある長距離航海に参加した自分は嵐に遭遇した。"));
-replaceString(L, 7, Str("say"), Str("元々この程度の嵐で遭難するはずがないのだが…運の悪いことにセイレーンのはぐれ量産艦と遭遇して戦闘になり、その後――"));
-replaceString(L, 8, Str("say"), Str("目覚めたばかりで恐縮ですが、一度状況を説明させていただきます"));
-replaceString(L, 9, Str("say"), Str("コホン。…ご主人様がご搭乗されていた量産艦は、嵐の中で突進してきたセイレーン艦と衝突してしまいました"));
-replaceString(L, 10, Str("say"), Str("戦闘中ということもあって量産艦を展開できませんでしたが、シリアスがなんとか誇らしきご主人様を見つけたものの、この島に流され、それから――"));
-replaceString(L, 11, Str("say"), Str("………………"));
-replaceString(L, 12, Str("say"), Str("シリアスと二人で孤島に遭難、燃料切れのため量産艦で母港に帰還できず、今は救助信号を発し仲間たちの救援を待つ、と…"));
-replaceString(L, 13, Str("say"), Str("誇らしきご主人様の護衛を申し出たにもかかわらずこのような失態をしてしまいました…"));
-replaceString(L, 14, Str("say"), Str("どうか誇らしきご主人さま、この卑しいメイドに罰をお与えくださいませ…！"));
-replaceString(L, 15, Str("say"), Str("涙目になったロイヤルメイド・シリアス。そう言われたが……"));
-replaceString(L, 16, Str("say"), Str("誇らしきご主人様、テントの用意ができました！"));
-replaceString(L, 17, Str("say"), Str("枝や浮材を使い、いざというときに備えるテントが出来た。"));
-replaceString(L, 18, Str("say"), Str("誇らしきご主人様、寝床の用意ができました！"));
-replaceString(L, 19, Str("say"), Str("拾い集めた柔らかい雑草とシーツで即席のベッドが出来た。"));
-replaceString(L, 20, Str("say"), Str("誇らしきご主人様、お風呂の用意ができました！"));
-replaceString(L, 21, Str("say"), Str("漂着した燃料ドラム缶で即席の風呂が出来た。"));
-replaceString(L, 22, Str("say"), Str("遭難に備えて携帯していた食料品で食事を済ませ、シリアスが用意してくれたありがたいお風呂に入る。"));
-replaceString(L, 23, Str("say"), Str("ふぅ…………申し訳ございません。誇らしきご主人様"));
-replaceString(L, 24, Str("say"), Str("ことの発端と言えば、シリアスが誇らしきご主人様を守りきれなかったせいなのに、お手を煩わせてしまうなんて…"));
-replaceString(L, 25, Str("say"), Str("実際、シリアスがいなければ短い時間でここまで色々用意することが出来なかった。なにせこれらのことを一人でやろうとすれば流石に骨が折れる"));
-replaceString(L, 26, Str("say"), Str("幸い護衛任務に慣れているシリアスはスタミナも膂力も騎士隊並で、殆どの力仕事を協力してもらえるのは大変助かった。"));
-replaceString(L, 27, Str("say"), Str("もっとも、何かドジをしてしまいトラブルに巻き込まれることを考えると、どうしても彼女一人でやらせるわけにはいかなかった。"));
-replaceString(L, 28, Str("say"), Str("誇らしきご主人様、お湯加減のほうはいかがですか？"));
-replaceString(L, 29, Str("say"), Str("シリアス、いつもメイドとしては未熟なもので、正直うまくできる自信があまりなくて"));
-replaceString(L, 30, Str("say"), Str("…普段はダイドーやメイド長たち、仲間に助けられてばかりで、一人では誇らしきご主人様にご満足いただけるかどうか…"));
-replaceString(L, 31, Str("say"), Str("ドラム缶風呂に浸かりながら、シリアスのどこか寂しげな声が伝わってくる。"));
-replaceString(L, 32, Str("say"), Str("確かに、ロイヤルメイド隊の中でシリアスのメイドとしての能力はお世辞にも高いとは言えない。"));
-replaceString(L, 33, Str("say"), Str("最初に誇らしきご主人様の量産艦がセイレーンと衝突した際、もし誇らしきご主人様に何かあってしまったらと不安でどうしようもなくて…"));
-replaceString(L, 34, Str("say"), Str("誇らしきご主人様を見つけたとき、今度はちゃんとご奉仕できるかと、やはり不安でございまして…"));
-replaceString(L, 35, Str("say"), Str("メイド長の言葉を借りれば、「快適に、優雅に、心のままに」とのことですが、シリアスの知る限りの方法で、それを本当に出来るのでしょうか…"));
-replaceString(L, 36, Str("say"), Str("シリアスが考えている、満足させられそうなご奉仕がどういうものなのか、ちょっとだけわかった気がする。"));
-replaceString(L, 37, Str("say"), Str("この環境でそれを実現するのは流石に無理だ。"));
-replaceString(L, 38, Str("say"), Str("それでも、必死に頑張って、それを叶えようとする彼女の気持ちをきちんと受け止めたい。"));
-replaceString(L, 39, Str("say"), Str("気持ちだけでも…受け取ってくださるのですか？"));
-replaceString(L, 40, Str("say"), Str("ありがとうございます、誇らしきご主人様！！ああ、シリアス、なんて幸せなのでしょう……"));
-replaceString(L, 41, Str("say"), Str("卑しくて不出来なメイドであるにも関わらず、誇らしきご主人様のお情けで、「お気持ち」だけでも満足したと仰っていただけるなんて…"));
-replaceString(L, 42, Str("say"), Str("お気持ち…いいえ、シリアス自身を誇らしきご主人様にお捧げする所存でございます…！"));
-replaceString(L, 43, Str("say"), Str("誇らしきご主人様、どうか何でもこのシリアスに仰ってくださいませ！"));
-replaceString(L, 44, Str("say"), Str("若干反応が過剰な気がしなくはないが、お言葉に甘えてもう少しお湯の温度を――あれ？"));
-replaceString(L, 45, Str("say"), Str("あっ…！誇らしきご主人様、仲間たちの救援隊です！助かりました！！"));
-replaceString(L, 46, Str("say"), Str("よし、これで無事仲間たちの元に戻れる……その前に、まずは服を着ないと。"));
-replaceString(L, 47, Str("say"), Str("…………ああ！！！！"));
-replaceString(L, 48, Str("say"), Str("申し訳ございません、誇らしきご主人様！！シリアスのミスでご主人様の服…服は……お風呂の燃料に………"));
-replaceString(L, 49, Str("say"), Str("うぅ…誇らしきご主人様、どうかこの卑しいシリアスに躾けてくださいませ…！"));
-replaceString(L, 50, Str("say"), Str("仲間たちにシリアスと一体何があって裸のままになってしまったかを必死に説明したことは、また別の話だ――"));
+replaceString(L, 1, Str("say"), Str("线路接通，加密通讯已接入，内容极密，司令部最高指令——"));
+replaceString(L, 2, Str("say"), Str("约一周前，在我方对北大洋近海进行的例行侦查中，侦察机发现了一件重大的异常现象。"));
+replaceString(L, 3, Str("say"), Str("经过数次侦查与情报分析，现确认，塞壬部署于该处近海的作战单位正在向海域深处撤离。"));
+replaceString(L, 4, Str("say"), Str("原因尚不明确，调查工作仍在继续。"));
+replaceString(L, 5, Str("say"), Str("从结果来说，由于塞壬部队的撤离，原本被封锁的近海海域得到开放，我方的行动范围获得了相当程度的扩大。"));
+replaceString(L, 6, Str("say"), Str("目前，司令部正在调整战术方针与配置，分区块探明海域内的情况。"));
+replaceString(L, 7, Str("say"), Str("在调查过程中，一块位于北大西洋中心的海域的引起了司令部的重视。"));
+replaceString(L, 8, Str("say"), Str("虽然侦察机无法深入调查，但仍然在其边缘探测到了巨大的不明能量源反映。"));
+replaceString(L, 9, Str("say"), Str("结合之前塞壬的行动模式，司令部认定在北大西洋海域出现了极其严峻的状况，故在此对全港区下达紧急作战任务。"));
+replaceString(L, 10, Str("say"), Str("行动代号\"NA作战\"。各辖区务必集结最精锐之作战舰队，接受司令部测试部队的检验考核。"));
+replaceString(L, 11, Str("say"), Str("通过考核的作战部队将获准参与此次大型作战之中，并即刻开往予定集结地点。"));
+replaceString(L, 12, Str("say"), Str("作战目标为突破北大西洋海域中的塞壬防线，探明海域中塞壬的阴谋，最终夺回整片海域的控制权。"));
+replaceString(L, 13, Str("say"), Str("所有收到此命令的指挥官务必将此作为最优先事项执行。"));
 lua_pop(L, 1);
 }
-void TACT10006(lua_State *L) {
+void WNN003G(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-replaceString(L, 1, Str("say"), Str("鳥海は燃料不足と損傷で追撃が困難…潜水艦の子たちも似た状況…困ったわね。"));
-replaceString(L, 2, Str("say"), Str("だから拙者が最初から…"));
-replaceString(L, 3, Str("say"), Str("同じよ高雄ちゃん、私たちの速力じゃ総出したところで大した戦果を得られないわ。"));
-replaceString(L, 4, Str("say"), Str("それはわかっておる！だけど！"));
-replaceString(L, 5, Str("say"), Str("はいはい、納得出来ないのはわかってるけど、今回は基地航空隊に任せましょ？「決戦」になったら思う存分暴れるがいいわ。"));
-replaceString(L, 6, Str("say"), Str("……もう良い！お前にはいつも言い負かされっぱなしだ…"));
+replaceString(L, 1, Str("say"), Str("使用舰队指令模块-舰队部署，可以部署潜艇编队进入NA海域。"));
 lua_pop(L, 1);
 }
-void ZHUANGJIA6(lua_State *L) {
+void WNN005A(lua_State *L) {
 lua_getfield(L, 2, Str("scripts"));
-getByList(L,1);
-lua_getfield(L, -1, Str("sequence"));
-getByList(L,1);
-lua_pushnumber(L, 1);
-lua_pushstring(L, Str("『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第六話  交錯</size>"));
-lua_settable(L, -3);
-lua_pop(L,3);
-replaceString(L, 2, Str("say"), Str("もう戦わないの？じゃあ全員死刑ー！まとめて死ぬがいいわ！！"));
-replaceString(L, 3, Str("say"), Str("雪風、指揮官を連れて逃げなさい。あなただけならまだ…。"));
-replaceString(L, 4, Str("say"), Str("そうね。たとえ撃てなくても私たちが最後まで盾になる。指揮官だけはやらせない。"));
-replaceString(L, 5, Str("say"), Str("待つのだ。雪風様だけ逃げるなんて出来ないのだ。"));
-replaceString(L, 6, Str("say"), Str("お願い雪風様！あの大戦でも生き残れた連合艦隊で随一の幸運艦なんだし、どこかで「異能生存艦」とか言われてたでしょ？。雪風様しか頼めないの！"));
-replaceString(L, 7, Str("say"), Str("最後の緊急補修パーツを雪風に使うにゃ…。"));
-replaceString(L, 8, Str("say"), Str("「待て。殿なら俺ひとりでいい。やつの足を止める。」"));
-replaceString(L, 9, Str("say"), Str("……門外漢の意見かもしれないが、その機体はこれ以上……。"));
-replaceString(L, 10, Str("say"), Str("「お前もそう思うか。」"));
-replaceString(L, 11, Str("say"), Str("「俺がやつの隙きをつくり、その間にお前たちが集中砲火で仕留める。」"));
-replaceString(L, 12, Str("say"), Str("「心配は不要だ。俺は簡単には死なない。」"));
-replaceString(L, 13, Str("say"), Str("マーシィドッグが今度はピュリファイアーに向けて突撃していく！チャンスは今よ！"));
-replaceString(L, 14, Str("say"), Str("いいねぇ！やっぱりこんな人間見たことない！"));
-replaceString(L, 15, Str("say"), Str("ただ、テスターβすらギリギリでしか倒せないのに、この私の相手が務まるかな？？？"));
-replaceString(L, 16, Str("say"), Str("連合艦隊全艦、全砲門開け！一斉攻撃せよ！"));
-replaceString(L, 17, Str("say"), Str("我が王家の栄光にかけて、眼前の敵は残らず叩きのめすわよ！全艦突撃、行きなさい！"));
-replaceString(L, 18, Str("say"), Str("鉄血の兵士たちよ！敵を引き裂く狩りの時間だ！"));
-replaceString(L, 19, Str("say"), Str("まったくビッグEも頼りないんだから～。みんな！戦闘を始めるよ～残らずやっつけちゃおう！"));
-replaceString(L, 20, Str("say"), Str("助かったにゃ！委託組が帰ってきたにゃ。"));
-replaceString(L, 21, Str("say"), Str("まさか！どうやって…。"));
-replaceString(L, 22, Str("say"), Str("うーん。参ったなぁ。予想よりだいぶ早いじゃない…って、危なっ。それだけボロボロなのに、ATがなんでそんなに戦えるんだ！？"));
-replaceString(L, 23, Str("say"), Str("やはり指揮官にはこの私が居ないとダメのようね。"));
-replaceString(L, 24, Str("say"), Str("これだけの敵が居るとは壮観だな。こいつら全てを葬れると思うと楽しくて仕方ない。"));
-replaceString(L, 25, Str("say"), Str("余も加勢に……。"));
-replaceString(L, 26, Str("say"), Str("みんな！来てくれたんだ！"));
-replaceString(L, 27, Str("say"), Str("もお～。こういうのはビッグEにやって欲しいんだけど～。"));
-replaceString(L, 28, Str("say"), Str("……うっ……///"));
-replaceString(L, 29, Str("say"), Str("これで戦力は互角以上！…よし！みんな行こう！"));
-replaceString(L, 30, Str("say"), Str("あのATはもう流石に限界っぽい。急がないと…！"));
-replaceString(L, 31, Str("say"), Str("おお！！騒がしくなったわ！！"));
-replaceString(L, 32, Str("say"), Str("たかだか少し数が増えたところで、私に勝てると思わないでね！！"));
-replaceString(L, 33, Str("say"), Str("あれは…。"));
-replaceString(L, 34, Str("say"), Str("高出力レーザーを撃つつもりよ！"));
-replaceString(L, 35, Str("say"), Str("損傷している私らがいまアレを喰らったらひとたまりもないよ！"));
-replaceString(L, 36, Str("say"), Str("しまった！間に合わない！"));
-replaceString(L, 37, Str("say"), Str("あはははは！！全員まとめて塵に戻っちゃえ―――！！！"));
-replaceString(L, 38, Str("say"), Str("……！？あなた…………生身の人間なのに、どうやってレーザーを…！！？"));
-replaceString(L, 39, Str("say"), Str("「俺の戦争はもう終わった。お前たちの戦争に興味はない。」"));
-replaceString(L, 40, Str("say"), Str("「この力のことが知りたいなら勝手に探せ。俺を――巻き込むな。」"));
-replaceString(L, 41, Str("say"), Str("「お前たちがどんなに大きい力を持っていようが、俺はお前たちには従わない。」"));
-replaceString(L, 42, Str("say"), Str("絶体絶命に戦慄する彼女たち。その先にあるのは勝利か死か？決戦の行方はいかに？最終回「方舟」。戦士は次の戦場へ向かう。"));
+replaceString(L, 1, Str("say"), Str("深渊海域中有强大的塞壬守卫，其火力和耐久都远超其他塞壬单位。"));
+replaceString(L, 2, Str("say"), Str("挑战深渊塞壬守卫后，即便作战失败，其耐久也会继承到下一场战斗，可以继续用其他舰队挑战。"));
+replaceString(L, 3, Str("say"), Str("使用舰队与塞壬守卫作战，有几率发现其弱点；使用不同的舰队与之交战，有几率使其弱点加深。"));
+lua_pop(L, 1);
+}
+void WNNG07(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了己方港口。"));
+lua_pop(L, 1);
+}
+void WNNG08(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("为了应对更高强度的战斗，为指挥官开放了舰队扩编权限，现在可以派遣4支舰队进入NA海域了。"));
+lua_pop(L, 1);
+}
+void WNNG09(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在普通海域中可以使用潜艇支援了！"));
+lua_pop(L, 1);
+}
+void WNNG10(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在大型作战中，作战失败会使得当前舰队士气下降，舰队在战斗中造成伤害降低。"));
+replaceString(L, 2, Str("say"), Str("使用舰队指令模块中的舰队休整指令，可以恢复所有舰队的士气。"));
+replaceString(L, 3, Str("say"), Str("舰船的耐久可以使用维修设备等道具回复，或者也可以在已解锁的港口海域使用舰队部署来回复所有舰队成员的耐久。"));
+lua_pop(L, 1);
+}
+void WNNG11(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("在大型作战中，舰船耐久归零后并不会离开作战，而是会保留10%的耐久继续进行下一场战斗。"));
+replaceString(L, 2, Str("say"), Str("但是耐久归零后的舰船会进入战损状态，部分技能在战斗中不再生效。"));
+replaceString(L, 3, Str("say"), Str("进入战损状态的舰船，需要回到已解锁的港口海域进行修理。"));
+lua_pop(L, 1);
+}
+void WNNG12(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("进入了塞壬据点海域。"));
+lua_pop(L, 1);
+}
+void WNNG13(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("使用大型作战记录仪可以跳过重复调查海域的过程，购买后请到大型作战中打开背包使用它吧。"));
+lua_pop(L, 1);
+}
+void WNNG14(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("大型作战已重置，开启了补给商店"));
+lua_pop(L, 1);
+}
+void WNX05(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("舰队已不能维持作战，战前测试失败，指挥官当前舰队实力不符合大型作战实战要求。"));
+replaceString(L, 2, Str("say"), Str("请训练或整备舰队，提升综合实力后，再次提交测试申请。"));
+lua_pop(L, 1);
+}
+void WNX06(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("使用了大型作战记录仪！获取了大型作战的相关信息！！！"));
+replaceString(L, 2, Str("say"), Str("大型作战的所有海域移动限制被解除了，并且得到了所有海域的调查奖励！"));
+lua_pop(L, 1);
+}
+void WNX07(lua_State *L) {
+lua_getfield(L, 2, Str("scripts"));
+replaceString(L, 1, Str("say"), Str("大型作战已经重置！请重新派遣舰队前往作战海域，展开新一轮作战！"));
 lua_pop(L, 1);
 }

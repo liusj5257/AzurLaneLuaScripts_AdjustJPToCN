@@ -1,6 +1,7 @@
 #include <unistd.h>
 
 #include <algorithm>
+#include <cstdio>
 #include <cstring>
 #include <fstream>
 #include <iostream>
@@ -98,6 +99,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
         while (getline(file, line)) {
           if (line.find(searchString) != string::npos) {
             foundAttribute = true;
+            printf("Found attribute: %s\n", line.c_str());
             while (getline(file, line) && !line.empty()) {
               size_t start = line.find("\"") + 1;
               size_t end = line.find_last_of("\"");
@@ -110,6 +112,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                       remove(attribute.begin(), attribute.end(), '\t'),
                       attribute.end());
                   if (attribute == "name" || attribute == "desc") {
+                    printf("Found : %s\n", attribute.c_str());
                     if (first) {
                       buffer +=
                           "getByList(L," + to_string(allArray[i]) + ");\n";
@@ -118,6 +121,7 @@ void writeCN(vector<int> &allArray, const char *attribute) {
                     buffer += string("replaceString2(L,Str(\"") +
                               attribute.c_str() + "\"),Str(\"" + name.c_str() +
                               "\"));\n";
+                    if (attribute == "desc") break;
                   }
                 }
               }
@@ -131,33 +135,33 @@ void writeCN(vector<int> &allArray, const char *attribute) {
           file.clear();
           file.seekg(0, ios::beg);
         }
-        if (!buffer.empty() && (i % 100 == 0 || i == allArray.size() - 1)) {
-          std::string filename =
-              outputPath + baseFilename + std::to_string(fileCounter) + ".cpp";
-          std::ofstream outFile(filename);
-          // 确保文件正常打开
-          if (outFile.is_open()) {
-            buffer_EH += "extern void " + baseFilename +
-                         std::to_string(fileCounter) + "(lua_State *L);\n";
-            buffer_H += baseFilename + std::to_string(fileCounter) +
-                        "(L);\n";
-            outFile << "#include \"../common.h\"\nvoid " << baseFilename
-                    << fileCounter << "(lua_State *L) {\n"
-                    << buffer << "}\n"
-                    << std::endl;
-            outFile.close();
-            std::cout << "已写入文件: " << filename << std::endl;
-            buffer.clear();
-          } else {
-            std::cerr << "无法创建文件: " << filename << std::endl;
-            break;
-          }
-          fileCounter++;
-        }
       }
 
     } else {
       cout << "Unable to open file" << filename << endl;
+    }
+    if (!buffer.empty()) {
+      std::string filename =
+          outputPath + baseFilename + std::to_string(j) + ".cpp";
+      std::ofstream outFile(filename);
+      // 确保文件正常打开
+      if (outFile.is_open()) {
+        buffer_EH += "extern void " + baseFilename + std::to_string(j) +
+                     "(lua_State *L);\n";
+        buffer_H += baseFilename + std::to_string(j) + "(L);\n";
+        outFile << "#include \"../common.h\"\nvoid " << baseFilename << j
+                << "(lua_State *L) {\n"
+                << buffer << "}\n"
+                << std::endl;
+        outFile.close();
+        std::cout << "已写入文件: " << filename << std::endl;
+        buffer.clear();
+      } else {
+        std::cerr << "无法创建文件: " << filename << std::endl;
+        break;
+      }
+      fileCounter++;
+      buffer.clear();
     }
     file.close();
   }

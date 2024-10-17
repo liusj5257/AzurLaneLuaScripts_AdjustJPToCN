@@ -162,7 +162,7 @@ def translate():
             jp_table = JP[id_value]
             first = 1
             id_value_old = id_value.replace("_", "-")
-            if 'scripts' in jp_table and 'scripts' in jp_table:
+            if 'scripts' in jp_table:
                 for jp_index in jp_table.scripts:
                     # print(jp_table.scripts[jp_script])
                     jp_script = jp_table.scripts[jp_index]
@@ -175,7 +175,7 @@ def translate():
                         # jp_script.say = jp_script.say
                         # print(jp_script.say,"\n",jp_script.say)
                     # # 修改 sequence 字段
-                    elif 'sequence' in jp_script and 'sequence' in jp_script:
+                    elif 'sequence' in jp_script:
                         jp_seq = jp_script.sequence
                         jp_seq = jp_script.sequence
                         seq = 1
@@ -200,14 +200,6 @@ def translate():
                 NoTranslate += 'lua_pop(L, 1);\n}\n'
                 externVoid+= f'extern void {id_value}(lua_State *L);\n'
                 NameHandlerContent += f'{{"{id_value_old}", {id_value}}},\n'
-        # if NoTranslate:
-        #     with open(f'../Output/No_{id_value}.cpp', 'w') as file:
-        #         file.write("#include \"../common.h\"\n"+NoTranslate)
-        #         file.close
-        # if VoidContent:
-        #     with open(f'../Output/{id_value}.cpp', 'w') as file:
-        #         file.write("#include \"../common.h\"\n"+VoidContent)
-        #         file.close
         if (i+1)% 250 == 0 or i == num_items-1:
             n=n+1
             if NoTranslate:

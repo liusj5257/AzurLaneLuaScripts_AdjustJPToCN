@@ -116,7 +116,7 @@ def translate():
                             VoidContent += f'void {id_value}(lua_State *L) {{\nlua_getfield(L, 2, Str("scripts"));\n'
                         trans = escape_special_chars(cn_script.say)
                         VoidContent += f'replaceString(L, {jp_index}, Str("say"), Str("{trans}"));\n'
-                        if 'actorName' in jp_script and 'actorName' in cn_script:
+                        if  'actorName' in jp_script and isinstance(jp_script.actorName,str) and 'actorName' in cn_script:
                             actorName = escape_special_chars(cn_script.actorName)
                             VoidContent += f'replaceString(L, {jp_index}, Str("actorName"), Str("{actorName}"));\n'
 

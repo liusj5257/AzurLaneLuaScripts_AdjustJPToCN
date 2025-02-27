@@ -37776,7 +37776,7 @@ _G.pg.base.gametip.dorm3d_privatechat_telephone = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_welcome = {
-	tip = "キャラ招待"
+	tip = "ｷｬﾗ配置"
 }
 
 

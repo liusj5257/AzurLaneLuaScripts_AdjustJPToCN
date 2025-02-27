@@ -488,11 +488,11 @@ pg.item_data_frame = {
 	},
 	[334] = {
 		name = "笔下神光：圣翼之庇",
-		gain_by = "",
+		gain_by = "樊笼内的神光",
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「拿起画笔，绘制那抹独属于自己的神光吧～」</color>\n「樊笼内的神光」活动获取",
 		scene = {}
 	},
 	[401] = {

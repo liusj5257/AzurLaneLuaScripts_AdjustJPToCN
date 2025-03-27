@@ -38167,7 +38167,7 @@ _G.pg.base.gametip.ship_formationUI_fleetName_2 = {
 
 
 _G.pg.base.gametip.ship_formationUI_fleetName_3 = {
-	tip = "T3 療養センター（正午）"
+	tip = "T3 物流センター（正午）"
 }
 
 
@@ -38187,7 +38187,7 @@ _G.pg.base.gametip.ship_formationUI_fleetName_6 = {
 
 
 _G.pg.base.gametip.ship_formationUI_fleetName_7 = {
-	tip = "T3 療養センター（黄昏）"
+	tip = "T3 物流センター（黄昏）"
 }
 
 
@@ -38207,7 +38207,7 @@ _G.pg.base.gametip.ship_formationUI_fleetName_10 = {
 
 
 _G.pg.base.gametip.ship_formationUI_fleetName_11 = {
-	tip = "T3 療養センター（夜）"
+	tip = "T3 物流センター（夜）"
 }
 
 

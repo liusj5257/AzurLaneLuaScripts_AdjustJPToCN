@@ -67,14 +67,14 @@ jobs:
         run: |
           pip install lupa
       - name: Cache CMake build directory
-        uses: actions/cache@v2
+        uses: actions/cache@v4.2.3
         with:
           path: main/build
           key: ${{ runner.os }}-cmake-${{ hashFiles('**/CMakeLists.txt') }}
           restore-keys: |
             ${{ runner.os }}-cmake-
       - name: Cache build directory and Gradle cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4.2.3
         with:
           path: |
             AzurLaneApk/build
@@ -90,7 +90,7 @@ jobs:
           ndk-version: r26b
 
       - name: Cache ccache files
-        uses: actions/cache@v2
+        uses: actions/cache@v4.2.3
         #if: steps.check_changes_1.outputs.has_changes == 'true'
         with:
           path: ~/.ccache
@@ -104,7 +104,7 @@ jobs:
 
       - name: Cache NDK build
         #if: steps.check_changes_1.outputs.has_changes == 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v4.2.3
         with:
           path: AzurLaneApk/obj
           key: ${{ runner.os }}-ndk-build-${{ hashFiles('AzurLaneApk/jni/**') }}

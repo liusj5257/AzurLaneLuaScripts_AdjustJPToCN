@@ -37,23 +37,6 @@ jobs:
       #   run: |
       #     rm -rf ./CN
       #     mv OldCN/CN .
-      - name: Download and extract cloud189
-        run: |
-          # 获取最新release信息
-          TAG=$(curl -sL https://api.github.com/repos/gowsp/cloud189/releases/latest | grep '"tag_name":' | cut -d'"' -f4)
-          VERSION=${TAG#v}
-          # 构造下载文件名（Ubuntu运行器使用linux_amd64架构）
-          FILENAME="cloud189_${VERSION}_linux_amd64.tar.gz"
-          URL="https://github.com/gowsp/cloud189/releases/download/$TAG/$FILENAME"
-          # 下载文件和校验文件
-          curl -LO $URL
-          tar -xzvf $FILENAME -C .
-      - name: Upload apk
-        run: |
-          ./cloud189 login -i ${{secrets.CLOUD189_USERNAME}} ${{secrets.CLOUD189_PASSWORD}}
-          ./cloud189 mkdir /cloud_JP
-          ./cloud189 up ./AzurLaneApk/build/com.YoStarJP.AzurLane.patched.apk /cloud_JP/com.YoStarJP.AzurLane.patched.apk
-          ./cloud189 logout -f
       - name: Checkout AzurLaneApk
         # - name: Checkout OldCN Branch
 
@@ -240,7 +223,7 @@ jobs:
         run: |
           ./cloud189 login -i ${{secrets.CLOUD189_USERNAME}} ${{secrets.CLOUD189_PASSWORD}}
           ./cloud189 mkdir /cloud_JP
-          ./cloud189 up ./AzurLaneApk/build/com.YoStarJP.AzurLane.patched.apk /cloud_JP/com.YoStarJP.AzurLane.patched.apk
+          ./cloud189 up ./AzurLaneApk/build/com.YoStarJP.AzurLane.patched.apk /cloud_JP
           ./cloud189 logout -f
       - name: Create Release
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'

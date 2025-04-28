@@ -1,15 +1,15 @@
-
 name: Dev
-
 on:
   push: # push 时触发, 主要是为了测试配置有没有问题
   workflow_dispatch:
 #   schedule:
+
 #    - cron: '*/60 * * * *'
 jobs:
   pre_check:
     runs-on: ubuntu-latest
     # Map a step output to a job output
+
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
     steps:
@@ -32,11 +32,6 @@ jobs:
       - uses: actions/checkout@v3
         with:
           path: main
-      # - name: Checkout OldCN Branch
-      #   uses: actions/checkout@v3
-      #   with:
-      #     # repository: ${{ secrets.TOOLS_REPOSITORY }}
-      #     # token: ${{ secrets.TOKEN }}
       #     path: OldCN
       #     ref: OldCN
       #     sparse-checkout: CN
@@ -44,17 +39,24 @@ jobs:
       #   run: |
       #     rm -rf ./CN
       #     mv OldCN/CN .
-
       - name: Checkout AzurLaneApk
+        # - name: Checkout OldCN Branch
+
+        #     # token: ${{ secrets.TOKEN }}
+
+        #     # repository: ${{ secrets.TOOLS_REPOSITORY }}
+        #   with:
+        #   uses: actions/checkout@v3
         uses: actions/checkout@v3
         with:
           repository: ${{ secrets.TOOLS_REPOSITORY }}
           token: ${{ secrets.TOKEN }}
           path: AzurLaneApk
           ref: JP
-#       - name: Install Clang
-#         uses: egor-tensin/setup-clang@v1.4
       - name: Install dependencies
+        #       - name: Install Clang
+
+        #         uses: egor-tensin/setup-clang@v1.4
         run: |
           ls
           sudo apt-get update
@@ -82,54 +84,51 @@ jobs:
           key: ${{ runner.os }}-build-${{ hashFiles('**/build.gradle') }}
           restore-keys: |
             ${{ runner.os }}-build-
-
       - name: Setup Android NDK
         uses: nttld/setup-ndk@v1.5.0
         #if: steps.check_changes_1.outputs.has_changes == 'true'
+
         with:
           ndk-version: r26b
-
       - name: Cache ccache files
         uses: actions/cache@v4.2.3
         #if: steps.check_changes_1.outputs.has_changes == 'true'
+
         with:
           path: ~/.ccache
           key: ${{ runner.os }}-ccache-${{ env.cache-name }}
           restore-keys: |
             ${{ runner.os }}-ccache-${{ env.cache-name }}
-
       - name: Install ccache
         #if: steps.check_changes_1.outputs.has_changes == 'true'
-        run: sudo apt-get update && sudo apt-get install -y ccache
 
+        run: sudo apt-get update && sudo apt-get install -y ccache
       - name: Cache NDK build
         #if: steps.check_changes_1.outputs.has_changes == 'true'
+
         uses: actions/cache@v4.2.3
         with:
           path: AzurLaneApk/obj
           key: ${{ runner.os }}-ndk-build-${{ hashFiles('AzurLaneApk/jni/**') }}
           restore-keys: |
             ${{ runner.os }}-ndk-build-
-
       - name: Create build directory
         run: mkdir -p build
         working-directory: main
-
-      # - name: Configure CMake
-      #   working-directory: main/build
-      #   run: |
-      #     ls
       #     cmake .. -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
       #     make
-
       - name: Build project
+        # - name: Configure CMake
+
+        #     ls
+
+        #   run: |
+        #   working-directory: main/build
         working-directory: main
         run: |
           export CXX=clang++
           cmake -S . -B build
           cmake --build build
-
-
       - name: Commit Adjust
         id: check_changes_1
         run: |
@@ -145,7 +144,6 @@ jobs:
             echo "::set-output name=has_changes::false"
           fi
         working-directory: AzurLaneApk
-
       - name: Commit files
         if: steps.check_changes_1.outputs.has_changes == 'true'
         run: |
@@ -159,8 +157,6 @@ jobs:
             echo "No changes to commit"
           fi
         working-directory: AzurLaneApk
-
-
       - name: Commit libs
         id: check_changes_2
         run: |
@@ -175,51 +171,64 @@ jobs:
             echo "::set-output name=libs_changes::false"
           fi
         working-directory: AzurLaneApk
-
       - name: Setup Java JDK
         # if: steps.check_changes_2.outputs.libs_changes == 'true'
+
         uses: actions/setup-java@v3.3.0
         with:
           java-version: "17"
           distribution: "adopt"
-
       - name: Build APK
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
+
         run: |
           chmod +x patch_perseus.sh
           ./patch_perseus.sh
         working-directory: AzurLaneApk
-
       - name: Setup Android SDK Tools
         uses: android-actions/setup-android@v3.2.1
         with:
           packages: 'platform-tools platforms;android-34 build-tools;34.0.0'
-
       - name: Output build-tools path and add to PATH
         run: |
           ls -la ${ANDROID_SDK_ROOT}/build-tools/34.0.0
           echo "${ANDROID_SDK_ROOT}/build-tools/34.0.0" >> $GITHUB_PATH
-
       - name: Zipalign and Sign Android release
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
+
         run: |
           chmod +x zipalign_sign.sh
           ./zipalign_sign.sh
         working-directory: AzurLaneApk
-
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
-
       - name: dependencies
         run: |
-            python3 -m pip install cryptography==43.0.0
-            python3 -m pip install requests==2.28.2
-      - name: upload xapk
-        run: python3 -u main.py
-        working-directory: AzurLaneApk/cloud189-master
+          python3 -m pip install cryptography==43.0.0
+          python3 -m pip install requests==2.28.2
+      - name: Download and extract cloud189
+        #   run: python3 -u main.py
+
+        #   working-directory: AzurLaneApk/cloud189-master
+        run: |
+          # 获取最新release信息
+          TAG=$(curl -sL https://api.github.com/repos/gowsp/cloud189/releases/latest | grep '"tag_name":' | cut -d'"' -f4)
+          VERSION=${TAG#v}
+          # 构造下载文件名（Ubuntu运行器使用linux_amd64架构）
+          FILENAME="cloud189_${VERSION}_linux_amd64.tar.gz"
+          URL="https://github.com/gowsp/cloud189/releases/download/$TAG/$FILENAME"
+          # 下载文件和校验文件
+          curl -LO $URL
+          tar -xzvf $FILENAME -C .
+      - name: Upload apk
+        run: |
+          ./cloud189 login -i ${{ secrets.CLOUD189_USERNAME }}  ${{ secrets.CLOUD189_PASSWORD }}
+          ./cloud189 mkdir /cloud_JP
+          ./cloud189 up ./AzurLaneApk/build/com.YoStarJP.AzurLane.patched.apk /cloud_JP/com.YoStarJP.AzurLane.patched.apk
       - name: Create Release
         #if: steps.check_changes_2.outputs.libs_changes == 'true'|| env.Version != 'false'
+
         uses: ncipollo/release-action@v1.12.0
         with:
           name: ${{ steps.date.outputs.date }}_Arm64
@@ -227,8 +236,8 @@ jobs:
           artifactErrorsFailBuild: true
           artifacts: AzurLaneApk/com.YoStarJP.AzurLane.xapk,AzurLaneApk/build/com.YoStarJP.AzurLane.patched.apk
           draft: true
-#           commit: "latest"
+          #           commit: "latest"
+
           makeLatest: false
           tag: "Arm64_Apk"
           omitBody: true
-

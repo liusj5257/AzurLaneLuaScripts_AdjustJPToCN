@@ -24549,7 +24549,7 @@ _G.pg.base.gametip.shop_diamond_title = {
 
 
 _G.pg.base.gametip.shop_gift_title = {
-	tip = "割引パック"
+	tip = "お得パック"
 }
 
 
